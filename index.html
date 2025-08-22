@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Plagiarism Detection Knowledge Graph</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            overflow: hidden;
+        }
+        
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+        
+        #sidebar {
+            width: 320px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            overflow-y: auto;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        }
+        
+        #graph-container {
+            flex: 1;
+            position: relative;
+        }
+        
+        svg {
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .node {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .node:hover {
+            filter: brightness(1.2);
+        }
+        
+        .node-label {
+            font-size: 12px;
+            pointer-events: none;
+            text-shadow: 0 0 3px white, 0 0 5px white;
+        }
+        
+        .link {
+            stroke-opacity: 0.4;
+            transition: all 0.3s ease;
+        }
+        
+        .link:hover {
+            stroke-opacity: 0.8;
+            stroke-width: 3;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 24px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #764ba2;
+            font-size: 18px;
+            margin: 20px 0 10px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .legend {
+            margin: 20px 0;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .controls {
+            margin: 20px 0;
+        }
+        
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #764ba2;
+        }
+        
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 1000;
+            max-width: 300px;
+        }
+        
+        #search {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .filter-section {
+            margin: 15px 0;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .checkbox-group label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>📊 AI Plagiarism Research</h1>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">58</div>
+                    <div class="stat-label">Papers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">150</div>
+                    <div class="stat-label">Authors</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">334</div>
+                    <div class="stat-label">Citations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">4</div>
+                    <div class="stat-label">Years</div>
+                </div>
+            </div>
+            
+            <h2>🔍 Search</h2>
+            <input type="text" id="search" placeholder="Search nodes...">
+            
+            <h2>🎨 Legend</h2>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #FF6B6B;"></div>
+                    <span>Research Clusters</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #8B5CF6;"></div>
+                    <span>Technologies</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #06B6D4;"></div>
+                    <span>Keywords</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #10B981;"></div>
+                    <span>Years</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #EF4444;"></div>
+                    <span>Research Gaps</span>
+                </div>
+            </div>
+            
+            <h2>⚙️ Controls</h2>
+            <div class="controls">
+                <button onclick="resetZoom()">Reset View</button>
+                <button onclick="toggleLabels()">Toggle Labels</button>
+                <button onclick="highlightGaps()">Show Gaps</button>
+            </div>
+            
+            <h2>📝 Filter by Type</h2>
+            <div class="filter-section">
+                <div class="checkbox-group">
+                    <label><input type="checkbox" class="filter" data-type="cluster" checked> Clusters</label>
+                    <label><input type="checkbox" class="filter" data-type="technology" checked> Technologies</label>
+                    <label><input type="checkbox" class="filter" data-type="keyword" checked> Keywords</label>
+                    <label><input type="checkbox" class="filter" data-type="year" checked> Years</label>
+                    <label><input type="checkbox" class="filter" data-type="gap" checked> Gaps</label>
+                </div>
+            </div>
+            
+            <h2>📈 Key Insights</h2>
+            <ul style="font-size: 14px; line-height: 1.6;">
+                <li>ChatGPT appears in 43% of papers</li>
+                <li>550% increase after ChatGPT release</li>
+                <li>Only 1 paper on policies (critical gap)</li>
+                <li>Top 5 papers: 33% of citations</li>
+            </ul>
+        </div>
+        
+        <div id="graph-container">
+            <svg id="graph"></svg>
+        </div>
+    </div>
+    
+    <div class="tooltip" style="display: none;"></div>
+    
+    <script>
+        // Graph data
+        const graphData = {
+            nodes: [
+                {id: "cluster_detection", label: "Detection Technology", type: "cluster", size: 28, color: "#FF6B6B"},
+                {id: "cluster_education", label: "Educational Impact", type: "cluster", size: 25, color: "#4ECDC4"},
+                {id: "cluster_ethics", label: "Ethics & Policy", type: "cluster", size: 15, color: "#45B7D1"},
+                {id: "cluster_technical", label: "Technical Implementation", type: "cluster", size: 12, color: "#96CEB4"},
+                {id: "tech_chatgpt", label: "ChatGPT", type: "technology", size: 25, color: "#8B5CF6"},
+                {id: "tech_turnitin", label: "Turnitin", type: "technology", size: 6, color: "#EC4899"},
+                {id: "tech_bert", label: "BERT/NLP", type: "technology", size: 8, color: "#F59E0B"},
+                {id: "year_2022", label: "2022", type: "year", size: 2, color: "#10B981"},
+                {id: "year_2023", label: "2023", type: "year", size: 13, color: "#10B981"},
+                {id: "year_2024", label: "2024", type: "year", size: 20, color: "#10B981"},
+                {id: "year_2025", label: "2025", type: "year", size: 23, color: "#10B981"},
+                {id: "kw_plagiarism", label: "plagiarism", type: "keyword", size: 19, color: "#06B6D4"},
+                {id: "kw_ai", label: "artificial intelligence", type: "keyword", size: 17, color: "#06B6D4"},
+                {id: "kw_detection", label: "plagiarism detection", type: "keyword", size: 10, color: "#06B6D4"},
+                {id: "kw_integrity", label: "academic integrity", type: "keyword", size: 8, color: "#06B6D4"},
+                {id: "kw_education", label: "education", type: "keyword", size: 6, color: "#06B6D4"},
+                {id: "gap_policy", label: "Policy Gap", type: "gap", size: 5, color: "#EF4444"},
+                {id: "gap_programming", label: "Programming Gap", type: "gap", size: 5, color: "#EF4444"},
+                {id: "gap_longitudinal", label: "Longitudinal Gap", type: "gap", size: 5, color: "#EF4444"}
+            ],
+            links: [
+                {source: "tech_chatgpt", target: "cluster_detection", weight: 15},
+                {source: "tech_chatgpt", target: "cluster_education", weight: 12},
+                {source: "tech_turnitin", target: "cluster_detection", weight: 6},
+                {source: "tech_bert", target: "cluster_technical", weight: 8},
+                {source: "kw_plagiarism", target: "kw_ai", weight: 15},
+                {source: "kw_plagiarism", target: "kw_detection", weight: 10},
+                {source: "kw_ai", target: "kw_detection", weight: 8},
+                {source: "kw_integrity", target: "kw_education", weight: 6},
+                {source: "year_2023", target: "tech_chatgpt", weight: 10},
+                {source: "year_2024", target: "cluster_detection", weight: 12},
+                {source: "year_2025", target: "cluster_ethics", weight: 8},
+                {source: "cluster_detection", target: "cluster_education", weight: 10},
+                {source: "cluster_education", target: "cluster_ethics", weight: 7},
+                {source: "gap_policy", target: "cluster_ethics", weight: 1},
+                {source: "gap_programming", target: "cluster_technical", weight: 1}
+            ]
+        };
+        
+        // Set up SVG
+        const svg = d3.select("#graph");
+        const width = window.innerWidth - 320;
+        const height = window.innerHeight;
+        
+        svg.attr("viewBox", [0, 0, width, height]);
+        
+        // Create simulation
+        const simulation = d3.forceSimulation(graphData.nodes)
+            .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collision", d3.forceCollide().radius(d => Math.sqrt(d.size) * 5));
+        
+        // Create links
+        const link = svg.append("g")
+            .selectAll("line")
+            .data(graphData.links)
+            .join("line")
+            .attr("class", "link")
+            .attr("stroke", "#999")
+            .attr("stroke-width", d => Math.sqrt(d.weight));
+        
+        // Create nodes
+        const node = svg.append("g")
+            .selectAll("circle")
+            .data(graphData.nodes)
+            .join("circle")
+            .attr("class", "node")
+            .attr("r", d => Math.sqrt(d.size) * 3)
+            .attr("fill", d => d.color)
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 2)
+            .call(drag(simulation));
+        
+        // Create labels
+        const label = svg.append("g")
+            .selectAll("text")
+            .data(graphData.nodes)
+            .join("text")
+            .attr("class", "node-label")
+            .text(d => d.label)
+            .attr("text-anchor", "middle")
+            .attr("dy", ".35em");
+        
+        // Tooltip
+        const tooltip = d3.select(".tooltip");
+        
+        node.on("mouseover", function(event, d) {
+            tooltip.style("display", "block")
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 10) + "px")
+                .html(`
+                    <strong>${d.label}</strong><br>
+                    Type: ${d.type}<br>
+                    Size: ${d.size} ${d.type === 'year' ? 'papers' : ''}
+                `);
+        })
+        .on("mouseout", function() {
+            tooltip.style("display", "none");
+        });
+        
+        // Update positions
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+            
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+            
+            label
+                .attr("x", d => d.x)
+                .attr("y", d => d.y);
+        });
+        
+        // Drag functionality
+        function drag(simulation) {
+            function dragstarted(event) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                event.subject.fx = event.subject.x;
+                event.subject.fy = event.subject.y;
+            }
+            
+            function dragged(event) {
+                event.subject.fx = event.x;
+                event.subject.fy = event.y;
+            }
+            
+            function dragended(event) {
+                if (!event.active) simulation.alphaTarget(0);
+                event.subject.fx = null;
+                event.subject.fy = null;
+            }
+            
+            return d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+        }
+        
+        // Zoom functionality
+        const zoom = d3.zoom()
+            .scaleExtent([0.5, 5])
+            .on("zoom", (event) => {
+                svg.selectAll("g").attr("transform", event.transform);
+            });
+        
+        svg.call(zoom);
+        
+        // Control functions
+        function resetZoom() {
+            svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity);
+        }
+        
+        let labelsVisible = true;
+        function toggleLabels() {
+            labelsVisible = !labelsVisible;
+            label.style("display", labelsVisible ? "block" : "none");
+        }
+        
+        function highlightGaps() {
+            node.style("opacity", d => d.type === "gap" ? 1 : 0.3);
+            link.style("opacity", 0.1);
+            setTimeout(() => {
+                node.style("opacity", 1);
+                link.style("opacity", 0.4);
+            }, 3000);
+        }
+        
+        // Search functionality
+        document.getElementById("search").addEventListener("input", function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            node.style("opacity", d => 
+                d.label.toLowerCase().includes(searchTerm) ? 1 : 0.3
+            );
+            
+            label.style("opacity", d => 
+                d.label.toLowerCase().includes(searchTerm) ? 1 : 0.3
+            );
+        });
+        
+        // Filter functionality
+        document.querySelectorAll(".filter").forEach(checkbox => {
+            checkbox.addEventListener("change", updateFilters);
+        });
+        
+        function updateFilters() {
+            const activeTypes = Array.from(document.querySelectorAll(".filter:checked"))
+                .map(cb => cb.dataset.type);
+            
+            node.style("display", d => activeTypes.includes(d.type) ? "block" : "none");
+            label.style("display", d => activeTypes.includes(d.type) ? "block" : "none");
+            
+            // Update links
+            link.style("display", d => {
+                const sourceVisible = activeTypes.includes(graphData.nodes.find(n => n.id === d.source.id).type);
+                const targetVisible = activeTypes.includes(graphData.nodes.find(n => n.id === d.target.id).type);
+                return sourceVisible && targetVisible ? "block" : "none";
+            });
+        }
+    </script>
+</body>
+</html>
