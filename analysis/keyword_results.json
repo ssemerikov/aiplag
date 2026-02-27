@@ -1,0 +1,171 @@
+{
+  "total_unique_keywords": 338,
+  "keywords_gte_2": 54,
+  "network_nodes": 54,
+  "network_edges": 445,
+  "n_communities": 3,
+  "top_keywords_by_degree": [
+    [
+      "students",
+      0.7924528301886792
+    ],
+    [
+      "artificial intelligence",
+      0.6792452830188679
+    ],
+    [
+      "plagiarism",
+      0.660377358490566
+    ],
+    [
+      "plagiarism detection",
+      0.660377358490566
+    ],
+    [
+      "education",
+      0.5660377358490566
+    ],
+    [
+      "intellectual property",
+      0.5660377358490566
+    ],
+    [
+      "engineering education",
+      0.5094339622641509
+    ],
+    [
+      "academic integrity",
+      0.4716981132075472
+    ],
+    [
+      "cheating",
+      0.4528301886792453
+    ],
+    [
+      "contrastive learning",
+      0.4528301886792453
+    ],
+    [
+      "chatgpt",
+      0.43396226415094336
+    ],
+    [
+      "generative ai",
+      0.43396226415094336
+    ],
+    [
+      "chatbots",
+      0.4150943396226415
+    ],
+    [
+      "language model",
+      0.3962264150943396
+    ],
+    [
+      "adversarial machine learning",
+      0.3584905660377358
+    ],
+    [
+      "natural language processing",
+      0.32075471698113206
+    ],
+    [
+      "ai",
+      0.32075471698113206
+    ],
+    [
+      "text analysis",
+      0.3018867924528302
+    ],
+    [
+      "adverse effect",
+      0.3018867924528302
+    ],
+    [
+      "stylometry",
+      0.3018867924528302
+    ]
+  ],
+  "top_keywords_by_betweenness": [
+    [
+      "artificial intelligence",
+      0.07458626070316544
+    ],
+    [
+      "students",
+      0.06834465823609416
+    ],
+    [
+      "contrastive learning",
+      0.05413086685973869
+    ],
+    [
+      "chatbots",
+      0.0531938776254769
+    ],
+    [
+      "language model",
+      0.05307758026745014
+    ],
+    [
+      "academic integrity",
+      0.05070419674143843
+    ],
+    [
+      "engineering education",
+      0.047867451721951254
+    ],
+    [
+      "plagiarism",
+      0.04406769802684039
+    ],
+    [
+      "adversarial machine learning",
+      0.0337123618367708
+    ],
+    [
+      "ai detection",
+      0.031768856628649894
+    ],
+    [
+      "plagiarism detection",
+      0.03122862575751577
+    ],
+    [
+      "chatgpt",
+      0.030702086442110477
+    ],
+    [
+      "stylometry",
+      0.028615943664250392
+    ],
+    [
+      "programming",
+      0.025385501750966526
+    ],
+    [
+      "cheating",
+      0.025107846950055357
+    ],
+    [
+      "generative adversarial networks",
+      0.020403198971327474
+    ],
+    [
+      "education",
+      0.019184681665492108
+    ],
+    [
+      "semantics",
+      0.016947122876319855
+    ],
+    [
+      "machine learning",
+      0.0165167122667187
+    ],
+    [
+      "ai",
+      0.015752993530896774
+    ]
+  ]
+}

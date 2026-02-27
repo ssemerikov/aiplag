@@ -1,0 +1,32 @@
+{
+  "total_papers": 58,
+  "with_abstracts": 50,
+  "with_references": 53,
+  "with_author_keywords": 41,
+  "with_index_keywords": 31,
+  "unique_authors": 150,
+  "unique_countries": 33,
+  "unique_institutions": 101,
+  "year_distribution": {
+    "2022": 2,
+    "2023": 13,
+    "2024": 20,
+    "2025": 23
+  },
+  "doc_type_distribution": {
+    "Article": 26,
+    "Conference paper": 21,
+    "Note": 4,
+    "Letter": 2,
+    "Book chapter": 2,
+    "Erratum": 1,
+    "Editorial": 1,
+    "Review": 1
+  },
+  "citation_stats": {
+    "mean": 5.76,
+    "median": 1.0,
+    "max": 112,
+    "zero_citations": 25
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "title": "AI & Plagiarism Detection Knowledge Graph",
+    "papers": 58,
+    "authors": 150,
+    "years": "2022-2025",
+    "generated": "2025-01-08"
+  },
+  "nodes": [
+    {
+      "id": "cluster_detection",
+      "label": "Detection Technology",
+      "type": "cluster",
+      "size": 28,
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "cluster_education",
+      "label": "Educational Impact",
+      "type": "cluster",
+      "size": 25,
+      "color": "#4ECDC4"
+    },
+    {
+      "id": "cluster_ethics",
+      "label": "Ethics & Policy",
+      "type": "cluster",
+      "size": 15,
+      "color": "#45B7D1"
+    },
+    {
+      "id": "cluster_technical",
+      "label": "Technical Implementation",
+      "type": "cluster",
+      "size": 12,
+      "color": "#96CEB4"
+    },
+    {
+      "id": "tech_chatgpt",
+      "label": "ChatGPT",
+      "type": "technology",
+      "papers": 25,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "tech_turnitin",
+      "label": "Turnitin",
+      "type": "technology",
+      "papers": 6,
+      "color": "#EC4899"
+    },
+    {
+      "id": "tech_bert",
+      "label": "BERT/NLP",
+      "type": "technology",
+      "papers": 8,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "year_2022",
+      "label": "2022",
+      "type": "year",
+      "papers": 2,
+      "avgCitations": 10.0
+    },
+    {
+      "id": "year_2023",
+      "label": "2023",
+      "type": "year",
+      "papers": 13,
+      "avgCitations": 16.7
+    },
+    {
+      "id": "year_2024",
+      "label": "2024",
+      "type": "year",
+      "papers": 20,
+      "avgCitations": 4.7
+    },
+    {
+      "id": "year_2025",
+      "label": "2025",
+      "type": "year",
+      "papers": 23,
+      "avgCitations": 0.2
+    },
+    {
+      "id": "kw_plagiarism",
+      "label": "plagiarism",
+      "type": "keyword",
+      "frequency": 19,
+      "centrality": "high"
+    },
+    {
+      "id": "kw_ai",
+      "label": "artificial intelligence",
+      "type": "keyword",
+      "frequency": 17,
+      "centrality": "high"
+    },
+    {
+      "id": "kw_detection",
+      "label": "plagiarism detection",
+      "type": "keyword",
+      "frequency": 10,
+      "centrality": "medium"
+    },
+    {
+      "id": "kw_integrity",
+      "label": "academic integrity",
+      "type": "keyword",
+      "frequency": 8,
+      "centrality": "medium"
+    },
+    {
+      "id": "kw_education",
+      "label": "education",
+      "type": "keyword",
+      "frequency": 6,
+      "centrality": "medium"
+    },
+    {
+      "id": "gap_policy",
+      "label": "Policy Gap",
+      "type": "gap",
+      "severity": "critical",
+      "papers": 1
+    },
+    {
+      "id": "gap_programming",
+      "label": "Programming Context Gap",
+      "type": "gap",
+      "severity": "high",
+      "papers": 7
+    },
+    {
+      "id": "gap_longitudinal",
+      "label": "Longitudinal Studies Gap",
+      "type": "gap",
+      "severity": "high",
+      "papers": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "tech_chatgpt",
+      "target": "cluster_detection",
+      "weight": 15,
+      "type": "technology-cluster"
+    },
+    {
+      "source": "tech_chatgpt",
+      "target": "cluster_education",
+      "weight": 12,
+      "type": "technology-cluster"
+    },
+    {
+      "source": "tech_turnitin",
+      "target": "cluster_detection",
+      "weight": 6,
+      "type": "technology-cluster"
+    },
+    {
+      "source": "tech_bert",
+      "target": "cluster_technical",
+      "weight": 8,
+      "type": "technology-cluster"
+    },
+    {
+      "source": "kw_plagiarism",
+      "target": "kw_ai",
+      "weight": 15,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "kw_plagiarism",
+      "target": "kw_detection",
+      "weight": 10,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "kw_ai",
+      "target": "kw_detection",
+      "weight": 8,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "kw_integrity",
+      "target": "kw_education",
+      "weight": 6,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "year_2023",
+      "target": "tech_chatgpt",
+      "weight": 10,
+      "type": "temporal"
+    },
+    {
+      "source": "year_2024",
+      "target": "cluster_detection",
+      "weight": 12,
+      "type": "temporal"
+    },
+    {
+      "source": "year_2025",
+      "target": "cluster_ethics",
+      "weight": 8,
+      "type": "temporal"
+    },
+    {
+      "source": "cluster_detection",
+      "target": "cluster_education",
+      "weight": 10,
+      "type": "overlap"
+    },
+    {
+      "source": "cluster_education",
+      "target": "cluster_ethics",
+      "weight": 7,
+      "type": "overlap"
+    },
+    {
+      "source": "gap_policy",
+      "target": "cluster_ethics",
+      "weight": 1,
+      "type": "gap-cluster"
+    },
+    {
+      "source": "gap_programming",
+      "target": "cluster_technical",
+      "weight": 1,
+      "type": "gap-cluster"
+    }
+  ],
+  "statistics": {
+    "totalNodes": 18,
+    "totalEdges": 15,
+    "networkDensity": 0.098,
+    "avgDegree": 1.67,
+    "clusters": 4,
+    "technologies": 3,
+    "keywords": 5,
+    "gaps": 3
+  },
+  "visualization": {
+    "layout": "force-directed",
+    "nodeSize": {
+      "cluster": "papers",
+      "technology": "papers",
+      "keyword": "frequency",
+      "year": "papers",
+      "gap": "severity"
+    },
+    "edgeWidth": "weight",
+    "colors": {
+      "cluster": "#FF6B6B",
+      "technology": "#8B5CF6",
+      "keyword": "#06B6D4",
+      "year": "#10B981",
+      "gap": "#EF4444"
+    }
+  },
+  "insights": {
+    "centralNodes": ["kw_plagiarism", "kw_ai", "tech_chatgpt"],
+    "bridgeNodes": ["cluster_detection", "cluster_education"],
+    "peripheralNodes": ["gap_policy", "gap_longitudinal"],
+    "strongestConnections": [
+      "kw_plagiarism ↔ kw_ai",
+      "tech_chatgpt ↔ cluster_detection",
+      "year_2024 ↔ cluster_detection"
+    ],
+    "weakestAreas": ["gap_policy", "gap_programming", "gap_longitudinal"]
+  }
+}

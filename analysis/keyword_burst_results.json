@@ -1,0 +1,188 @@
+{
+  "total_keywords_gte2": 54,
+  "emerging_count": 27,
+  "emerging_top": [
+    {
+      "keyword": "engineering education",
+      "total": 5
+    },
+    {
+      "keyword": "natural language processing",
+      "total": 5
+    },
+    {
+      "keyword": "contrastive learning",
+      "total": 4
+    },
+    {
+      "keyword": "ai detection",
+      "total": 4
+    },
+    {
+      "keyword": "language processing",
+      "total": 4
+    },
+    {
+      "keyword": "ethics",
+      "total": 4
+    },
+    {
+      "keyword": "chatbots",
+      "total": 3
+    },
+    {
+      "keyword": "machine learning",
+      "total": 3
+    },
+    {
+      "keyword": "ai plagiarism",
+      "total": 3
+    },
+    {
+      "keyword": "generative adversarial networks",
+      "total": 3
+    },
+    {
+      "keyword": "stylometry",
+      "total": 2
+    },
+    {
+      "keyword": "automation",
+      "total": 2
+    },
+    {
+      "keyword": "artificial intelligence (ai)",
+      "total": 2
+    },
+    {
+      "keyword": "adversarial machine learning",
+      "total": 2
+    },
+    {
+      "keyword": "text analysis",
+      "total": 2
+    },
+    {
+      "keyword": "chinese students",
+      "total": 2
+    },
+    {
+      "keyword": "state of the art",
+      "total": 2
+    },
+    {
+      "keyword": "teaching",
+      "total": 2
+    },
+    {
+      "keyword": "curricula",
+      "total": 2
+    },
+    {
+      "keyword": "adverse effect",
+      "total": 2
+    }
+  ],
+  "bursting_count": 16,
+  "bursting_top": [
+    {
+      "keyword": "plagiarism detection",
+      "total": 15,
+      "growth_rate": 5.5
+    },
+    {
+      "keyword": "education",
+      "total": 6,
+      "growth_rate": 4.0
+    },
+    {
+      "keyword": "natural languages",
+      "total": 5,
+      "growth_rate": 3.0
+    },
+    {
+      "keyword": "generative ai",
+      "total": 9,
+      "growth_rate": 2.5
+    },
+    {
+      "keyword": "academic integrity",
+      "total": 9,
+      "growth_rate": 2.5
+    },
+    {
+      "keyword": "natural language processing systems",
+      "total": 4,
+      "growth_rate": 2.0
+    },
+    {
+      "keyword": "language model",
+      "total": 4,
+      "growth_rate": 2.0
+    },
+    {
+      "keyword": "cheating",
+      "total": 4,
+      "growth_rate": 2.0
+    },
+    {
+      "keyword": "ai",
+      "total": 4,
+      "growth_rate": 2.0
+    },
+    {
+      "keyword": "artificial intelligence",
+      "total": 20,
+      "growth_rate": 1.3333333333333333
+    },
+    {
+      "keyword": "academic writings",
+      "total": 3,
+      "growth_rate": 1.0
+    },
+    {
+      "keyword": "semantics",
+      "total": 3,
+      "growth_rate": 1.0
+    },
+    {
+      "keyword": "programming",
+      "total": 3,
+      "growth_rate": 1.0
+    },
+    {
+      "keyword": "plagiarism",
+      "total": 23,
+      "growth_rate": 0.5555555555555556
+    },
+    {
+      "keyword": "human",
+      "total": 5,
+      "growth_rate": 0.5
+    },
+    {
+      "keyword": "students",
+      "total": 14,
+      "growth_rate": 0.3333333333333333
+    }
+  ],
+  "declining_count": 4,
+  "declining_top": [
+    {
+      "keyword": "student",
+      "total": 2
+    },
+    {
+      "keyword": "simple++",
+      "total": 2
+    },
+    {
+      "keyword": "assessment",
+      "total": 2
+    },
+    {
+      "keyword": "student performance",
+      "total": 2
+    }
+  ]
+}

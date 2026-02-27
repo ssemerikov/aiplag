@@ -1,0 +1,77 @@
+{
+  "citation_stats": {
+    "mean": 5.76,
+    "median": 1.0,
+    "max": 112,
+    "zero_count": 25
+  },
+  "by_year": {
+    "mean": {
+      "2022": 10.0,
+      "2023": 16.692307692307693,
+      "2024": 4.65,
+      "2025": 0.17391304347826086
+    },
+    "median": {
+      "2022": 10.0,
+      "2023": 4.0,
+      "2024": 4.5,
+      "2025": 0.0
+    },
+    "sum": {
+      "2022": 20,
+      "2023": 217,
+      "2024": 93,
+      "2025": 4
+    },
+    "count": {
+      "2022": 2,
+      "2023": 13,
+      "2024": 20,
+      "2025": 23
+    }
+  },
+  "regression": {
+    "formula": "Q(\"Cited by\") ~ years_since_pub + author_count + is_OA + is_article + keyword_count",
+    "n": 58,
+    "aic": 256.47,
+    "bic": 270.89,
+    "coefficients": {
+      "Intercept": {
+        "coef": -2.0948,
+        "std_err": 0.9898,
+        "p_value": 0.0343
+      },
+      "years_since_pub": {
+        "coef": 1.8915,
+        "std_err": 0.3461,
+        "p_value": 0.0
+      },
+      "author_count": {
+        "coef": 0.0178,
+        "std_err": 0.1241,
+        "p_value": 0.8857
+      },
+      "is_OA": {
+        "coef": 1.0963,
+        "std_err": 0.4275,
+        "p_value": 0.0103
+      },
+      "is_article": {
+        "coef": 0.6537,
+        "std_err": 0.5219,
+        "p_value": 0.2104
+      },
+      "keyword_count": {
+        "coef": 0.0463,
+        "std_err": 0.042,
+        "p_value": 0.2708
+      },
+      "alpha": {
+        "coef": 1.4672,
+        "std_err": 0.3796,
+        "p_value": 0.0001
+      }
+    }
+  }
+}

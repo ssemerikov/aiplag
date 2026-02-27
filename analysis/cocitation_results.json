@@ -1,0 +1,126 @@
+{
+  "unique_cited_works": 1437,
+  "top_cited": [
+    {
+      "ref": "park c|2003|in other peoples words plagiarism",
+      "count": 5
+    },
+    {
+      "ref": "khalil m|2023|will chatgpt get you caught",
+      "count": 5
+    },
+    {
+      "ref": "liang w|2023",
+      "count": 4
+    },
+    {
+      "ref": "dehouche n|2021|plagiarism in the age of",
+      "count": 4
+    },
+    {
+      "ref": "cotton dre|2023|chatting and cheating ensuring academic",
+      "count": 4
+    },
+    {
+      "ref": "meyer jg|2023",
+      "count": 4
+    },
+    {
+      "ref": "krishna k|2024",
+      "count": 4
+    },
+    {
+      "ref": "devlin j|2018",
+      "count": 3
+    },
+    {
+      "ref": "reimers n|2019|sentencebert sentence embeddings using siamese",
+      "count": 3
+    },
+    {
+      "ref": "gao ca|2023",
+      "count": 3
+    },
+    {
+      "ref": "king mr|2023|a conversation on artificial intelligence",
+      "count": 3
+    },
+    {
+      "ref": "cohen j|2013|statistical power analysis for the",
+      "count": 3
+    },
+    {
+      "ref": "elkhatat am|2023|evaluating the efficacy of ai",
+      "count": 3
+    },
+    {
+      "ref": "van s|2023|generative artificial intelligence in information",
+      "count": 3
+    },
+    {
+      "ref": "dien j|2023|editorial generative artificial intelligence as",
+      "count": 3
+    },
+    {
+      "ref": "wang y|2024",
+      "count": 3
+    },
+    {
+      "ref": "albluwi i|2019|plagiarism in programming assessments a",
+      "count": 3
+    },
+    {
+      "ref": "taylor js|2023|reassessing academic plagiarism",
+      "count": 3
+    },
+    {
+      "ref": "liu y|2019",
+      "count": 3
+    },
+    {
+      "ref": "guo b|2023",
+      "count": 3
+    },
+    {
+      "ref": "westfall c|2023|educators battle plagiarism as 89",
+      "count": 3
+    },
+    {
+      "ref": "karnalim o|2024|detecting ai assisted submissions in",
+      "count": 3
+    },
+    {
+      "ref": "allen jm|2018",
+      "count": 3
+    },
+    {
+      "ref": "radford a|2019",
+      "count": 3
+    },
+    {
+      "ref": "solaiman i|2019",
+      "count": 3
+    },
+    {
+      "ref": "waltzer t|2023|why do students cheat perceptions",
+      "count": 3
+    },
+    {
+      "ref": "jianqiang z|2017|comparison research on text preprocessing",
+      "count": 3
+    },
+    {
+      "ref": "sadasivan v s|2023",
+      "count": 3
+    },
+    {
+      "ref": "stamatatos e|2009|a survey of modern authorship",
+      "count": 3
+    },
+    {
+      "ref": "feuerriegel s|2024",
+      "count": 2
+    }
+  ],
+  "cocitation_edges": 116
+}

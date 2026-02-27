@@ -1,0 +1,134 @@
+{
+  "n_abstracts": 50,
+  "bertopic_n_topics": 6,
+  "bertopic_topics": [
+    {
+      "id": -1,
+      "count": 5,
+      "name": "-1_written_plagiarism_assignments_ai",
+      "top_words": [
+        "written",
+        "plagiarism",
+        "assignments",
+        "ai",
+        "chatgpt",
+        "academic",
+        "sentence",
+        "tools",
+        "language",
+        "challenges"
+      ]
+    },
+    {
+      "id": 0,
+      "count": 10,
+      "name": "0_students_ai_chatgpt_programming",
+      "top_words": [
+        "students",
+        "ai",
+        "chatgpt",
+        "programming",
+        "papers",
+        "plagiarism",
+        "learning",
+        "use",
+        "tools",
+        "literature"
+      ]
+    },
+    {
+      "id": 1,
+      "count": 8,
+      "name": "1_students_ai_plagiarism_academic",
+      "top_words": [
+        "students",
+        "ai",
+        "plagiarism",
+        "academic",
+        "perceptions",
+        "ai plagiarism",
+        "study",
+        "ethics",
+        "integrity",
+        "understanding"
+      ]
+    },
+    {
+      "id": 2,
+      "count": 8,
+      "name": "2_detection_ai_academic_tools",
+      "top_words": [
+        "detection",
+        "ai",
+        "academic",
+        "tools",
+        "ai detection",
+        "detection tools",
+        "plagiarism",
+        "institutions",
+        "integrity",
+        "evaluation"
+      ]
+    },
+    {
+      "id": 3,
+      "count": 7,
+      "name": "3_generated_text_ai_ai generated",
+      "top_words": [
+        "generated",
+        "text",
+        "ai",
+        "ai generated",
+        "texts",
+        "software",
+        "detection",
+        "accuracy",
+        "code",
+        "using"
+      ]
+    },
+    {
+      "id": 4,
+      "count": 6,
+      "name": "4_plagiarism_study_check_limited",
+      "top_words": [
+        "plagiarism",
+        "study",
+        "check",
+        "limited",
+        "tools",
+        "detection",
+        "work",
+        "checking",
+        "small",
+        "developed"
+      ]
+    },
+    {
+      "id": 5,
+      "count": 6,
+      "name": "5_data_generative_generative ai_copyright",
+      "top_words": [
+        "data",
+        "generative",
+        "generative ai",
+        "copyright",
+        "ai",
+        "models",
+        "research",
+        "use",
+        "article",
+        "author"
+      ]
+    }
+  ],
+  "lda_coherences": {
+    "3": 0.2748,
+    "4": 0.2963,
+    "5": 0.3259,
+    "6": 0.2913,
+    "7": 0.3898,
+    "8": 0.3222
+  },
+  "lda_best_k": 7
+}

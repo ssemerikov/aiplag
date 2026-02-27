@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "source": "Scopus Database",
+    "topic": "AI and Plagiarism Detection",
+    "totalRecords": 58,
+    "exportDate": "2025-01-08",
+    "dataVersion": "1.0",
+    "enrichmentPhase": "Phase 1 Complete"
+  },
+  "statistics": {
+    "yearDistribution": {
+      "2022": 2,
+      "2023": 13,
+      "2024": 20,
+      "2025": 23
+    },
+    "documentTypes": {
+      "Article": 26,
+      "Conference paper": 21,
+      "Note": 4,
+      "Letter": 2,
+      "Book chapter": 2,
+      "Other": 3
+    },
+    "qualityDistribution": {
+      "high": 48,
+      "medium": 9,
+      "low": 1
+    },
+    "categoryDistribution": {
+      "Educational Context": 33,
+      "Detection Technology": 16,
+      "Ethics & Policy": 15,
+      "Technical Implementation": 15,
+      "Programming & Code": 7
+    }
+  },
+  "papers": [
+    {
+      "doi": "10.1007/s00146-025-02362-2",
+      "title": "The digital erosion of intellectual integrity: why misuse of generative AI is worse than plagiarism",
+      "authors": "Shaw D.",
+      "year": 2025,
+      "sourceTitle": "AI and Society",
+      "documentType": "Article",
+      "abstract": "[No abstract available]",
+      "standardizedKeywords": ["artificial intelligence", "education", "ethics", "integrity", "plagiarism"],
+      "researchCategories": ["Educational Context", "Ethics & Policy"],
+      "citedBy": 1,
+      "dataQualityScore": 80,
+      "qualityTier": "High"
+    },
+    {
+      "doi": "10.3389/feduc.2024.1465703",
+      "title": "Ethical use of ChatGPT in education—Best practices to combat AI-induced plagiarism",
+      "authors": "Kovari A.",
+      "year": 2024,
+      "sourceTitle": "Frontiers in Education",
+      "documentType": "Article",
+      "abstract": "Available in full dataset",
+      "standardizedKeywords": ["adaptive testing", "assessments", "chatgpt", "creative assignments", "ethical ai use", "generative artificial intelligence", "personalized tasks", "plagiarism"],
+      "researchCategories": ["Educational Context", "Ethics & Policy"],
+      "citedBy": 0,
+      "dataQualityScore": 80,
+      "qualityTier": "High"
+    }
+  ],
+  "topKeywords": [
+    {"keyword": "plagiarism", "frequency": 19},
+    {"keyword": "artificial intelligence", "frequency": 17},
+    {"keyword": "plagiarism detection", "frequency": 10},
+    {"keyword": "generative artificial intelligence", "frequency": 9},
+    {"keyword": "academic integrity", "frequency": 8},
+    {"keyword": "chatgpt", "frequency": 7},
+    {"keyword": "education", "frequency": 6}
+  ],
+  "notes": "This is a sample of the full dataset. Complete JSON with all 58 papers and full abstracts available upon request."
+}

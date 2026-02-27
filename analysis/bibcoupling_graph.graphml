@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="cited_by" attr.type="long"/>
+<key id="d1" for="node" attr.name="title" attr.type="string"/>
+<key id="d0" for="node" attr.name="year" attr.type="long"/>
+<graph edgedefault="undirected"><node id="P01">
+  <data key="d0">2025</data>
+  <data key="d1">The digital erosion of intellectual integrity: why</data>
+  <data key="d2">1</data>
+</node>
+<node id="P02">
+  <data key="d0">2024</data>
+  <data key="d1">Ethical use of ChatGPT in education—Best practices</data>
+  <data key="d2">5</data>
+</node>
+<node id="P03">
+  <data key="d0">2024</data>
+  <data key="d1">Are AI detection and plagiarism similarity scores </data>
+  <data key="d2">9</data>
+</node>
+<node id="P04">
+  <data key="d0">2025</data>
+  <data key="d1">AI-Powered Plagiarism Detection: A Web-Based Syste</data>
+  <data key="d2">0</data>
+</node>
+<node id="P05">
+  <data key="d0">2023</data>
+  <data key="d1">Work in Progress: Safeguarding Authenticity: Strat</data>
+  <data key="d2">4</data>
+</node>
+<node id="P06">
+  <data key="d0">2025</data>
+  <data key="d1">Reducing AI plagiarism through assessment of highe</data>
+  <data key="d2">0</data>
+</node>
+<node id="P07">
+  <data key="d0">2023</data>
+  <data key="d1">Plagiarism in AI Empowered World</data>
+  <data key="d2">22</data>
+</node>
+<node id="P08">
+  <data key="d0">2025</data>
+  <data key="d1">Guarding Integrity: A Case Study on Tackling AI-Ge</data>
+  <data key="d2">0</data>
+</node>
+<node id="P09">
+  <data key="d0">2024</data>
+  <data key="d1">Art Innovation or Plagiarism? Chinese Students' At</data>
+  <data key="d2">7</data>
+</node>
+<node id="P10">
+  <data key="d0">2024</data>
+  <data key="d1">AI-enabled ChatGPT or LLM: a new algorithm is requ</data>
+  <data key="d2">10</data>
+</node>
+<node id="P11">
+  <data key="d0">2025</data>
+  <data key="d1">Which Source is More Morally Negative? The Effect </data>
+  <data key="d2">0</data>
+</node>
+<node id="P12">
+  <data key="d0">2024</data>
+  <data key="d1">Do college anti-plagiarism/cheating policies have </data>
+  <data key="d2">5</data>
+</node>
+<node id="P13">
+  <data key="d0">2025</data>
+  <data key="d1">Overview of PAN 2025: Generative AI Detection, Mul</data>
+  <data key="d2">0</data>
+</node>
+<node id="P14">
+  <data key="d0">2024</data>
+  <data key="d1">Advancing integrity in science: the imperative for</data>
+  <data key="d2">2</data>
+</node>
+<node id="P15">
+  <data key="d0">2024</data>
+  <data key="d1">Plagiarism in the Age of Generative AI: Cheating M</data>
+  <data key="d2">12</data>
+</node>
+<node id="P16">
+  <data key="d0">2023</data>
+  <data key="d1">Plagiarism, Academic Ethics, and the Utilization o</data>
+  <data key="d2">4</data>
+</node>
+<node id="P17">
+  <data key="d0">2024</data>
+  <data key="d1">A Geospatial Perspective on Data Ownership, the Ri</data>
+  <data key="d2">0</data>
+</node>
+<node id="P18">
+  <data key="d0">2023</data>
+  <data key="d1">AI-generated research paper fabrication and plagia</data>
+  <data key="d2">112</data>
+</node>
+<node id="P19">
+  <data key="d0">2022</data>
+  <data key="d1">A New Era of Plagiarism the Danger of Cheating Usi</data>
+  <data key="d2">13</data>
+</node>
+<node id="P20">
+  <data key="d0">2025</data>
+  <data key="d1">Automation of Plagiarism and AI Detection in IT St</data>
+  <data key="d2">0</data>
+</node>
+<node id="P21">
+  <data key="d0">2025</data>
+  <data key="d1">Enhancing anti-plagiarism literacy practices among</data>
+  <data key="d2">0</data>
+</node>
+<node id="P22">
+  <data key="d0">2025</data>
+  <data key="d1">Digital Plagiarism in EFL Education during the AI </data>
+  <data key="d2">0</data>
+</node>
+<node id="P23">
+  <data key="d0">2022</data>
+  <data key="d1">AI Based Plagiarism Checking : Ease of use and app</data>
+  <data key="d2">7</data>
+</node>
+<node id="P24">
+  <data key="d0">2025</data>
+  <data key="d1">AI-driven Student Task Management Platform With Pl</data>
+  <data key="d2">0</data>
+</node>
+<node id="P25">
+  <data key="d0">2023</data>
+  <data key="d1">ChatGPT and other AI tools put students at risk of</data>
+  <data key="d2">11</data>
+</node>
+<node id="P26">
+  <data key="d0">2024</data>
+  <data key="d1">Epistemological dilemma: Evaluating conflicting so</data>
+  <data key="d2">0</data>
+</node>
+<node id="P27">
+  <data key="d0">2025</data>
+  <data key="d1">Detecting the Undetectable: The Need for a New Par</data>
+  <data key="d2">0</data>
+</node>
+<node id="P28">
+  <data key="d0">2024</data>
+  <data key="d1">Survey on AI-Generated Plagiarism Detection: The I</data>
+  <data key="d2">8</data>
+</node>
+<node id="P29">
+  <data key="d0">2023</data>
+  <data key="d1">Correction: Using AI-based detectors to control AI</data>
+  <data key="d2">1</data>
+</node>
+<node id="P30">
+  <data key="d0">2024</data>
+  <data key="d1">AI chatbots in programming education: guiding succ</data>
+  <data key="d2">2</data>
+</node>
+<node id="P31">
+  <data key="d0">2025</data>
+  <data key="d1">Similarities of Human and AI Assistance in Program</data>
+  <data key="d2">0</data>
+</node>
+<node id="P32">
+  <data key="d0">2023</data>
+  <data key="d1">An AI Solution: Using ChatGPT to Counter Plagiaris</data>
+  <data key="d2">1</data>
+</node>
+<node id="P33">
+  <data key="d0">2024</data>
+  <data key="d1">The Problem with False Positives: AI Detection Unf</data>
+  <data key="d2">6</data>
+</node>
+<node id="P34">
+  <data key="d0">2025</data>
+  <data key="d1">Work in Progress: High School Student Perspective </data>
+  <data key="d2">0</data>
+</node>
+<node id="P35">
+  <data key="d0">2025</data>
+  <data key="d1">Perspectives on Potential Plagiarism Triggered by </data>
+  <data key="d2">0</data>
+</node>
+<node id="P36">
+  <data key="d0">2024</data>
+  <data key="d1">Automated Detection of AI-Obfuscated Plagiarism in</data>
+  <data key="d2">8</data>
+</node>
+<node id="P37">
+  <data key="d0">2025</data>
+  <data key="d1">AI Tools for Plagiarism Detection and Academic Int</data>
+  <data key="d2">0</data>
+</node>
+<node id="P38">
+  <data key="d0">2024</data>
+  <data key="d1">Plagiarism Check in the Era of AI</data>
+  <data key="d2">1</data>
+</node>
+<node id="P39">
+  <data key="d0">2025</data>
+  <data key="d1">New Ways of Plagiarism? At the Meeting Point of th</data>
+  <data key="d2">0</data>
+</node>
+<node id="P40">
+  <data key="d0">2025</data>
+  <data key="d1">Learning AI Coding Style for Software Plagiarism D</data>
+  <data key="d2">0</data>
+</node>
+<node id="P41">
+  <data key="d0">2023</data>
+  <data key="d1">Using AI-based detectors to control AI-assisted pl</data>
+  <data key="d2">40</data>
+</node>
+<node id="P42">
+  <data key="d0">2024</data>
+  <data key="d1">Between the Muse and the Code: Exploring the bound</data>
+  <data key="d2">0</data>
+</node>
+<node id="P43">
+  <data key="d0">2024</data>
+  <data key="d1">AI Open research Plagiarism Dupli Checker, Scribbr</data>
+  <data key="d2">1</data>
+</node>
+<node id="P44">
+  <data key="d0">2025</data>
+  <data key="d1">Plagiarism in the Age of Generative AI: An Explora</data>
+  <data key="d2">1</data>
+</node>
+<node id="P45">
+  <data key="d0">2023</data>
+  <data key="d1">Plagiarism and AI Assistance Misuse in Web Program</data>
+  <data key="d2">3</data>
+</node>
+<node id="P46">
+  <data key="d0">2025</data>
+  <data key="d1">The Robustness of AI-Classifiers in the Face of AI</data>
+  <data key="d2">0</data>
+</node>
+<node id="P47">
+  <data key="d0">2024</data>
+  <data key="d1">AI Generated Code Plagiarism Detection in Computer</data>
+  <data key="d2">0</data>
+</node>
+<node id="P48">
+  <data key="d0">2024</data>
+  <data key="d1">Plagiarism Detection: Identifying AI-Generated and</data>
+  <data key="d2">0</data>
+</node>
+<node id="P49">
+  <data key="d0">2023</data>
+  <data key="d1">AI-based plagiarism detectors: Plagiarism fighters</data>
+  <data key="d2">5</data>
+</node>
+<node id="P50">
+  <data key="d0">2025</data>
+  <data key="d1">Detecting Plagiarism in the Age of Generative AI: </data>
+  <data key="d2">0</data>
+</node>
+<node id="P51">
+  <data key="d0">2025</data>
+  <data key="d1">AI on Academic Integrity and Plagiarism Detection</data>
+  <data key="d2">2</data>
+</node>
+<node id="P52">
+  <data key="d0">2024</data>
+  <data key="d1">AI Hybrid Based Plagiarism Detection System Creati</data>
+  <data key="d2">4</data>
+</node>
+<node id="P53">
+  <data key="d0">2023</data>
+  <data key="d1">Educators, students, and plagiarism in age of AI</data>
+  <data key="d2">4</data>
+</node>
+<node id="P54">
+  <data key="d0">2024</data>
+  <data key="d1">Ethics and AI-Plagiarism in an Academic Environmen</data>
+  <data key="d2">13</data>
+</node>
+<node id="P55">
+  <data key="d0">2025</data>
+  <data key="d1">Identifying AI-Generated Text Designed to Evade Pl</data>
+  <data key="d2">0</data>
+</node>
+<node id="P56">
+  <data key="d0">2025</data>
+  <data key="d1">Aigiarism: Reframing our understanding of plagiari</data>
+  <data key="d2">0</data>
+</node>
+<node id="P57">
+  <data key="d0">2023</data>
+  <data key="d1">THE AI PLAGIARISM MINEFIELD</data>
+  <data key="d2">1</data>
+</node>
+<node id="P58">
+  <data key="d0">2023</data>
+  <data key="d1">Beyond Black Box AI-Generated Plagiarism Detection</data>
+  <data key="d2">9</data>
+</node>
+<edge source="P03" target="P28">
+  <data key="d3">2</data>
+</edge>
+<edge source="P04" target="P24">
+  <data key="d3">2</data>
+</edge>
+<edge source="P05" target="P16">
+  <data key="d3">2</data>
+</edge>
+<edge source="P05" target="P41">
+  <data key="d3">4</data>
+</edge>
+<edge source="P06" target="P35">
+  <data key="d3">2</data>
+</edge>
+<edge source="P28" target="P41">
+  <data key="d3">2</data>
+</edge>
+<edge source="P28" target="P44">
+  <data key="d3">2</data>
+</edge>
+<edge source="P28" target="P46">
+  <data key="d3">3</data>
+</edge>
+<edge source="P28" target="P50">
+  <data key="d3">2</data>
+</edge>
+<edge source="P31" target="P34">
+  <data key="d3">3</data>
+</edge>
+<edge source="P34" target="P45">
+  <data key="d3">4</data>
+</edge>
+<edge source="P36" target="P45">
+  <data key="d3">2</data>
+</edge>
+<edge source="P40" target="P41">
+  <data key="d3">2</data>
+</edge>
+<edge source="P41" target="P46">
+  <data key="d3">13</data>
+</edge>
+<edge source="P41" target="P58">
+  <data key="d3">2</data>
+</edge>
+<edge source="P44" target="P46">
+  <data key="d3">2</data>
+</edge>
+<edge source="P44" target="P50">
+  <data key="d3">50</data>
+</edge>
+<edge source="P46" target="P50">
+  <data key="d3">2</data>
+</edge>
+<edge source="P46" target="P58">
+  <data key="d3">2</data>
+</edge>
+</graph></graphml>
