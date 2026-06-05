@@ -1,0 +1,64 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find empirical studies comparing false positive rates across different AI detection tools in academic contexts" "Show me papers that benchmark plagiarism detection accuracy across different disciplines and text types" "What studies evaluate the effectiveness of different intervention strategies for preventing AI plagiarism?"
+
+"Find empirical studies comparing false positive rates across different AI detection tools in academic contexts" "Show me papers that benchmark plagiarism detection accuracy across different disciplines and text types" "What studies evaluate the effectiveness of different intervention strategies for preventing AI plagiarism?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("false positive" OR "type I error" OR "incorrect detection" OR "false alarm") AND ("AI" OR "artificial intelligence" OR "machine learning" OR "automated detection") AND ("detection tools" OR "detection systems" OR "detection methods" OR "detection algorithms") AND ("empirical study" OR "case study" OR "research" OR "analysis")
+
+Generating summary
+
+Summary
+Empirical Studies Comparing False Positive Rates Across Different AI Detection Tools in Academic Contexts
+
+There is limited direct information available on empirical studies comparing false positive rates across different AI detection tools in academic contexts. However, some abstracts provide insights into the challenges and performance of AI detection tools, which can be inferred to address the query.
+
+    Intrusion Detection Systems (IDS): Several studies have evaluated the false positive rates of AI-powered IDS. For instance, one study compared machine learning and deep learning algorithms, highlighting the balance between detection precision and false positives . Another study focused on meta-learning techniques to enhance IDS performance, showing improved accuracy and reduced false positive rates . Additionally, a comparison of Snort and Suricata IDS revealed that Snort had higher detection accuracy but also a higher rate of false positives, which was mitigated using an optimized SVM with firefly algorithm .
+
+    AI-Generated Text Detection: Research on generative AI tools like ChatGPT has shown challenges in false positive detection. Statistical experiments indicated that literature sections of articles have higher false positive rates compared to abstracts . Another study tested various AI detection tools and found that simple modifications to AI-generated text could significantly reduce detection rates, highlighting the inefficiency of current tools .
+
+Benchmarking Plagiarism Detection Accuracy Across Different Disciplines and Text Types
+
+Several abstracts discuss the benchmarking of plagiarism detection tools, though not explicitly across different disciplines and text types.
+
+    Plagiarism Detection Systems: A study proposed a new system using SVM and Chi-square techniques, achieving high accuracy on PAN 2013 and PAN 2014 datasets . Another research introduced AntiPlag, which performed better than existing systems like Turnitin and SafeAssignment, achieving 95.8% accuracy . Additionally, a hybrid approach integrating citation-based methods and semantic analysis showed improved detection performance for disguised plagiarism forms .
+
+    Cross-Language Plagiarism Detection: A method for detecting plagiarism between Arabic and English texts achieved high precision and recall, demonstrating effectiveness in cross-language contexts .
+
+Evaluating Effectiveness of Different Intervention Strategies for Preventing AI Plagiarism
+
+There are studies that evaluate intervention strategies to prevent AI plagiarism, focusing on educational programs and AI tools.
+
+    Anti-Plagiarism Literacy Practices (APLP): An intervention program using a customized AI tool called the Academic Writing System (AWS) significantly improved students' perceptions and attitudes towards plagiarism, reducing plagiarism levels and enhancing writing quality .
+
+    Educational Ethical Risks: A study on AI tools in design education identified a 18% plagiarism rate in solutions, suggesting the need for ethical monitoring mechanisms to balance technological empowerment and competency development .
+
+    Guidelines and Policies: Research emphasizes the need for clear policies and guidelines to responsibly integrate AI tools like ChatGPT in higher education, addressing concerns about academic integrity and plagiarism .
+
+Summary Table
+Study Focus	Key Findings	Abstracts Referenced
+False Positive Rates in AI Detection	High false positive rates in IDS and AI-generated text detection tools; improvements with optimized algorithms and meta-learning techniques.	
+Plagiarism Detection Accuracy	High accuracy achieved with new systems and hybrid approaches; effective cross-language detection.	
+Intervention Strategies for AI Plagiarism	Effective educational programs and AI tools; need for ethical monitoring and clear guidelines.	
+
+These insights provide a foundational understanding of the current state of AI detection tools, plagiarism detection accuracy, and intervention strategies in academic contexts.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.
+

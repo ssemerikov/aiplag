@@ -1,0 +1,63 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers on AI plagiarism in computer science and programming education, especially regarding GitHub Copilot and code generation" "Show me research on AI plagiarism in ESL/EFL contexts and language learning" "What are the key papers discussing AI plagiarism in STEM versus humanities disciplines?"
+
+"Find papers on AI plagiarism in computer science and programming education, especially regarding GitHub Copilot and code generation" "Show me research on AI plagiarism in ESL/EFL contexts and language learning" "What are the key papers discussing AI plagiarism in STEM versus humanities disciplines?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("plagiarism" OR "cheating" OR "academic dishonesty" OR "copying") AND ("artificial intelligence" OR "ai" OR "machine learning" OR "code generation") AND ("computer science" OR "programming" OR "software development" OR "coding") AND ("GitHub Copilot" OR "code assistant" OR "automated coding" OR "AI coding tool")
+
+Generating summary
+
+Summary
+AI Plagiarism in Computer Science and Programming Education
+
+Key Findings:
+
+    Detection Methods: Text distance algorithms and hierarchical clustering can effectively distinguish between AI-generated and human-written code submissions with over 90% accuracy . Code stylometry and machine learning classifiers also show promise in differentiating AI-generated code from human-authored code .
+    Educator Adaptations: Educators are exploring various strategies to minimize AI-assisted cheating, including adapting assignments and employing AI-based plagiarism detectors . Some educators advocate for integrating AI tools into courses to prepare students for future jobs, while others prefer banning them to maintain traditional teaching methods .
+    Challenges: AI-generated code presents issues related to code quality, maintainability, and security, along with ethical concerns like ownership and plagiarism . The over-reliance on AI tools can hinder the development of fundamental programming skills .
+
+AI Plagiarism in ESL/EFL Contexts and Language Learning
+
+Key Findings:
+
+    Impact on Learning: ChatGPT enhances learning outcomes in ESL/EFL education by improving writing skills, grammar proficiency, and speaking fluency, but raises concerns about academic dishonesty and dependency on AI tools . AI-driven plagiarism is attributed to students' lack of original ideas, poor learning attitudes, and linguistic competencies .
+    Teacher Responses: Teachers advocate for increased regulations, AI-based plagiarism detectors, and education on responsible AI use to address academic dishonesty . Personalized language learning through AI tools like ChatGPT can support critical thinking and genuine learning motivation .
+    Student Perceptions: Students worry about hindering their own writing skills and view submitting AI-generated text as academic dishonesty. They believe AI-written works are detectable and support the use of plagiarism detectors .
+
+AI Plagiarism in STEM vs. Humanities Disciplines
+
+Key Findings:
+
+    STEM Education: In programming courses, AI tools like GitHub Copilot and ChatGPT can generate correct solutions and explain code, raising concerns about cheating and the need for new detection methods . Educators are divided on whether to ban or integrate these tools into their teaching .
+    Humanities Education: In language learning, AI tools like ChatGPT provide personalized feedback and enhance learning outcomes but also pose risks of academic dishonesty and dependency . Educators emphasize the need for ethical guidelines and structured implementation to mitigate these risks .
+    Detection and Adaptation: Both STEM and humanities educators are exploring AI-based plagiarism detectors and adapting their teaching methods to address the challenges posed by AI tools .
+
+Summary Table
+Aspect	Computer Science & Programming	ESL/EFL & Language Learning	STEM vs. Humanities
+Detection Methods	Text distance algorithms, code stylometry 	AI-based plagiarism detectors 	AI-based plagiarism detectors
+Educator Adaptations	Adapting assignments, integrating AI tools 	Increased regulations, responsible AI use 	Divided opinions on AI integration
+Challenges	Code quality, maintainability, ethical concerns 	Academic dishonesty, dependency on AI 	Ethical guidelines, structured implementation
+
+These findings highlight the evolving landscape of AI plagiarism detection and the varied responses from educators across different disciplines.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+References
+
+Your BibTeX file was successfully exported.

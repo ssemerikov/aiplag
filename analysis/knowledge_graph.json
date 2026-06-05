@@ -1,84 +1,84 @@
 {
-  "n_nodes": 478,
-  "n_edges": 2278,
+  "n_nodes": 6256,
+  "n_edges": 74193,
   "node_types": {
-    "Paper": 58,
-    "Author": 150,
-    "Institution": 101,
-    "Country": 33,
-    "Topic": 6,
-    "Keyword": 54,
-    "Technology": 11,
-    "Method": 6,
-    "Venue": 55,
-    "Year": 4
+    "Paper": 797,
+    "Author": 2639,
+    "Institution": 1220,
+    "Country": 102,
+    "Topic": 11,
+    "Keyword": 951,
+    "Technology": 14,
+    "Method": 10,
+    "Venue": 507,
+    "Year": 5
   },
   "edge_types": {
-    "AUTHORED_BY": 155,
-    "PUBLISHED_IN": 58,
-    "PUBLISHED_IN_YEAR": 58,
-    "USES_KEYWORD": 244,
-    "MENTIONS_TECHNOLOGY": 76,
-    "HAS_TOPIC": 45,
-    "USES_METHOD": 22,
-    "AFFILIATED_WITH": 451,
-    "COLLABORATES_WITH": 281,
-    "LOCATED_IN": 199,
-    "CO_OCCURS_WITH": 689
+    "AUTHORED_BY": 2890,
+    "PUBLISHED_IN": 797,
+    "PUBLISHED_IN_YEAR": 797,
+    "HAS_TOPIC": 665,
+    "USES_KEYWORD": 7500,
+    "MENTIONS_TECHNOLOGY": 1871,
+    "USES_METHOD": 662,
+    "AFFILIATED_WITH": 7089,
+    "COLLABORATES_WITH": 5759,
+    "LOCATED_IN": 2129,
+    "CO_OCCURS_WITH": 44034
   },
-  "density": 0.0177,
+  "density": 0.0027,
   "n_components": 2,
-  "largest_component_size": 477,
+  "largest_component_size": 6255,
   "peripheral_papers": [
     {
-      "id": "P38",
-      "centrality": 0.0063,
+      "id": "P736",
+      "centrality": 0.0005,
+      "label": "Collusion, plagiarism, or contract cheating? How generative "
+    },
+    {
+      "id": "P785",
+      "centrality": 0.0005,
       "label": "Plagiarism Check in the Era of AI"
     },
     {
-      "id": "P49",
-      "centrality": 0.0063,
-      "label": "AI-based plagiarism detectors: Plagiarism fighters or makers"
-    },
-    {
-      "id": "P56",
-      "centrality": 0.0063,
+      "id": "P796",
+      "centrality": 0.0005,
       "label": "Aigiarism: Reframing our understanding of plagiarism in the "
     },
     {
-      "id": "P03",
-      "centrality": 0.0084,
+      "id": "P220",
+      "centrality": 0.0006,
+      "label": "Who Writes What: Unveiling the Impact of Author Roles on AI-"
+    },
+    {
+      "id": "P279",
+      "centrality": 0.0006,
+      "label": "Generative AI detection in higher education assessments"
+    },
+    {
+      "id": "P475",
+      "centrality": 0.0006,
       "label": "Are AI detection and plagiarism similarity scores worthwhile"
     },
     {
-      "id": "P29",
-      "centrality": 0.0084,
+      "id": "P738",
+      "centrality": 0.0006,
+      "label": "Plagiarism and Artificial Intelligence: Balancing Innovation"
+    },
+    {
+      "id": "P781",
+      "centrality": 0.0006,
       "label": "Correction: Using AI-based detectors to control AI-assisted "
     },
     {
-      "id": "P39",
-      "centrality": 0.0084,
-      "label": "New Ways of Plagiarism? At the Meeting Point of the Specific"
+      "id": "P792",
+      "centrality": 0.0006,
+      "label": "AI-based plagiarism detectors: Plagiarism fighters or makers"
     },
     {
-      "id": "P12",
-      "centrality": 0.0105,
-      "label": "Do college anti-plagiarism/cheating policies have teeth in t"
-    },
-    {
-      "id": "P22",
-      "centrality": 0.0126,
-      "label": "Digital Plagiarism in EFL Education during the AI Era: A Com"
-    },
-    {
-      "id": "P37",
-      "centrality": 0.0126,
-      "label": "AI Tools for Plagiarism Detection and Academic Integrity"
-    },
-    {
-      "id": "P57",
-      "centrality": 0.0126,
-      "label": "THE AI PLAGIARISM MINEFIELD"
+      "id": "P128",
+      "centrality": 0.0008,
+      "label": "Enhancing Text Similarity Measurement with Hybrid Siamese Ne"
     }
   ]
 }

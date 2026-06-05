@@ -1,0 +1,65 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers on author collaboration network analysis and co-authorship patterns in academic research" "Show me methodological references for calculating network density, centrality, and clustering coefficients in research networks" "What software and algorithms are recommended for analyzing citation networks and research impact?"
+
+"Find papers on author collaboration network analysis and co-authorship patterns in academic research" "Show me methodological references for calculating network density, centrality, and clustering coefficients in research networks" "What software and algorithms are recommended for analyzing citation networks and research impact?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("author" OR "co-author" OR "collaboration" OR "partnership") AND ("network" OR "graph" OR "map" OR "structure") AND ("analysis" OR "evaluation" OR "assessment" OR "study") AND ("co-authorship" OR "authorship" OR "publication" OR "research output") AND ("pattern" OR "trend" OR "behavior" OR "characteristic") AND ("academic" OR "scholarly" OR "research" OR "scientific")
+
+Generating summary
+
+Summary
+Author Collaboration Network Analysis and Co-authorship Patterns
+
+Several studies have explored author collaboration networks and co-authorship patterns in various academic fields. For instance, research on lodging studies from 1990 to 2016 revealed progressive growth in collaboration, with co-authorship networks exhibiting properties of small-world network theory, influencing the diffusion speed of properties . Similarly, a study on the Australasian Conference on Information Systems (ACIS) from 2001 to 2011 found that research collaboration tends to occur between authors in the same regions and institutions, with key authors having rich and diverse co-authorship ties . In Digital Humanities, co-authorship networks showed that collaborations tend to be more international compared to other disciplines . Additionally, research on Chinese left-behind children (LBC) highlighted sparse collaboration and fragmented structures, with notable institutions emerging as pivotal hubs .
+Methodological References for Calculating Network Metrics
+
+Several abstracts provide methodological references for calculating network density, centrality, and clustering coefficients in research networks:
+
+    Network Density: The density of co-authorship networks can be calculated as the ratio of actual connections to possible connections within the network. For example, the Journal of the American Medical Informatics Association had the highest co-authorship network density among Information Science journals .
+    Centrality: Common centrality metrics include degree centrality, closeness centrality, and betweenness centrality. These metrics help rank authors based on their influence within the network .
+    Clustering Coefficient: This metric quantifies the tendency of nodes to cluster together. High clustering coefficients indicate tightly connected groups within the network. For instance, the clustering coefficient was used to measure the quality of community structures in co-authorship networks .
+
+Recommended Software and Algorithms for Analyzing Citation Networks
+
+Several software tools and algorithms are recommended for analyzing citation networks and research impact:
+
+    Software:
+        Python: Used for constructing and analyzing co-authorship networks, evaluating metrics such as network density, clustering coefficient, and centrality measures .
+        Cytoscape: The NetworkAnalyzer plugin computes a comprehensive set of topological parameters, including network density, centralization, and clustering coefficient .
+        VOSviewer: Utilized for bibliometric analysis and visualization of collaboration networks .
+
+    Algorithms:
+        Louvain Algorithm: Effective for community detection in large networks, providing qualitative community structures .
+        Density Peak Clustering (DPC): Identifies cluster centers based on local density and distance to higher density neighbors .
+        W-Rank: A novel ranking algorithm that assigns weights to citation and authorship networks, improving the accuracy of article ranking .
+        Following-Leading Clustering Algorithm (FLCA): Used for generating impact beam plots and clustering articles based on citation patterns .
+
+Summary Table
+Metric	Method/Algorithm	Software	Example
+Network Density	Ratio of actual to possible connections	Python, Cytoscape	Information Science journals
+Centrality	Degree, Closeness, Betweenness	Python, Cytoscape	Lodging studies , Rheumatology
+Clustering Coefficient	Measure of local density	Python, Cytoscape	Hepatology , Streamflow dynamics
+Community Detection	Louvain Algorithm	Neo4j	Computer Science
+Citation Ranking	W-Rank, FLCA	Various	Article ranking , Impact beam plots
+
+These methodologies and tools provide robust frameworks for analyzing collaboration networks and citation impacts in academic research.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

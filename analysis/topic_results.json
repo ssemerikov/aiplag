@@ -1,134 +1,239 @@
 {
-  "n_abstracts": 50,
-  "bertopic_n_topics": 6,
+  "n_abstracts": 781,
+  "bertopic_n_topics": 11,
   "bertopic_topics": [
     {
       "id": -1,
-      "count": 5,
-      "name": "-1_written_plagiarism_assignments_ai",
+      "count": 116,
+      "name": "-1_plagiarism_detection_text_ai",
       "top_words": [
-        "written",
         "plagiarism",
-        "assignments",
+        "detection",
+        "text",
         "ai",
-        "chatgpt",
-        "academic",
-        "sentence",
-        "tools",
         "language",
-        "challenges"
+        "models",
+        "plagiarism detection",
+        "generated",
+        "based",
+        "human"
       ]
     },
     {
       "id": 0,
-      "count": 10,
-      "name": "0_students_ai_chatgpt_programming",
+      "count": 17,
+      "name": "0_based_similarity_answer_answers",
       "top_words": [
-        "students",
-        "ai",
-        "chatgpt",
-        "programming",
-        "papers",
-        "plagiarism",
+        "based",
+        "similarity",
+        "answer",
+        "answers",
+        "model",
+        "scoring",
         "learning",
-        "use",
-        "tools",
-        "literature"
+        "automatic",
+        "course",
+        "embeddings"
       ]
     },
     {
       "id": 1,
-      "count": 8,
-      "name": "1_students_ai_plagiarism_academic",
+      "count": 36,
+      "name": "1_code_programming_students_chatgpt",
       "top_words": [
+        "code",
+        "programming",
         "students",
+        "chatgpt",
+        "generated",
         "ai",
-        "plagiarism",
-        "academic",
-        "perceptions",
-        "ai plagiarism",
-        "study",
-        "ethics",
-        "integrity",
-        "understanding"
+        "submissions",
+        "assignments",
+        "student",
+        "ai generated"
       ]
     },
     {
       "id": 2,
-      "count": 8,
-      "name": "2_detection_ai_academic_tools",
+      "count": 173,
+      "name": "2_academic_ai_students_integrity",
       "top_words": [
-        "detection",
-        "ai",
         "academic",
-        "tools",
-        "ai detection",
-        "detection tools",
-        "plagiarism",
-        "institutions",
+        "ai",
+        "students",
         "integrity",
-        "evaluation"
+        "academic integrity",
+        "plagiarism",
+        "education",
+        "use",
+        "chatgpt",
+        "study"
       ]
     },
     {
       "id": 3,
-      "count": 7,
-      "name": "3_generated_text_ai_ai generated",
+      "count": 92,
+      "name": "3_similarity_text_text similarity_model",
       "top_words": [
-        "generated",
+        "similarity",
         "text",
-        "ai",
-        "ai generated",
-        "texts",
-        "software",
-        "detection",
-        "accuracy",
-        "code",
-        "using"
+        "text similarity",
+        "model",
+        "based",
+        "information",
+        "learning",
+        "semantic",
+        "data",
+        "methods"
       ]
     },
     {
       "id": 4,
-      "count": 6,
-      "name": "4_plagiarism_study_check_limited",
+      "count": 55,
+      "name": "4_ai_generated_research_content",
       "top_words": [
-        "plagiarism",
-        "study",
-        "check",
-        "limited",
+        "ai",
+        "generated",
+        "research",
+        "content",
+        "academic",
         "tools",
         "detection",
-        "work",
-        "checking",
-        "small",
-        "developed"
+        "chatgpt",
+        "ethical",
+        "scientific"
       ]
     },
     {
       "id": 5,
-      "count": 6,
-      "name": "5_data_generative_generative ai_copyright",
+      "count": 21,
+      "name": "5_ai_generated_ai generated_essays",
       "top_words": [
-        "data",
-        "generative",
-        "generative ai",
-        "copyright",
         "ai",
+        "generated",
+        "ai generated",
+        "essays",
+        "detection",
+        "human",
+        "written",
+        "content",
+        "text",
+        "student"
+      ]
+    },
+    {
+      "id": 6,
+      "count": 147,
+      "name": "6_text_generated_models_detection",
+      "top_words": [
+        "text",
+        "generated",
         "models",
+        "detection",
+        "ai generated",
+        "generated text",
+        "ai",
+        "human",
+        "model",
+        "llms"
+      ]
+    },
+    {
+      "id": 7,
+      "count": 33,
+      "name": "7_plagiarism_image_detection_plagiarism detection",
+      "top_words": [
+        "plagiarism",
+        "image",
+        "detection",
+        "plagiarism detection",
+        "based",
+        "proposed",
+        "deep",
+        "learning",
+        "images",
+        "accuracy"
+      ]
+    },
+    {
+      "id": 8,
+      "count": 28,
+      "name": "8_paraphrase_models_bert_similarity",
+      "top_words": [
+        "paraphrase",
+        "models",
+        "bert",
+        "similarity",
+        "detection",
+        "text",
+        "paraphrased",
+        "plagiarism",
+        "language",
+        "model"
+      ]
+    },
+    {
+      "id": 9,
+      "count": 44,
+      "name": "9_code_plagiarism_source_source code",
+      "top_words": [
+        "code",
+        "plagiarism",
+        "source",
+        "source code",
+        "software",
+        "plagiarism detection",
+        "detection",
+        "authorship",
+        "based",
+        "attribution"
+      ]
+    },
+    {
+      "id": 10,
+      "count": 19,
+      "name": "10_plagiarism_detection_plagiarism detection_tools",
+      "top_words": [
+        "plagiarism",
+        "detection",
+        "plagiarism detection",
+        "tools",
+        "academic",
+        "study",
         "research",
-        "use",
-        "article",
-        "author"
+        "analysis",
+        "algorithms",
+        "techniques"
       ]
     }
   ],
-  "lda_coherences": {
-    "3": 0.2748,
-    "4": 0.2963,
-    "5": 0.3259,
-    "6": 0.2913,
-    "7": 0.3898,
-    "8": 0.3222
+  "topic_labels": {
+    "0": "T0: based, similarity, answer",
+    "1": "T1: code, programming, students",
+    "2": "T2: academic, ai, students",
+    "3": "T3: similarity, text, text similarity",
+    "4": "T4: ai, generated, research",
+    "5": "T5: ai, generated, ai generated",
+    "6": "T6: text, generated, models",
+    "7": "T7: plagiarism, image, detection",
+    "8": "T8: paraphrase, models, bert",
+    "9": "T9: code, plagiarism, source",
+    "10": "T10: plagiarism, detection, plagiarism detection"
   },
-  "lda_best_k": 7
+  "lda_coherences": {
+    "3": 0.4806,
+    "4": 0.4121,
+    "5": 0.4161,
+    "6": 0.444,
+    "7": 0.4444,
+    "8": 0.4094,
+    "9": 0.4481,
+    "10": 0.4219,
+    "11": 0.4283,
+    "12": 0.4151,
+    "13": 0.4249,
+    "14": 0.415,
+    "15": 0.4085
+  },
+  "lda_best_k": 3
 }

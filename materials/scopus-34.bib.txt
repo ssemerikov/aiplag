@@ -1,0 +1,114 @@
+﻿Scopus
+EXPORT DATE: 20 August 2025
+
+@CONFERENCE{Raja Subramanian2025,
+	author = {Raja Subramanian, R. and Surekha, Brundavanam and Subbarao, Peram and Sujitha, M. and Sai Chakravarthy, P Dinesh},
+	title = {Automating the detection of plagiarism in educational content using Natural language processing},
+	year = {2025},
+	journal = {International Conference on Computational Robotics, Testing and Engineering Evaluation, ICCRTEE 2025},
+	doi = {10.1109/ICCRTEE64519.2025.11052934},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105012159060&doi=10.1109%2fICCRTEE64519.2025.11052934&partnerID=40&md5=c536a6998f8d0a60bf0ccd0a06851648},
+	abstract = {Plagiarism detection has also grown more challenging with the rise of AI-generated content and multilingual content sources. This paper proposes a system for real-time plagiarism detection based on three cutting-edge transformer-based models: multi-qa-mpnet-base-dot-v1, roberta-large-openai-detector, and xlm-roberta-large. These models collaborate to detect semantic plagiarism, AI-generated plagiarism, and multilingual plagiarism with great accuracy. In contrast to the traditional method based on lexical similarity, our method seeks contextual meaning, hence being more efficient against paraphrased and AI-generated content. The multi-qa-mpnet-base-dot-v1 model improves semantic search functionality, allowing meaning-based plagiarism detection. The roberta-large-openai-detector excels in detecting AI-generated content, solving issues of content authenticity. At the same time, the xlm-roberta-large model supports strong multilingual plagiarism detection functionality, allowing the system to operate across languages. Through rigorous testing, our system attains 95% accuracy in real-time detection, outperforming traditional methods in efficiency and accuracy. This work identifies the importance of deep learning in plagiarism detection and shows how transformer models can be used to improve academic and content integrity. The proposed system offers a scalable, flexible solution for educational institutions, publishers, and online platforms to fight plagiarism effectively in the era of AI-generated content.  © 2025 IEEE.},
+	author_keywords = {AI-generated Content; Multilingual Plagiarism; Plagiarism Detection; Semantic Similarity; Transformer Models},
+	keywords = {Deep learning; Intellectual property; Natural language processing systems; Semantic Web; AI-generated content; Cutting edges; Educational contents; Language processing; Multilingual plagiarism; Natural languages; Plagiarism detection; Real- time; Semantic similarity; Transformer modeling; Semantics},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@CONFERENCE{Zhang2025,
+	author = {Zhang, Yue and Reusch, Pascal},
+	title = {Trust in and Adoption of Generative AI in University Education: Opportunities, Challenges, and Implications},
+	year = {2025},
+	journal = {IEEE Global Engineering Education Conference, EDUCON},
+	doi = {10.1109/EDUCON62633.2025.11016490},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105008184542&doi=10.1109%2fEDUCON62633.2025.11016490&partnerID=40&md5=35d1955fd9ee817a65b4442714072fac},
+	abstract = {Generative AI has emerged as a transformative tool in the realm of higher education, offering a wealth of opportunities for personalized learning, automated feedback, and enhanced collaboration. However, its successful adoption within university environments is significantly dependent on the trust it earns from its users, particularly students. This study investigates the levels of trust and the adoption of Generative AI among students enrolled in both German and international study programs at Hochschule Bielefeld (HSBI) and its transnational partner, Hainan Bielefeld University of Applied Sciences (BiUH). Utilizing a comprehensive questionnaire, the research explores students' perceptions of the trustworthiness of Generative AI, their usage patterns, and their concerns regarding the ethical and academic implications of its use. Preliminary findings suggest that while students widely recognize the potential of Generative AI to improve learning outcomes and efficiency, the degree of trust in its reliability and fairness varies significantly. Key factors influencing this trust include the transparency of AI systems, the perceived accuracy of outputs, and concerns about bias and misuse. Students in international and cross-cultural programs face additional challenges, such as language barriers and cultural differences, which affect how AI is perceived and utilized. Ethical concerns, particularly regarding plagiarism and academic integrity, are prevalent across all groups, underscoring the need for clear institutional guidelines and policies. The findings highlight the importance of fostering AI literacy and providing support structures to build trust and encourage responsible use. Recommendations include the implementation of transparent AI tools, tailored training programs, and the development of ethical guidelines to ensure that Generative AI enhances education while upholding academic standards. This research provides actionable insights for universities aiming to integrate Generative AI into diverse educational contexts, ensuring that it serves as a beneficial tool that complements traditional educational methods while preparing students for a future where AI plays an increasingly central role. © 2025 IEEE.},
+	author_keywords = {academic integrity; adoption; AI literacy; Generative AI; trust; university education},
+	keywords = {Artificial intelligence; Education computing; Ethical technology; Academic integrity; Adoption; AI literacy; Automated feedback; Generative AI; High educations; Personalized learning; Trust; University education; University environment; Students},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Bouaine202369,
+	author = {Bouaine, Chaimaa and Benabbou, Faouzia and Sadgali, Imane},
+	title = {Word Embedding for High Performance Cross-Language Plagiarism Detection Techniques},
+	year = {2023},
+	journal = {International Journal of Interactive Mobile Technologies},
+	volume = {17},
+	number = {10},
+	pages = {69 – 91},
+	doi = {10.3991/ijim.v17i10.38891},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85160343713&doi=10.3991%2fijim.v17i10.38891&partnerID=40&md5=5ccc413c097eb6229b8ede097b03c5dd},
+	abstract = {Academic plagiarism has become a serious concern as it leads to the retardation of scientific progress and violation of intellectual property. In this context, we make a study aiming at the detection of cross-linguistic plagiarism based on Natural language Preprocessing (NLP), Embedding Techniques, and Deep Learning. Many systems have been developed to tackle this problem, and many rely on machine learning and deep learning methods. In this paper, we propose Cross-language Plagiarism Detection (CL-PD) method based on Doc2Vec embedding techniques and a Siamese Long Short-Term Memory (SLSTM) model. Embedding techniques help capture the text's contextual meaning and improve the CL-PD system's performance. To show the effectiveness of our method, we conducted a comparative study with other techniques such as GloVe, FastText, BERT, and Sen2Vec on a dataset combining PAN11, JRC-Acquis, Europarl, and Wikipedia. The experiments for the Spanish-English language pair show that Doc2Vec+SLSTM achieve the best results compared to other relevant models, with an accuracy of 99.81%, a precision of 99.75%, a recall of 99.88%, an f-score of 99.70%, and a very small loss in the test phase. © 2023,International Journal of Interactive Mobile Technologies. All Rights Reserved.},
+	author_keywords = {BERT; cross-language; Doc2Vec; FastText; GloVe; plagiarism; Sen2Vec; SLSTM; Word2Vec},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 4; All Open Access, Gold Open Access}
+}
+
+@CONFERENCE{Manzoor2023,
+	author = {Manzoor, Muhammad Faraz and Farooq, Muhammad Shoaib and Haseeb, Muhammad and Farooq, Uzma and Abid, Adnan and Saeed, Ahmer},
+	title = {Enhancing Urdu Intrinsic Plagiarism Detection Through Stylometry Features and Machine Learning},
+	year = {2023},
+	journal = {2023 25th International Multi Topic Conference, INMIC 2023 - Proceedings},
+	doi = {10.1109/INMIC60434.2023.10465812},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85189941804&doi=10.1109%2fINMIC60434.2023.10465812&partnerID=40&md5=77a19244ce6e62c9746af26be0bb227e},
+	abstract = {The creation of digital content and the easy accessibility of information have led to a surge in academic and textual plagiarism. Plagiarism detection in multiple languages is essential to maintain the integrity of academic and literary works. In the context of the Urdu language, there is a growing need for effective plagiarism detection methods that are tailored to its unique linguistic characteristics. Existing Urdu plagiarism detection tools often rely on external sources or lack robustness in handling intrinsic forms of plagiarism, where the copied content is slightly modified or paraphrased. This research aims to bridge this gap by developing an intrinsic plagiarism detection system for the Urdu language, using a combination of machine learning, ensemble learning and Multi-Layer Perceptron (MLP). Furthermore, to train and evaluate our plagiarism detection models, we manually curate a corpus comprising a substantial collection of 1807 documents in Urdu. This corpus forms the foundation of our research, enabling us to develop and fine-tune our detection algorithms to effectively identify instances of intrinsic plagiarism in Urdu text. To comprehensively assess the unique stylistic fingerprints of documents, we employ a diverse set of word based stylometry features. This multifaceted approach enhances our ability to pinpoint instances of plagiarism in a robust manner. This research contributes to the ongoing efforts to combat plagiarism and uphold the integrity of written content, particularly in the context of the Urdu language, while also showcasing the effectiveness of different word based stylometry features in addressing this critical issue.  © 2023 IEEE.},
+	keywords = {Intellectual property; Academic work; Detection methods; Detection tools; Digital contents; Feature learning; Literary works; Machine-learning; Multiple languages; Plagiarism detection; Stylometry; Machine learning},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Hossain2025,
+	author = {Hossain, Zakir and Biswas, Md. Sakib and Khan, Ghalib},
+	title = {AI literacy of library and information science students: A study of Bangladesh, India and Pakistan},
+	year = {2025},
+	journal = {Journal of Librarianship and Information Science},
+	doi = {10.1177/09610006241309323},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85213800345&doi=10.1177%2f09610006241309323&partnerID=40&md5=c48ea009da8fd3a2ce7fd4d2d970842d},
+	abstract = {This study adopted an exploratory approach to investigate the nuances of AI literacy among Library and Information Science (LIS) students in South Asia namely Bangladesh, India and Pakistan. A total of 632 respondents from these countries participated in an online survey that explored their level of AI literacy and familiarity with AI tools and technologies, purposes of using AI tools, ethical perceptions and how AI-related contents were covered in LIS courses and programmes. The study results indicate that students are moderately familiar with AI tools, but the degree of their self-rated AI literacy ranges from basic to advanced. Students reported using AI tools for academic purposes, including information searching, summarising articles, generating ideas and writing academic papers. However, participant LIS students expressed concerns about the ethical usage of AI and Generative AI tools, particularly academic integrity and plagiarism in academic writing. The results underscore the need for more robust AI literacy education in South Asian LIS education programmes – and potentially globally – to deepen students’ understanding and critical engagement with AI tools and technologies. This would better equip them for emerging roles in AI-integrated library services, highlighting a key direction for curriculum development, training methodologies and policy initiatives within LIS education and library and information management profession. © The Author(s) 2025.},
+	author_keywords = {academic libraries; AI in libraries; AI literacy; ethical AI use; gender differences in AI literacy; higher education; library and information science (LIS); university students},
+	type = {Article},
+	publication_stage = {Article in press},
+	source = {Scopus},
+	note = {Cited by: 4}
+}
+
+@ARTICLE{Chan2025,
+	author = {Chan, Nee Nee and Bailey, Richard Peter and Tan, Mabel Hwee Joo and Dipolog, Genevieve Flores and Tan, Garry Wei Han and Motevalli, Saeid and Samsudin, Nadia and Ang, Chin Siang},
+	title = {Generative artificial intelligence in a VUCA world: the ‘Lived Experiences’ of Southeast Asian teachers’ use of AI in higher education},
+	year = {2025},
+	journal = {International Journal of Educational Research},
+	volume = {133},
+	doi = {10.1016/j.ijer.2025.102733},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105012720964&doi=10.1016%2fj.ijer.2025.102733&partnerID=40&md5=9fad2efe8820b808e115f7612c5094a1},
+	abstract = {This study explores how generative intelligence (GenAI) is used in teaching and learning, assessments, and research at Southeast Asian (SEA) universities. Using hermeneutic phenomenology as the philosophical underpinning and research methodology, SEA teachers’ ‘lived experiences’ of using ChatGPT and other GenAI tools were uncovered. 38 teachers from 10 SEA countries participated in 11 focus group interviews over five months. Three themes emerged: Learning Anew; Disequilibrium and Lack of Rootedness; and Ambiguity about New Norms, New Practices. It was found that teachers work with GenAI in deeply personal, fragmented, and continuously evolving ways. GenAI took the form of novel work companions, enhancing the efficiency and effectiveness of some work practices. It also was a disruptor to old habits of thinking, behaviour and practices. Teachers were in a state of disequilibrium in this new world beset by VUCA (volatility, uncertainty, complexity, and ambiguity). Some felt overwhelmed and ‘at breaking point’. A lack of rootedness in teachers’ beliefs and practices emerged. Teachers were generally against the notions of plagiarism and academic integrity held by students who believed the ends justified the means. However, with new ways of teaching, learning and assessment, many teachers recognised their beliefs and practices would have to change. Thus, in the absence of detailed AI guidelines, they called for the urgent need to establish boundaries and teach AI literacy to promote innovative and responsible use. In this VUCA world, more targeted change management training for teachers and students was strongly needed. © 2025 Elsevier Ltd},
+	author_keywords = {AI policy guidelines; ChatGPT; Educational quality; Hermeneutic phenomenology; VUCA model},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@CONFERENCE{Mason2024,
+	author = {Mason, Sharon and Borasi, Raffaella and Miller, David and Vaughan-Brogan, Patricia and Han, Yu Jung and Deangelis, Karen},
+	title = {Avoiding 'Sinking the Boat' While not 'Missing the Boat': K-12 Leaders' Early-on Perspectives of AI Risks and Benefits and Their Implications for Developers},
+	year = {2024},
+	journal = {Proceedings - Frontiers in Education Conference, FIE},
+	doi = {10.1109/FIE61694.2024.10892969},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105000729182&doi=10.1109%2fFIE61694.2024.10892969&partnerID=40&md5=477da52573c9fd2fa2d8ec751e9faea1},
+	abstract = {This full research to practice paper reports on early perspectives from K-12 leaders regarding AI use in schools. With the advent of generative AI applications, K-12 leaders have a key role in providing (or precluding) access to students and teachers' uses of AI tools - as superintendents, principals and other district and school-level administrators will continue to be making (or at the very least informing) decisions about what AI tools will be made available as well as policies governing their use. These decisions will be informed by what K-12 leaders perceive are the potential risks and benefits of AI - as a key charge for K-12 leaders considering any innovation is to evaluate its potential to support student learning while reducing potentially harmful consequences. It is important to understand these current perceptions, especially for anyone designing applications of AI for K-12 education. While previous work has reported on teachers' views of AI, the perspectives of K-12 leaders, who serve as thought-leaders and decision makers, remain largely unexplored. U sing a semi-structured interview protocol, in late 2023, researchers interviewed 36 K-12 leaders across 23 districts in western New York state in order to gather their early perspectives regarding AI and to answer the research question: How do K-12 leaders perceive the risks and opportunities associated with using artificial intelligence in their school environments? Participants included superintendents, principals and various district and school-level administrators as well as some teacher leaders. These K-12 leaders articulated risks that can be categorized by four themes: (a) concerns regarding the ethical use of AI by both students and teachers (including cheating), (b) concerns around privacy and cybersecurity, (c) concerns around the accuracy or legitimacy of the output from AI systems and (d) concerns about replacing people/jobs. At the same time, these K-12 leaders recognized several important opportunities presented by AI, which should also be taken into consideration when making decisions, including (a) preparing students for the future, (b) improving potential for learning and instructional development and (c) supporting K-12 educators. Collectively, these risks and opportunities can be characterized with the idea that K-12 leaders were aware of the need to balance the risks in order to not 'sink the boat' while also using care to not delay actions and potentially 'miss the boat,' and which represents a more nuanced view of risk, consistent with what has been identified in the entrepreneurship literature. This work has implications for deliberate and informed decision-making regarding policies for and use of AI in the K-12 domain, and the supports needed for their adoption and effective use. The findings also provide valuable insights for developers of domain specific AI systems for K-12 schools. As computer scientists and engineers continue to train models, develop and select algorithms to serve schools, learners and educators, considering the risks and opportunities articulated by K-12 thought leaders and decision makers can support their work in advancing the technologies and potentially improving adoption. © 2024 IEEE.},
+	author_keywords = {artificial intelligence; K-12 leaders; K-12 schools},
+	keywords = {Artificial intelligence; C (programming language); Decision making; Energy security; Teaching; AI applications; AI systems; Decision makers; K-12 leader; K-12 schools; Potential benefits; Potential risks; Risk and opportunity; Teachers'; Thought leaders; Students},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}

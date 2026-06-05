@@ -1,0 +1,64 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find all special issues on AI and academic integrity in educational technology journals from 2023-2025" "Show me editorial perspectives and opinion pieces on AI plagiarism from leading education researchers" "What are the calls for papers related to AI, plagiarism, and academic integrity in top-tier journals?"
+
+"Find all special issues on AI and academic integrity in educational technology journals from 2023-2025" "Show me editorial perspectives and opinion pieces on AI plagiarism from leading education researchers" "What are the calls for papers related to AI, plagiarism, and academic integrity in top-tier journals?"
+
+Creating a plan to answer your query
+
+Performing natural language search:
+
+    What are the special issues on artificial intelligence and academic integrity in educational technology journals from 2023 to 2025?
+    What are the editorial perspectives and opinion pieces on artificial intelligence plagiarism from leading education researchers?
+    What are the calls for papers related to artificial intelligence, plagiarism, and academic integrity in top-tier journals?
+
+Generating summary
+
+Summary
+Special Issues on AI and Academic Integrity in Educational Technology Journals (2023-2025)
+
+There is no direct mention of special issues specifically focused on AI and academic integrity in educational technology journals from 2023-2025 in the provided abstracts. However, several abstracts discuss the broader context of AI's impact on academic integrity and educational technology.
+Editorial Perspectives and Opinion Pieces on AI Plagiarism
+
+    Generative AI and Academic Integrity:
+        The emergence of generative AI tools like ChatGPT has prompted significant concern about their impact on academic integrity. Some universities have banned these tools for writing assignments, while others see potential benefits if used responsibly .
+        Editorials and studies highlight the need for updated academic integrity policies to address the challenges posed by AI tools .
+
+    Ethical Considerations and Policy Recommendations:
+        There is a call for a multifaceted approach to integrate technology, education, policy reform, and assessment restructuring to uphold academic integrity in the face of AI advancements .
+        Some researchers argue that AI outputs in scholarly works should be transparently disclosed to avoid plagiarism, while others believe that responsible use of AI can align with academic norms without mandatory disclosure .
+
+    Empirical Studies and Teacher-Student Perspectives:
+        Studies reveal that both teachers and students struggle to differentiate between AI-generated and human-written texts, with significant implications for academic integrity .
+        Surveys indicate that students are more optimistic about the role of AI in education compared to teachers, who express greater concern about potential misuse .
+
+Calls for Papers Related to AI, Plagiarism, and Academic Integrity
+
+There are no explicit calls for papers related to AI, plagiarism, and academic integrity in top-tier journals mentioned in the provided abstracts. However, the abstracts suggest a growing interest in these topics, indicating potential future calls for papers:
+
+    Research on AI and Academic Integrity:
+        The need for further research on the ethical implications of AI in academic settings is emphasized, particularly regarding plagiarism detection and prevention .
+        Studies call for the development of nuanced policies that address student concerns while facilitating ethical AI integration in education .
+
+    Policy and Practice Updates:
+        Higher education institutions are urged to revise their academic integrity policies to explicitly address the use of AI tools .
+        There is a recommendation for educational institutions to develop context-specific guidelines and support systems to balance technological innovation with academic integrity .
+
+Summary
+
+While there are no specific special issues or calls for papers explicitly mentioned, the abstracts collectively highlight the significant impact of AI on academic integrity and the urgent need for updated policies and ethical guidelines. Editorial perspectives and empirical studies provide insights into the challenges and opportunities presented by AI in educational contexts, emphasizing the importance of responsible and transparent use of AI tools to maintain academic integrity.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

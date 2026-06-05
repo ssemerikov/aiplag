@@ -1,0 +1,134 @@
+﻿Scopus
+EXPORT DATE: 20 August 2025
+
+@ARTICLE{Sun2025,
+	author = {Sun, Yicheng and Yang, Hanbo and Yu, Hi Kuen and Suen, Richard},
+	title = {Boon or Bane? Evaluating AI-driven learning assistance in higher education professional coursework},
+	year = {2025},
+	journal = {Education and Information Technologies},
+	doi = {10.1007/s10639-025-13642-1},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105007936698&doi=10.1007%2fs10639-025-13642-1&partnerID=40&md5=40ad5fe04fdab715c22568f801dde18e},
+	abstract = {AI integration in professional coursework has gained attention in higher education, offering potential improvements in learning and performance. However; the usage rate, accuracy, and patterns of AI tools across disciplines remain unclear. The impact of AI on students’ learning and long-term outcomes still needs further investigation. This study investigates the role of AI-driven learning tools in enhancing professional coursework across various academic disciplines, including Engineering, Natural Sciences, Humanities, Social Sciences, and Arts. Using a multi-stage empirical approach, we evaluate student performance and engagement with AI tools, exploring both the positive outcomes and limitations in each discipline. Our findings show that 1,472 students across different regions and academic fields frequently use AI-driven learning tools in their professional coursework, with generally positive feedback. The accuracy of AI-generated responses to 1,200 questions is commendable, but the tools still demonstrate limitations in areas such as flexibility, contextual adaptation, analytical reasoning, and conceptual synthesis in certain disciplines. We segment 800 representative students based on AI engagement patterns, revealing distinct usage behaviors and preferences across four groups, offering further insights into how AI tools are utilized. Furthermore, the results from assessing the impact of AI-driven learning on the academic performance of 400 students show that AI significantly enhances performance in technical fields like Engineering and Natural Sciences. However, instructors in these fields express concerns about students’ over-reliance on AI, which may hinder independent thinking and creative problem-solving. Despite these concerns, our long-term academic outcome predictions indicate that AI-driven learning tools continue to provide substantial benefits to students. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.},
+	author_keywords = {Academic disciplines; AI-driven learning; Higher education; Professional coursework; Student performance},
+	type = {Article},
+	publication_stage = {Article in press},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Liu202485,
+	author = {Liu, Jiaqi and Chui, Kwok Tai and Lee, Lap-Kei and Paoprasert, Naraphorn and Wong, Leung Pun and Ng, Kwan-Keung},
+	title = {A Study of Improvements in Educational Accessibility and Adaptability Using Digital and Intelligent Education},
+	year = {2024},
+	journal = {Communications in Computer and Information Science},
+	volume = {2330 CCIS},
+	pages = {85 – 95},
+	doi = {10.1007/978-981-96-0205-6_6},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85210810756&doi=10.1007%2f978-981-96-0205-6_6&partnerID=40&md5=e3a018ed040202d590ec6a07eef4e2e7},
+	abstract = {This study examines recent advancements in digital and intelligent education, focusing on their impact on learning outcomes and student engagement. By analyzing studies from 2022 to 2024, we identify key trends such as the integration of AI-driven personalized learning and immersive virtual environments. The findings suggest significant improvements in accessibility and adaptability, though challenges remain in ensuring equitable access. Future research should address these disparities and explore the long-term effects of digital tools on educational achievement. © The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2024.},
+	author_keywords = {artificial intelligence; digital education; educational accessibility; educational adaptability; intelligent education},
+	keywords = {Adversarial machine learning; Federated learning; Virtual environments; Digital education; Educational accessibility; Educational adaptability; Equitable access; Immersive virtual environments; Intelligent educations; Key trends; Learning outcome; Personalized learning; Student engagement; Contrastive Learning},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Yuan2025,
+	author = {Yuan, Mincheng},
+	title = {Classroom interaction strategies based on artificial intelligence},
+	year = {2025},
+	journal = {Journal of Computational Methods in Sciences and Engineering},
+	doi = {10.1177/14727978251362695},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105012728487&doi=10.1177%2f14727978251362695&partnerID=40&md5=ca3bfa499c06e22a7223aa0a1a276a3d},
+	abstract = {With the rapid development of artificial intelligence technology in the field of education, it has become an important research field to explore its application and influence in classroom interaction. This study evaluated the effect of artificial intelligence AIDS on teaching effectiveness by comparing the experimental group and the control group’s academic performance, class participation and satisfaction. Studies have found that students who use AI tools perform better in terms of learning outcomes and classroom engagement. In addition, through linear regression models and statistical significance tests, the results show that AI tools have a significant effect in increasing students’ learning interest and satisfaction. However, the study also faced the limitations of sample size and lack of long-term effect analysis. Future studies could expand the sample size and conduct long-term follow-up to fully assess the potential of AI tools for educational applications. This study provides a new perspective for understanding the application of artificial intelligence in the field of education and points the way for future educational practice and technology development. © The Author(s) 2025},
+	author_keywords = {Artificial intelligence; class participation; educational innovation; interactive strategy; learning effectiveness},
+	keywords = {Education computing; Engineering education; Linear regression; Students; Teaching; Artificial intelligence technologies; Class participations; Classroom interaction; Educational innovations; Interaction strategy; Interactive strategy; ITS applications; Learning effectiveness; Research fields; Sample sizes; Artificial intelligence},
+	type = {Article},
+	publication_stage = {Article in press},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Gutiérrez-Castillo2025185,
+	author = {Gutiérrez-Castillo, Juan Jesús and Romero-Tena, Rosalía and León-Garrido, Antonio},
+	title = {Benefits of Artificial Intelligence in University Students' Learning: A Systematic Review; [Beneficios de la Inteligencia Artificial en el aprendizaje de los estudiantes universitarios: una revisión sistemática]},
+	year = {2025},
+	journal = {Edutec},
+	number = {91},
+	pages = {185 – 206},
+	doi = {10.21556/edutec.2025.91.3607},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105004469566&doi=10.21556%2fedutec.2025.91.3607&partnerID=40&md5=ec36f4c3aefaa405b1206ca4c92c140c},
+	abstract = {Artificial intelligence (AI) is revolutionizing higher education by enhancing personalization, equity, and accessibility in learning. This study presents a systematic and bibliometric review of research published between 2016 and 2024, focusing on the benefits of AI in university students' learning. A total of 178 studies were analyzed, sourced from the Scopus database, using a mixed-methods approach that combines qualitative and quantitative analyses. The findings reveal that AI enhances academic performance by personalizing learning, providing instant feedback, and optimizing study strategies. Additionally, it fosters student autonomy by offering tools for self-directed learning with continuous support. In terms of accessibility, AI adapts educational materials to individual needs and overcomes economic and geographical barriers. Despite these advancements, the reviewed studies highlight the need for long-term research to assess its sustained impact on cognitive and socio-emotional skill development. Furthermore, expanding AI implementation in contexts with limited technological resources is recommended to ensure its benefits are inclusive and equitable. © 2025 GTE-Educational Technology Group, University of the Balearic Islands. All rights reserved.},
+	author_keywords = {academic performance; Artificial intelligence; higher education; personalized learning; systematic review},
+	type = {Review},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Curtis20161167,
+	author = {Curtis, Guy J. and Vardanega, Lucia},
+	title = {Is plagiarism changing over time? A 10-year time-lag study with three points of measurement},
+	year = {2016},
+	journal = {Higher Education Research and Development},
+	volume = {35},
+	number = {6},
+	pages = {1167 – 1179},
+	doi = {10.1080/07294360.2016.1161602},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84977279182&doi=10.1080%2f07294360.2016.1161602&partnerID=40&md5=21345f7f0ab5c1dcef6386a475293e29},
+	abstract = {Are more students cheating on assessment tasks in higher education? Despite ongoing media speculation concerning increased ‘copying and pasting’ and ghostwritten assignments produced by ‘paper mills’, few studies have charted historical trends in rates and types of plagiarism. Additionally, there has been little comment from researchers as to the best way to assess changes in plagiarism over time. In this paper, we discuss the relative strengths and weaknesses of research designs for assessing changes in plagiarism over time, namely cross-sectional, longitudinal, and time-lag. We also report the results of our own time-lag study of plagiarism. We assessed self-reported engagement in, awareness of, and attitudes towards plagiarism in three comparable groups of students at the same university on three occasions, each separated by five years (2004, 2009, and 2014). The data from our study paint an encouraging picture of increased understanding and reduced occurrence of several forms of plagiarism, with no upward trend in verbatim copying or ghostwriting. We suggest that technological and educational initiatives are counteracting the potential for increased plagiarism from online sources. © 2016 HERDSA.},
+	author_keywords = {Academic integrity; cheating; ghostwriting; longitudinal; plagiarism; time-lag; trend},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 84}
+}
+
+@ARTICLE{Zhang2025,
+	author = {Zhang, Cong and Ma, Xinyu and Lee, Icy},
+	title = {Perspectives on Potential Plagiarism Triggered by AI Among Chinese University Students},
+	year = {2025},
+	journal = {Asia-Pacific Education Researcher},
+	doi = {10.1007/s40299-025-01004-x},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105002811502&doi=10.1007%2fs40299-025-01004-x&partnerID=40&md5=cb39dcbad4b562f5079d86849da5cc4b},
+	abstract = {While previous studies have investigated students’ perceptions of plagiarism, few have focused on new types of digital plagiarism triggered by artificial intelligence (AI), especially the factors that influence students’ perceptions of such plagiarism. Through a questionnaire survey among 465 students from a university in Eastern China and follow-up interviews with 12 students, the present study aims to explore Chinese students’ perceptions regarding plagiarism generated by AI, while also delving into how academic stage and disciplinary background may influence their perceptions. Results revealed participants’ perceptions concerning different types of AI-induced plagiarism and highlighted their greater tolerance of AI-induced plagiarism than human plagiarism. Furthermore, significant differences across academic stages and disciplines were found. The study underscores the need for plagiarism education to improve students’ academic integrity literacy in the era of AI. © De La Salle University 2025.},
+	author_keywords = {Academic stage; Artificial intelligence; Chinese students; Discipline; Plagiarism},
+	type = {Article},
+	publication_stage = {Article in press},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@BOOK{Venugopal2025309,
+	author = {Venugopal, Koppala and Vakamullu, Gopalakrishna},
+	title = {Assessment of higher education students' dependency on AI tools in an Indian indigenized context},
+	year = {2025},
+	journal = {Indigenous Teaching Disciplines and Perspectives for Higher Education},
+	pages = {309 – 338},
+	doi = {10.4018/979-8-3693-9296-6.ch015},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105003892965&doi=10.4018%2f979-8-3693-9296-6.ch015&partnerID=40&md5=fa8b0893e8bd8d01b8fb3447809295ca},
+	abstract = {This research investigates the impact of students' dependency on AI tools in an Indian indigenized context. As AI technologies such as intelligent tutoring systems and automated writing aids become increasingly prevalent, it is crucial to assess their influence on student learning and cognitive development. The study explores whether AI tools enhance educational efficiency and academic performance or if they contribute to reduce critical thinking, problem-solving skills, and overall academic engagement. By analyzing both the benefits and potential drawbacks of AI dependency, the research aims to provide insights into how these tools affect students' learning processes and outcomes. The findings are intended to guide the effective integration of AI tools, balancing technological support with traditional learning methods to foster holistic educational development. © 2025, IGI Global Scientific Publishing. All rights reserved.},
+	type = {Book chapter},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Uppal2025199,
+	author = {Uppal, Komal and Hajian, Shiva},
+	title = {Students’ Perceptions of ChatGPT in Higher Education: A Study of Academic Enhancement, Procrastination, and Ethical Concerns},
+	year = {2025},
+	journal = {European Journal of Educational Research},
+	volume = {14},
+	number = {1},
+	pages = {199 – 211},
+	doi = {10.12973/eu-jer.14.1.199},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85214211943&doi=10.12973%2feu-jer.14.1.199&partnerID=40&md5=6d03ccafa5701999158b0681f8cce033},
+	abstract = {The integration of AI tools in education is reshaping how students view and interact with their learning experiences. As AI usage continues to grow, it becomes increasingly important to understand how students' perceptions of AI technology impact their academic performance and learning behaviours. To investigate these effects, we conducted a correlational study with a sample of 44 students to examine the relationship between students' perceptions of ChatGPT’s utility—focusing on usage frequency, perceived usefulness, accuracy, reliability, and time efficiency—and key academic outcomes, including content mastery, confidence in knowledge, and grade improvement. Additionally, we explored how these perceptions influence student behaviours, such as reliance on ChatGPT, procrastination tendencies, and the potential risk of plagiarism. The canonical correlation analysis revealed a statistically significant relationship between students' perceptions of ChatGPT's utility and their academic outcomes. Students who viewed ChatGPT as reliable and efficient tended to report higher grades, improved understanding of the material, and greater confidence in their knowledge. Furthermore, the bivariate correlation analysis revealed a significant relationship between dependency on ChatGPT and procrastination (r = 0.546, p < .001), indicating that a higher reliance on AI tools may contribute to increased procrastination. No statistically significant association was identified between ChatGPT dependency and the risk of plagiarism. Future research should prioritize the development of strategies that promote the effective use of AI while minimizing the risk of over-reliance. Such efforts can enhance academic integrity and support independent learning. Educators play a critical role in this process by guiding students to balance the advantages of AI with the cultivation of critical thinking skills and adherence to ethical academic practices. © 2025 The Author(s).},
+	author_keywords = {AI-assisted learning; ChatGPT; ethical concerns; learning outcomes; student perceptions},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 2; All Open Access, Gold Open Access}
+}

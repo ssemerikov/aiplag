@@ -39,7 +39,8 @@ plt.rcParams.update({
 })
 
 # Color palettes
-YEAR_COLORS = {2022: '#66c2a5', 2023: '#fc8d62', 2024: '#8da0cb', 2025: '#e78ac3'}
+YEAR_COLORS = {2022: '#66c2a5', 2023: '#fc8d62', 2024: '#8da0cb', 2025: '#e78ac3',
+               2026: '#a6d854'}
 TOPIC_CMAP = plt.cm.Set2
 NODE_TYPE_COLORS = {
     'Paper': '#4e79a7',
@@ -58,8 +59,23 @@ CLUSTER_COLORS = list(plt.cm.tab10.colors)
 def get_topic_color(idx, n_topics=8):
     return TOPIC_CMAP(idx / max(n_topics - 1, 1))
 
+def strip_titles(fig):
+    """Project rule: figure titles/captions live in the LaTeX \\caption{}, not
+    baked into the image. Clear the suptitle and every Axes title before saving.
+    Panel identity for multi-panel figures is carried by axis labels instead.
+    """
+    try:
+        if getattr(fig, '_suptitle', None) is not None:
+            fig.suptitle('')
+    except Exception:
+        pass
+    for ax in fig.get_axes():
+        ax.set_title('')
+
+
 def savefig(fig, name, tight=True):
     path = os.path.join(FIGURE_DIR, name)
+    strip_titles(fig)
     if tight:
         fig.tight_layout()
     fig.savefig(path, dpi=DPI, bbox_inches='tight', pad_inches=0.05)

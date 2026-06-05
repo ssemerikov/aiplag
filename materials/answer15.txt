@@ -1,0 +1,66 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers on AI plagiarism perceptions and policies in Asian educational systems versus Western contexts" "Show me research on cultural differences in academic integrity understanding related to AI tool use" "What studies compare AI plagiarism detection effectiveness across different languages and writing systems?"
+
+"Find papers on AI plagiarism perceptions and policies in Asian educational systems versus Western contexts" "Show me research on cultural differences in academic integrity understanding related to AI tool use" "What studies compare AI plagiarism detection effectiveness across different languages and writing systems?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("artificial intelligence" OR "ai" OR "machine learning") AND ("plagiarism" OR "academic dishonesty" OR "cheating" OR "copying") AND ("perception" OR "attitude" OR "view" OR "belief") AND ("policy" OR "regulation" OR "guideline" OR "framework") AND ("education" OR "educational system" OR "learning" OR "schooling") AND ("Asia" OR "Asian" OR "Eastern" OR "Western")
+
+Generating summary
+
+Summary
+AI Plagiarism Perceptions and Policies in Asian vs. Western Educational Systems
+
+There is limited direct information comparing AI plagiarism perceptions and policies between Asian and Western educational systems. However, some insights can be inferred from the abstracts provided.
+
+Asian Context:
+
+    Generative AI in Southeast Asia: Teachers in Southeast Asian universities are experiencing significant changes due to generative AI tools like ChatGPT. They report a state of disequilibrium and ambiguity about new norms and practices, indicating a need for clear guidelines and AI literacy to manage academic integrity and plagiarism .
+    South Asian LIS Students: In South Asia, Library and Information Science students express concerns about the ethical use of AI tools, particularly regarding academic integrity and plagiarism. This highlights the need for robust AI literacy education to address these issues .
+
+Western Context:
+
+    German and International Students: A study involving students from German and international programs found that while students recognize the potential of generative AI, there are significant concerns about its reliability, fairness, and ethical implications, including plagiarism. This underscores the need for transparent AI systems and clear institutional guidelines .
+    K-12 Leaders in the US: K-12 leaders in Western New York express concerns about the ethical use of AI, including cheating and plagiarism. They emphasize the need for balanced policies that address both the risks and opportunities of AI in education .
+
+Cultural Differences in Academic Integrity Understanding Related to AI Tool Use
+
+Cultural Differences:
+
+    Southeast Asian Teachers: Teachers in Southeast Asia are grappling with the evolving use of AI in education, feeling a lack of rootedness in their traditional beliefs and practices. They call for urgent establishment of boundaries and AI literacy to promote responsible use, indicating a cultural shift in understanding academic integrity .
+    South Asian Students: Students in South Asia show varying levels of AI literacy and express ethical concerns about AI use in academic writing, suggesting a need for more comprehensive education on AI tools and their ethical implications .
+
+AI Plagiarism Detection Effectiveness Across Different Languages and Writing Systems
+
+Effectiveness Across Languages:
+
+    Cross-Language Plagiarism Detection: A study on cross-language plagiarism detection using Doc2Vec and SLSTM models shows high effectiveness, particularly for the Spanish-English language pair, achieving an accuracy of 99.81% .
+    Urdu Language: Research on intrinsic plagiarism detection in the Urdu language highlights the development of robust models tailored to its unique linguistic characteristics, showing the importance of language-specific tools .
+    Multilingual Detection: A proposed system using transformer-based models like xlm-roberta-large demonstrates strong multilingual plagiarism detection capabilities, achieving 95% accuracy in real-time detection .
+
+Summary Table
+Aspect	Asian Context	Western Context
+Perceptions of AI Plagiarism	Teachers and students express ethical concerns and need for guidelines 	Concerns about reliability, fairness, and ethical implications
+Cultural Differences	Shift in traditional beliefs, need for AI literacy 	Emphasis on balanced policies and ethical use
+Detection Effectiveness	Tailored models for specific languages like Urdu 	High accuracy in cross-language detection (e.g. Spanish-English)
+
+In conclusion, while there are some insights into the perceptions and policies regarding AI plagiarism in Asian and Western contexts, more direct comparative studies are needed. The effectiveness of AI plagiarism detection varies across languages, with tailored models showing high accuracy.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

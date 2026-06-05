@@ -33,16 +33,19 @@ def main():
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
     embeddings = embedding_model.encode(abstracts, show_progress_bar=True)
 
-    umap_model = UMAP(n_neighbors=10, n_components=5, min_dist=0.0, metric='cosine', random_state=42)
-    hdbscan_model = HDBSCAN(min_cluster_size=3, min_samples=2, prediction_data=True)
-    vectorizer = CountVectorizer(stop_words='english', ngram_range=(1, 2), min_df=2)
+    # Clustering scaled to the corpus size (~780 abstracts): a larger minimum
+    # cluster size avoids the dozens of micro-topics that min_cluster_size=3
+    # produces, and topics are reduced to an interpretable set for synthesis.
+    umap_model = UMAP(n_neighbors=15, n_components=5, min_dist=0.0, metric='cosine', random_state=42)
+    hdbscan_model = HDBSCAN(min_cluster_size=15, min_samples=5, prediction_data=True)
+    vectorizer = CountVectorizer(stop_words='english', ngram_range=(1, 2), min_df=5)
 
     topic_model = BERTopic(
         embedding_model=embedding_model,
         umap_model=umap_model,
         hdbscan_model=hdbscan_model,
         vectorizer_model=vectorizer,
-        nr_topics='auto',
+        nr_topics=12,
         verbose=True,
     )
 
@@ -92,7 +95,7 @@ def main():
     bow_corpus = [dictionary.doc2bow(doc) for doc in tokenized]
 
     lda_coherences = {}
-    for k in range(3, 9):
+    for k in range(3, 16):
         lda = LdaModel(bow_corpus, num_topics=k, id2word=dictionary, passes=20, random_state=42)
         cm = CoherenceModel(model=lda, texts=tokenized, dictionary=dictionary, coherence='c_v')
         lda_coherences[k] = cm.get_coherence()
@@ -102,6 +105,14 @@ def main():
     print(f"  Best LDA k={best_k} (coherence={lda_coherences[best_k]:.4f})")
 
     lda_best = LdaModel(bow_corpus, num_topics=best_k, id2word=dictionary, passes=30, random_state=42)
+
+    # Descriptive cluster labels (used in legends, not as figure titles)
+    def short_label(t):
+        w = topic_model.get_topic(t)
+        terms = ", ".join(x for x, _ in w[:3]) if w else ""
+        return f"T{t}: {terms}" if terms else f"Topic {t}"
+    topic_labels = {int(t): short_label(int(t)) for t in topic_info['Topic'] if t != -1}
+    results_topic_labels = topic_labels  # surfaced in topic_results.json below
 
     # --- Visualizations ---
     # 1. Topic bar chart (top words per BERTopic topic)
@@ -118,16 +129,19 @@ def main():
         twdf = pd.DataFrame(topic_words_data)
         unique_topics = sorted(twdf['topic'].unique())
         n_t = len(unique_topics)
-        fig, axes = plt.subplots(1, n_t, figsize=(3 * n_t, 4), sharey=False)
-        if n_t == 1:
-            axes = [axes]
+        # Grid layout (~4 columns) so many topics read as 2-3 rows, not one wide strip.
+        ncols = 4 if n_t > 6 else max(1, min(n_t, 3))
+        nrows = (n_t + ncols - 1) // ncols
+        fig, axes = plt.subplots(nrows, ncols, figsize=(3.2 * ncols, 2.8 * nrows))
+        axes = np.atleast_1d(axes).flatten()
+        for j in range(n_t, len(axes)):
+            axes[j].axis('off')
         for ax, t in zip(axes, unique_topics):
             sub = twdf[twdf['topic'] == t].sort_values('score')
             color = get_topic_color(t, n_t)
             ax.barh(sub['word'], sub['score'], color=color)
-            label = topic_info[topic_info['Topic'] == t]['Name'].values[0]
-            ax.set_title(f"Topic {t}", fontsize=10)
-            ax.set_xlabel('Score')
+            ax.set_xlabel(f"T{t} (score)")  # panel identity as axis label, not title
+            ax.tick_params(labelsize=7)
         savefig(fig, 'fig_topics_barchart.pdf')
 
     # 2. Topics over time
@@ -138,8 +152,10 @@ def main():
     ct.plot(kind='bar', stacked=True, ax=ax, colormap='Set2')
     ax.set_xlabel('Year')
     ax.set_ylabel('Number of papers')
-    ax.set_title('Topic distribution over time')
-    ax.legend(title='Topic', bbox_to_anchor=(1.05, 1), loc='upper left')
+    # Descriptive cluster names in the legend (reviewer R3.6); no figure title.
+    ax.legend([topic_labels.get(int(c), str(c)) for c in ct.columns],
+              title='Topic cluster', bbox_to_anchor=(1.02, 1), loc='upper left',
+              fontsize=7, frameon=False)
     savefig(fig, 'fig_topics_over_time.pdf')
 
     # 3. Topic-year heatmap
@@ -163,6 +179,7 @@ def main():
         'n_abstracts': len(abstracts),
         'bertopic_n_topics': int(len(topic_info) - 1),
         'bertopic_topics': [],
+        'topic_labels': topic_labels,
         'lda_coherences': {str(k): round(v, 4) for k, v in lda_coherences.items()},
         'lda_best_k': best_k,
     }

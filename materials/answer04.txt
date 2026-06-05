@@ -1,0 +1,73 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers on institutional policies for AI use in academia, including honor codes, guidelines, and regulatory frameworks after 2023" "Show me case studies of universities implementing AI plagiarism policies and their outcomes or effectiveness" "What international or national frameworks exist for governing AI use in educational assessment?"
+
+"Find papers on institutional policies for AI use in academia, including honor codes, guidelines, and regulatory frameworks after 2023" "Show me case studies of universities implementing AI plagiarism policies and their outcomes or effectiveness" "What international or national frameworks exist for governing AI use in educational assessment?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("institutional policy" OR "policy" OR "regulation" OR "guideline") AND ("artificial intelligence" OR "ai" OR "machine learning" OR "deep learning") AND ("academia" OR "higher education" OR "university" OR "college") AND ("ethics" OR "governance" OR "framework" OR "compliance") AND ("implementation" OR "adoption" OR "integration" OR "strategy")
+
+Generating summary
+
+Summary
+Institutional Policies for AI Use in Academia
+
+Key Points:
+
+    Policy Development: South African universities are developing policies to balance AI access and uphold academic standards. Proposed principles include recognizing AI's value, developing inclusive policies, regular updates, effective communication, and partnerships with AI companies .
+    Ethical Frameworks: Ethical AI practices enhance academic outcomes but require guidelines to address biases, reliability, and context understanding .
+    International Frameworks: The European AI Regulation addresses ethical and privacy concerns, with calls for global regulation under the United Nations to ensure equitable AI use in education .
+
+Case Studies of Universities Implementing AI Plagiarism Policies
+
+Examples:
+
+    UAE Institutions: Faculty perceptions of AI plagiarism policies reveal moderate effectiveness, with a preference for educative approaches over punitive measures. Challenges include workload constraints, insufficient support, and detection difficulties .
+    Bangladesh: Severe penalties for plagiarism highlight the need for AI-specific guidelines. Recommendations include mandatory writing courses and the use of AI detection tools .
+    Curtin University: Implementing a teamwork framework reduced academic misconduct and improved student performance, demonstrating the effectiveness of structured AI policies .
+
+International and National Frameworks for Governing AI Use in Educational Assessment
+
+Frameworks:
+
+    European AI Regulation: Addresses ethical and privacy concerns, advocating for responsible AI use in education .
+    Global Digital Health Partnership (GDHP: Proposes international collaboration on AI governance, emphasizing leadership, standards, and stakeholder engagement .
+    TEHAI Framework: Developed for healthcare AI, focusing on capability, utility, and adoption, applicable to educational contexts .
+
+Summary
+
+Institutional Policies:
+
+    Universities are developing policies to balance AI access and uphold academic standards, emphasizing ethical use and regular updates .
+    International frameworks like the European AI Regulation and GDHP advocate for global collaboration and ethical standards .
+
+Case Studies:
+
+    UAE institutions show moderate effectiveness in AI plagiarism policies, preferring educative approaches .
+    Bangladesh highlights severe penalties and the need for AI-specific guidelines .
+    Curtin University's teamwork framework effectively reduced misconduct and improved performance .
+
+Frameworks:
+
+    European AI Regulation and GDHP propose comprehensive governance mechanisms for AI in education .
+    TEHAI Framework offers a model for evaluating AI systems, applicable to educational assessment .
+
+These insights underscore the importance of developing robust, ethical, and inclusive policies for AI use in academia, supported by international collaboration and comprehensive frameworks.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

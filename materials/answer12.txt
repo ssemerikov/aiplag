@@ -1,0 +1,63 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find any longitudinal studies tracking changes in plagiarism patterns before and after AI tool adoption" "Show me papers following student cohorts' academic integrity behaviors over multiple semesters with AI access" "What long-term studies exist on the impact of AI tools on learning outcomes and academic skills?"
+
+"Find any longitudinal studies tracking changes in plagiarism patterns before and after AI tool adoption" "Show me papers following student cohorts' academic integrity behaviors over multiple semesters with AI access" "What long-term studies exist on the impact of AI tools on learning outcomes and academic skills?"
+
+Creating a plan to answer your query
+
+Performing natural language search:
+
+    What longitudinal studies track changes in plagiarism patterns before and after the adoption of AI tools?
+    What papers follow student cohorts' academic integrity behaviors over multiple semesters with AI access?
+    What long-term studies exist on the impact of AI tools on learning outcomes and academic skills?
+
+Generating summary
+
+Summary
+
+Longitudinal Studies on Plagiarism Patterns and AI Tool Adoption
+
+Based on the provided abstracts, there is limited direct evidence of longitudinal studies specifically tracking changes in plagiarism patterns before and after AI tool adoption. However, some studies provide insights that can be inferred to address the query.
+Longitudinal Studies on Academic Integrity and AI Tools
+
+    General Trends in AI and Academic Integrity:
+        One study discusses the impact of AI on academic integrity, highlighting the need for long-term research to assess sustained impacts on cognitive and socio-emotional skill development . This suggests a recognition of the importance of longitudinal studies, though specific longitudinal data is not provided.
+
+    Time-Lag Study on Plagiarism:
+        A time-lag study assessed self-reported engagement in plagiarism over three periods (2004, 2009, and 2014), showing increased understanding and reduced occurrence of plagiarism . While this study does not directly address AI tool adoption, it provides a framework for understanding changes in plagiarism over time.
+
+Student Cohorts and Academic Integrity Behaviors
+
+    Impact of AI on Student Behaviors:
+        A study involving 44 students examined the relationship between perceptions of ChatGPT and academic outcomes, including the potential risk of plagiarism . Although not longitudinal, it highlights the need for strategies to balance AI use and academic integrity.
+
+    Qualitative Insights on AI and Academic Integrity:
+        Another study explored students' perceptions of AI-induced plagiarism, revealing a greater tolerance for AI-generated content compared to human plagiarism . This study underscores the evolving nature of academic integrity in the context of AI.
+
+Long-Term Impact of AI Tools on Learning Outcomes
+
+    AI Tools and Learning Outcomes:
+        Several studies indicate that AI tools enhance learning outcomes and student engagement . However, these studies often lack long-term follow-up data, emphasizing the need for future research to explore sustained impacts.
+
+    AI and Academic Performance:
+        Research shows that AI tools can significantly enhance academic performance, particularly in technical fields, but also raise concerns about over-reliance and its impact on independent thinking . These findings suggest potential long-term implications for learning outcomes.
+
+Summary
+
+While there is a recognition of the importance of longitudinal studies to assess the impact of AI tools on plagiarism patterns and academic integrity, the provided abstracts do not offer direct longitudinal data. Instead, they highlight the need for such research and provide insights into the evolving landscape of academic integrity and AI tool adoption. Future studies should focus on long-term follow-up to fully understand the implications of AI tools on academic behaviors and learning outcomes.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

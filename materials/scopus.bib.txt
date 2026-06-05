@@ -1,0 +1,121 @@
+﻿Scopus
+EXPORT DATE: 20 August 2025
+
+@ARTICLE{Miranda-Rodríguez2024,
+	author = {Miranda-Rodríguez, Rubén Andrés and Sánchez-Nieto, José Miguel and Ruiz-Rodríguez, Ana Karen},
+	title = {Effectiveness of intervention programs in reducing plagiarism by university students: a systematic review},
+	year = {2024},
+	journal = {Frontiers in Education},
+	volume = {9},
+	doi = {10.3389/feduc.2024.1357853},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85194832160&doi=10.3389%2ffeduc.2024.1357853&partnerID=40&md5=e10137311b151b8a6231524c5fc131b0},
+	abstract = {Introduction: Plagiarism in universities is a problem with potential academic, social, ethical, and legal implications. Systematic review research on academic integrity programs, including plagiarism, has been conducted, but few studies have assessed plagiarism. Therefore, this review synthesizes knowledge on the effect of educational interventions designed to prevent or reduce plagiarism by university students. Method: A systematic review was performed using the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) criteria to analyze experimental or quasi-experimental studies aimed at reducing plagiarism through objective assessments. The search strategy was implemented in Web of Science, PubMed, Scopus, PsycArticles, ProQuest, ERIC, Redalyc, SciELO, and Tesiunam. Results: Six interventions were evaluated, and 1,631 undergraduate students were included pursuing different majors from different universities. The intervention and assessment strategies varied considerably between studies, 5 of which reported a lower plagiarism frequency in the intervention group than in the control group. Conclusion: The results suggest that interventions with practical elements, such as plagiarism detection, paraphrasing, citation skills, in addition to using software to identify similarities, may reduce plagiarism. However, few studies include an objective evaluation, so more research is needed. Systematic review registration: https://inplasy.com/inplasy-2023-7-0104/. Copyright © 2024 Miranda-Rodríguez, Sánchez-Nieto and Ruiz-Rodríguez.},
+	author_keywords = {academic dishonesty; academic integrity; cheating; plagiarism; university students}
+}
+
+@ARTICLE{Darwish2023,
+	author = {Darwish, Saad M. and Mhaimeed, Ibrahim Abdullah and Elzoghabi, Adel A.},
+	title = {A Quantum Genetic Algorithm for Building a Semantic Textual Similarity Estimation Framework for Plagiarism Detection Applications},
+	year = {2023},
+	journal = {Entropy},
+	volume = {25},
+	number = {9},
+	doi = {10.3390/e25091271},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85172190380&doi=10.3390%2fe25091271&partnerID=40&md5=c500674b3391788db7a24a80b465eda2},
+	abstract = {The majority of the recent research on text similarity has been focused on machine learning strategies to combat the problem in the educational environment. When the originality of an idea is copied, it increases the difficulty of using a plagiarism detection system in practice, and the system fails. In cases like active-to-passive conversion, phrase structure changes, synonym substitution, and sentence reordering, the present approaches may not be adequate for plagiarism detection. In this article, semantic extraction and the quantum genetic algorithm (QGA) are integrated in a unified framework to identify idea plagiarism with the aim of enhancing the performance of existing methods in terms of detection accuracy and computational time. Semantic similarity measures, which use the WordNet database to extract semantic information, are used to capture a document’s idea. In addition, the QGA is adapted to identify the interconnected, cohesive sentences that effectively convey the source document’s main idea. QGAs are formulated using the quantum computing paradigm based on qubits and the superposition of states. By using the qubit chromosome as a representation rather than the more traditional binary, numeric, or symbolic representations, the QGA is able to express a linear superposition of solutions with the aim of increasing gene diversity. Due to its fast convergence and strong global search capacity, the QGA is well suited for a parallel structure. The proposed model has been assessed using a PAN 13-14 dataset, and the result indicates the model’s ability to achieve significant detection improvement over some of the compared models. The recommended PD model achieves an approximately 20%, 15%, and 10% increase for TPR, PPV, and F-Score compared to GA and hierarchical GA (HGA)-based PD methods, respectively. Furthermore, the accuracy rate rises by approximately 10–15% for each increase in the number of samples in the dataset. © 2023 by the authors.},
+	author_keywords = {optimization; plagiarism detection; quantum evolutionary algorithms; semantic analysis}
+}
+
+@ARTICLE{Garg2022,
+	author = {Garg, Manika and Goel, Anita},
+	title = {A systematic literature review on online assessment security: Current challenges and integrity strategies},
+	year = {2022},
+	journal = {Computers and Security},
+	volume = {113},
+	doi = {10.1016/j.cose.2021.102544},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119442261&doi=10.1016%2fj.cose.2021.102544&partnerID=40&md5=03d30b7231932e7fc5847ca2a8c95e11},
+	abstract = {Assessment is an integral part of online education, much like traditional classroom education. During the online assessment, evaluation of the learning outcomes presents challenges mainly due to academic dishonesty among students that may lead to unfair evaluations. This systematic review examines the research on online assessment security involving studies completed between 2016 and 2021. The review investigates the literature, around four critical themes - reasons for student engagement in dishonest behavior, mechanisms used for dishonesty, integrity strategies to handle dishonesty and the role of machine learning in integrity strategies. The results indicate that readily available opportunities provided by environmental factors like Internet availability, shadow individual characteristics of the student; the students with high moral values also often succumb to dishonesty. We found that among the five types of dishonest behaviors identified in online students, researchers have shown more interest in studying collusion and plagiarism. It is interesting to note that technology, a pre-requisite for the conduct of online assessments, is exploited by the students for dishonest behaviors vis-a-vis technology also plays a key role in mitigation. The integrity strategies fall under two approaches- prevention and detection. We propose an Academic Dishonesty Mitigation Plan (ADMP) that encompasses strategies from both prevention and detection approaches for effective security and integrity of online assessments. ADMP also necessitates the involvement of major stakeholders - platform owners, institutions, teachers and students, to establish a secure online assessment system. We find an increasing use of machine learning techniques to automate the detection of dishonest behavior. The findings provide a holistic understanding of academic dishonesty that could help preserve integrity in current online assessments. © 2021 Elsevier Ltd},
+	author_keywords = {Academic dishonesty; Academic fraud; Assessment security; Cheating; Distance education; Integrity challenges; Online education; Online exams; Secure assessments; Systematic review},
+	keywords = {Accident prevention; E-learning; Engineering education; Machine learning; Academic dishonesty; Academic fraud; Assessment security; Cheating; Integrity challenge; On-line assessment; On-line education; Online exams; Secure assessment; Systematic Review; Students}
+}
+
+@ARTICLE{Sevnarayan202451,
+	author = {Sevnarayan, Kershnee and Maphoto, Kgabo Bridget},
+	title = {Exploring the Dark Side of Online Distance Learning: Cheating Behaviours, Contributing Factors, and Strategies to Enhance the Integrity of Online Assessment},
+	year = {2024},
+	journal = {Journal of Academic Ethics},
+	volume = {22},
+	number = {1},
+	pages = {51 – 70},
+	doi = {10.1007/s10805-023-09501-8},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85181208805&doi=10.1007%2fs10805-023-09501-8&partnerID=40&md5=acd0cb87758136dcc1636c897c76c2af},
+	abstract = {This study investigated cheating behaviours, contributing factors, and strategies to enhance the integrity of assessment in an online learning context. The researchers conducted an analysis of the literature on students’ motivation to cheat in online modules and noted that there is limited research on the specific reasons why students cheat in online learning contexts. To contribute to this knowledge gap, this study set out to understand cheating in two English modules with first-year second language students, in an open distance and e-learning institution in South Africa. The purpose of this study is (1) to investigate why students cheat in their online assessments, (2) to explore the contributing factors of cheating behaviours, and (3) to determine strategies to minimise cheating. Using qualitative methods such as focus group discussions with students, evaluation questions with markers, and one-on-one interviews with lecturers, the study found that cheating is a significant issue in distance education, with students admitting to various forms of cheating in online assessments. Using the social cognitive theory of moral disengagement, the study found that cognitive mechanisms motivate students to engage in unethical behaviour such as cheating. The study recommends implementing an interactive module design, lecturer training on student support, and stringent academic integrity policies to minimise cheating. There is a need for studies that explore the impact of cheating and the effectiveness of different strategies for minimising cheating and enhancing integrity in online assessment. © The Author(s) 2024.},
+	author_keywords = {Academic integrity; Cheating; ODeL; Online assessment; Theory of moral disengagement}
+}
+
+@ARTICLE{Maryon2022,
+	author = {Maryon, Thomas and Dubre, Vandy and Elliott, Kimberly and Escareno, Jessica and Fagan, Mary Helen and Standridge, Emily and Lieneck, Cristian},
+	title = {COVID-19 Academic Integrity Violations and Trends: A Rapid Review},
+	year = {2022},
+	journal = {Education Sciences},
+	volume = {12},
+	number = {12},
+	doi = {10.3390/educsci12120901},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144642603&doi=10.3390%2feducsci12120901&partnerID=40&md5=0e0f854c673788b63eb3b4aeef3fb7c4},
+	abstract = {The rapid shift from classroom course delivery to online education modalities during the COVID-19 pandemic has had significant impacts on academia. Student loss of face-to-face interaction, the lost social benefits of the educational milieu, and restricted instructor ability to control both the learning environment and assessment process have been significant. The purpose of this paper is to discover if due to the unplanned shift to online course delivery, educators and researchers experienced impacts to academic integrity during the peak of the online shift. A systemic review utilizing the PRISMA methodology of peer reviewed literature published during the period of March 2020 till September 2021 demonstrated that violation types continued to fall within the existing academic integrity constructs of inappropriate information sharing, cheating on exams and assignments, incidents of plagiarism, and falsifying or fabricating information. The results showed that pre-COVID concerns with academic integrity were amplified with previous concerns moving to the forefront. In addition, the rapid shift opened doors for greater opportunity for violations and increased instructor concern especially within the hard sciences and courses with lab-based components. Reinforcing the importance of providing formal academic integrity student and faculty training can be a beneficial intervention to ensure students understand the ethical implications of student behavior and performance during the assessment process. Given the emerging trend pre-COVID that skyrocketed during the pandemic, ensuring academic integrity should remain a key priority for learning institutions. © 2022 by the authors.},
+	author_keywords = {academic dishonesty; cheating; college; COVID-19; higher education; plagiarism; undergraduate; university}
+}
+
+@ARTICLE{Eshet20243279,
+	author = {Eshet, Yovav},
+	title = {The plagiarism pandemic: Inspection of academic dishonesty during the COVID-19 outbreak using originality software},
+	year = {2024},
+	journal = {Education and Information Technologies},
+	volume = {29},
+	number = {3},
+	pages = {3279 – 3299},
+	doi = {10.1007/s10639-023-11967-3},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85162252737&doi=10.1007%2fs10639-023-11967-3&partnerID=40&md5=fee6fe347b5dd9c39a46ebda3d92efc3},
+	abstract = {The COVID-19 pandemic has forced higher education institutions worldwide to shift from face-to-face (F2F) to emergency remote teaching (ERT), which has led to an increased concern about academic integrity. This study examines the relationship between learning environment and academic integrity via plagiarism detection software in different disciplines and according to higher education institutional ranking. We analysed 7976 assignments submitted between 2019 and 2020 in 39 Israeli academic institutions. The results indicated that the transition to ERT is associated with decreased academic integrity, especially in humanities. Similarly, the shift to ERT particularly affected college students and students studying in medium- and low-ranked institutions. We conclude that an institutional- and discipline-based approach is required to combat academic misconduct in ERT settings. Automating plagiarism detection software may also help students self-check their written assessments; this may be an essential first step toward enhancing academic integrity. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2023.},
+	author_keywords = {Academic dishonesty; Academic integrity; Learning environment; Plagiarism detection; Webometrics}
+}
+
+@ARTICLE{Sozon2024,
+	author = {Sozon, Md and Mohammad Alkharabsheh, Omar Hamdan and Fong, Pok Wei and Chuan, Sia Bee},
+	title = {Cheating and plagiarism in higher education institutions (HEIs): A literature review},
+	year = {2024},
+	journal = {F1000Research},
+	volume = {13},
+	doi = {10.12688/f1000research.147140.2},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85202888741&doi=10.12688%2ff1000research.147140.2&partnerID=40&md5=e88011005cc1243116077cbc35c9f29a},
+	abstract = {Cheating and plagiarism have become serious problems in higher education institutions (HEIs). It affects educational quality as well as the reputation of higher education. The purpose of this study is to identify the most prevalent types of cheating and plagiarism, as well as the elements that contribute to cheating and plagiarism, and to present solutions to this recurring problem. This paper systematically reviews 45 articles published from 2018, to 2022, aligned with the PRISMA guidelines in the selection, filtering, and reporting of the papers. This review shows that factors such as increased pressure on students, poor academic integrity awareness, lack of up-to-date academic honor codes, and the unethical application of AI tools are prime contributing factors to cheating and plagiarism in HEIs. In a broader sense, all these factors are classified as individual, social, cultural, institutional, and technological factors that are responsible for this problem. This problem can be reduced by establishing ethical and moral development tutorials as well as formulating up-to-date honor codes considering AI tools. Furthermore, higher education institutions must develop anti-plagiarism detection software in order to detect plagiarism and aid students in improving academic writing and paraphrasing approaches. The findings of this systematic literature review provide useful insights for educators and policymakers to solve the complicated issue of cheating and plagiarism in higher education institutions. Copyright: © 2024 Sozon M et al.},
+	author_keywords = {academic integrity; cheating; higher education institutions; plagiarism; students},
+	keywords = {Deception; Humans; Plagiarism; Students; Universities; academic integrity; artificial intelligence; awareness; curriculum; higher education institutions; human; patent; plagiarism; prevalence; professionalism; qualitative analysis; reliability; Review; risk assessment; school; stakeholder engagement; student; systematic review; thematic analysis; deception; university}
+}
+
+@ARTICLE{Vo2024263,
+	author = {Vo, Trung Hung and Felde, Imre and Ho, Phan Hieu and Nguyen, Ngoc Anh Thi},
+	title = {Detecting Text Similarity Based on Discrete Wavelet Transformation},
+	year = {2024},
+	journal = {Acta Polytechnica Hungarica},
+	volume = {21},
+	number = {9},
+	pages = {263 – 277},
+	doi = {10.12700/APH.21.9.2024.9.18},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85206979138&doi=10.12700%2fAPH.21.9.2024.9.18&partnerID=40&md5=86af1ade6301eafa65b6e795dcd61dbc},
+	abstract = {Detecting similarities between texts is an important stage of many different applications such as text classification, plagiarism detection, fake news identification,… In this paper, we propose a new approach to detect similarities between texts based on the Discrete Wavelet Transform (DWT) method. Specifically, the available source documents are converted into a set of real numbers called DNAs (Deoxyribose Nucleic Acid) through DWT. To check the similarity of any text, we also use DWT to generate DNAs for that text and calculate the smallest Euclidean distance from these DNAs to the source DNAs. Finally, by comparing with a threshold, the distance values will indicate whether the evaluation text is similar to a certain source text or not. Experimental results demonstrate that our proposed algorithm is highly effective in detecting text similarity by testing on a standard data set at the Annual International Conference on Plagiarism Detection (Plagiarism Analysis, Authorship Identification, and Near-Duplicate detection – PAN). © 2024, Budapest Tech Polytechnical Institution. All rights reserved.},
+	author_keywords = {Discrete Wavelet Transformation; Fake New Detection; Natural Language Processing; Text analysis; Text Similarity}
+}
+
+@CONFERENCE{Liu2025106,
+	author = {Liu, Feiyang and You, Kewei and Zhang, Li and Zhang, Li},
+	title = {A Large Language Model-Based Plagiarism Detection System Architecture for Academic Journals in Higher Education},
+	year = {2025},
+	journal = {10th International Conference on Computer and Communication Systems, ICCCS 2025},
+	pages = {106 – 110},
+	doi = {10.1109/ICCCS65393.2025.11069860},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105011990120&doi=10.1109%2fICCCS65393.2025.11069860&partnerID=40&md5=013f4497fd0d4fe0cc659f3fa81b4647},
+	abstract = {In recent years, academic misconduct in universities and research institutions has posed significant challenges to academic integrity and reputation. However, existing plagiarism detection systems exhibit notable limitations in covering dynamic internet content and detecting implicit plagiarism. In this paper we analyze the shortcomings of current detection methods and propose a plagiarism detection system architecture based on search engines and large language models (LLMs). The system utilizes a Transformer-based architecture, integrating Sentence Transformer for semantic text embedding. By leveraging automated retrieval technology, it captures dynamic internet content in real-time and employs semantic similarity calculations to accurately identify potential plagiarisms, paraphrasing, and cross-lingual duplication. With adaptability and robustness, the system effectively addresses dynamic content coverage and enhances implicit plagiarism detection capabilities. It provides technological support for academic review processes in university academic journals and fosters the development of academic norms among potential authors, contributing to the reinforcement of academic integrity within the higher education system.  © 2025 IEEE.},
+	author_keywords = {Dynamic Content Detection; Plagiarism Detection; Transformer-Based Architecture; University Academic Journals},
+	keywords = {Architecture; Electric current measurement; Information retrieval; Intellectual property; Learning systems; Memory architecture; Natural language processing systems; Search engines; Academic journal; Content detection; Detection system; Dynamic content; Dynamic content detection; Language model; Plagiarism detection; Systems architecture; Transformer-based architecture; University academic journal; Computational linguistics}
+}

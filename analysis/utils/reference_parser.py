@@ -1,7 +1,110 @@
-"""Parse Scopus reference strings and build reference-based networks."""
+"""Parse Scopus AND Web of Science reference strings and build
+reference-based networks.
+
+Cited references arrive in two formats: Scopus ("Author A.A., Title, (Year)…")
+and WoS CR lines ("Surname AB, YYYY, JOURNAL, Vvol, Ppage, DOI 10.x"). Both are
+reduced to a single canonical key (DOI-first, author|year fallback) so that
+bibliographic coupling and co-citation match the SAME cited work across the two
+databases.
+"""
 import re
 import pandas as pd
 from collections import Counter
+
+# DOI anywhere in a reference string (handles bracketed WoS "DOI [10.x, 10.y]").
+DOI_RE = re.compile(r'10\.\d{4,9}/[^\s,;\]\[]+', re.I)
+ARXIV_RE = re.compile(r'arxiv[:\s]*(\d{4}\.\d{4,5})', re.I)
+
+
+def extract_doi(text):
+    """Return a normalized DOI (or arXiv id) found in a reference string."""
+    if not text:
+        return None
+    m = DOI_RE.search(str(text))
+    if m:
+        return m.group(0).lower().rstrip('.').rstrip(')').rstrip(']')
+    a = ARXIV_RE.search(str(text))
+    if a:
+        return 'arxiv:' + a.group(1)
+    return None
+
+
+def parse_wos_cr_line(line):
+    """Parse one WoS CR line into a structured reference dict."""
+    raw = str(line).strip()
+    ref = {'raw': raw, 'source': 'wos'}
+    parts = [p.strip() for p in raw.split(',')]
+    if parts and parts[0]:
+        ref['first_author'] = parts[0].split()[0].strip().lower()
+    if len(parts) > 1 and re.fullmatch(r'(19|20)\d{2}', parts[1]):
+        ref['year'] = int(parts[1])
+    else:
+        ym = re.search(r'\b(19|20)\d{2}\b', raw)
+        if ym:
+            ref['year'] = int(ym.group(0))
+    if len(parts) > 2:
+        ref['source_token'] = parts[2]
+    doi = extract_doi(raw)
+    if doi:
+        ref['doi'] = doi
+    return ref
+
+
+def canonical_cited_key(ref):
+    """Single matching key for a cited work, consistent across DBs.
+
+    DOI (or arXiv id) when available; otherwise first-author surname + year
+    (+ a short source/title token). Returns ``None`` when neither a DOI nor a
+    surname+year is available — surname-only keys are dropped because common
+    surnames (Wang, Liu, Zhang) would otherwise collapse hundreds of distinct
+    works into one spurious node, inflating coupling and co-citation.
+    """
+    doi = ref.get('doi')
+    if doi:
+        return 'doi:' + doi
+    fa = re.sub(r'[^a-z]', '', (ref.get('first_author') or '').lower())
+    yr = ref.get('year')
+    if not (fa and yr):
+        return None
+    parts = [fa, str(yr)]
+    tok = ref.get('source_token') or ref.get('title_fragment')
+    if tok:
+        tok = re.sub(r'[^a-z0-9\s]', '', str(tok).lower())
+        if tok.split():
+            parts.append(' '.join(tok.split()[:3]))
+    return 'ay:' + '|'.join(parts)
+
+
+def ref_label(ref):
+    """Human-readable label for a cited work (for network node labels)."""
+    a = (ref.get('first_author') or '').title()
+    y = ref.get('year', '')
+    return f"{a} ({y})" if a or y else str(ref.get('raw', ''))[:40]
+
+
+def wos_cr_to_keys(cr_list):
+    """Map a WoS cr_list to (keys, key->label) for one paper (drops low-specificity refs)."""
+    keys, labels = [], {}
+    for line in cr_list or []:
+        ref = parse_wos_cr_line(line)
+        k = canonical_cited_key(ref)
+        if not k:
+            continue
+        keys.append(k)
+        labels.setdefault(k, ref_label(ref))
+    return keys, labels
+
+
+def scopus_refs_to_keys(ref_str):
+    """Map a Scopus 'References' string to (keys, key->label) for one paper (drops low-specificity refs)."""
+    keys, labels = [], {}
+    for ref in parse_references(ref_str):
+        k = normalize_ref_key(ref)
+        if not k:
+            continue
+        keys.append(k)
+        labels.setdefault(k, ref_label(ref))
+    return keys, labels
 
 
 def parse_references(ref_str):
@@ -46,7 +149,12 @@ def parse_references(ref_str):
 
 def _parse_single_reference(raw):
     """Extract structured info from a single reference string."""
-    ref = {'raw': raw}
+    ref = {'raw': raw, 'source': 'scopus'}
+
+    # Extract DOI (strongest cross-database matching key)
+    doi = extract_doi(raw)
+    if doi:
+        ref['doi'] = doi
 
     # Extract year
     year_match = re.search(r'\((\d{4})\)', raw)
@@ -73,30 +181,28 @@ def _parse_single_reference(raw):
 
 
 def normalize_ref_key(ref):
-    """Create a normalized key for fuzzy matching references across papers."""
-    parts = []
-    if 'first_author' in ref:
-        # Normalize author: lowercase, strip periods
-        author = ref['first_author'].lower().replace('.', '').strip()
-        parts.append(author)
-    if 'year' in ref:
-        parts.append(str(ref['year']))
-    if 'title_fragment' in ref:
-        # First few words of title, lowercased
-        title = ref['title_fragment'].lower()
-        title = re.sub(r'[^a-z0-9\s]', '', title)
-        words = title.split()[:5]
-        parts.append(' '.join(words))
-    return '|'.join(parts) if parts else ref.get('raw', '')[:80].lower()
+    """Create a normalized key for matching references across papers.
+
+    DOI-first (so a Scopus and a WoS citation to the same work collapse to one
+    node), falling back to author|year|title.
+    """
+    return canonical_cited_key(ref)
 
 
 def build_reference_lists(df):
-    """Parse references for all papers, return dict: paper_id -> list of ref keys."""
+    """Return dict: paper_id -> list of canonical cited-work keys.
+
+    Uses the precomputed ``ref_keys`` column when present (the merged corpus
+    stores per-paper keys built per source); otherwise parses the Scopus
+    ``References`` string on the fly.
+    """
+    if 'ref_keys' in df.columns:
+        return {row['paper_id']: list(row['ref_keys']) for _, row in df.iterrows()}
     ref_dict = {}
     for _, row in df.iterrows():
         pid = row['paper_id']
         refs = parse_references(row.get('References'))
-        ref_dict[pid] = [normalize_ref_key(r) for r in refs]
+        ref_dict[pid] = [k for k in (normalize_ref_key(r) for r in refs) if k]
     return ref_dict
 
 

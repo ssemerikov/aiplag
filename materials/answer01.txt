@@ -1,0 +1,103 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Show me highly cited review papers on academic integrity and plagiarism detection in higher education published between 2015-2022, before ChatGPT" "Find seminal papers on text similarity detection and plagiarism checking tools like Turnitin, focusing on their effectiveness and limitations" "What are the most influential papers on student plagiarism behavior and motivations in digital education environments?"
+
+"Show me highly cited review papers on academic integrity and plagiarism detection in higher education published between 2015-2022, before ChatGPT" "Find seminal papers on text similarity detection and plagiarism checking tools like Turnitin, focusing on their effectiveness and limitations" "What are the most influential papers on student plagiarism behavior and motivations in digital education environments?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("academic integrity" OR "integrity" OR "ethics" OR "honesty") AND ("plagiarism" OR "copying" OR "cheating" OR "intellectual theft") AND ("detection" OR "identification" OR "assessment" OR "monitoring") AND ("higher education" OR "university" OR "college" OR "tertiary education")
+
+Generating summary
+
+Summary
+Highly Cited Review Papers on Academic Integrity and Plagiarism Detection (2015-2022)
+
+1. Systematic Review on Cheating and Plagiarism in Higher Education (2018-2022)
+
+    Focus: Identifies prevalent types of cheating and plagiarism, contributing factors, and solutions.
+    Key Findings: Factors include student pressure, lack of academic integrity awareness, outdated honor codes, and misuse of AI tools. Solutions involve ethical development tutorials and updated honor codes.
+    Impact: Provides insights for educators and policymakers to address cheating and plagiarism .
+
+2. Review on Academic Integrity During COVID-19
+
+    Focus: Examines the impact of emergency remote teaching (ERT) on academic integrity.
+    Key Findings: ERT is associated with decreased academic integrity, especially in humanities and lower-ranked institutions. Suggests an institutional and discipline-based approach to combat misconduct.
+    Impact: Highlights the need for automated plagiarism detection software to help students self-check their work .
+
+3. Review on Educational Interventions to Prevent Plagiarism
+
+    Focus: Synthesizes knowledge on the effectiveness of educational interventions designed to prevent plagiarism.
+    Key Findings: Practical elements like plagiarism detection, paraphrasing, and citation skills reduce plagiarism. More research needed for objective evaluations.
+    Impact: Suggests that educational interventions can effectively reduce plagiarism .
+
+Seminal Papers on Text Similarity Detection and Plagiarism Checking Tools
+
+1. Discrete Wavelet Transform (DWT) for Text Similarity Detection
+
+    Method: Converts texts into real numbers (DNAs) using DWT and calculates Euclidean distances to detect similarities.
+    Effectiveness: Demonstrated high effectiveness in detecting text similarity in standard datasets.
+    Limitations: May require further validation across diverse datasets .
+
+2. Quantum Genetic Algorithm (QGA) for Plagiarism Detection
+
+    Method: Integrates semantic extraction with QGA to identify idea plagiarism.
+    Effectiveness: Achieves significant detection improvement over traditional methods.
+    Limitations: Complexity and computational requirements may limit practical application .
+
+3. Transformer-Based Plagiarism Detection System
+
+    Method: Utilizes Sentence Transformer for semantic text embedding and real-time content retrieval.
+    Effectiveness: Enhances implicit plagiarism detection capabilities.
+    Limitations: Requires continuous updates to handle dynamic internet content .
+
+Influential Papers on Student Plagiarism Behavior and Motivations in Digital Education
+
+1. Study on Academic Dishonesty in Online Learning
+
+    Focus: Investigates cheating behaviors, contributing factors, and strategies to enhance integrity in online learning.
+    Key Findings: Cognitive mechanisms motivate students to cheat. Recommends interactive module design and stringent academic integrity policies.
+    Impact: Provides insights into minimizing cheating in online assessments .
+
+2. Review on Online Assessment Security
+
+    Focus: Examines research on online assessment security and academic dishonesty.
+    Key Findings: Identifies collusion and plagiarism as major concerns. Proposes an Academic Dishonesty Mitigation Plan (ADMP) involving prevention and detection strategies.
+    Impact: Offers a comprehensive understanding of academic dishonesty in online assessments .
+
+3. Study on Academic Integrity During COVID-19
+
+    Focus: Analyzes the impact of the shift to online education on academic integrity.
+    Key Findings: Pre-COVID concerns were amplified during the pandemic. Emphasizes the importance of formal academic integrity training.
+    Impact: Highlights the need for ongoing efforts to ensure academic integrity in online education .
+
+Summary Table
+Category	Paper Focus	Key Findings	Impact
+Review Papers	Cheating and Plagiarism (2018-2022)	Identifies factors and solutions	Insights for educators and policymakers
+Review Papers	Academic Integrity During COVID-19	ERT associated with decreased integrity	Need for automated detection software
+Review Papers	Educational Interventions	Practical elements reduce plagiarism	Effective educational interventions
+Text Similarity Detection	DWT for Text Similarity	High effectiveness in detection	Requires further validation
+Text Similarity Detection	QGA for Plagiarism Detection	Significant detection improvement	Complexity limits application
+Text Similarity Detection	Transformer-Based System	Enhances implicit detection	Needs continuous updates
+Student Plagiarism Behavior	Academic Dishonesty in Online Learning	Cognitive mechanisms motivate cheating	Strategies to minimize cheating
+Student Plagiarism Behavior	Online Assessment Security	Collusion and plagiarism major concerns	Comprehensive understanding of dishonesty
+Student Plagiarism Behavior	Academic Integrity During COVID-19	Amplified pre-COVID concerns	Importance of integrity training
+
+This summary provides a comprehensive overview of highly cited review papers, seminal works on text similarity detection, and influential studies on student plagiarism behavior in digital education environments.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+References

@@ -1,9 +1,20 @@
-"""Load and clean the Scopus CSV corpus."""
+"""Load and clean the corpus.
+
+Historically Scopus-only; now the canonical corpus is the merged, screened
+Scopus+WoS *core* corpus produced by ``00_build_corpus.py`` and written to
+``corpus_clean.pkl``. ``derive_fields`` is shared so both paths produce an
+identical schema for downstream scripts 02-11.
+"""
 import os
 import re
 import pickle
 import pandas as pd
 import numpy as np
+
+try:
+    from utils.wos_loader import normalize_country
+except ImportError:  # when imported as a top-level module
+    from wos_loader import normalize_country
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', '..', 'data')
 ANALYSIS_DIR = os.path.join(os.path.dirname(__file__), '..')
@@ -49,6 +60,7 @@ def extract_countries(aff_str):
             country = tokens[-1].strip()
             # Clean up common artifacts
             country = re.sub(r'\s*\(.*?\)\s*', '', country).strip()
+            country = normalize_country(country)
             if country and len(country) > 1 and not country.isdigit():
                 countries.append(country)
     return list(set(countries))
@@ -72,19 +84,19 @@ def extract_institutions(aff_str):
     return list(set(institutions))
 
 
-def load_and_clean(force_reload=False):
-    if os.path.exists(PICKLE_PATH) and not force_reload:
-        with open(PICKLE_PATH, 'rb') as f:
-            return pickle.load(f)
+def derive_fields(df):
+    """Add all derived columns the pipeline needs to a Scopus-shaped frame.
 
-    csv_path = os.path.join(DATA_DIR, 'scopus.csv')
-    df = pd.read_csv(csv_path)
-
-    # Basic cleaning
+    Shared by the legacy Scopus-only loader and the merged-corpus builder so
+    both yield an identical schema.
+    """
+    df = df.copy()
     df['Cited by'] = pd.to_numeric(df['Cited by'], errors='coerce').fillna(0).astype(int)
+    df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
+    df = df[df['Year'].notna()].copy()
     df['Year'] = df['Year'].astype(int)
     df['has_abstract'] = (df['Abstract'].notna()) & (df['Abstract'] != '[No abstract available]')
-    df['has_references'] = df['References'].notna()
+    df['has_references'] = df['References'].notna() & (df['References'].astype(str).str.strip() != '')
 
     # Parse structured fields
     df['author_list'] = df['Author full names'].apply(parse_authors)
@@ -97,17 +109,29 @@ def load_and_clean(force_reload=False):
     df['country_list'] = df['Affiliations'].apply(extract_countries)
     df['institution_list'] = df['Affiliations'].apply(extract_institutions)
     df['author_count'] = df['author_list'].apply(len)
+    df['is_OA'] = df['Open Access'].notna() & (df['Open Access'].astype(str).str.strip() != '')
 
-    # Open access flag
-    df['is_OA'] = df['Open Access'].notna() & (df['Open Access'] != '')
+    df = df.reset_index(drop=True)
+    df['paper_id'] = ['P' + str(i + 1).zfill(3) for i in range(len(df))]
+    return df
 
-    # Paper ID for convenience
-    df['paper_id'] = ['P' + str(i + 1).zfill(2) for i in range(len(df))]
 
-    # Save
+def load_and_clean(force_reload=False):
+    """Load the canonical corpus (merged Scopus+WoS core if built).
+
+    ``corpus_clean.pkl`` is written by ``00_build_corpus.py`` and consumed by
+    all downstream scripts. The legacy Scopus-only path is kept as a fallback
+    when no built corpus exists.
+    """
+    if os.path.exists(PICKLE_PATH) and not force_reload:
+        with open(PICKLE_PATH, 'rb') as f:
+            return pickle.load(f)
+
+    # Legacy fallback: build from the original Scopus CSV.
+    csv_path = os.path.join(DATA_DIR, 'scopus.csv')
+    df = derive_fields(pd.read_csv(csv_path))
     with open(PICKLE_PATH, 'wb') as f:
         pickle.dump(df, f)
-
     return df
 
 

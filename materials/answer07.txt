@@ -1,0 +1,69 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find highly cited papers on conducting systematic literature reviews in educational technology, especially using PRISMA guidelines" "Show me methodological papers on bibliometric analysis using Scopus data, including data extraction and processing techniques" "What are the standard methods for identifying research gaps through systematic literature analysis?"
+
+"Find highly cited papers on conducting systematic literature reviews in educational technology, especially using PRISMA guidelines" "Show me methodological papers on bibliometric analysis using Scopus data, including data extraction and processing techniques" "What are the standard methods for identifying research gaps through systematic literature analysis?"
+
+Creating a plan to answer your query
+
+Performing natural language search:
+
+    What are the standard methods for identifying research gaps through systematic literature analysis?
+
+Performing keyword search:
+
+    ("systematic review" OR "literature review" OR "review" OR "meta-analysis") AND ("educational technology" OR "edtech" OR "e-learning" OR "digital learning") AND ("PRISMA" OR "preferred reporting items" OR "guidelines" OR "standards") AND ("methodology" OR "framework" OR "approach" OR "process") AND ("research" OR "study" OR "analysis" OR "evaluation")
+
+Generating summary
+
+Summary
+Highly Cited Papers on Conducting Systematic Literature Reviews in Educational Technology Using PRISMA Guidelines
+
+Several abstracts provide insights into conducting systematic literature reviews (SLRs) in educational technology using PRISMA guidelines:
+
+    MOOCs and Deep Learning: A systematic literature review conducted over a five-year period (2019-2024) focused on factors affecting student academic performance and engagement in MOOCs, utilizing Deep Learning methods. This review followed PRISMA guidelines and analyzed articles from major academic databases, highlighting the capabilities of DL techniques in predicting student outcomes .
+    Augmented Reality and Gamification: Another systematic review examined the use of augmented reality and gamification in education, following PRISMA guidelines. This review analyzed 670 articles from five databases, emphasizing the benefits of these technologies in enhancing student engagement and learning outcomes .
+    Simulation Training Programs: A systematic review on the implementation of simulation training programs for health science students also adhered to PRISMA guidelines. This review included 42 articles and highlighted the success of these programs in improving competencies such as teamwork and communication .
+    AI in Education: A bibliometric and thematic analysis of systematic reviews on AI in education used PRISMA guidelines to select relevant papers. The study identified trends and keyword clusters, providing a comprehensive overview of AI applications in education .
+
+Methodological Papers on Bibliometric Analysis Using Scopus Data
+
+Several abstracts discuss methodological approaches to bibliometric analysis using Scopus data:
+
+    Goods Transportation: A study applied bibliometric analysis techniques to explore research trends in goods transportation using Scopus data. The analysis included descriptive statistics, citation analysis, co-citation analysis, and keyword co-occurrence analysis to identify research gaps and future directions .
+    AI and Decision-Making: Another study conducted a bibliometric analysis of AI and decision-making literature from 1971 to 2024 using Scopus data. The analysis involved citation analysis, co-authorship networks, and keyword analysis to map research evolution and collaboration patterns .
+    Cybersecurity and AI: A bibliometric analysis of the intersection of cybersecurity and AI used Scopus data to uncover key patterns and themes. The study highlighted collaboration patterns, keyword analysis, and the most cited documents in the field .
+
+Standard Methods for Identifying Research Gaps Through Systematic Literature Analysis
+
+Several abstracts provide insights into methods for identifying research gaps through systematic literature analysis:
+
+    Ehsan’s Three Tables Model: This model offers a structured approach to identifying research gaps in business and economics studies. It involves compiling relevant studies, categorizing research gaps, and outlining how the current study fills these gaps .
+    Machine Learning-Based Approach: A study proposed a machine learning-based approach for identifying research gaps in COVID-19 literature using the BERTopic topic modeling technique. This approach involves embedding documents, clustering documents, and representing topics .
+    Scoping Review Methods: A scoping review described various methods used to identify, prioritize, and display research gaps in health research. The most frequent methods involved secondary research, including systematic reviews and scoping reviews .
+    Framework for Qualitative Literature Reviews: A proposed framework for identifying research gaps in qualitative literature reviews ensures rigor and replicability. This framework was developed based on an analysis of state-of-the-art procedures in recent literature reviews .
+
+Summary Table
+Topic	Key Insights	Abstracts
+SLRs in Educational Technology (PRISMA)	Reviews on MOOCs, augmented reality, simulation training, and AI in education using PRISMA guidelines	
+Bibliometric Analysis (Scopus)	Studies on goods transportation, AI and decision-making, and cybersecurity using Scopus data	
+Identifying Research Gaps	Methods include Ehsan’s Three Tables Model, machine learning-based approaches, scoping reviews, and frameworks for qualitative reviews	
+
+These abstracts provide a comprehensive overview of methodologies and approaches for conducting systematic literature reviews, bibliometric analysis, and identifying research gaps, particularly in the context of educational technology and other fields.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+References
+
+Your BibTeX file was successfully exported.

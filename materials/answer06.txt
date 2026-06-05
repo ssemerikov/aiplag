@@ -1,0 +1,84 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers on knowledge graph construction methodologies for bibliometric analysis and research mapping in educational technology" "Show me tutorials or methodological papers on using D3.js or similar tools for visualizing academic research networks" "What are the best practices for entity extraction and relationship mapping in academic literature using knowledge graphs?"
+
+"Find papers on knowledge graph construction methodologies for bibliometric analysis and research mapping in educational technology" "Show me tutorials or methodological papers on using D3.js or similar tools for visualizing academic research networks" "What are the best practices for entity extraction and relationship mapping in academic literature using knowledge graphs?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("knowledge graph" OR "semantic network" OR "ontology" OR "data structure") AND ("construction" OR "development" OR "creation" OR "building") AND ("methodology" OR "approach" OR "technique" OR "framework") AND ("bibliometric" OR "citation analysis" OR "research metrics" OR "scientometrics") AND ("analysis" OR "evaluation" OR "assessment" OR "mapping") AND ("educational technology" OR "edtech" OR "learning technology" OR "instructional technology")
+
+Generating summary
+
+Summary
+Knowledge Graph Construction Methodologies for Bibliometric Analysis and Research Mapping in Educational Technology
+
+Overview: Knowledge graph construction methodologies are essential for bibliometric analysis and research mapping, particularly in the field of educational technology. These methodologies involve extracting and structuring scholarly knowledge to facilitate better understanding and utilization of academic literature.
+
+Key Methodologies:
+
+    Information Extraction and Ontology Matching:
+        Techniques such as machine learning, rule-based learning, and natural language processing (NLP) are employed to extract information and match ontologies, which are crucial for constructing scholarly knowledge graphs (SKGs) .
+
+    Entity Extraction and Relationship Mapping:
+        Best practices include tuning language models to identify and normalize relevant entities, creating representational models based on probabilistic topics, and formalizing ontologies to describe associations between domain concepts .
+
+    Visualization and Analysis Tools:
+        Tools like GeoBM (Geographic Bibliometric Mapping) integrate normalized publication volumes with collaboration frequencies to produce high-resolution geographic maps, aiding in the visualization of global research networks .
+
+Challenges and Applications:
+
+    The construction and refinement of SKGs face challenges such as the need for scalable methods and the integration of diverse data sources. However, these graphs are critical for applications in research management, policy evaluation, and innovation studies .
+
+Tutorials or Methodological Papers on Using D3.js or Similar Tools for Visualizing Academic Research Networks
+
+Relevant Tools and Frameworks:
+
+    GeoBM Framework:
+        GeoBM is a Python-based computational framework that enhances geovisualization of global scientific output and collaboration patterns. It supports extensive customization and is accessible via platforms like Google Colab and GitHub .
+
+    Natural Language Interfaces (NLIs) for Data Visualization:
+        NLIs are becoming popular for specifying visualizations through natural language. Studies have characterized how people generate visualizations using NLIs, which can guide the development of tools like D3.js .
+
+    CLAVIRE Platform:
+        This platform includes a graphical library and engine for 3D visualization, facilitating the sharing and presentation of scientific results interactively .
+
+Best Practices for Entity Extraction and Relationship Mapping in Academic Literature Using Knowledge Graphs
+
+Best Practices:
+
+    Tuning Language Models:
+        Adjusting language models to accurately identify and normalize entities is crucial. This involves using probabilistic topics and formalizing ontologies to describe relationships between concepts .
+
+    Utilizing Machine Learning and NLP:
+        Employing machine learning and NLP tools to extract information and match ontologies helps in constructing and refining SKGs. These techniques ensure that the extracted data is accurate and meaningful .
+
+    Integration with Visualization Tools:
+        Integrating knowledge graphs with visualization tools like GeoBM enhances the interpretability of data, allowing for better analysis of research networks and collaboration patterns .
+
+Challenges:
+
+    The main challenges include handling the vast amount of data, ensuring the accuracy of extracted entities, and maintaining the scalability of the methodologies .
+
+Applications:
+
+    These practices are applied in various domains, including the creation of question-answering systems and the visualization of global research networks, which aid in understanding and managing scholarly communication .
+
+By following these methodologies and best practices, researchers can effectively construct and utilize knowledge graphs for bibliometric analysis and research mapping in educational technology.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

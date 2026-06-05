@@ -10,7 +10,7 @@ def main():
     print("01 — Data Loading & Validation")
     print("=" * 60)
 
-    df = load_and_clean(force_reload=True)
+    df = load_and_clean()  # canonical merged core corpus (built by 00_build_corpus)
     stats = summary_stats(df)
 
     print(f"\nCorpus: {stats['total_papers']} papers")

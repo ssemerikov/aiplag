@@ -1,0 +1,69 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find comprehensive reviews on artificial intelligence applications in educational technology from 2020-2024, especially focusing on generative AI" "Show me papers discussing the transformation of academic assessment methods due to AI integration, particularly after 2022" "What are the foundational papers on AI literacy and AI competencies for educators and students?"
+
+"Find comprehensive reviews on artificial intelligence applications in educational technology from 2020-2024, especially focusing on generative AI" "Show me papers discussing the transformation of academic assessment methods due to AI integration, particularly after 2022" "What are the foundational papers on AI literacy and AI competencies for educators and students?"
+
+Creating a plan to answer your query
+
+Performing natural language search:
+
+    What are the comprehensive reviews on artificial intelligence applications in educational technology focusing on generative AI from 2020 to 2024?
+    How has AI integration transformed academic assessment methods, particularly after 2022?
+
+Performing keyword search:
+
+    ("AI literacy" OR "artificial intelligence literacy" OR "digital literacy" OR "technology literacy") AND ("AI competencies" OR "artificial intelligence skills" OR "digital skills" OR "technology skills") AND ("educators" OR "teachers" OR "instructors" OR "facilitators") AND ("students" OR "learners" OR "pupils" OR "scholars") AND ("curriculum" OR "training" OR "education" OR "instruction") AND ("assessment" OR "evaluation" OR "measurement" OR "performance")
+
+Generating summary
+
+Summary
+Comprehensive Reviews on AI Applications in Educational Technology (2020-2024)
+
+Generative AI in Education:
+
+    Generative AI tools like ChatGPT have been widely adopted in educational settings, particularly for personalized learning and automated assessments .
+    Reviews highlight the surge in publications around generative AI, especially in 2023, driven by advancements in AI tools .
+    Key benefits include tailored learning experiences, improved student engagement, and cost-effective learning solutions .
+    Challenges such as data privacy, algorithmic bias, and ethical concerns are frequently noted .
+
+Transformation of Academic Assessment Methods Due to AI Integration (Post-2022)
+
+AI in Academic Assessment:
+
+    AI has significantly transformed assessment practices, offering automation in grading, personalized feedback, and adaptive learning experiences .
+    AI tools have been integrated into various aspects of assessment, including online exams, feedback mechanisms, and student learning management .
+    The use of AI in assessments has raised concerns about diminished critical thinking skills and over-reliance on technology .
+    AI-driven assessments are seen as enhancing efficiency and accuracy but require careful management to avoid negative impacts on educational quality .
+
+Foundational Papers on AI Literacy and AI Competencies for Educators and Students
+
+AI Literacy and Competencies:
+
+    The UNESCO AI Competency Framework provides a comprehensive guide for developing AI literacy among educators and students, emphasizing ethical use, interdisciplinary learning, and practical application .
+    Studies highlight the importance of AI literacy in equipping students with digital skills for future careers and effective use of AI technologies .
+    AI competency frameworks for students include dimensions such as interdisciplinary learning, ethical decision-making, and multimedia creation with AI .
+    Research underscores the need for ongoing professional development for educators to effectively integrate AI literacy into curricula .
+
+Summary Table
+Topic	Key Insights	Challenges	References
+Generative AI in Education	Personalized learning, automated assessments, improved engagement	Data privacy, algorithmic bias, ethical concerns	
+AI in Academic Assessment	Automated grading, personalized feedback, adaptive learning	Diminished critical thinking, over-reliance on technology	
+AI Literacy and Competencies	UNESCO AI Competency Framework, interdisciplinary learning, ethical use	Need for professional development, effective integration	
+
+These insights provide a comprehensive overview of the current state and challenges of AI applications in educational technology, particularly focusing on generative AI, academic assessment transformations, and AI literacy for educators and students.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

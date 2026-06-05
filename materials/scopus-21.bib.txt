@@ -1,0 +1,153 @@
+﻿Scopus
+EXPORT DATE: 20 August 2025
+
+@ARTICLE{Keykha2025,
+	author = {Keykha, Ahmad and Mohammadi, Hananeh and Darabi, Fatemeh and Hosseini, Sajedeh Sadat},
+	title = {Identifying the Applications of Artificial Intelligence in the Assessment of Medical Students},
+	year = {2025},
+	journal = {Strides in Development of Medical Education Journal},
+	volume = {22},
+	number = {1},
+	doi = {10.22062/sdme.2025.200833.1512},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105005458469&doi=10.22062%2fsdme.2025.200833.1512&partnerID=40&md5=ee859df87a61d77bbd088e05c5e66073},
+	abstract = {Background: AI has rapidly transformed education, research, and community services in medical universities, surpassing earlier expectations about its integration. A key area of this transformation is student assessment, which plays a vital role in shaping learning outcomes, faculty workload, and public trust in medical education. Objectives: This study aims to explore the applications of AI in the assessment of medical students through a content analysis of relevant scholarly literature. Methods: This qualitative study employed a meta-synthesis method following Walsh and Downe’s seven-step framework. Using targeted keywords, a comprehensive search was conducted across major databases, including ScienceDirect, Springer, ERIC, Emerald, Sage Journals, Wiley Online Library, PubMed, and Google Scholar, covering publications from 2015 to 2024. A total of 200 articles were initially retrieved; after applying quality appraisal criteria, this number was narrowed down to 24 studies. To ensure the credibility of the findings, Whittemore et al.’s ten indicators for methodological rigor were applied. Results: Six key themes emerged regarding AI applications in medical student assessment: (a) feedback, (b) online exam, (c) instrument design, (d) assessment process, (e) student learning management, and (f) faculty workload management, along with 19 sub-themes. These findings reflect the diverse and evolving impact of AI in assessment practices. Conclusion: This study underscores the multifaceted and transformative impact of AI in medical student assessment across six key domains. These applications serve as a strategic roadmap for seamlessly integrating AI into the assessment of medical students while effectively adapting to evolving educational paradigms. © 2025, Strides in Development of Medical Education is Published by Kerman University of Medical Science.},
+	author_keywords = {Artificial Intelligence; Educational Technology; Medical Education; Meta-Synthesis; Student Assessment}
+}
+
+@ARTICLE{Hornberger2023,
+	author = {Hornberger, Marie and Bewersdorff, Arne and Nerdel, Claudia},
+	title = {What do university students know about Artificial Intelligence? Development and validation of an AI literacy test},
+	year = {2023},
+	journal = {Computers and Education: Artificial Intelligence},
+	volume = {5},
+	doi = {10.1016/j.caeai.2023.100165},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85170209362&doi=10.1016%2fj.caeai.2023.100165&partnerID=40&md5=32abf4eef58f7b00cc5e7c31144f9826},
+	abstract = {Artificial Intelligence (AI) strongly influences our daily lives and work environments. To deal with the challenges as well as to pick up on the opportunities associated with AI, university students need to acquire a basic understanding of AI (so-called AI literacy). To design effective study programs that foster AI competencies, it is necessary to assess the state of students' AI literacy. While there already are some AI literacy tests available, many instruments focus on specific AI courses, rely primarily on self-assessment, or do not provide detailed psychometric information. This study aims to develop and validate an AI literacy test and to provide initial insights into the current state of AI literacy among German university students. We present a validated multiple-choice test to assess AI literacy in higher education. The results suggest that there is a significant variance in AI literacy among students, with most showing a fundamental understanding of AI. AI literacy is higher among students with a technical study background or prior experience in AI. The results imply that there is a need for effective AI courses for a broader audience of students who use AI in their daily lives and will use AI tools in their future careers. Furthermore, educators should consider the variance of students’ prior knowledge when designing AI courses. © 2023},
+	author_keywords = {AI education; AI literacy; Artificial intelligence; Higher education; Test development}
+}
+
+@ARTICLE{Ng20246204,
+	author = {Ng, Davy Tsz Kit and Su, Jiahong and Leung, Jac Ka Lok and Chu, Samuel Kai Wah},
+	title = {Artificial intelligence (AI) literacy education in secondary schools: a review},
+	year = {2024},
+	journal = {Interactive Learning Environments},
+	volume = {32},
+	number = {10},
+	pages = {6204 – 6224},
+	doi = {10.1080/10494820.2023.2255228},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85170063054&doi=10.1080%2f10494820.2023.2255228&partnerID=40&md5=67cb4ca4fcb5535914172650d30e4a8c},
+	abstract = {Artificial intelligence (AI) literacy has emerged to equip students with digital skills for effective evaluation, communication, collaboration, and ethical use of AI in online, home, and workplace settings. Countries are increasingly developing AI curricula to support students' technological skills for future studies and careers. However, there is a lack of reviews summarizing AI education in secondary schools. This study aims to provide an up-to-date summary of the literature, informing researchers, policymakers, and educators on fostering students' AI literacy. A thematic analysis of 50 AI education studies from 2016 to 2022 was conducted, evaluating pedagogies, teaching tools, learning contents, and assessment methods among secondary students. Results were identified: (1) Collaborative project-based learning, involving interdisciplinary problem-solving through artifact creation, emerged as the most common pedagogical approach; (2) Teaching tools were categorized into hardware, software, intelligent agents, and unplugged tools; (3) Junior students focused on experiencing AI and basic concepts, while senior students explored advanced and technical components; (4) Assessments included knowledge tests, questionnaires, and qualitative analysis (e.g., videos, documents, presentations); (5) Students' learning effects were measured across affective, behavioral, cognitive, and ethical dimensions. The study identifies suggestions and challenges for implementing AI education in secondary schools, offering valuable insights and recommendations for educators and decision-makers. © 2023 Informa UK Limited, trading as Taylor & Francis Group.},
+	author_keywords = {AI literacy; Artificial intelligence; review; secondary}
+}
+
+@ARTICLE{Wu20244,
+	author = {Wu, Dan and Sun, Xinjue},
+	title = {Exploring Human-centered AI Literacy Education: Interpretation and Insights from UNESCO's AI Competency Framework for Teachers and Students; [以人为本的人工智能素养教育探究:UNESCO 教师和学生人工智能能力框架的解读与启示]},
+	year = {2024},
+	journal = {Journal of Library and Information Science in Agriculture},
+	volume = {36},
+	number = {8},
+	pages = {4 – 19},
+	doi = {10.13998/j.cnki.issn1002-1248.24-0644},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85217918575&doi=10.13998%2fj.cnki.issn1002-1248.24-0644&partnerID=40&md5=309adf706ca150dc31f8929acc668789},
+	abstract = {[Purpose/Significance] Improving artificial intelligence (AI) literacy has emerged as a critical focus in global education, reflecting the growing significance of AI in today's society. This study aims to explore and interpret the core elements and key competencies articulated in the UNESCO AI Competency Framework for teachers and students, and to provide practical guidance for educators and policymakers, offering insights that can facilitate the systematic integration of AI literacy education. A comprehensive approach to AI education is needed to equip both students and teachers with the skills and knowledge necessary to navigate and thrive in an increasingly intelligent era. The results of this study are intended to support the formulation of effective pedagogical strategies, thereby contributing to the enhancement of AI literacy among educational stakeholders. [Method/Process] The study analyzes the preliminary policy foundations and background that led to the creation of the UNESCO AI Competency Framework. It analyzes the content of both the AI CFS and the AI CFT, focusing on key principles and framework structure to systematically interpret the framework's content. In particular, this study explores the policy context in which these frameworks were developed and examines how global educational goals and technological advances have influenced the articulation of AI competencies. By understanding the development and rationale behind the UNESCO AI Competency Framework, this study aims to provide a comprehensive overview that can support the development of effective AI literacy initiatives. It also highlights the connections between the intentions of the frameworks and the practical competencies required of educators and students, thereby contributing to a deeper understanding of how AI literacy can be meaningfully integrated into educational practice. [Results/Conclusions] Based on the experience provided by the competency framework and considering the current state of AI literacy education, this study offers insights and recommendations for developing AI literacy education in China from four perspectives: core values, policy refinement, practical application, and future implementation. Specifically, this study emphasizes that all educational stakeholders should work together to improve AI educational content and methods, and move toward a teacher-student-AI interaction model that empowers teachers, fosters student creativity, and integrates AI as a facilitator of personalized, flexible, and multidirectional learning. In terms of policy refinement, this study advocates for the creation of a supportive policy environment that addresses the unique challenges faced by educators and learners in the Chinese context. For practical application, the study provides actionable recommendations for integrating AI literacy into curricula, emphasizing project-based learning, hands-on experiences, and interdisciplinary approaches that foster a comprehensive understanding of AI concepts. Finally, in terms of future implementation, this study highlights the need for ongoing professional development for educators, such as the establishment of assessment mechanisms to monitor and evaluate the effectiveness of AI literacy programs over time. © 2024 Agricultural Information Institute, Chinese Academy of Agricultural Sciences. All rights reserved.},
+	author_keywords = {AI competency framework; AI literacy; AI literacy education; human-centered approach to AI}
+}
+
+@CONFERENCE{Fang2025117,
+	author = {Fang, Wenjie and Luo, Bin},
+	title = {Application and Impact of Generative Artificial Intelligence Techniques in Education - Citespace-based visualization and analysis},
+	year = {2025},
+	journal = {Proceedings of 2024 3rd International Conference on Artificial Intelligence and Education, ICAIE 2024},
+	pages = {117 – 122},
+	doi = {10.1145/3722237.3722258},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105005285304&doi=10.1145%2f3722237.3722258&partnerID=40&md5=6b8f1b3d9070e82359d0500c90b7a2a1},
+	abstract = {Recently, generative AI technology has arisen as a trending research agenda in education. This study makes an review of 260 documents from the CNKI database published from 2020 to 2024. Through the bibliometric and content analysis methods, together with the CiteSpace tool, highlight the trending application of this technology in education, the distribution characteristics of the core authors and institutions' postings, and the clustering analysis of the research hotspots. The results show continued wide adoption of generative AI technology in education in recent years, peaking sharply in 2023. There hasn't been a stable core group of authors within the field, and the collaborative network is relatively sparse. Research hotspots mainly cover artificial intelligence, human-computer collaboration and educational transformation, which indicates the function generative AI technology could have within the digital transformation and quality enhancement of education. This paper additionally shows the actualization of generative AI technology through its presentation of AI tutors and teaching assistants, teaching models reform, and reshaped instructional evaluation systems via case studies. In face of misuse, integrity issues, and ethical concerns arising, there is a need to find a balance in the application of the technology, such that its more proper development can promote rather than replace human subjectivity.  © 2024 Copyright held by the owner/author(s). Publication rights licensed to ACM.},
+	author_keywords = {CiteCpace visual analytic; Educational Application; Generative AI; Human-computer collaboration},
+	keywords = {Computer aided instruction; Curricula; Educational robots; Ethical technology; Generative adversarial networks; AI Technologies; Artificial intelligence techniques; Citecpace visual analytic; Citespace; Educational Applications; Generative AI; Hotspots; Human-computer collaboration; Technology in educations; Visual analytics; Teaching}
+}
+
+@BOOK{Mutawa202475,
+	author = {Mutawa, A.M. and Sruthi, Sai},
+	title = {UNESCO's AI Competency Framework: Challenges and Opportunities in Educational Settings},
+	year = {2024},
+	journal = {Impacts of Generative AI on the Future of Research and Education},
+	pages = {75 – 96},
+	doi = {10.4018/979-8-3693-0884-4.ch004},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105007275136&doi=10.4018%2f979-8-3693-0884-4.ch004&partnerID=40&md5=7f0434e25d0c8ea92dc40d8bf608a88a},
+	abstract = {The fast incorporation of artificial intelligence (AI) into many fields demand a thorough strategy toward AI literacy in education. UNESCO’s AI competence framework offers a solid basis for arming teachers and students with the knowledge, tools, and ethical awareness they need to negotiate an AI-driven future. The main opportunities and challenges in using UNESCO’s AI competence framework in many educational environments are investigated in this work. Significant obstacles are ethical issues, contextual adaptability, effective assessment and evaluation, and the necessity of professional growth. On the other hand, the framework offers great chances to improve instructional strategies, encourage multidisciplinary cooperation, and assist individualized learning environments. This study offers ideas on improving educational policies and procedures to guarantee the efficient integration of AI literacy by looking at current studies. The results add to the continuous conversation around AI education and guide stakeholders in negotiating the complexity of using AI competence frameworks. In conclusion, this research emphasizes the need to tackle opportunities and issues to equip teachers and students for the future, guaranteeing inclusive, ethical, and influential AI literacy. © 2025 by IGI Global. All rights reserved.},
+	keywords = {Students; Educational environment; Educational settings; Ethical awareness; Ethical issues; Individualized learning; Instructional strategy; Knowledge awareness; Professional growth; Solid basis; Teachers'; Teaching}
+}
+
+@ARTICLE{Matos2025,
+	author = {Matos, Tomás and Santos, Walter and Zdravevski, Eftim and Coelho, Paulo Jorge and Pires, Ivan Miguel and Madeira, Filipe},
+	title = {A systematic review of artificial intelligence applications in education: Emerging trends and challenges},
+	year = {2025},
+	journal = {Decision Analytics Journal},
+	volume = {15},
+	doi = {10.1016/j.dajour.2025.100571},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105003203275&doi=10.1016%2fj.dajour.2025.100571&partnerID=40&md5=84cc1ef9e144bbe48944ca10ac94b493},
+	abstract = {The academic world is becoming increasingly interested in the applications of Artificial Intelligence technology in education. A systematic review examines AI applications in education, focusing on their effectiveness, challenges, and implications. A comprehensive analysis of studies published between 2011 and 2024 encompassed 45 research articles from major databases, such as PubMed Central, IEEE Xplore, Elsevier, Springer, MDPI, ACM, and PMC. The findings highlight the predominant use of generative AI tools like ChatGPT (30%), followed by other advanced technologies, such as GPT-4, machine learning, and virtual reality. Research across global regions, particularly in Canada (18%), the United States (12%), and China (8%), highlights the multifaceted applications of AI in enhancing personalized learning, fostering critical thinking, and supporting professional education. Tools such as ChatGPT have demonstrated strong performance in theoretical knowledge delivery and medical education, while augmented and virtual reality excels in practical skill development. Despite these advances, challenges such as data privacy concerns, algorithmic bias, and the need for specialized educator training remain critical. © 2025 The Author(s)},
+	author_keywords = {Adaptive learning; Artificial intelligence; ChatGPT; Educational technology; Machine learning; Systematic review}
+}
+
+@CONFERENCE{Bui2024,
+	author = {Bui, Nguyen Tuan Anh and Nguyen, Linh and Nguyen, Ngoc Dang Khoa and Hoang, Cuong Chi},
+	title = {Generative AI-driven Digital Transformation in Education: Systematic Review and Future Research Directions},
+	year = {2024},
+	journal = {International Conference on Logistics and Industrial Engineering 2024, ICLIE 2024},
+	doi = {10.1109/ICLIE61478.2024.11015358},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105010172303&doi=10.1109%2fICLIE61478.2024.11015358&partnerID=40&md5=9b210b543d21aff6d7d2df1c28120cb4},
+	abstract = {Generative artificial intelligence (AI) has emerged as a transformative force in multiple disciplines, particularly in education amidst the post-COVID-19 era. The systematic review synthesizes findings from 59 peer-reviewed articles published from 2014 to 2024. Through a rigorous analysis, we delve into several benefits and challenges associated with Generative AI-driven digital transformation in education. Notably, Generative AI offers numerous benefits for educational institutions such as tailored learning experiences, improved student engagement, cost-effective learning solutions and so forth. Nevertheless, reaping such benefits often necessitates grappling with challenges, including technological intricacies, ethical consideration and pedagogical implications. These findings gleaned from this review serve as an invaluable resource for researchers and practitioners seeking to harness Generative AI's potential to optimize teaching and learning performance. Such a review also lays a robust foundation for future research endeavors, paving the way for continued advancements in this domain. © 2024 IEEE.},
+	author_keywords = {digital transformation; education sector; Generative AI; systematic literature review},
+	keywords = {Artificial intelligence; E-learning; Education computing; Teaching; Benefit and challenges; Digital transformation; Education sectors; Educational institutions; Future research directions; Generative artificial intelligence; Multiple disciplines; Rigorous analysis; Systematic literature review; Systematic Review; Cost effectiveness}
+}
+
+@BOOK{Vetrivel202443,
+	author = {Vetrivel, S.C. and Vidhyapriya, P. and Arun, V.P.},
+	title = {The Role of AI in Transforming Assessment Practices in Education},
+	year = {2024},
+	journal = {AI Applications and Strategies in Teacher Education},
+	pages = {43 – 70},
+	doi = {10.4018/979-8-3693-5443-8.ch003},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105009577463&doi=10.4018%2f979-8-3693-5443-8.ch003&partnerID=40&md5=e6ba9edc6fd5438402b2a72bf0206757},
+	abstract = {Assessment practices in education are undergoing a significant transformation with the integration of artificial intelligence (AI) technologies. This chapter explores the evolving role of AI in revolutionizing assessment methods across educational contexts. By automating various aspects of assessment, AI offers educators and learners unprecedented opportunities for efficiency, personalization, and scalability. AI- powered assessment tools enable the automation of grading, providing educators with more time to focus on providing personalized feedback and guiding student learning. Additionally, AI can analyze vast amounts of data to identify patterns in student performance, allowing for targeted interventions and adaptive learning experiences tailored to individual needs. Furthermore, AI facilitates the development of innovative assessment formats, such as simulations and interactive scenarios, which can better assess higher- order thinking skills and real- world application of knowledge. © 2025 by IGI Global Scientific Publishing. All rights reserved.},
+	keywords = {Artificial intelligence; Education computing; Metadata; Adaptive learning; Artificial intelligence technologies; Assessment practices; Assessment tool; Educational context; Learning experiences; Personalizations; Personalized feedback; Student learning; Student performance; Students}
+}
+
+@CONFERENCE{Fahmy Yousef2025,
+	author = {Fahmy Yousef, Ahmed Mohamed and Elhag, Abdelrahman and Raja Hussain, Raja Maznah and Khatiry, Ahmed Ramadan and Al-Saadi, Zulaikha and Khalil, Hanan},
+	title = {Insights from Faculty and Students on AI Assessment Practices: Threat or Opportunity?},
+	year = {2025},
+	journal = {International Conference for Artificial Intelligence: Applications, Innovation and Ethics, AI2E 2025},
+	doi = {10.1109/AI2E64943.2025.10983074},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105008416947&doi=10.1109%2fAI2E64943.2025.10983074&partnerID=40&md5=6952ff703161f4f9544200eba03cf525},
+	abstract = {Artificial Intelligence (AI) is transforming educational assessment, by offering innovative solutions to evaluate student learning outcomes effectively. This study seeks to explore faculty and students' perspective on AI's impact on assessment, focusing on whether it enhances or detracts assessment practices. Using a mixed-methods research design, it combines quantitative approach with quantitative data analysis to gain a comprehensive view of faculty and students' perspectives on the impact of AI in assessment processes. Data were collected from 12 university professors and a random sample of 35 students across various academic departments. The analysis revealed a broad agreement between the faculty and students on the advantages of AI in assessments, particularly in enhancing grading speed, accuracy, and feedback. However, considerable concerns were raised, like diminished critical thinking and problem-solving skills and over-reliance on technology. As a result, AI has the potential to either enhance or harm assessment practices, depending on how it is managed. This implies that AI should be integrated into educational assessment thoughtfully, improving efficiency without replacing human judgment or critical thinking, to ensure that it supports rather than detracts from the core educational mission.  © 2025 IEEE.},
+	author_keywords = {AI; artificial intelligence; assessment; ChatGPT; online learning},
+	keywords = {E-learning; Education computing; Engineering education; Students; Teaching; Assessment; Assessment practices; ChatGPT; Critical thinking; Educational assessment; Innovative solutions; Mixed-methods research; Online learning; Student learning outcomes; Student perspectives; Problem solving}
+}
+
+@ARTICLE{Nguyen20251,
+	author = {Nguyen, Trang Ngoc and Truong, Hoa Thi},
+	title = {Trends and emerging themes in the effects of generative artificial intelligence in education: A systematic review},
+	year = {2025},
+	journal = {Eurasia Journal of Mathematics, Science and Technology Education},
+	volume = {21},
+	number = {4},
+	pages = {1 – 11},
+	doi = {10.29333/ejmste/16124},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105001037351&doi=10.29333%2fejmste%2f16124&partnerID=40&md5=f9e29ddc763926d51594635ae7b85a5d},
+	abstract = {This paper systematically reviews the impact of Generative Artificial Intelligence (GenAI) in education from 2021 to 2024. The objective is to explore key trends, geographical distribution of research, and emerging themes in the educational use of GenAI, while addressing ethical challenges such as algorithmic bias, data privacy, and the digital divide. Using a systematic review methodology guided by four research questions, the study analyzes publications in Scopus to identify dominant research themes and leading countries in the field. Results indicate that the United States, the United Kingdom, and Singapore are the top contributors to GenAI research, with a primary focus on personalized learning and automated assessments. The review highlights a surge in publications, particularly in 2023, driven by advancements in AI tools like ChatGPT. It emphasizes the importance of international collaboration and proposes the need for regulatory frameworks to ensure the ethical integration of AI in education. This review offers valuable insights into the current state of GenAI research in education and provides recommendations for educators, policymakers, and researchers to navigate the challenges and opportunities of AI-driven learning. © 2025 by the authors.},
+	author_keywords = {algorithmic bias; ethical concerns; generative artificial intelligence (GenAI); international collaboration; personalized learning; PRISMA; systematic review}
+}
+
+@ARTICLE{Chiu2025,
+	author = {Chiu, Thomas K. F. and Çoban, Murat and Sanusi, Ismaila Temitayo and Ayanwale, Musa Adekunle},
+	title = {Validating student AI competency self-efficacy (SAICS) scale and its framework},
+	year = {2025},
+	journal = {Educational Technology Research and Development},
+	doi = {10.1007/s11423-025-10512-y},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105006796026&doi=10.1007%2fs11423-025-10512-y&partnerID=40&md5=204a498263625603a48c1f44cfd07bc0},
+	abstract = {Nurturing student artificial intelligence (AI) competency is crucial in the future of K-12 education. Students with strong AI competency should be able to ethically, safely, healthily, and productively integrate AI into their learning. Research on student AI competency is still in its infancy, primarily focusing on theoretical and professional discussions, along with qualitative investigations. This two-stage study aims to propose an AI competency framework for students and confirm the reliability and validity of its scale—student AI competency self-efficacy (SAICS)—in K-12 education. In stage 1, we used a three-round Delphi study to propose the framework and its scale. The framework has eight dimensions: interdisciplinary learning with AI, assessment with AI, decision-making with AI, data, ethics and AI, designing AI, multimedia creation with AI, human-centric learning, and confidence with AI. Each dimension contains four items. In stage 2, we involved 448 students to validate the scale using confirmatory factor analysis and model comparisons. The analyses showed that the scale is consistent across male and female students. The SAICS scale comprises 32 items and addresses eight dimensions of AI competency. Researchers can use the framework and SAICS to design their interventions and correlational research associated with student AI competency. Teachers can use them to develop learning outcomes for AI-based learning activities, and policymakers can use them to establish national AI standards. © The Author(s) 2025.},
+	author_keywords = {AI competency; AI literacy; Delphi study; K-12 education; Scale development}
+}

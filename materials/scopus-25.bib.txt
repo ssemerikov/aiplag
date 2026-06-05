@@ -1,0 +1,88 @@
+﻿Scopus
+EXPORT DATE: 20 August 2025
+
+@ARTICLE{Fu2025,
+	author = {Fu, Chun Chong and Fleta-Asín, Jorge and Muñoz, Fernando and Sáenz-Royo, Carlos and Wei, Loo Keat},
+	title = {GeoBM: A Python-based tool for integrated visualization of global bibliometric data},
+	year = {2025},
+	journal = {MethodsX},
+	volume = {15},
+	doi = {10.1016/j.mex.2025.103497},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105011063236&doi=10.1016%2fj.mex.2025.103497&partnerID=40&md5=ab9e67ef02d72bbe8fe4343cccb1194a},
+	abstract = {The rapid proliferation of scientometric and bibliometric analyses has emphasized the need for robust, scalable methods to visualize complex, large-scale research data. Conventional geospatial visualization techniques—most notably choropleth maps—often introduce significant distortions due to their inability to adequately account for spatial heterogeneity and overdispersion in bibliometric distributions. To address these methodological shortcomings, we propose GeoBM (Geographic Bibliometric Mapping), a computational framework that enables enhanced geovisualization of global scientific output and collaboration patterns. GeoBM integrates normalized country-level publication volumes with bilateral collaboration frequencies to produce high-resolution, interpretable geographic maps that reflect both research intensity and international connectivity. Implemented in Python, the framework leverages modular, algorithmically optimized routines for real-time data processing and visualization, incorporating statistical controls to mitigate overdispersion and enhance visual fidelity. The system supports extensive customization and is deployed via open-source platforms such as Google Colab and GitHub, facilitating broad accessibility and reproducibility. By providing a dual-focus representation of publication density and collaborative strength, GeoBM offers a powerful tool for the spatial analysis of global research networks, contributing to more nuanced evaluations in science policy, research management, and innovation studies. © 2025},
+	author_keywords = {Bibliometric analysis; Bibliometrix; Citespace; Country collaboration map; Github; Google colab; Network; Production; Python algorithm; VOSviewer},
+	keywords = {Article; benchmarking; bibliographic database; bibliometrics; data integration; data processing; data science; data source; data visualization; human; interactive dashboard; machine learning; publication; scientist; scientometrics; spatial analysis; strategic planning},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0}
+}
+
+@ARTICLE{Badenes-Olmedo2023,
+	author = {Badenes-Olmedo, Carlos and Corcho, Oscar},
+	title = {Lessons learned to enable question answering on knowledge graphs extracted from scientific publications: A case study on the coronavirus literature},
+	year = {2023},
+	journal = {Journal of Biomedical Informatics},
+	volume = {142},
+	doi = {10.1016/j.jbi.2023.104382},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85160010635&doi=10.1016%2fj.jbi.2023.104382&partnerID=40&md5=0a16db79dfa0e145441413f43b2e65fc},
+	abstract = {The article presents a workflow to create a question-answering system whose knowledge base combines knowledge graphs and scientific publications on coronaviruses. It is based on the experience gained in modeling evidence from research articles to provide answers to questions in natural language. The work contains best practices for acquiring scientific publications, tuning language models to identify and normalize relevant entities, creating representational models based on probabilistic topics, and formalizing an ontology that describes the associations between domain concepts supported by the scientific literature. All the resources generated in the domain of coronavirus are available openly as part of the Drugs4COVID initiative, and can be (re)-used independently or as a whole. They can be exploited by scientific communities conducting research related to SARS-CoV-2/COVID-19 and also by therapeutic communities, laboratories, etc., wishing to find and understand relationships between symptoms, drugs, active ingredients and their documentary evidence. © 2023 The Author(s)},
+	author_keywords = {Evidences; Knowledge graphs; Ontology; Question-answering},
+	keywords = {COVID-19; Humans; Pattern Recognition, Automated; Publications; SARS-CoV-2; Diseases; Knowledge graph; Modeling languages; Natural language processing systems; Ontology; chloroquine; lamivudine; neutralizing antibody; nicotine; Case-studies; Coronaviruses; Evidence; Knowledge graphs; Natural languages; Ontology's; Question Answering; Question answering systems; Scientific publications; Work-flows; algorithm; answering service; Article; cigarette smoking; coronavirus disease 2019; data mining; gene ontology; glycosylation; health care personnel; human; knowledge; knowledge base; language; machine learning; Middle East respiratory syndrome coronavirus; named entity recognition; natural language processing; ontology; open access publishing; pregnancy; publication; question; questionnaire; scientific literature; Severe acute respiratory syndrome coronavirus 2; smoke; therapeutic community; tobacco consumption; traditional medicine; workflow; automated pattern recognition; Coronavirus},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 5; All Open Access, Green Open Access, Hybrid Gold Open Access}
+}
+
+@CONFERENCE{Srinivasan2021,
+	author = {Srinivasan, Arjun and Nyapathy, Nikhila and Lee, Bongshin},
+	title = {Collecting and characterizing natural language uterances for specifying data visualizations},
+	year = {2021},
+	journal = {Conference on Human Factors in Computing Systems - Proceedings},
+	doi = {10.1145/3411764.3445400},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85106752736&doi=10.1145%2f3411764.3445400&partnerID=40&md5=f0eae94655d02b247e1f25235dc4f6cd},
+	abstract = {Natural language interfaces (NLIs) for data visualization are becoming increasingly popular both in academic research and in commercial software. Yet, there is a lack of empirical understanding of how people specify visualizations through natural language. We conducted an online study (N = 102), showing participants a series of visualizations and asking them to provide utterances they would pose to generate the displayed charts. From the responses, we curated a dataset of 893 utterances and characterized the utterances according to (1) their phrasing (e.g., commands, queries, questions) and (2) the information they contained (e.g., chart types, data aggregations). To help guide future research and development, we contribute this utterance dataset and discuss its applications toward the creation and benchmarking of NLIs for visualization. © 2021 ACM.},
+	author_keywords = {Data visualization; Natural language corpus; Natural language interfaces; Natural language processing; Visualization specifcation},
+	keywords = {Benchmarking; Human engineering; Natural language processing systems; Visualization; Academic research; Commercial software; Data aggregation; ITS applications; Natural language interfaces; Natural languages; Online studies; Research and development; Data visualization},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 48; All Open Access, Green Open Access}
+}
+
+@ARTICLE{Verma20231059,
+	author = {Verma, Shilpa and Bhatia, Rajesh and Harit, Sandeep and Batish, Sanjay},
+	title = {Scholarly knowledge graphs through structuring scholarly communication: a review},
+	year = {2023},
+	journal = {Complex and Intelligent Systems},
+	volume = {9},
+	number = {1},
+	pages = {1059 – 1095},
+	doi = {10.1007/s40747-022-00806-6},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135776430&doi=10.1007%2fs40747-022-00806-6&partnerID=40&md5=235551217561418ec3c91e3013e0d210},
+	abstract = {The necessity for scholarly knowledge mining and management has grown significantly as academic literature and its linkages to authors produce enormously. Information extraction, ontology matching, and accessing academic components with relations have become more critical than ever. Therefore, with the advancement of scientific literature, scholarly knowledge graphs have become critical to various applications where semantics can impart meanings to concepts. The objective of study is to report a literature review regarding knowledge graph construction, refinement and utilization in scholarly domain. Based on scholarly literature, the study presents a complete assessment of current state-of-the-art techniques. We presented an analytical methodology to investigate the existing status of scholarly knowledge graphs (SKG) by structuring scholarly communication. This review paper investigates the field of applying machine learning, rule-based learning, and natural language processing tools and approaches to construct SKG. It further presents the review of knowledge graph utilization and refinement to provide a view of current research efforts. In addition, we offer existing applications and challenges across the board in construction, refinement and utilization collectively. This research will help to identify frontier trends of SKG which will motivate future researchers to carry forward their work. © 2022, The Author(s).},
+	author_keywords = {Knowledge graph construction; Knowledge graph embedding; Scholarly communication; Utilization},
+	type = {Review},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 32; All Open Access, Gold Open Access, Green Open Access}
+}
+
+@ARTICLE{Dukhanov2016467,
+	author = {Dukhanov, A.V. and Bolgova, E.V. and Bezgodov, A.A. and Bezborodov, L.A. and Boukhanovsky, A.V.},
+	title = {The approach to the extension of the CLAVIRE cloud platform for researchers’ collaboration},
+	year = {2016},
+	journal = {Advances in Intelligent Systems and Computing},
+	volume = {416},
+	pages = {467 – 481},
+	doi = {10.1007/978-3-319-27478-2_35},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84975727116&doi=10.1007%2f978-3-319-27478-2_35&partnerID=40&md5=214396848385eb042aa93065f98465e7},
+	abstract = {This paper describes an approach to extend the CLAVIRE platform for sharing traditional scientific documents, data sources, executable services and 3D-visualization means for collaboration and peer review. This approach includes the development of an intellectual editor for scientific package integration into CLAVIRE, a C++ based graphical library and graphical engine “Fusion”; composite application with interaction between package and visualization tools. This means facilitating the process of sharing and presenting scientific results in a vivid and interactive manner. The considered approach was developed within the principles of research object ontologies, and with the use of the workflow-centric research object approach and method of interactive workflow. The examination of the approach was performed by evolving young scientists from cities located across Russia. At the end of the paper, the approach to rapid learning courses and resource design was developed. © Springer International Publishing Switzerland 2016.},
+	author_keywords = {CLAVIRE cloud platform; Cloud service; Research object; Scientific collaboration; Scientific package; Scientific result sharing},
+	keywords = {Curricula; Data visualization; Three dimensional computer graphics; Visualization; Cloud platforms; Cloud services; Research object; Scientific collaboration; Scientific results; C++ (programming language)},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 3}
+}

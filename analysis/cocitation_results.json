@@ -1,126 +1,156 @@
 {
-  "unique_cited_works": 1437,
+  "unique_cited_works": 19195,
   "top_cited": [
     {
-      "ref": "park c|2003|in other peoples words plagiarism",
-      "count": 5
+      "ref": "ay:finnc|2023|detectgpt zeroshot machinegenerated",
+      "label": "Finn C (2023)",
+      "count": 96
     },
     {
-      "ref": "khalil m|2023|will chatgpt get you caught",
-      "count": 5
+      "ref": "ay:stoyanovv|2019|roberta a robustly",
+      "label": "Stoyanov V. (2019)",
+      "count": 63
     },
     {
-      "ref": "liang w|2023",
-      "count": 4
+      "ref": "ay:toutanovak|2019|bert pretraining of",
+      "label": "Toutanova K. (2019)",
+      "count": 63
     },
     {
-      "ref": "dehouche n|2021|plagiarism in the age of",
-      "count": 4
+      "ref": "ay:polosukhini|2017|attention is all",
+      "label": "Polosukhin I. (2017)",
+      "count": 55
     },
     {
-      "ref": "cotton dre|2023|chatting and cheating ensuring academic",
-      "count": 4
+      "ref": "ay:toutanovak|2018|bert pretraining of",
+      "label": "Toutanova K. (2018)",
+      "count": 53
     },
     {
-      "ref": "meyer jg|2023",
-      "count": 4
+      "ref": "ay:wuy|2023|how close is",
+      "label": "Wu Y (2023)",
+      "count": 52
     },
     {
-      "ref": "krishna k|2024",
-      "count": 4
+      "ref": "ay:rusham|2019|gltr statistical detection",
+      "label": "Rush A.M. (2019)",
+      "count": 50
     },
     {
-      "ref": "devlin j|2018",
-      "count": 3
+      "ref": "ay:goldsteint|2023|a watermark for",
+      "label": "Goldstein T. (2023)",
+      "count": 50
     },
     {
-      "ref": "reimers n|2019|sentencebert sentence embeddings using siamese",
-      "count": 3
+      "ref": "ay:feizis|2023|can aigenerated text",
+      "label": "Feizi S. (2023)",
+      "count": 44
     },
     {
-      "ref": "gao ca|2023",
-      "count": 3
+      "ref": "ay:iyyerm|2023|paraphrasing evades detectors",
+      "label": "Iyyer M. (2023)",
+      "count": 43
     },
     {
-      "ref": "king mr|2023|a conversation on artificial intelligence",
-      "count": 3
+      "ref": "ay:shipwayjr|2023|chatting and cheating",
+      "label": "Shipway J.R. (2023)",
+      "count": 43
     },
     {
-      "ref": "cohen j|2013|statistical power analysis for the",
-      "count": 3
+      "ref": "ay:sutskeveri|2019|language models are",
+      "label": "Sutskever I (2019)",
+      "count": 42
     },
     {
-      "ref": "elkhatat am|2023|evaluating the efficacy of ai",
-      "count": 3
+      "ref": "ay:gurevychi|2019|sentencebert sentence embeddings",
+      "label": "Gurevych I. (2019)",
+      "count": 41
     },
     {
-      "ref": "van s|2023|generative artificial intelligence in information",
-      "count": 3
+      "ref": "ay:almeers|2023|evaluating the efficacy",
+      "label": "Almeer S. (2023)",
+      "count": 39
     },
     {
-      "ref": "dien j|2023|editorial generative artificial intelligence as",
-      "count": 3
+      "ref": "ay:waddingtonl|2023|testing of detection",
+      "label": "Waddington L. (2023)",
+      "count": 38
     },
     {
-      "ref": "wang y|2024",
-      "count": 3
+      "ref": "ay:perkinsm|2023|academic integrity considerations",
+      "label": "Perkins M. (2023)",
+      "count": 36
     },
     {
-      "ref": "albluwi i|2019|plagiarism in programming assessments a",
-      "count": 3
+      "ref": "ay:zouj|2023|gpt detectors are",
+      "label": "Zou J. (2023)",
+      "count": 36
     },
     {
-      "ref": "taylor js|2023|reassessing academic plagiarism",
-      "count": 3
+      "ref": "ay:choiy|2019|defending against neural",
+      "label": "Choi Y (2019)",
+      "count": 35
     },
     {
-      "ref": "liu y|2019",
-      "count": 3
+      "ref": "ay:ere|2023|will chatgpt get",
+      "label": "Er E (2023)",
+      "count": 34
     },
     {
-      "ref": "guo b|2023",
-      "count": 3
+      "ref": "ay:gippb|2019|academic plagiarism detection",
+      "label": "Gipp B. (2019)",
+      "count": 33
     },
     {
-      "ref": "westfall c|2023|educators battle plagiarism as 89",
-      "count": 3
+      "ref": "ay:deanj|2013|efficient estimation of",
+      "label": "Dean J. (2013)",
+      "count": 31
     },
     {
-      "ref": "karnalim o|2024|detecting ai assisted submissions in",
-      "count": 3
+      "ref": "ay:krepss|2019|release strategies and",
+      "label": "Kreps S (2019)",
+      "count": 30
     },
     {
-      "ref": "allen jm|2018",
-      "count": 3
+      "ref": "ay:rusha|2019|gltr statistical detection",
+      "label": "Rush A (2019)",
+      "count": 29
     },
     {
-      "ref": "radford a|2019",
-      "count": 3
+      "ref": "ay:hot|2023|radar robust aitext",
+      "label": "Ho T (2023)",
+      "count": 28
     },
     {
-      "ref": "solaiman i|2019",
-      "count": 3
+      "ref": "ay:tesconim|2021|tweepfake about detecting",
+      "label": "Tesconi M (2021)",
+      "count": 27
     },
     {
-      "ref": "waltzer t|2023|why do students cheat perceptions",
-      "count": 3
+      "ref": "ay:kellya|2023|chatgpt in higher",
+      "label": "Kelly A. (2023)",
+      "count": 26
     },
     {
-      "ref": "jianqiang z|2017|comparison research on text preprocessing",
-      "count": 3
+      "ref": "ay:askella|2020|language models are",
+      "label": "Askell A (2020)",
+      "count": 26
     },
     {
-      "ref": "sadasivan v s|2023",
-      "count": 3
+      "ref": "ay:sutskeveri|2018|improving language understanding",
+      "label": "Sutskever I (2018)",
+      "count": 24
     },
     {
-      "ref": "stamatatos e|2009|a survey of modern authorship",
-      "count": 3
+      "ref": "ay:eckd|2020|automatic detection of",
+      "label": "Eck D. (2020)",
+      "count": 23
     },
     {
-      "ref": "feuerriegel s|2024",
-      "count": 2
+      "ref": "ay:schmidhuberj|1997|long shortterm memory",
+      "label": "Schmidhuber J. (1997)",
+      "count": 23
     }
   ],
-  "cocitation_edges": 116
+  "cocitation_edges": 412
 }

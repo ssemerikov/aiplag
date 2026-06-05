@@ -62,9 +62,14 @@ def main():
     mdf = pd.DataFrame(metrics)
     print(mdf.to_string(index=False))
 
-    # 1. Temporal network snapshots (2x2 grid)
-    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
-    axes = axes.flatten()
+    # 1. Temporal network snapshots (one panel per year; grid sized to len(years))
+    nyr = len(years)
+    ncols = min(nyr, 3)
+    nrows = (nyr + ncols - 1) // ncols
+    fig, axes = plt.subplots(nrows, ncols, figsize=(4.4 * ncols, 4.0 * nrows))
+    axes = np.atleast_1d(axes).flatten()
+    for j in range(nyr, len(axes)):
+        axes[j].axis('off')
 
     for idx, year in enumerate(years):
         ax = axes[idx]
@@ -87,11 +92,12 @@ def main():
                                    alpha=0.7)
             nx.draw_networkx_edges(G, pos, ax=ax, alpha=0.2, width=0.5)
 
-        ax.set_title(f'{year} (cumulative: {len(year_df)} papers, '
-                     f'{G.number_of_nodes()} connected authors)')
         ax.axis('off')
+        # Panel identity as in-axis text (not a title, which savefig strips).
+        ax.text(0.5, -0.04,
+                f'{year}: {len(year_df)} papers, {G.number_of_nodes()} authors',
+                transform=ax.transAxes, ha='center', va='top', fontsize=9)
 
-    fig.suptitle('Co-authorship network evolution (2022–2025)', fontsize=13)
     savefig(fig, 'fig_temporal_networks.pdf')
 
     # 2. Temporal metrics line plots

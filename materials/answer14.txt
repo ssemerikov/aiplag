@@ -1,0 +1,67 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers on ethical frameworks for AI use in education, including fairness, transparency, and accountability" "Show me philosophical discussions on authorship, originality, and intellectual property in the age of AI" "What are the key papers on research ethics when studying AI plagiarism and student behavior?"
+
+"Find papers on ethical frameworks for AI use in education, including fairness, transparency, and accountability" "Show me philosophical discussions on authorship, originality, and intellectual property in the age of AI" "What are the key papers on research ethics when studying AI plagiarism and student behavior?"
+
+Creating a plan to answer your query
+
+Performing keyword search:
+
+    ("ethical framework" OR "ethics" OR "guideline" OR "principle") AND ("artificial intelligence" OR "ai" OR "machine learning" OR "algorithm") AND ("education" OR "learning" OR "teaching" OR "instruction") AND ("policy" OR "regulation" OR "governance" OR "compliance") AND ("impact" OR "effect" OR "outcome" OR "assessment")
+
+Generating summary
+
+Summary
+Ethical Frameworks for AI Use in Education
+
+Several abstracts discuss the ethical frameworks necessary for the responsible use of AI in education, focusing on principles such as fairness, transparency, and accountability:
+
+    Ethical Analysis Framework (EAF): This framework systematically assesses AI systems' fairness, transparency, privacy, accountability, and bias, emphasizing the importance of ethically sound data .
+    Unified Ethical Framework: A qualitative study suggests a unified ethical framework for AI in education, avoiding the overlap of principles across different domains and ensuring ethical development and deployment .
+    Global Initiatives and Policy Frameworks: Insights from global initiatives and policy frameworks highlight the need for transparency and ethical balance in AI applications in higher education .
+    Generalist Education Artificial Intelligence (GEAI) Framework: This framework supports privacy-preserving, personalized, and multimodal AI-supported learning, addressing ethical data governance, transparency, and accountability .
+    Data Ethics Framework: This framework maps and analyzes international policies and guidelines to promote ethical and trustworthy AI in education .
+
+Philosophical Discussions on Authorship, Originality, and Intellectual Property in the Age of AI
+
+Several abstracts provide philosophical discussions on the implications of AI on authorship, originality, and intellectual property:
+
+    AI-Generated Literature: Examines AI-generated literature through philosophical and cultural lenses, addressing the transformation of authorship and the legal and intellectual property issues related to automated writing .
+    Originality of Text Prompts: Analyzes the originality of text prompts used in AI systems and their implications for copyright law, exploring the creative process underlying AI-generated works .
+    Historical Context of Authorship: Discusses the historical evolution of authorship and its relevance in the context of AI-assisted creativity, suggesting a need to rethink the concept of the sole genius .
+    Creativity and Originality: Explores how AI challenges traditional notions of creativity and originality, emphasizing the importance of the creative and curatorial voice of AI users .
+    Legal Implications of AI Authorship: Analyzes the potential for granting AI systems legal authorship and ownership status, discussing the benefits and risks associated with this approach .
+
+Key Papers on Research Ethics in AI Plagiarism and Student Behavior
+
+Several abstracts address the ethical considerations and research ethics related to AI plagiarism and student behavior:
+
+    Ethical AI Practices: A study on ethical AI practices in education highlights the importance of fairness, transparency, and responsibility in enhancing students' academic outcomes and addressing issues like plagiarism .
+    AI and Academic Integrity: Discusses the challenges AI poses to academic integrity, emphasizing the need for new frameworks and policies to ensure ethical AI use and maintain academic work authenticity .
+    Behavior Detection System: Proposes an AI-powered behavior detection system to monitor examination halls and ensure academic integrity by identifying suspicious activities .
+    Student Perceptions and Behaviors: Explores students' perceptions and behaviors concerning AI tools like ChatGPT, highlighting concerns about academic integrity and the potential for AI-assisted cheating .
+    Personality Traits and AI Misconduct: Investigates the factors associated with AI academic misconduct, focusing on personality traits and their influence on students' behavior .
+
+Summary Table
+Topic	Key Points	Abstracts
+Ethical Frameworks for AI in Education	Fairness, transparency, accountability, unified frameworks, global initiatives	
+Philosophical Discussions on Authorship and IP	AI-generated literature, originality of text prompts, historical context, creativity, legal implications	
+Research Ethics in AI Plagiarism and Student Behavior	Ethical AI practices, academic integrity, behavior detection, student perceptions, personality traits	
+
+This synthesis provides a comprehensive overview of the ethical frameworks, philosophical discussions, and research ethics related to AI in education, authorship, and academic integrity.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

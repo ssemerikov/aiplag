@@ -21,6 +21,23 @@ def main():
     df = load_and_clean()
     ref_dict = build_reference_lists(df)
 
+    # Human-readable labels for canonical cited-work keys (doi:/ay:), built by 00.
+    try:
+        with open(os.path.join(ANALYSIS_DIR, 'ref_labels.json')) as f:
+            label_map = json.load(f)
+    except FileNotFoundError:
+        label_map = {}
+
+    def lab(key):
+        if label_map.get(key, '').strip():
+            return label_map[key]
+        if key.startswith('doi:'):
+            return key[4:][:40]
+        if key.startswith('ay:'):
+            p = key[3:].split('|')
+            return f"{p[0].title()} ({p[1]})" if len(p) > 1 and p[1].isdigit() else p[0].title()
+        return key[:40]
+
     # Count cited works
     counts = count_cited_works(ref_dict)
     print(f"Unique cited works: {len(counts)}")
@@ -34,15 +51,7 @@ def main():
     top_n = 25
     top_refs = counts.most_common(top_n)
     fig, ax = plt.subplots(figsize=(10, 7))
-    labels = []
-    for ref, _ in top_refs:
-        # Create readable short label
-        parts = ref.split('|')
-        if len(parts) >= 2:
-            label = f"{parts[0]} ({parts[1]})" if parts[1].isdigit() else parts[0]
-        else:
-            label = ref[:40]
-        labels.append(label[:45])
+    labels = [lab(ref)[:45] for ref, _ in top_refs]
 
     y_pos = range(len(top_refs))
     counts_vals = [c for _, c in top_refs]
@@ -60,9 +69,7 @@ def main():
 
     G = nx.Graph()
     for i, ref in enumerate(top_refs_keys):
-        parts = ref.split('|')
-        label = parts[0][:20] if parts else ref[:20]
-        G.add_node(i, label=label, full_ref=ref, count=counts.get(ref, 0))
+        G.add_node(i, label=lab(ref)[:22], full_ref=ref, count=counts.get(ref, 0))
 
     for i in range(len(top_refs_keys)):
         for j in range(i + 1, len(top_refs_keys)):
@@ -106,7 +113,7 @@ def main():
     # Save results
     results = {
         'unique_cited_works': len(counts),
-        'top_cited': [{'ref': ref, 'count': cnt} for ref, cnt in counts.most_common(30)],
+        'top_cited': [{'ref': ref, 'label': lab(ref), 'count': cnt} for ref, cnt in counts.most_common(30)],
         'cocitation_edges': G.number_of_edges(),
     }
     with open(os.path.join(ANALYSIS_DIR, 'cocitation_results.json'), 'w') as f:

@@ -1,0 +1,66 @@
+
+www.scopus.com /pages/ai
+Cookie Preference Center
+
+"Find papers applying Bloom's taxonomy to assessment design in the context of AI-assisted learning" "Show me theoretical frameworks for understanding academic integrity in digital and AI-enhanced environments" "What learning theories address the integration of AI tools in educational assessment?"
+
+"Find papers applying Bloom's taxonomy to assessment design in the context of AI-assisted learning" "Show me theoretical frameworks for understanding academic integrity in digital and AI-enhanced environments" "What learning theories address the integration of AI tools in educational assessment?"
+
+Creating a plan to answer your query
+
+Performing natural language search:
+
+    What are the theoretical frameworks for understanding academic integrity in digital and AI-enhanced environments?
+    What learning theories address the integration of AI tools in educational assessment?
+
+Performing keyword search:
+
+    ("Bloom's taxonomy" OR "learning objectives" OR "educational framework" OR "cognitive levels") AND ("assessment" OR "evaluation" OR "testing" OR "measurement") AND ("AI" OR "artificial intelligence" OR "machine learning" OR "intelligent systems") AND ("learning design" OR "instructional design" OR "curriculum development" OR "pedagogy")
+
+Generating summary
+
+Summary
+Applying Bloom's Taxonomy to Assessment Design in AI-Assisted Learning
+
+Relevant Findings:
+
+    Integration with Generative AI: One study explores the amalgamation of generative AI (GenAI) with Bloom's taxonomy to enhance assessment pedagogy, particularly for fostering higher-order cognitive skills such as critical thinking and self-directed learning . This integration aims to reframe the higher cognitive levels of Bloom's taxonomy to support assessment in a GenAI-enhanced educational landscape.
+    Automated Classification of Learning Objectives: Another study proposes a method for automatically classifying learning objectives using Bloom's taxonomy. This method leverages AI to extract features and classify objectives, demonstrating the potential of AI to streamline the design and evaluation of learning outcomes .
+    AI in Authentic Learning Assessment: An "Intelligent Assessor" chatbot uses Bloom's taxonomy to assess authentic learning in SQL query formulation, engaging students in a dialog to probe their understanding and provide iterative feedback .
+
+Theoretical Frameworks for Understanding Academic Integrity in Digital and AI-Enhanced Environments
+
+Relevant Findings:
+
+    INTEGRITY AI Model: A structured framework called the INTEGRITY AI Model guides the ethical adoption of AI in education. It includes guiding principles, training actions, and impact and empowerment strategies to ensure academic integrity while integrating AI technologies .
+    Challenges and Strategies: A comprehensive academic integrity framework addresses the balance between leveraging GenAI for educational enhancement and maintaining ethical standards. It proposes strategies for students, educators, and institutions to uphold integrity in the GenAI era .
+    Impact on Academic Integrity: Studies highlight the dual role of AI in both enhancing and challenging academic integrity. AI can personalize learning and improve accessibility but also poses risks such as plagiarism and misuse of AI-generated content .
+
+Learning Theories Addressing the Integration of AI Tools in Educational Assessment
+
+Relevant Findings:
+
+    Activity Theory: A systematic review uses activity theory to examine the development and integration of automated grading tools in educational assessment. This theory helps address the iterative nature of technology development and the need for interdisciplinary collaboration .
+    Constructivism and Adaptive Learning: Research on AI-assisted tutoring strategies in programming education integrates constructivist principles and adaptive learning theories. These approaches emphasize personalized feedback and real-time error correction to enhance learning outcomes .
+    Social Cognitive Theory: The Social Cognitive Theory (SCT) model is evaluated for its use in designing AI tools to support high-order writing processes, particularly for students with cognitive and sensory processing needs .
+
+Summary Table
+Query	Key Findings
+Bloom's Taxonomy in AI-Assisted Learning	Integration with GenAI for higher-order skills , automated classification of learning objectives , AI in authentic learning assessment
+Theoretical Frameworks for Academic Integrity	INTEGRITY AI Model , comprehensive integrity framework , dual role of AI in integrity
+Learning Theories for AI Integration in Assessment	Activity Theory , Constructivism and Adaptive Learning , Social Cognitive Theory
+
+These findings provide a comprehensive overview of how AI tools are being integrated into educational assessment, the theoretical frameworks guiding academic integrity in digital environments, and the learning theories supporting the use of AI in education.
+
+Generating an expanded summary
+
+ 
+
+ 
+
+ 
+Insights at a glance
+
+Go deeper
+
+Your BibTeX file was successfully exported.

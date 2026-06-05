@@ -1,32 +1,38 @@
 {
-  "total_papers": 58,
-  "with_abstracts": 50,
-  "with_references": 53,
-  "with_author_keywords": 41,
-  "with_index_keywords": 31,
-  "unique_authors": 150,
-  "unique_countries": 33,
-  "unique_institutions": 101,
+  "total_papers": 797,
+  "with_abstracts": 781,
+  "with_references": 790,
+  "with_author_keywords": 724,
+  "with_index_keywords": 556,
+  "unique_authors": 2639,
+  "unique_countries": 102,
+  "unique_institutions": 1224,
   "year_distribution": {
-    "2022": 2,
-    "2023": 13,
-    "2024": 20,
-    "2025": 23
+    "2022": 49,
+    "2023": 105,
+    "2024": 199,
+    "2025": 326,
+    "2026": 118
   },
   "doc_type_distribution": {
-    "Article": 26,
-    "Conference paper": 21,
-    "Note": 4,
+    "Conference paper": 359,
+    "Article": 340,
+    "Review": 31,
+    "Book chapter": 28,
+    "Proceedings Paper": 12,
+    "Editorial": 9,
+    "Note": 7,
+    "Article; Early Access": 3,
     "Letter": 2,
-    "Book chapter": 2,
-    "Erratum": 1,
-    "Editorial": 1,
-    "Review": 1
+    "Editorial Material": 2,
+    "Article; Book Chapter": 2,
+    "Book": 1,
+    "Erratum": 1
   },
   "citation_stats": {
-    "mean": 5.76,
+    "mean": 11.57,
     "median": 1.0,
-    "max": 112,
-    "zero_citations": 25
+    "max": 1805,
+    "zero_citations": 330
   }
 }
