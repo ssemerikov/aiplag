@@ -89,35 +89,35 @@
   "top_keywords_by_betweenness": [
     [
       "artificial intelligence",
-      0.04235684333530321
+      0.04235684333530316
     ],
     [
       "academic integrity",
-      0.03726398914797236
+      0.03726398914797239
     ],
     [
       "plagiarism detection",
-      0.03717787456159451
+      0.03717787456159454
     ],
     [
       "deep learning",
-      0.03477744786954281
+      0.03477744786954283
     ],
     [
       "semantics",
-      0.03329748741631601
+      0.03329748741631598
     ],
     [
       "natural language processing systems",
-      0.033008749353722854
+      0.03300874935372289
     ],
     [
       "language model",
-      0.031428439008192144
+      0.03142843900819213
     ],
     [
       "learning systems",
-      0.029642338884073707
+      0.02964233888407369
     ],
     [
       "text processing",
@@ -125,47 +125,200 @@
     ],
     [
       "chatgpt",
-      0.025973535331640447
+      0.025973535331640416
     ],
     [
       "computational linguistics",
-      0.024370158121329463
+      0.02437015812132944
     ],
     [
       "machine learning",
-      0.02222452161686778
+      0.022224521616867755
     ],
     [
       "intellectual property",
-      0.021947587683031403
+      0.021947587683031445
     ],
     [
       "text similarity",
-      0.021781636067017104
+      0.021781636067017128
     ],
     [
       "large language model",
-      0.021627498000942557
+      0.02162749800094254
     ],
     [
       "plagiarism",
-      0.02122259125690777
+      0.02122259125690782
     ],
     [
       "students",
-      0.020458426787507682
+      0.020458426787507693
     ],
     [
       "natural languages",
-      0.018159042742842982
+      0.018159042742843006
     ],
     [
       "large language models",
-      0.016207479391821666
+      0.01620747939182165
     ],
     [
       "natural language processing",
-      0.015818940688945238
+      0.01581894068894525
     ]
+  ],
+  "callon_note": "Points are keyword *communities*, labelled by their most frequent member terms -- not individual keywords. Density and centrality use Callon's equivalence index e_ij = c_ij^2/(c_i*c_j), which is normalised for keyword frequency.",
+  "callon_communities": [
+    {
+      "comm_id": 0,
+      "centrality": 1474.3257,
+      "density": 4.2021,
+      "size": 228,
+      "label": "language model, text processing, computational linguistics",
+      "top_terms": [
+        "language model",
+        "text processing",
+        "computational linguistics"
+      ],
+      "mean_external_e": 2.2137,
+      "quadrant": "basic/transversal"
+    },
+    {
+      "comm_id": 1,
+      "centrality": 1840.6605,
+      "density": 4.266,
+      "size": 339,
+      "label": "plagiarism detection, natural language processing systems, text similarity",
+      "top_terms": [
+        "plagiarism detection",
+        "natural language processing systems",
+        "text similarity"
+      ],
+      "mean_external_e": 2.3037,
+      "quadrant": "basic/transversal"
+    },
+    {
+      "comm_id": 2,
+      "centrality": 183.647,
+      "density": 32.0216,
+      "size": 26,
+      "label": "data mining, attention mechanisms, text-mining",
+      "top_terms": [
+        "data mining",
+        "attention mechanisms",
+        "text-mining"
+      ],
+      "mean_external_e": 3.1074,
+      "quadrant": "niche"
+    },
+    {
+      "comm_id": 3,
+      "centrality": 1061.6574,
+      "density": 5.358,
+      "size": 267,
+      "label": "artificial intelligence, academic integrity, plagiarism",
+      "top_terms": [
+        "artificial intelligence",
+        "academic integrity",
+        "plagiarism"
+      ],
+      "mean_external_e": 2.1666,
+      "quadrant": "motor"
+    },
+    {
+      "comm_id": 4,
+      "centrality": 750.4975,
+      "density": 7.4824,
+      "size": 91,
+      "label": "contrastive learning, adversarial machine learning, codes (symbols)",
+      "top_terms": [
+        "contrastive learning",
+        "adversarial machine learning",
+        "codes (symbols)"
+      ],
+      "mean_external_e": 2.7724,
+      "quadrant": "niche"
+    }
+  ],
+  "callon_communities_seed_terms_excluded": [
+    {
+      "comm_id": 0,
+      "centrality": 1357.3721,
+      "density": 4.1325,
+      "size": 214,
+      "label": "language model, text processing, computational linguistics",
+      "top_terms": [
+        "language model",
+        "text processing",
+        "computational linguistics"
+      ],
+      "mean_external_e": 2.1943,
+      "quadrant": "basic/transversal"
+    },
+    {
+      "comm_id": 1,
+      "centrality": 1076.2154,
+      "density": 5.6774,
+      "size": 224,
+      "label": "academic integrity, chatgpt, intellectual property",
+      "top_terms": [
+        "academic integrity",
+        "chatgpt",
+        "intellectual property"
+      ],
+      "mean_external_e": 2.412,
+      "quadrant": "niche"
+    },
+    {
+      "comm_id": 2,
+      "centrality": 1365.6308,
+      "density": 5.4542,
+      "size": 217,
+      "label": "natural language processing systems, text similarity, semantics",
+      "top_terms": [
+        "natural language processing systems",
+        "text similarity",
+        "semantics"
+      ],
+      "mean_external_e": 2.2087,
+      "quadrant": "basic/transversal"
+    },
+    {
+      "comm_id": 3,
+      "centrality": 1292.2316,
+      "density": 6.5682,
+      "size": 174,
+      "label": "learning systems, machine learning, machine-learning",
+      "top_terms": [
+        "learning systems",
+        "machine learning",
+        "machine-learning"
+      ],
+      "mean_external_e": 2.6233,
+      "quadrant": "motor"
+    },
+    {
+      "comm_id": 4,
+      "centrality": 618.5294,
+      "density": 10.1499,
+      "size": 116,
+      "label": "human, article, humans",
+      "top_terms": [
+        "human",
+        "article",
+        "humans"
+      ],
+      "mean_external_e": 3.1066,
+      "quadrant": "niche"
+    }
+  ],
+  "query_seed_terms_excluded": [
+    "ai",
+    "artificial intelligence",
+    "artificial intelligence (ai)",
+    "generative ai",
+    "plagiarism",
+    "plagiarism detection"
   ]
 }

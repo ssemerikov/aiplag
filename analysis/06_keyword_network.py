@@ -14,6 +14,87 @@ from itertools import combinations
 from utils.data_loader import load_and_clean
 from utils.viz_config import savefig, FIG_SINGLE, FIG_WIDE, FIG_SQUARE, FIGURE_DIR, ANALYSIS_DIR, CLUSTER_COLORS
 
+# Terms that define the search query itself. They appear in almost every record
+# by construction, so they inflate cluster size while contributing little
+# discriminating co-occurrence signal. Excluded in the sensitivity variant.
+QUERY_SEED_TERMS = {
+    'artificial intelligence', 'plagiarism', 'plagiarism detection',
+    'ai', 'generative ai', 'artificial intelligence (ai)',
+}
+
+
+def compute_callon(G, partition, kw_counter, label_terms=3):
+    """Callon strategic-diagram coordinates using the equivalence index.
+
+    The R1 version used raw co-occurrence weights: density was the mean internal
+    edge weight and centrality the mean external edge weight. Both are biased by
+    keyword frequency, so a large community built around a ubiquitous term is
+    pushed toward the low-density corner regardless of how coherent it is.
+
+    This version uses Callon's normalised equivalence index
+
+        e_ij = c_ij^2 / (c_i * c_j)
+
+    where c_ij is the number of documents in which keywords i and j co-occur and
+    c_i the number containing i. Dividing by c_i * c_j removes the frequency
+    bias. Following Cobo et al. (2011), density is 100 x the mean internal
+    equivalence index and centrality 10 x the sum of external ones.
+
+    Each community is labelled with its ``label_terms`` most frequent keywords
+    rather than a single one: a one-term label misreads as a claim about that
+    keyword, which is precisely how the R1 figure was misread.
+    """
+    comm_data = []
+    for comm_id in sorted(set(partition.values())):
+        nodes = [n for n in G.nodes() if partition.get(n) == comm_id]
+        if not nodes:
+            continue
+        node_set = set(nodes)
+
+        internal_e, external_e = [], []
+        for u in nodes:
+            c_u = kw_counter[u]
+            for v in G.neighbors(u):
+                c_uv = G[u][v].get('weight', 1)
+                c_v = kw_counter[v]
+                e = (c_uv ** 2) / (c_u * c_v) if c_u and c_v else 0.0
+                if v in node_set:
+                    if u < v:          # count each internal pair once
+                        internal_e.append(e)
+                else:
+                    external_e.append(e)
+
+        density = 100.0 * float(np.mean(internal_e)) if internal_e else 0.0
+        centrality = 10.0 * float(np.sum(external_e)) if external_e else 0.0
+
+        top_terms = sorted(nodes, key=lambda n: -kw_counter[n])[:label_terms]
+        comm_data.append({
+            'comm_id': int(comm_id),
+            'centrality': round(centrality, 4),
+            'density': round(density, 4),
+            'size': len(nodes),
+            'label': ', '.join(top_terms),
+            'top_terms': top_terms,
+            'mean_external_e': round(100.0 * float(np.mean(external_e)), 4) if external_e else 0.0,
+        })
+    return comm_data
+
+
+def assign_quadrants(comm_data):
+    """Tag each community with its Callon quadrant, split at the medians."""
+    if not comm_data:
+        return comm_data
+    med_c = float(np.median([c['centrality'] for c in comm_data]))
+    med_d = float(np.median([c['density'] for c in comm_data]))
+    for c in comm_data:
+        high_c, high_d = c['centrality'] >= med_c, c['density'] >= med_d
+        c['quadrant'] = ('motor' if high_c and high_d else
+                         'niche' if high_d else
+                         'basic/transversal' if high_c else
+                         'emerging/declining')
+    return comm_data
+
+
 def main():
     print("=" * 60)
     print("06 — Keyword Co-occurrence Network & Callon Diagram")
@@ -101,34 +182,8 @@ def main():
     savefig(fig, 'fig_keyword_network.pdf')
 
     # 2. Callon strategic diagram
-    # For each community: centrality (external links) vs density (internal links)
     if n_comm > 1:
-        comm_data = []
-        for comm_id in sorted(set(partition.values())):
-            nodes = [n for n in G.nodes() if partition.get(n) == comm_id]
-            if not nodes:
-                continue
-            subgraph = G.subgraph(nodes)
-            # Density: avg internal edge weight
-            internal_edges = subgraph.edges(data=True)
-            internal_weights = [d.get('weight', 1) for _, _, d in internal_edges]
-            density = np.mean(internal_weights) if internal_weights else 0
-            # Centrality: avg external edge weight
-            external_weights = []
-            for n in nodes:
-                for neighbor in G.neighbors(n):
-                    if partition.get(neighbor) != comm_id:
-                        external_weights.append(G[n][neighbor].get('weight', 1))
-            centrality = np.mean(external_weights) if external_weights else 0
-            # Label: top keyword by frequency
-            top_kw_in_comm = max(nodes, key=lambda n: kw_counter[n])
-            comm_data.append({
-                'comm_id': comm_id,
-                'centrality': centrality,
-                'density': density,
-                'size': len(nodes),
-                'label': top_kw_in_comm,
-            })
+        comm_data = compute_callon(G, partition, kw_counter)
 
         fig, ax = plt.subplots(figsize=FIG_SINGLE)
         cdf = pd.DataFrame(comm_data)
@@ -141,12 +196,12 @@ def main():
                        s=80 + row['size'] * 30, c=[color], alpha=0.7,
                        edgecolors='black', linewidths=0.5)
             ax.annotate(row['label'], (row['centrality'], row['density']),
-                        xytext=(5, 5), textcoords='offset points', fontsize=8)
+                        xytext=(5, 5), textcoords='offset points', fontsize=7)
 
         ax.axhline(med_y, color='gray', linestyle='--', linewidth=0.8, alpha=0.5)
         ax.axvline(med_x, color='gray', linestyle='--', linewidth=0.8, alpha=0.5)
-        ax.set_xlabel('Centrality (external links)')
-        ax.set_ylabel('Density (internal cohesion)')
+        ax.set_xlabel(r'Centrality (10 $\times$ $\Sigma$ external equivalence index)')
+        ax.set_ylabel(r'Density (100 $\times$ mean internal equivalence index)')
         ax.set_title('Callon strategic diagram of keyword clusters')
 
         # Quadrant labels
@@ -171,6 +226,33 @@ def main():
     except ImportError:
         print("wordcloud not installed — skipping word cloud")
 
+    # Sensitivity check: rebuild the diagram with the query seed terms removed.
+    # If a community's position is driven by a ubiquitous search term rather
+    # than by its own thematic structure, it moves here.
+    callon_no_seed = []
+    if n_comm > 1:
+        G_ns = G.copy()
+        G_ns.remove_nodes_from([n for n in G_ns.nodes() if n in QUERY_SEED_TERMS])
+        G_ns.remove_nodes_from(list(nx.isolates(G_ns)))
+        if G_ns.number_of_nodes() > 0:
+            from community import community_louvain as _cl
+            part_ns = _cl.best_partition(G_ns, random_state=42)
+            callon_no_seed = assign_quadrants(
+                compute_callon(G_ns, part_ns, kw_counter))
+            print(f"\nSeed-term-excluded network: {G_ns.number_of_nodes()} nodes, "
+                  f"{len(set(part_ns.values()))} communities")
+
+    callon_full = assign_quadrants(comm_data) if n_comm > 1 else []
+    if callon_full:
+        print("\nCallon communities (equivalence index):")
+        for c in callon_full:
+            print(f"  [{c['comm_id']}] n={c['size']:>4}  centrality={c['centrality']:>8.2f}  "
+                  f"density={c['density']:>6.2f}  {c['quadrant']:<18} {c['label']}")
+        for c in callon_full:
+            if any(t in QUERY_SEED_TERMS for t in c['top_terms']):
+                print(f"  -> seed term(s) present in community {c['comm_id']} "
+                      f"({c['quadrant']})")
+
     # Save results
     results = {
         'total_unique_keywords': len(kw_counter),
@@ -180,6 +262,14 @@ def main():
         'n_communities': n_comm,
         'top_keywords_by_degree': sorted(degree_cent.items(), key=lambda x: -x[1])[:20],
         'top_keywords_by_betweenness': sorted(between_cent.items(), key=lambda x: -x[1])[:20],
+        'callon_note': ('Points are keyword *communities*, labelled by their most '
+                        'frequent member terms -- not individual keywords. Density '
+                        'and centrality use Callon\'s equivalence index '
+                        'e_ij = c_ij^2/(c_i*c_j), which is normalised for keyword '
+                        'frequency.'),
+        'callon_communities': callon_full,
+        'callon_communities_seed_terms_excluded': callon_no_seed,
+        'query_seed_terms_excluded': sorted(QUERY_SEED_TERMS),
     }
     with open(os.path.join(ANALYSIS_DIR, 'keyword_results.json'), 'w') as f:
         json.dump(results, f, indent=2, default=str)
