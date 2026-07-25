@@ -11,6 +11,25 @@ import matplotlib.pyplot as plt
 from utils.data_loader import load_and_clean, get_abstracts_df
 from utils.viz_config import savefig, FIG_WIDE, FIG_SINGLE, FIGURE_DIR, ANALYSIS_DIR, TOPIC_CMAP, get_topic_color
 
+# The corpus search ran on 3 June 2026, so 2026 counts cover January-May only.
+# Plotting a truncated year beside complete ones implies a full-year value and
+# understates the true 2026 total; every temporal figure marks it explicitly.
+PARTIAL_YEAR = 2026
+PARTIAL_YEAR_NOTE = '2026 partial (Jan-May; search 3 Jun 2026)'
+
+
+def annotate_partial_year(ax, categories):
+    """Shade and label the partial year in a categorical bar chart."""
+    if PARTIAL_YEAR not in categories:
+        return
+    pos = list(categories).index(PARTIAL_YEAR)
+    ax.axvspan(pos - 0.5, pos + 0.5, color='#bab0ac', alpha=0.22, zorder=0)
+    ax.annotate(PARTIAL_YEAR_NOTE,
+                xy=(pos, ax.get_ylim()[1]), xytext=(0, 4),
+                textcoords='offset points', ha='center', va='bottom',
+                fontsize=7, color='#555555')
+
+
 def main():
     print("=" * 60)
     print("02 — Topic Modeling (BERTopic + LDA)")
@@ -156,6 +175,7 @@ def main():
     ax.legend([topic_labels.get(int(c), str(c)) for c in ct.columns],
               title='Topic cluster', bbox_to_anchor=(1.02, 1), loc='upper left',
               fontsize=7, frameon=False)
+    annotate_partial_year(ax, list(ct.index))
     savefig(fig, 'fig_topics_over_time.pdf')
 
     # 3. Topic-year heatmap
