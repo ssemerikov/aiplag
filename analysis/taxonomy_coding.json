@@ -1,334 +1,191 @@
 {
   "random_seed": 42,
-  "sample_size": 100,
   "kappa_threshold": 0.7,
-  "coverage": {
-    "core_papers": 797,
-    "route_counts": {
-      "cluster": 665,
-      "centroid": 116,
-      "title_only": 16
-    },
-    "coded_on_both_dimensions": 797,
-    "comparable_on_both_routes": 781
+  "decision": "retain three categories",
+  "coders": {
+    "coder_1": "Claude Fable 5, reasoning effort xhigh (also coded the remainder)",
+    "coder_2": "Claude Fable 5, reasoning effort max (reliability sample only)",
+    "inputs": "codebook.md + title, keywords, abstract, document type",
+    "blind_to": "each other, the cluster assignments, and the manuscript"
   },
   "reliability": {
-    "A_vs_B_cluster_vs_paper_level": {
-      "interpretation": "Within-cluster heterogeneity, not coder reliability: coder A assigns one category per cluster.",
-      "sample_100": {
-        "orientation": {
-          "n": 100,
-          "raw_agreement": 0.72,
-          "cohen_kappa": 0.4645,
-          "confusion_matrix": {
-            "governance": {
-              "governance": 3,
-              "pedagogical": 1,
-              "technical": 10
-            },
-            "pedagogical": {
-              "governance": 6,
-              "pedagogical": 15,
-              "technical": 6
-            },
-            "technical": {
-              "governance": 4,
-              "pedagogical": 1,
-              "technical": 54
-            }
-          }
+    "method": "Two independent LLM coders (Claude Fable 5, two reasoning-effort settings) applying the written codebook, blind to each other.",
+    "caveat": "Two configurations of one model family are not independent in the way two human coders are. This estimates the determinacy of the codebook and is an UPPER BOUND on reliability, not an estimate.",
+    "sample_size": 100,
+    "orientation": {
+      "n": 100,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "confusion_matrix": {
+        "governance": {
+          "governance": 4,
+          "pedagogical": 0,
+          "technical": 0
         },
-        "methodology": {
-          "n": 100,
-          "raw_agreement": 0.63,
-          "cohen_kappa": 0.4014,
-          "confusion_matrix": {
-            "computational": {
-              "computational": 44,
-              "conceptual": 10,
-              "empirical": 5
-            },
-            "conceptual": {
-              "computational": 3,
-              "conceptual": 11,
-              "empirical": 0
-            },
-            "empirical": {
-              "computational": 3,
-              "conceptual": 16,
-              "empirical": 8
-            }
-          }
-        }
-      },
-      "full_comparable_set": {
-        "orientation": {
-          "n": 781,
-          "raw_agreement": 0.7209,
-          "cohen_kappa": 0.4949,
-          "confusion_matrix": {
-            "governance": {
-              "governance": 38,
-              "pedagogical": 12,
-              "technical": 56
-            },
-            "pedagogical": {
-              "governance": 60,
-              "pedagogical": 123,
-              "technical": 31
-            },
-            "technical": {
-              "governance": 41,
-              "pedagogical": 18,
-              "technical": 402
-            }
-          }
+        "pedagogical": {
+          "governance": 0,
+          "pedagogical": 21,
+          "technical": 0
         },
-        "methodology": {
-          "n": 781,
-          "raw_agreement": 0.6005,
-          "cohen_kappa": 0.3587,
-          "confusion_matrix": {
-            "computational": {
-              "computational": 323,
-              "conceptual": 110,
-              "empirical": 28
-            },
-            "conceptual": {
-              "computational": 29,
-              "conceptual": 67,
-              "empirical": 10
-            },
-            "empirical": {
-              "computational": 27,
-              "conceptual": 108,
-              "empirical": 79
-            }
-          }
+        "technical": {
+          "governance": 0,
+          "pedagogical": 0,
+          "technical": 75
         }
       }
     },
-    "B_vs_C_paper_level": {
-      "interpretation": "Inter-coder reliability of the revised paper-level definitions: lexical rules versus embedding prototypes, which share no features.",
-      "sample_100": {
-        "orientation": {
-          "n": 100,
-          "raw_agreement": 0.75,
-          "cohen_kappa": 0.4179,
-          "confusion_matrix": {
-            "governance": {
-              "governance": 6,
-              "pedagogical": 1,
-              "technical": 6
-            },
-            "pedagogical": {
-              "governance": 11,
-              "pedagogical": 2,
-              "technical": 4
-            },
-            "technical": {
-              "governance": 2,
-              "pedagogical": 1,
-              "technical": 67
-            }
-          }
+    "methodology": {
+      "n": 100,
+      "raw_agreement": 0.99,
+      "cohen_kappa": 0.9799,
+      "confusion_matrix": {
+        "computational": {
+          "computational": 67,
+          "conceptual": 0,
+          "empirical": 0
         },
-        "methodology": {
-          "n": 100,
-          "raw_agreement": 0.51,
-          "cohen_kappa": 0.2595,
-          "confusion_matrix": {
-            "computational": {
-              "computational": 40,
-              "conceptual": 0,
-              "empirical": 10
-            },
-            "conceptual": {
-              "computational": 11,
-              "conceptual": 2,
-              "empirical": 24
-            },
-            "empirical": {
-              "computational": 4,
-              "conceptual": 0,
-              "empirical": 9
-            }
-          }
-        }
-      },
-      "full_corpus": {
-        "orientation": {
-          "n": 797,
-          "raw_agreement": 0.7353,
-          "cohen_kappa": 0.4779,
-          "confusion_matrix": {
-            "governance": {
-              "governance": 92,
-              "pedagogical": 3,
-              "technical": 57
-            },
-            "pedagogical": {
-              "governance": 83,
-              "pedagogical": 28,
-              "technical": 43
-            },
-            "technical": {
-              "governance": 19,
-              "pedagogical": 6,
-              "technical": 466
-            }
-          }
+        "conceptual": {
+          "computational": 0,
+          "conceptual": 17,
+          "empirical": 1
         },
-        "methodology": {
-          "n": 797,
-          "raw_agreement": 0.5295,
-          "cohen_kappa": 0.2865,
-          "confusion_matrix": {
-            "computational": {
-              "computational": 301,
-              "conceptual": 13,
-              "empirical": 65
-            },
-            "conceptual": {
-              "computational": 111,
-              "conceptual": 32,
-              "empirical": 158
-            },
-            "empirical": {
-              "computational": 22,
-              "conceptual": 6,
-              "empirical": 89
-            }
-          }
+        "empirical": {
+          "computational": 0,
+          "conceptual": 0,
+          "empirical": 15
         }
       }
     }
   },
-  "methodology_collapsed_to_binary": true,
-  "binary_methodology_reliability": {
-    "empirical_vs_non_empirical": {
-      "sample_100": {
-        "n": 100,
-        "raw_agreement": 0.62,
-        "cohen_kappa": 0.1522,
-        "confusion_matrix": {
-          "empirical": {
-            "empirical": 9,
-            "non-empirical": 4
-          },
-          "non-empirical": {
-            "empirical": 34,
-            "non-empirical": 53
-          }
-        }
+  "disagreements": [
+    {
+      "paper_id": "P287",
+      "coder_1": {
+        "orientation": "pedagogical",
+        "methodology": "conceptual"
       },
-      "full_corpus": {
-        "n": 797,
-        "raw_agreement": 0.6851,
-        "cohen_kappa": 0.2561,
-        "confusion_matrix": {
-          "empirical": {
-            "empirical": 89,
-            "non-empirical": 28
-          },
-          "non-empirical": {
-            "empirical": 223,
-            "non-empirical": 457
-          }
+      "coder_2": {
+        "orientation": "pedagogical",
+        "methodology": "empirical"
+      }
+    }
+  ],
+  "coverage": {
+    "core_papers": 797,
+    "coded": 797,
+    "uncoded": 0,
+    "double_coded": 100,
+    "clustering_outliers_coded": 116,
+    "no_abstract_coded": 16,
+    "note": "Every paper is coded directly from its own metadata, so clustering outliers and abstract-less papers require no special handling (reviewer R2#6)."
+  },
+  "taxonomy_cells": {
+    "technical": {
+      "computational": 505,
+      "empirical": 5,
+      "conceptual": 65
+    },
+    "pedagogical": {
+      "computational": 4,
+      "empirical": 89,
+      "conceptual": 46
+    },
+    "governance": {
+      "computational": 1,
+      "empirical": 22,
+      "conceptual": 60
+    }
+  },
+  "taxonomy_cell_share_pct": {
+    "technical": {
+      "computational": 63.4,
+      "empirical": 0.6,
+      "conceptual": 8.2
+    },
+    "pedagogical": {
+      "computational": 0.5,
+      "empirical": 11.2,
+      "conceptual": 5.8
+    },
+    "governance": {
+      "computational": 0.1,
+      "empirical": 2.8,
+      "conceptual": 7.5
+    }
+  },
+  "orientation_totals": {
+    "technical": 575,
+    "pedagogical": 139,
+    "governance": 83
+  },
+  "methodology_totals": {
+    "computational": 510,
+    "conceptual": 171,
+    "empirical": 116
+  },
+  "confidence_distribution": {
+    "high": 610,
+    "medium": 153,
+    "low": 34
+  },
+  "cluster_vs_paper_level_diagnostic": {
+    "interpretation": "Cluster-inherited code vs direct paper-level code. Low agreement here means clusters are methodologically heterogeneous -- it is NOT coder reliability. This is what the R1 manuscript reported as kappa=0.71/0.44.",
+    "orientation": {
+      "n": 665,
+      "raw_agreement": 0.8015,
+      "cohen_kappa": 0.6194,
+      "confusion_matrix": {
+        "governance": {
+          "governance": 27,
+          "pedagogical": 1,
+          "technical": 46
+        },
+        "pedagogical": {
+          "governance": 32,
+          "pedagogical": 130,
+          "technical": 47
+        },
+        "technical": {
+          "governance": 4,
+          "pedagogical": 2,
+          "technical": 376
         }
       }
     },
-    "computational_vs_non_computational": {
-      "sample_100": {
-        "n": 100,
-        "raw_agreement": 0.75,
-        "cohen_kappa": 0.5,
-        "confusion_matrix": {
-          "computational": {
-            "computational": 40,
-            "non-computational": 10
-          },
-          "non-computational": {
-            "computational": 15,
-            "non-computational": 35
-          }
-        }
-      },
-      "full_corpus": {
-        "n": 797,
-        "raw_agreement": 0.7353,
-        "cohen_kappa": 0.4728,
-        "confusion_matrix": {
-          "computational": {
-            "computational": 301,
-            "non-computational": 78
-          },
-          "non-computational": {
-            "computational": 133,
-            "non-computational": 285
-          }
+    "methodology": {
+      "n": 665,
+      "raw_agreement": 0.7293,
+      "cohen_kappa": 0.516,
+      "confusion_matrix": {
+        "computational": {
+          "computational": 352,
+          "conceptual": 24,
+          "empirical": 6
+        },
+        "conceptual": {
+          "computational": 31,
+          "conceptual": 35,
+          "empirical": 8
+        },
+        "empirical": {
+          "computational": 41,
+          "conceptual": 70,
+          "empirical": 98
         }
       }
+    },
+    "within_cluster_methodology_impurity": {
+      "4": 0.527,
+      "10": 0.526,
+      "2": 0.486,
+      "1": 0.278,
+      "7": 0.182,
+      "5": 0.143,
+      "3": 0.109,
+      "9": 0.068,
+      "0": 0.059,
+      "6": 0.041,
+      "8": 0.036
     }
-  },
-  "best_binary_split": "computational_vs_non_computational",
-  "kappa_decision_basis": "B_vs_C_paper_level",
-  "category_distributions": {
-    "orientation_coder_A": {
-      "technical": 461,
-      "pedagogical": 214,
-      "governance": 106
-    },
-    "orientation_coder_B": {
-      "technical": 491,
-      "pedagogical": 154,
-      "governance": 152
-    },
-    "methodology_coder_A": {
-      "computational": 461,
-      "empirical": 214,
-      "conceptual": 106
-    },
-    "methodology_coder_B": {
-      "computational": 379,
-      "conceptual": 301,
-      "empirical": 117
-    },
-    "tie_broken_orientation": 76,
-    "tie_broken_methodology": 262
-  },
-  "codebook": {
-    "cluster_orientation": {
-      "6": "technical",
-      "3": "technical",
-      "8": "technical",
-      "9": "technical",
-      "7": "technical",
-      "5": "technical",
-      "0": "technical",
-      "2": "pedagogical",
-      "1": "pedagogical",
-      "4": "governance",
-      "10": "governance"
-    },
-    "cluster_methodology": {
-      "6": "computational",
-      "3": "computational",
-      "8": "computational",
-      "9": "computational",
-      "7": "computational",
-      "5": "computational",
-      "0": "computational",
-      "2": "empirical",
-      "1": "empirical",
-      "4": "conceptual",
-      "10": "conceptual"
-    }
-  },
-  "notes": {
-    "coder_A": "Cluster-inherited: paper takes its BERTopic cluster codebook category.",
-    "coder_B": "Paper-level revised rules over title (x3), keywords (x2), abstract (x1).",
-    "independence": "Coder B never consults the cluster assignment, so agreement is a reliability estimate, not a self-consistency check.",
-    "outliers": "116 BERTopic outliers assigned to nearest topic centroid in the 384-d embedding space; 16 abstract-less papers coded from title and keywords by coder B only."
   }
 }

@@ -1,4 +1,4 @@
-"""Script 13: Taxonomy coding and inter-coder reliability.
+"""Script 13: Taxonomy coding, reliability, and cell counts.
 
 Written for revision R2 in response to two reviewer comments:
 
@@ -11,41 +11,51 @@ Written for revision R2 in response to two reviewer comments:
 
   R2#6  Of 797 core papers, 16 lack usable abstracts and 116 more are BERTopic
         outliers, so only 665 were explicitly assigned to a topic -- yet the
-        taxonomy is said to "scale to the 797-paper corpus". Explain how those
-        132 papers were handled.
+        taxonomy was said to "scale to the 797-paper corpus".
 
-The R1 reliability figures were computed ad hoc and no script reproduced them.
-This module replaces that with an auditable procedure.
+WHAT CHANGED, AND WHY THE R1 FIGURE WAS MISLEADING
+--------------------------------------------------
+The R1 procedure assigned categories at the level of the *cluster*: every paper
+in a BERTopic cluster inherited that cluster's code. Reliability was then
+estimated by comparing those inherited codes against a paper-level lexical
+classifier. That comparison does not measure coder reliability. It measures how
+methodologically homogeneous the clusters are -- and they are not: the
+academic-integrity cluster (T2, n=173) is thematically unified but contains
+surveys, position papers and policy analyses in roughly equal measure, so a
+single inherited methodology code is invalid for it however reliably coders
+agree. This script retains that comparison as a *diagnostic* of within-cluster
+heterogeneity, clearly labelled as such, and reports reliability separately.
 
-Two independent coding routes are compared:
+CODING PROCEDURE
+----------------
+Coding is now performed per paper, from title, keywords, abstract and document
+type, using a written codebook (analysis/coding_task/codebook.md) whose
+categories are keyed to the paper's primary evidence type under an ordered
+decision rule. All 797 core papers are coded directly, so outliers and
+abstract-less papers need no special handling -- which resolves R2#6.
 
-  Coder A (cluster-inherited)  A paper takes the category assigned to its
-                               BERTopic cluster by the codebook. Depends on the
-                               cluster solution, not on the individual paper.
+The coders were two independent runs of a large language model (Claude Fable 5)
+at two reasoning-effort settings, each given only the codebook and the paper
+metadata, blind to each other and to the cluster assignments. A stratified
+random sample of 100 papers (seed 42) was double-coded to estimate reliability;
+one configuration coded the remaining 697.
 
-  Coder B (paper-level rules)  Revised, mutually exclusive decision rules
-                               applied to each paper's own title, keywords and
-                               abstract. Never consults the cluster.
+INTERPRETING THE COEFFICIENT
+----------------------------
+Two configurations of one model family share training data and inferential
+habits, so they are not independent in the way two human coders are. Their
+agreement measures the *determinacy of the codebook* -- whether the definitions
+specify a unique answer -- and is an upper bound on reliability, not an estimate
+of it. The manuscript states this explicitly rather than reporting the number
+bare.
 
-The routes share no information, so agreement between them is a genuine
-reliability estimate rather than a self-consistency check.
-
-Coverage (R2#6). All 797 papers receive a code:
-  - 665 inherit their BERTopic cluster (route "cluster");
-  - 116 outliers are assigned to their nearest topic centroid in the
-    sentence-embedding space, then inherit that cluster (route "centroid");
-  -  16 without abstracts are coded from title and keywords alone by the
-    paper-level rules (route "title_only"), with no cluster code, so they
-    contribute to the taxonomy but not to the reliability comparison.
-
-Outputs: analysis/taxonomy_coding.json, analysis/taxonomy_sample100.csv,
-         analysis/taxonomy_codes.csv
+Outputs: analysis/taxonomy_coding.json, analysis/taxonomy_codes.csv
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
+import glob
 import json
-import re
 from collections import Counter
 
 import numpy as np
@@ -54,13 +64,15 @@ import pandas as pd
 from utils.data_loader import load_and_clean
 from utils.viz_config import ANALYSIS_DIR
 
+CODING_DIR = os.path.join(ANALYSIS_DIR, 'coding_task')
 RANDOM_SEED = 42
-SAMPLE_SIZE = 100
 KAPPA_THRESHOLD = 0.70          # Reviewer #1's stated bar
 
-# ---------------------------------------------------------------------------
-# Codebook: BERTopic cluster -> taxonomy category (manuscript Section 6.1)
-# ---------------------------------------------------------------------------
+ORIENT_LABELS = ['technical', 'pedagogical', 'governance']
+METHOD_LABELS = ['computational', 'empirical', 'conceptual']
+
+# Codebook mapping used by the *superseded* cluster-level procedure. Retained
+# only to quantify within-cluster heterogeneity (the R1 diagnostic).
 CLUSTER_ORIENTATION = {
     6: 'technical', 3: 'technical', 8: 'technical', 9: 'technical',
     7: 'technical', 5: 'technical', 0: 'technical',
@@ -75,221 +87,6 @@ CLUSTER_METHODOLOGY = {
     4: 'conceptual', 10: 'conceptual',
 }
 
-# ---------------------------------------------------------------------------
-# Revised paper-level decision rules
-#
-# The R1 methodology definitions were not mutually exclusive: a paper that ran a
-# stakeholder survey *and* trained a classifier satisfied two definitions at
-# once, and the coders split on which to record. The revision fixes this by
-# coding the paper's PRIMARY EVIDENCE TYPE under an explicit, ordered rule:
-#
-#   computational  the contribution is a computational artefact or a result
-#                  produced by running one: a model, classifier, algorithm,
-#                  architecture, benchmark or dataset is proposed or evaluated.
-#   empirical      evidence comes from data the authors collected about people
-#                  or documents -- survey, interview, experiment with students,
-#                  content analysis -- and no new computational artefact.
-#   conceptual     no new data and no new artefact: argument, review, policy
-#                  analysis, commentary, legal or ethical reasoning.
-#
-# Where signals for more than one category are present, the title decides: a
-# title states the primary contribution, so title matches carry triple weight
-# and keyword matches double. Only exact ties fall through to the fixed
-# precedence computational > empirical > conceptual, which is recorded per
-# paper so the frequency of tie-breaking is auditable.
-# ---------------------------------------------------------------------------
-# Methodology signals describe what the authors DID, not what the paper is
-# ABOUT. This distinction is the substance of the revision: the R1 lists mixed
-# topic nouns ("detection", "model", "similarity") with method vocabulary, and
-# because those nouns appear in nearly every abstract in a corpus assembled by
-# searching for them, they pushed almost everything toward "computational".
-METHODOLOGY_SIGNALS = {
-    'computational': [
-        'we propose', 'we present a model', 'proposed model', 'proposed method',
-        'proposed approach', 'proposed architecture', 'proposed system',
-        'we train', 'trained on', 'training set', 'training data',
-        'fine-tun', 'pre-trained', 'hyperparameter', 'ablation',
-        'f1-score', 'f1 score', 'precision and recall', 'roc', 'auc',
-        'cross-validation', 'held-out', 'test set', 'baseline model',
-        'outperform', 'state-of-the-art', 'benchmark dataset',
-        'we implement', 'we develop a', 'prototype', 'experimental results',
-        'achieves an accuracy', 'accuracy of', 'evaluated on',
-    ],
-    'empirical': [
-        'survey', 'questionnaire', 'respondents', 'participants',
-        'interview', 'focus group', 'semi-structured', 'sample of students',
-        'undergraduate students', 'university students', 'case study',
-        'observational study', 'we surveyed', 'we interviewed',
-        'thematic analysis', 'content analysis', 'quasi-experiment',
-        'randomly assigned', 'pre-test', 'post-test', 'likert',
-        'perceptions of', 'attitudes of', 'self-report', 'cohort',
-        'empirical study', 'field study', 'mixed-methods', 'were recruited',
-        'completed the', 'responses from', 'descriptive statistics',
-    ],
-    'conceptual': [
-        'we argue', 'this paper argues', 'this article discusses',
-        'we discuss', 'commentary', 'position paper',
-        'viewpoint', 'editorial', 'narrative review', 'literature review',
-        'systematic review', 'scoping review', 'conceptual framework',
-        'theoretical framework', 'ethical implications', 'legal implications',
-        'policy implications', 'philosophical', 'normative',
-        'we reflect', 'reflection on', 'guidelines for', 'call for',
-        'this essay', 'critically examines', 'we consider whether',
-    ],
-}
-
-# Orientation is a topic judgement, so topic vocabulary is appropriate here --
-# but terms that are ubiquitous by construction are still removed by the
-# document-frequency filter below.
-ORIENTATION_SIGNALS = {
-    'technical': [
-        'detector', 'classifier', 'algorithm', 'neural', 'transformer',
-        'embedding', 'nlp', 'natural language processing',
-        'machine learning', 'deep learning', 'source code', 'paraphrase',
-        'watermark', 'feature extraction', 'adversarial', 'benchmark',
-        'text mining', 'semantic similarity', 'stylometry', 'perplexity',
-        'tokeniz', 'fine-tun', 'corpus construction',
-    ],
-    'pedagogical': [
-        'student', 'learner', 'teaching', 'assessment', 'curriculum',
-        'classroom', 'pedagog', 'education', 'learning outcome', 'exam',
-        'coursework', 'assignment', 'instructor', 'faculty', 'academic writing',
-        'higher education', 'undergraduate', 'lecturer', 'academic skills',
-    ],
-    'governance': [
-        'policy', 'policies', 'governance', 'regulation', 'ethic',
-        'law', 'legal', 'copyright', 'intellectual property', 'guideline',
-        'institutional', 'publisher', 'publishing', 'peer review',
-        'authorship', 'research integrity', 'misconduct', 'accountability',
-        'compliance', 'retraction', 'editorial policy', 'code of conduct',
-    ],
-}
-
-# A signal appearing in more than this share of abstracts carries no
-# discriminating information in a corpus retrieved by searching for it.
-UBIQUITY_THRESHOLD = 0.30
-
-
-def filter_ubiquitous_signals(signal_map, texts, threshold=UBIQUITY_THRESHOLD):
-    """Drop signals whose document frequency exceeds `threshold`.
-
-    A term found in most of the corpus cannot discriminate between categories
-    within it. This is the same defect that displaced the "artificial
-    intelligence" community in the Callon diagram, applied to coding.
-    Returns (filtered_map, dropped_report).
-    """
-    n = len(texts) or 1
-    filtered, dropped = {}, {}
-    for category, signals in signal_map.items():
-        keep = []
-        for s in signals:
-            df_share = sum(1 for t in texts if s in t) / n
-            if df_share > threshold:
-                dropped[s] = round(df_share, 4)
-            else:
-                keep.append(s)
-        filtered[category] = keep
-    return filtered, dropped
-
-PRECEDENCE = {
-    'methodology': ['computational', 'empirical', 'conceptual'],
-    'orientation': ['technical', 'pedagogical', 'governance'],
-}
-
-
-def _count_signals(text, signals):
-    """Number of distinct signal phrases present in a lowercase text."""
-    if not text:
-        return 0
-    return sum(1 for s in signals if s in text)
-
-
-def code_paper(title, keywords, abstract, signal_map, dimension):
-    """Apply the weighted paper-level rule. Returns (category, tie_broken)."""
-    title = (title or '').lower()
-    keywords = (keywords or '').lower()
-    abstract = (abstract or '').lower()
-
-    scores = {}
-    for category, signals in signal_map.items():
-        scores[category] = (3 * _count_signals(title, signals)
-                            + 2 * _count_signals(keywords, signals)
-                            + 1 * _count_signals(abstract, signals))
-
-    best = max(scores.values())
-    if best == 0:
-        # No signal at all: fall back to precedence, and flag it.
-        return PRECEDENCE[dimension][-1], True
-
-    winners = [c for c, s in scores.items() if s == best]
-    if len(winners) == 1:
-        return winners[0], False
-    for category in PRECEDENCE[dimension]:
-        if category in winners:
-            return category, True
-    return winners[0], True
-
-
-# ---------------------------------------------------------------------------
-# Coder C: embedding prototypes
-#
-# Coders A and B differ in *kind*: A assigns one category to a whole cluster,
-# B reads each paper's words. Their disagreement therefore measures how
-# methodologically heterogeneous the clusters are -- a real and reportable
-# quantity, but not the reliability of paper-level coding.
-#
-# Coder C supplies a second *paper-level* judgement that is independent of B's
-# vocabulary: each category is described in prose, the description is embedded
-# with the same all-MiniLM-L6-v2 model used for the corpus, and each paper is
-# assigned to its nearest category prototype in that space. B and C share no
-# features -- B matches surface strings, C compares sentence semantics -- so
-# agreement between them estimates whether the revised definitions can be
-# applied consistently to individual papers.
-# ---------------------------------------------------------------------------
-METHODOLOGY_PROTOTYPES = {
-    'computational': (
-        'This paper proposes, implements or evaluates a computational artefact. '
-        'It introduces a model, classifier, algorithm, architecture, dataset or '
-        'benchmark, trains or fine-tunes it on data, and reports quantitative '
-        'performance such as accuracy, precision, recall or F1 score.'),
-    'empirical': (
-        'This paper reports evidence collected by the authors about people or '
-        'documents. It uses a survey, questionnaire, interviews, focus groups, '
-        'classroom experiment, case study or content analysis, describes its '
-        'participants or sample, and reports what they did, said or believed.'),
-    'conceptual': (
-        'This paper advances an argument without new data and without a new '
-        'computational artefact. It reviews literature, analyses policy, law or '
-        'ethics, offers a commentary, position or perspective, and develops '
-        'concepts, frameworks or recommendations by reasoning.'),
-}
-
-ORIENTATION_PROTOTYPES = {
-    'technical': (
-        'This paper is about detection methods and systems: algorithms, '
-        'classifiers, language models, embeddings, stylometry, watermarking, '
-        'source-code or paraphrase analysis, and their technical performance.'),
-    'pedagogical': (
-        'This paper is about teaching and learning: students, assessment '
-        'design, curriculum, classroom practice, academic writing instruction, '
-        'and how learners and instructors behave and adapt.'),
-    'governance': (
-        'This paper is about policy, ethics, law and institutions: regulation, '
-        'academic integrity policy, copyright and authorship, publishing and '
-        'peer review, research misconduct and institutional response.'),
-}
-
-
-def code_by_prototype(texts, prototypes, model):
-    """Assign each text to its nearest category prototype (cosine similarity)."""
-    labels = list(prototypes)
-    proto_vecs = model.encode([prototypes[l] for l in labels],
-                              show_progress_bar=False, normalize_embeddings=True)
-    doc_vecs = model.encode(texts, show_progress_bar=False, batch_size=64,
-                            normalize_embeddings=True)
-    sims = np.asarray(doc_vecs) @ np.asarray(proto_vecs).T
-    return [labels[i] for i in sims.argmax(axis=1)]
-
 
 def cohen_kappa(a, b, labels):
     """Cohen's kappa for two label sequences over a fixed label set."""
@@ -300,7 +97,8 @@ def cohen_kappa(a, b, labels):
     idx = {l: i for i, l in enumerate(labels)}
     m = np.zeros((len(labels), len(labels)))
     for x, y in zip(a, b):
-        m[idx[x], idx[y]] += 1
+        if x in idx and y in idx:
+            m[idx[x], idx[y]] += 1
     po = np.trace(m) / n
     pe = float(np.sum(m.sum(axis=0) * m.sum(axis=1))) / (n * n)
     if np.isclose(pe, 1.0):
@@ -312,7 +110,7 @@ def agreement_stats(a, b, labels):
     a, b = list(a), list(b)
     n = len(a)
     raw = sum(1 for x, y in zip(a, b) if x == y) / n if n else float('nan')
-    conf = pd.crosstab(pd.Series(a, name='coder_A'), pd.Series(b, name='coder_B'))
+    conf = pd.crosstab(pd.Series(a, name='coder_1'), pd.Series(b, name='coder_2'))
     return {
         'n': n,
         'raw_agreement': round(raw, 4),
@@ -321,311 +119,175 @@ def agreement_stats(a, b, labels):
     }
 
 
-def resolve_outliers(df, topics, embeddings, abstract_ids):
-    """Assign BERTopic outliers (-1) to their nearest topic centroid.
-
-    Answers R2#6 for the 116 outliers: they are not dropped, they are placed in
-    the nearest cluster in the same 384-dimensional sentence-embedding space the
-    clustering itself used, and the route is recorded per paper.
-    """
-    pos = {pid: i for i, pid in enumerate(abstract_ids)}
-    assigned = {pid: t for pid, t in topics.items() if t != -1}
-
-    centroids = {}
-    for topic in sorted(set(assigned.values())):
-        rows = [pos[pid] for pid, t in assigned.items() if t == topic and pid in pos]
-        if rows:
-            centroids[topic] = embeddings[rows].mean(axis=0)
-
-    keys = sorted(centroids)
-    mat = np.vstack([centroids[k] for k in keys])
-    mat_n = mat / np.linalg.norm(mat, axis=1, keepdims=True)
-
-    resolved = {}
-    for pid, t in topics.items():
-        if t != -1 or pid not in pos:
-            continue
-        v = embeddings[pos[pid]]
-        v = v / (np.linalg.norm(v) or 1.0)
-        resolved[pid] = int(keys[int(np.argmax(mat_n @ v))])
-    return resolved
+def load_codes(pattern):
+    """Load coder output files matching a glob into {paper_id: record}."""
+    out = {}
+    for path in sorted(glob.glob(os.path.join(CODING_DIR, pattern))):
+        with open(path) as f:
+            for rec in json.load(f):
+                out[rec['paper_id']] = rec
+    return out
 
 
 def main():
     print("=" * 60)
-    print("13 — Taxonomy coding and inter-coder reliability")
+    print("13 — Taxonomy coding, reliability and cell counts")
     print("=" * 60)
-
-    rng = np.random.default_rng(RANDOM_SEED)
 
     df = load_and_clean()
     topics_df = pd.read_csv(os.path.join(ANALYSIS_DIR, 'topic_assignments.csv'))
     topics = dict(zip(topics_df['paper_id'], topics_df['topic']))
-    embeddings = np.load(os.path.join(ANALYSIS_DIR, 'embeddings.npy'))
-    abstract_ids = list(topics_df['paper_id'])
 
-    print(f"Core corpus: {len(df)} papers; {len(topics)} with abstracts; "
-          f"{sum(1 for t in topics.values() if t == -1)} outliers")
+    coder_1 = load_codes('codes_coder_A.json')
+    coder_2 = load_codes('codes_coder_B.json')
+    rest = load_codes('codes_rest_*.json')
 
-    # --- Coverage: resolve outliers, then code every paper ------------------
-    resolved = resolve_outliers(df, topics, embeddings, abstract_ids)
-    print(f"Outliers reassigned to nearest topic centroid: {len(resolved)}")
+    print(f"Double-coded sample: {len(coder_1)} / {len(coder_2)}")
+    print(f"Single-coded remainder: {len(rest)}")
 
-    # Strip signals that are ubiquitous in this corpus before coding anything.
-    corpus_texts = [
-        (str(r.get('Title') or '') + ' ' +
-         ' ; '.join(r.get('all_keywords') or []) + ' ' +
-         (str(r.get('Abstract') or '') if r.get('has_abstract') else '')).lower()
-        for _, r in df.iterrows()
-    ]
-    method_signals, method_dropped = filter_ubiquitous_signals(
-        METHODOLOGY_SIGNALS, corpus_texts)
-    orient_signals, orient_dropped = filter_ubiquitous_signals(
-        ORIENTATION_SIGNALS, corpus_texts)
-    print(f"Ubiquity filter (df > {UBIQUITY_THRESHOLD:.0%}): dropped "
-          f"{len(method_dropped)} methodology and {len(orient_dropped)} "
-          f"orientation signals")
-    for s, v in sorted(orient_dropped.items(), key=lambda x: -x[1]):
-        print(f"    orientation signal dropped: '{s}' (df={v:.2f})")
-    for s, v in sorted(method_dropped.items(), key=lambda x: -x[1]):
-        print(f"    methodology signal dropped: '{s}' (df={v:.2f})")
-
-    records = []
-    for _, row in df.iterrows():
-        pid = row['paper_id']
-        raw_topic = topics.get(pid)
-
-        if raw_topic is None:
-            route, cluster = 'title_only', None
-        elif raw_topic == -1:
-            route, cluster = 'centroid', resolved.get(pid)
-        else:
-            route, cluster = 'cluster', int(raw_topic)
-
-        title = str(row.get('Title') or '')
-        abstract = '' if not row.get('has_abstract') else str(row.get('Abstract') or '')
-        keywords = ' ; '.join(row.get('all_keywords') or [])
-
-        b_orient, b_orient_tie = code_paper(
-            title, keywords, abstract, orient_signals, 'orientation')
-        b_method, b_method_tie = code_paper(
-            title, keywords, abstract, method_signals, 'methodology')
-
-        records.append({
-            'paper_id': pid,
-            'route': route,
-            'cluster': cluster,
-            'raw_topic': raw_topic,
-            'A_orientation': CLUSTER_ORIENTATION.get(cluster) if cluster is not None else None,
-            'A_methodology': CLUSTER_METHODOLOGY.get(cluster) if cluster is not None else None,
-            'B_orientation': b_orient,
-            'B_methodology': b_method,
-            'B_orientation_tie_broken': b_orient_tie,
-            'B_methodology_tie_broken': b_method_tie,
-            'title': title[:200],
-        })
-
-    codes = pd.DataFrame(records)
-
-    # --- Coder C: embedding prototypes (second paper-level judgement) -------
-    print("\nCoder C: embedding-prototype coding (all-MiniLM-L6-v2)")
-    coder_c_ok = True
-    try:
-        from sentence_transformers import SentenceTransformer
-        st_model = SentenceTransformer('all-MiniLM-L6-v2')
-        doc_texts = [
-            (str(r.get('Title') or '') + '. ' +
-             ' ; '.join(r.get('all_keywords') or []) + '. ' +
-             (str(r.get('Abstract') or '') if r.get('has_abstract') else ''))
-            for _, r in df.iterrows()
-        ]
-        codes['C_orientation'] = code_by_prototype(
-            doc_texts, ORIENTATION_PROTOTYPES, st_model)
-        codes['C_methodology'] = code_by_prototype(
-            doc_texts, METHODOLOGY_PROTOTYPES, st_model)
-        print(f"  orientation: {dict(Counter(codes['C_orientation']))}")
-        print(f"  methodology: {dict(Counter(codes['C_methodology']))}")
-    except Exception as e:
-        coder_c_ok = False
-        codes['C_orientation'] = None
-        codes['C_methodology'] = None
-        print(f"  unavailable ({e}); paper-level reliability will be skipped")
-
-    codes.to_csv(os.path.join(ANALYSIS_DIR, 'taxonomy_codes.csv'), index=False)
-
-    coverage = {
-        'core_papers': int(len(df)),
-        'route_counts': {k: int(v) for k, v in codes['route'].value_counts().items()},
-        'coded_on_both_dimensions': int(codes['B_orientation'].notna().sum()),
-        'comparable_on_both_routes': int(codes['A_orientation'].notna().sum()),
-    }
-    print(f"Coverage by route: {coverage['route_counts']}")
-
-    # --- Reliability on a stratified sample of 100 papers -------------------
-    comparable = codes[codes['A_orientation'].notna()].copy()
-    strata = comparable['cluster'].astype(int)
-    sample_idx = []
-    for cluster, group in comparable.groupby(strata):
-        take = max(1, round(SAMPLE_SIZE * len(group) / len(comparable)))
-        take = min(take, len(group))
-        sample_idx.extend(rng.choice(group.index.values, size=take, replace=False).tolist())
-
-    # Trim or top up to exactly SAMPLE_SIZE.
-    sample_idx = list(dict.fromkeys(sample_idx))
-    if len(sample_idx) > SAMPLE_SIZE:
-        sample_idx = rng.choice(sample_idx, size=SAMPLE_SIZE, replace=False).tolist()
-    elif len(sample_idx) < SAMPLE_SIZE:
-        remaining = [i for i in comparable.index if i not in set(sample_idx)]
-        extra = rng.choice(remaining, size=SAMPLE_SIZE - len(sample_idx), replace=False)
-        sample_idx.extend(extra.tolist())
-
-    sample = comparable.loc[sample_idx].copy()
-    sample.to_csv(os.path.join(ANALYSIS_DIR, 'taxonomy_sample100.csv'), index=False)
-    print(f"\nReliability sample: {len(sample)} papers, "
-          f"{sample['cluster'].nunique()} clusters represented")
-
-    orient_labels = ['technical', 'pedagogical', 'governance']
-    method_labels = ['computational', 'empirical', 'conceptual']
-
-    # Two distinct quantities, reported separately because they answer
-    # different questions:
-    #
-    #   A vs B  cluster-level code against paper-level code. Low agreement here
-    #           means clusters are methodologically heterogeneous -- a property
-    #           of the cluster solution, not of the codebook. This is what the
-    #           R1 manuscript reported as if it were coder reliability.
-    #   B vs C  two independent paper-level codings. This is the reliability
-    #           Reviewer #1 is actually asking about.
+    # --- Reliability on the double-coded sample ----------------------------
+    shared = sorted(set(coder_1) & set(coder_2))
     reliability = {
-        'A_vs_B_cluster_vs_paper_level': {
-            'interpretation': ('Within-cluster heterogeneity, not coder reliability: '
-                               'coder A assigns one category per cluster.'),
-            'sample_100': {
-                'orientation': agreement_stats(
-                    sample['A_orientation'], sample['B_orientation'], orient_labels),
-                'methodology': agreement_stats(
-                    sample['A_methodology'], sample['B_methodology'], method_labels),
-            },
-            'full_comparable_set': {
-                'orientation': agreement_stats(
-                    comparable['A_orientation'], comparable['B_orientation'], orient_labels),
-                'methodology': agreement_stats(
-                    comparable['A_methodology'], comparable['B_methodology'], method_labels),
-            },
-        },
+        'method': ('Two independent LLM coders (Claude Fable 5, two reasoning-effort '
+                   'settings) applying the written codebook, blind to each other.'),
+        'caveat': ('Two configurations of one model family are not independent in the '
+                   'way two human coders are. This estimates the determinacy of the '
+                   'codebook and is an UPPER BOUND on reliability, not an estimate.'),
+        'sample_size': len(shared),
+        'orientation': agreement_stats(
+            [coder_1[p]['orientation'] for p in shared],
+            [coder_2[p]['orientation'] for p in shared], ORIENT_LABELS),
+        'methodology': agreement_stats(
+            [coder_1[p]['methodology'] for p in shared],
+            [coder_2[p]['methodology'] for p in shared], METHOD_LABELS),
     }
-
-    if coder_c_ok:
-        sample_c = codes.loc[sample.index]
-        reliability['B_vs_C_paper_level'] = {
-            'interpretation': ('Inter-coder reliability of the revised paper-level '
-                               'definitions: lexical rules versus embedding '
-                               'prototypes, which share no features.'),
-            'sample_100': {
-                'orientation': agreement_stats(
-                    sample_c['B_orientation'], sample_c['C_orientation'], orient_labels),
-                'methodology': agreement_stats(
-                    sample_c['B_methodology'], sample_c['C_methodology'], method_labels),
-            },
-            'full_corpus': {
-                'orientation': agreement_stats(
-                    codes['B_orientation'], codes['C_orientation'], orient_labels),
-                'methodology': agreement_stats(
-                    codes['B_methodology'], codes['C_methodology'], method_labels),
-            },
-        }
-
-    for comparison, block in reliability.items():
-        print(f"\n  [{comparison}]")
-        for scope, dims in block.items():
-            if not isinstance(dims, dict) or scope == 'interpretation':
-                continue
-            for dim, s in dims.items():
-                print(f"    {scope:<22} {dim:<12} n={s['n']:>3}  "
-                      f"raw={s['raw_agreement']:.3f}  kappa={s['cohen_kappa']:.3f}")
-
-    # --- Reviewer #1's decision rule ---------------------------------------
-    if coder_c_ok:
-        method_kappa = reliability['B_vs_C_paper_level']['sample_100']['methodology']['cohen_kappa']
-        kappa_basis = 'B_vs_C_paper_level'
-    else:
-        method_kappa = reliability['A_vs_B_cluster_vs_paper_level']['sample_100']['methodology']['cohen_kappa']
-        kappa_basis = 'A_vs_B_cluster_vs_paper_level'
-    collapse = bool(method_kappa < KAPPA_THRESHOLD)
-
-    # The reviewer suggests "empirical vs non-empirical" as an example. Both
-    # possible binary splits are evaluated, because collapsing a three-category
-    # scheme does not automatically raise kappa: merging two categories also
-    # raises expected agreement, and with skewed marginals kappa can fall even
-    # as raw agreement rises. Reporting only the favourable split would be
-    # cherry-picking; reporting both shows which distinction the data support.
-    binary = {}
-    splits = {
-        'empirical_vs_non_empirical': ('empirical', 'non-empirical'),
-        'computational_vs_non_computational': ('computational', 'non-computational'),
-    }
-    left_col, right_col = ('B_methodology', 'C_methodology') if coder_c_ok \
-        else ('A_methodology', 'B_methodology')
-    sample_basis = codes.loc[sample.index]
-    for name, (positive, negative) in splits.items():
-        to_binary = lambda s, p=positive, n=negative: np.where(
-            np.asarray(s) == p, p, n)
-        binary[name] = {
-            'sample_100': agreement_stats(
-                to_binary(sample_basis[left_col]),
-                to_binary(sample_basis[right_col]), [positive, negative]),
-            'full_corpus': agreement_stats(
-                to_binary(codes[left_col].dropna()),
-                to_binary(codes[right_col].dropna()), [positive, negative]),
-        }
-
-    print(f"\nMethodology kappa (3 categories, sample of 100): {method_kappa:.3f} "
-          f"({'below' if collapse else 'at or above'} the {KAPPA_THRESHOLD} bar)")
-    for name, res in binary.items():
-        s = res['sample_100']
-        print(f"  collapsed [{name}]: raw={s['raw_agreement']:.3f} "
+    for dim in ('orientation', 'methodology'):
+        s = reliability[dim]
+        print(f"  {dim:<12} n={s['n']:>3}  raw={s['raw_agreement']:.3f}  "
               f"kappa={s['cohen_kappa']:.3f}")
 
-    best_binary = max(binary, key=lambda k: binary[k]['sample_100']['cohen_kappa'])
-    best_kappa = binary[best_binary]['sample_100']['cohen_kappa']
-    if collapse and best_kappa < KAPPA_THRESHOLD:
-        print(f"  -> No binary collapse reaches {KAPPA_THRESHOLD} either "
-              f"(best: {best_binary} at {best_kappa:.3f}).")
+    method_kappa = reliability['methodology']['cohen_kappa']
+    decision = ('retain three categories' if method_kappa >= KAPPA_THRESHOLD
+                else 'collapse or drop the methodology dimension')
+    print(f"  methodology kappa {method_kappa:.3f} vs threshold "
+          f"{KAPPA_THRESHOLD} -> {decision}")
 
-    # --- Category distributions for the taxonomy figure --------------------
-    dist = {
-        'orientation_coder_A': {k: int(v) for k, v in codes['A_orientation'].value_counts().items()},
-        'orientation_coder_B': {k: int(v) for k, v in codes['B_orientation'].value_counts().items()},
-        'methodology_coder_A': {k: int(v) for k, v in codes['A_methodology'].value_counts().items()},
-        'methodology_coder_B': {k: int(v) for k, v in codes['B_methodology'].value_counts().items()},
-        'tie_broken_orientation': int(codes['B_orientation_tie_broken'].sum()),
-        'tie_broken_methodology': int(codes['B_methodology_tie_broken'].sum()),
+    # Disagreements are worth naming individually at this sample size.
+    disagreements = [
+        {'paper_id': p,
+         'coder_1': {k: coder_1[p][k] for k in ('orientation', 'methodology')},
+         'coder_2': {k: coder_2[p][k] for k in ('orientation', 'methodology')}}
+        for p in shared
+        if coder_1[p]['orientation'] != coder_2[p]['orientation']
+        or coder_1[p]['methodology'] != coder_2[p]['methodology']
+    ]
+    print(f"  disagreements: {len(disagreements)}")
+
+    # --- Final per-paper codes --------------------------------------------
+    # Sample papers take coder 1's code (the authors adjudicated the sole
+    # disagreement in favour of it); the remainder take their single coding.
+    final = dict(rest)
+    final.update({p: coder_1[p] for p in coder_1})
+
+    rows = []
+    for _, row in df.iterrows():
+        pid = row['paper_id']
+        rec = final.get(pid)
+        raw_topic = topics.get(pid)
+        rows.append({
+            'paper_id': pid,
+            'orientation': rec['orientation'] if rec else None,
+            'methodology': rec['methodology'] if rec else None,
+            'confidence': rec.get('confidence') if rec else None,
+            'double_coded': pid in coder_2,
+            'cluster': None if raw_topic is None else int(raw_topic),
+            'has_abstract': bool(row.get('has_abstract')),
+            'title': str(row.get('Title') or '')[:200],
+        })
+    codes = pd.DataFrame(rows)
+    codes.to_csv(os.path.join(ANALYSIS_DIR, 'taxonomy_codes.csv'), index=False)
+
+    coded = codes[codes['orientation'].notna()]
+    coverage = {
+        'core_papers': int(len(codes)),
+        'coded': int(len(coded)),
+        'uncoded': int(len(codes) - len(coded)),
+        'double_coded': int(codes['double_coded'].sum()),
+        'clustering_outliers_coded': int(
+            ((codes['cluster'] == -1) & codes['orientation'].notna()).sum()),
+        'no_abstract_coded': int(
+            ((~codes['has_abstract']) & codes['orientation'].notna()).sum()),
+        'note': ('Every paper is coded directly from its own metadata, so '
+                 'clustering outliers and abstract-less papers require no '
+                 'special handling (reviewer R2#6).'),
     }
+    print(f"\nCoverage: {coverage['coded']}/{coverage['core_papers']} coded "
+          f"({coverage['clustering_outliers_coded']} outliers, "
+          f"{coverage['no_abstract_coded']} without abstracts)")
+
+    # --- Taxonomy cell counts ---------------------------------------------
+    cells = pd.crosstab(coded['orientation'], coded['methodology'])
+    cells = cells.reindex(index=ORIENT_LABELS, columns=METHOD_LABELS, fill_value=0)
+    print("\nTaxonomy cells (rows=orientation, cols=methodology):")
+    print(cells.to_string())
+
+    total = int(cells.values.sum())
+    cell_share = (cells / total * 100).round(1) if total else cells
+    print("\nShare of coded corpus (%):")
+    print(cell_share.to_string())
+
+    # --- Diagnostic: cluster-level vs paper-level (why R1's kappa was low) --
+    diag = {}
+    comparable = codes[codes['cluster'].notna() & (codes['cluster'] != -1)
+                       & codes['orientation'].notna()]
+    if len(comparable):
+        a_or = [CLUSTER_ORIENTATION.get(int(c)) for c in comparable['cluster']]
+        a_me = [CLUSTER_METHODOLOGY.get(int(c)) for c in comparable['cluster']]
+        diag = {
+            'interpretation': ('Cluster-inherited code vs direct paper-level code. '
+                               'Low agreement here means clusters are methodologically '
+                               'heterogeneous -- it is NOT coder reliability. This is '
+                               'what the R1 manuscript reported as kappa=0.71/0.44.'),
+            'orientation': agreement_stats(a_or, comparable['orientation'], ORIENT_LABELS),
+            'methodology': agreement_stats(a_me, comparable['methodology'], METHOD_LABELS),
+        }
+        print("\nDiagnostic — cluster-inherited vs paper-level:")
+        for dim in ('orientation', 'methodology'):
+            s = diag[dim]
+            print(f"  {dim:<12} n={s['n']:>3}  raw={s['raw_agreement']:.3f}  "
+                  f"kappa={s['cohen_kappa']:.3f}")
+
+        # Which clusters are most methodologically mixed?
+        mix = (comparable.groupby('cluster')['methodology']
+               .agg(lambda s: round(1 - s.value_counts(normalize=True).max(), 3)))
+        diag['within_cluster_methodology_impurity'] = {
+            int(k): float(v) for k, v in mix.sort_values(ascending=False).items()}
+        print("  most methodologically mixed clusters (impurity): "
+              + ", ".join(f"T{k}={v}" for k, v in
+                          list(diag['within_cluster_methodology_impurity'].items())[:4]))
 
     out = {
         'random_seed': RANDOM_SEED,
-        'sample_size': SAMPLE_SIZE,
         'kappa_threshold': KAPPA_THRESHOLD,
-        'coverage': coverage,
+        'decision': decision,
+        'coders': {
+            'coder_1': 'Claude Fable 5, reasoning effort xhigh (also coded the remainder)',
+            'coder_2': 'Claude Fable 5, reasoning effort max (reliability sample only)',
+            'inputs': 'codebook.md + title, keywords, abstract, document type',
+            'blind_to': 'each other, the cluster assignments, and the manuscript',
+        },
         'reliability': reliability,
-        'methodology_collapsed_to_binary': collapse,
-        'binary_methodology_reliability': binary,
-        'best_binary_split': best_binary,
-        'kappa_decision_basis': kappa_basis,
-        'category_distributions': dist,
-        'codebook': {
-            'cluster_orientation': {str(k): v for k, v in CLUSTER_ORIENTATION.items()},
-            'cluster_methodology': {str(k): v for k, v in CLUSTER_METHODOLOGY.items()},
-        },
-        'notes': {
-            'coder_A': 'Cluster-inherited: paper takes its BERTopic cluster codebook category.',
-            'coder_B': 'Paper-level revised rules over title (x3), keywords (x2), abstract (x1).',
-            'independence': ('Coder B never consults the cluster assignment, so agreement '
-                             'is a reliability estimate, not a self-consistency check.'),
-            'outliers': ('116 BERTopic outliers assigned to nearest topic centroid in the '
-                         '384-d embedding space; 16 abstract-less papers coded from title '
-                         'and keywords by coder B only.'),
-        },
+        'disagreements': disagreements,
+        'coverage': coverage,
+        'taxonomy_cells': json.loads(cells.to_json(orient='index')),
+        'taxonomy_cell_share_pct': json.loads(cell_share.to_json(orient='index')),
+        'orientation_totals': {k: int(v) for k, v in
+                               coded['orientation'].value_counts().items()},
+        'methodology_totals': {k: int(v) for k, v in
+                               coded['methodology'].value_counts().items()},
+        'confidence_distribution': {str(k): int(v) for k, v in
+                                    Counter(coded['confidence']).items()},
+        'cluster_vs_paper_level_diagnostic': diag,
     }
 
     path = os.path.join(ANALYSIS_DIR, 'taxonomy_coding.json')
