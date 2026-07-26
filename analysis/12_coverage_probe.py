@@ -50,6 +50,10 @@ from utils.viz_config import ANALYSIS_DIR
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
 
 OPENALEX_API = 'https://api.openalex.org/works'
+# OpenAlex asks callers to identify themselves, which routes requests to its
+# faster "polite pool". Set OPENALEX_CONTACT_EMAIL to your own address before
+# running; the address is deliberately not hard-coded so that re-running this
+# script does not publish a personal contact in the repository history.
 CONTACT_EMAIL = os.environ.get('OPENALEX_CONTACT_EMAIL', 'anonymous@example.org')
 SEARCH_DATE = '2026-06-03'
 DATE_FROM = '2022-01-01'
