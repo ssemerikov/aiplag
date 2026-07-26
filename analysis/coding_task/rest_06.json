@@ -1,0 +1,778 @@
+[
+ {
+  "paper_id": "P688",
+  "title": "Classification feature sets for source code plagiarism detection in Java",
+  "keywords": "similarity matrix; code reuse; intellectual property; source code plagiarisms; plagiarism detection; computer software reusability; machine-learning; machine learning; software similarity detection; feature extraction; open source software; classification; graphic methods; similarity detection; source code plagiarism detection; computer aided instruction; java programming language; source codes; codes (symbols); software similarities; classification (of information); source code reuse detection",
+  "abstract": "In programming learning environments, the pressure of delivering many programming assignments makes plagiarism the easiest solution. This highly threatens the learning process; therefore, the need of an automatic, fast, and accurate detection of source code plagiarism becomes essential. To detect whether a pair of Java files is plagiarized, this paper proposes four classification feature sets: (i) structural histogram features, histogram-based features for summarizing similarity matrices; (ii) lexical per-class features, extracted from a lexical similarity matrix between the classes of the two compared files based on character 3-grams; (iii) structural counting features, twelve counting features representing the code structure; and (iv) modified original features: a set of modifications on the features of the used baseline. The results show that the best feature sets in F-measure are the structural histogram features and the lexical per-class features combined, which improve the F-measure by 4% compared to the baseline. The added features slow down the execution time. However, it is still efficient, given that it can classify 70k pairs in 23 min. In addition, we partially re-annotated the SOurce COde Re-use dataset. After the re-annotation, the F-measure of both the baseline and our work is improved, and our work achieves an F-measure of 93.6%, which is 7.5% higher than the new F-measure of the baseline. In addition, some remarks and recommendations are provided for using the SOurce COde Re-use dataset as a benchmark. \u00a9 2022, The Author(s).",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P689",
+  "title": "Intelligent Plagiarism as a Misconduct in Academic Integrity; [O Pl\u00e1gio Inteligente como M\u00e1 Conduta na Integridade Acad\u00e9mica]",
+  "keywords": "learning; scientific misconduct; medical education; information; publishing; misconduct; behavior; software; exercise; artificial intelligence; natural language processing; publication bias; article; algorithm; search engine; machine learning; information security; medical research; generative pretrained transformer; plagiarism; chatgpt; patent; human; bibliographic database; technology; research; teaching; public health; ethics; decision making; mental function; scientific integrity review; biomedical research; society; humans; legal aspect; grammar; publication; awareness",
+  "abstract": "",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P690",
+  "title": "Development of a practical system for computerized evaluation of descriptive answers of middle school level students",
+  "keywords": "answer grading; text similarity; educational assessment; automatic evaluation; student writing assessment",
+  "abstract": "Assessment plays an important role in education. Recently proposed machine learning-based systems for answer grading demand a large training data which is not available in many application areas. Creation of sufficient training data is costly and time-consuming. As a result, automatic long answer grading is still a challenge. In this paper, we propose a practical system for long or descriptive answer grading that can assess in a small class scenario. The system uses an expert-written reference answer and computes the similarity of a student answer with it. For the similarity computation, it uses several word level and sentence level similarity measures including TFIDF, Latent Semantic Indexing, Latent Dirichlet Analysis, TextRank summarizer, and neural sentence embedding-based InferSent. The student answer might contain certain facts that do not occur in the model answer. The system identifies such sentences, examine their relevance and correctness, and assigns extra marks accordingly. In the final phase, the system uses a clustering-based confidence analysis. The system is tested on an assessment of school-level social science answer books. The experimental results demonstrate that the system evaluates the answer books with high accuracy, the best root mean square error value is 0.59 on a 0\u20135 scoring scale. \u00a9 2019 Informa UK Limited, trading as Taylor & Francis Group.",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P691",
+  "title": "Evaluation of Different Plagiarism Detection Methods: A Fuzzy MCDM Perspective",
+  "keywords": "machine learning; semantic analysis; fuzzy topsis; text-matching software; plagiarism detection",
+  "abstract": "Due to the overall widespread accessibility of electronic materials available on the internet, the availability and usage of computers in education have resulted in a growth in the incidence of plagiarism among students. A growing number of individuals at colleges around the globe appear to be presenting plagiarised papers to their professors for credit, while no specific details are collected of how much was plagiarised previously or how much is plagiarised currently. Supervisors, who are overburdened with huge responsibility, desire a simple way\u2014similar to a litmus test\u2014to rapidly re-form plagiarized papers so that they may focus their work on the remaining students. Plagiarism-checking software programs are useful for detecting plagiarism in examinations, projects, publica-tions, and academic research. A number of the latest research findings dedicated to evaluating and comparing plagiarism-checking methods have demonstrated that these have restrictions in identifying the complicated structures of plagiarism, such as extensive paraphrasing as well as the utilization of technical manipulations, such as substituting original text with similar text from foreign alphanumeric characters. Selecting the best reliable and efficient plagiarism-detection method is a challenging task with so many options available nowadays. This paper evaluates the different academic plagiarism-detection methods using the fuzzy MCDM (multi-criteria decision-making) method and provides recommendations for the development of efficient plagiarism-detection systems. A hierarchy of evaluation is discussed, as well as an examination of the most promising plagiarism-detection methods that have the opportunity to resolve the constraints of current state-of-the-art tools. As a result, the study serves as a \u201cblueprint\u201d for constructing the next generation of plagiarism-checking tools. \u00a9 2022 by the authors. Licensee MDPI, Basel, Switzerland.",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P692",
+  "title": "Research and Improvement of a Plagiarism Detection Methods Using Blockchain Technolog",
+  "keywords": "intellectual property; smart-contracts; engineering education; plagiarism detection; learning systems; decentralized database; text-processing; machine-learning; machine learning; similarity measurement; block-chain; similarity measurements; ethereum; unified algorithm; nlp; python; blockchain; education; near-duplicates; smart contract; solidity; text processing; detection methods",
+  "abstract": "This paper proposes unified algorithm for plagiarism detection using Blockchain technology, machine learning for text processing and SimHash for identifying near-duplicate documents at scale. Blockchain is a decentralized database that allows you to conduct transactions based on network consensus. This may affect the way plagiarism is checked, as Blockchain will act as a transparent system of protection against unauthorized access or a system of social contracts. Higher education institutions can use blockchain technology for various academic activities, such as administering online courses. Almost every field of teaching and learning is a potential beneficiary of Blockchain technology. In general, the blockchain can be used to build a balance sheet to measure the learning process and outcomes. It is a democratized proof of values for all. Most Blockchain applications are currently at the level of Blockchain 1.0 and Blockchain 2.0, which allows us to predict its development. Also, the blockchain perfectly solves the problem of fraud in general due to its next abilities-decentralization, consistency and the ability to act as a global permitting system. In addition, besides using blockchain technology, multi-language support can provide strong benefits to overall system. Also this paper show how current unified algorithm beats the score of TF-IDF algorithm overall by 7%.  \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P694",
+  "title": "Sublinear Time Approximation of Text Similarity Matrices",
+  "keywords": "similarity matrix; pairwise similarity matrix; similarity computation; natural languages; matrix; sublinear time; positive semidefinite; text similarity; matrix algebra; information retrieval systems; artificial intelligence; natural language processing systems; approximation theory; datapoints; language processing",
+  "abstract": "We study algorithms for approximating pairwise similarity matrices that arise in natural language processing. Generally, computing a similarity matrix for n data points requires \u03a9(n2) similarity computations. This quadratic scaling is a significant bottleneck, especially when similarities are computed via expensive functions, e.g., via transformer models. Approximation methods reduce this quadratic complexity, often by using a small subset of exactly computed similarities to approximate the remainder of the complete pairwise similarity matrix. Significant work focuses on the efficient approximation of positive semidefinite (PSD) similarity matrices, which arise e.g., in kernel methods. However, much less is understood about indefinite (non-PSD) similarity matrices, which often arise in NLP. Motivated by the observation that many of these matrices are still somewhat close to PSD, we introduce a generalization of the popular Nystr\u00f6m method to the indefinite setting. Our algorithm can be applied to any similarity matrix and runs in sublinear time in the size of the matrix, producing a rank-s approximation with just O(ns) similarity computations. We show that our method, along with a simple variant of CUR decomposition, performs very well in approximating a variety of similarity matrices arising in NLP tasks. We demonstrate high accuracy of the approximated similarity matrices in tasks of document classification, sentence similarity, and cross-document coreference. \u00a9 2022, Association for the Advancement of Artificial Intelligence (www.aaai.org). All rights reserved.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P695",
+  "title": "Interpreting BERT-based Text Similarity via Activation and Saliency Maps",
+  "keywords": "deep learning; semantics; transformers; activation maps; attention models; saliency map; text similarity; interpretability; self-supervised; embeddings; attention model; explainable ai; transformer",
+  "abstract": "Recently, there has been growing interest in the ability of Transformer-based models to produce meaningful embeddings of text with several applications, such as text similarity. Despite significant progress in the field, the explanations for similarity predictions remain challenging, especially in unsupervised settings. In this work, we present an unsupervised technique for explaining paragraph similarities inferred by pre-trained BERT models. By looking at a pair of paragraphs, our technique identifies important words that dictate each paragraph's semantics, matches between the words in both paragraphs, and retrieves the most important pairs that explain the similarity between the two. The method, which has been assessed by extensive human evaluations and demonstrated on datasets comprising long and complex paragraphs, has shown great promise, providing accurate interpretations that correlate better with human perceptions. \u00a9 2022 ACM.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P696",
+  "title": "An unsupervised semantic text similarity measurement model in resource-limited scenes",
+  "keywords": "'current; topic modeling; computational resources; semantics; similarity measurements; topic model; similarity measurement; text similarity; trees (mathematics); benchmarking; deep neural networks; tree kernels; training dataset; tes-tree; resource-limited; measurement model; forestry; tree kernel",
+  "abstract": "As the basis of many artificial intelligence tasks, text similarity measurement has received extensive attention in current studies. However, few of them focus on the resource-limited scenes (i.e., limited computational resources and few training datasets), which are becoming increasingly popular and challenging with the development of the Internet of Things. Worse still, popular methods such as the deep-neural-network-based methods may lose their power in such scenes, since they typically require considerable computational resources. As for most current traditional methods, they also have issues of not effectively exploiting the semantic information in the sentences. As an alternative, this paper proposes a lightweight and semantically rich text similarity measurement model named the TES-TK model. In this model, a sentence is first transformed into a tree structure called TES-Tree with the integration of syntactic information, semantic knowledge, and topic distribution, aiming to comprehensively represent the multidimensional semantics of sentences. Afterward, a modified tree kernel model is designed to calculate the similarity between each pair of TES-Trees. In this way, the similarity score between the two related sentences can be retrieved. Experiments on 19 public benchmark datasets (STS2012\u20132015) demonstrate that the proposed approach exhibits significantly better performance than the compared eight peer methods on most datasets. Especially in resource-limited scenes, our approach achieved highly competitive results compared with the latest methods, such as BERT. \u00a9 2022 Elsevier Inc.",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P697",
+  "title": "A Study of\u00a0Machine Learning Based Approach for\u00a0Hotels\u2019 Matching",
+  "keywords": "machine learning; text similarity; hotel matching; entity resolution",
+  "abstract": "Hotels\u2019 matching is a big challenge faced by the actors of the business of selling hotels such as online travel agencies (OTAs), tour operators (TO) and Business to Business (B2B) companies. Nowadays, machine learning classification is used for numerous tasks and it can help to classify a pair of hotels as identical or different. In this paper, we described different approaches and techniques applied in hotel data matching and we proposed a solution which combines machine learning classification and text similarity algorithms. The machine learning algorithms used in this study are logistic regression (LR), naive Bayes (NB), support vector machine (SVM), k-nearest neighbours (KNN), decision tree (DT) and random forest (RF). The obtained results show the performance of our model in terms of accuracy, precision, recall and F1 score. The best results were obtained with the help of random forest and decision tree classifiers where all performance metrics values are greater than 99%. \u00a9 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P698",
+  "title": "ConDA: Contrastive Domain Adaptation for AI-generated Text Detection",
+  "keywords": "text detection; domain adaptation; text data; personnel training; news articles; error detection; unsupervised learning; labeled data; adaptation framework; text generators; computational linguistics; language model; labeled training data; source data; natural language processing systems; data problems; text processing",
+  "abstract": "Large language models (LLMs) are increasingly being used for generating text in a variety of use cases, including journalistic news articles. Given the potential malicious nature in which these LLMs can be used to generate disinformation at scale, it is important to build effective detectors for such AI-generated text. Given the surge in development of new LLMs, acquiring labeled training data for supervised detectors is a bottleneck. However, there might be plenty of unlabeled text data available, without information on which generator it came from. In this work we tackle this data problem, in detecting AI-generated news text, and frame the problem as an unsupervised domain adaptation task. Here the domains are the different text generators, i.e. LLMs, and we assume we have access to only the labeled source data and unlabeled target data. We develop a Contrastive Domain Adaptation framework, called ConDA, that blends standard domain adaptation techniques with the representation power of contrastive learning to learn domain invariant representations that are effective for the final unsupervised detection task. Our experiments demonstrate the effectiveness of our framework, resulting in average performance gains of 31.7% from the best performing baselines, and within 0.8% margin of a fully supervised detector. All our code and data is available here. \u00a9 2023 Association for Computational Linguistics.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P699",
+  "title": "Plagiarism Detection System: A Review",
+  "keywords": "machine learning; machine learning techniques; academic research; research challenges; intellectual property; research papers; plagiarism detection; detection system; author profiling; detecting plagiarism; author identification",
+  "abstract": "In academic research, identification of genuine author is moderately thought-provoking. It is a challenge to determine whether a research paper prepared by an author is original. It is a normal practice to use the content from the internet that is freely available without crediting the original author. Plagiarism has become a major issue in academic research as a result of widespread availability of relevant content over the internet. This paper mainly focuses on different approaches for detecting plagiarism. This paper investigates the research challenges involved with this subject. \u00a9 Grenze Scientific Society, 2023.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P701",
+  "title": "Combining Citation Network Information and Text Similarity for Research Article Recommender Systems",
+  "keywords": "machine learning; scientific articles; search methods; search method; recommender systems; text similarity; search engines; license; research papers; information similarity; thumb; citation networks; network information; scientific literature",
+  "abstract": "Researchers often need to gather a comprehensive set of papers relevant to a focused topic, but this is often difficult and time-consuming using existing search methods. For example, keyword searching suffers from difficulties with synonyms and multiple meanings. While some automated research-paper recommender systems exist, these typically depend on either a researcher's entire library or just a single paper, resulting in either a quite broad or a quite narrow search. With these issues in mind, we built a new research-paper recommender system that utilizes both citation information and textual similarity of abstracts to provide a highly focused set of relevant results. The input to this system is a set of one or more related papers, and our system searches for papers that are closely related to the entire set. This framework helps researchers gather a set of papers that are closely related to a particular topic of interest, and allows control over which cross-section of the literature is located. We show the effectiveness of this recommender system by using it to recreate the references of review papers. We also show its utility as a general similarity metric between scientific articles by performing unsupervised clustering on sets of scientific articles. We release an implementation, ExCiteSearch (bitbucket.org/mmmontemore/excitesearch), to allow researchers to apply this framework to locate relevant scientific articles.  \u00a9 2013 IEEE.",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P702",
+  "title": "WHO WROTE THIS ESSAY? DETECTING AI-GENERATED WRITING in SECOND LANGUAGE EDUCATION in HIGHER EDUCATION",
+  "keywords": "higher education; assessment; academic writing; esl; academic integrity; generative ai",
+  "abstract": "Recent developments in AI technologies and the increasing accessibility of AI tools, such as ChatGPT, have raised concerns about academic integrity in higher education. Thus, this research aims to shed light on the challenges faced by English as a Second Language (ESL) lecturers in identifying AI-generated texts, and highlighting the skills and resources needed to enhance their detection capabilities. In this qualitative study, data were collected from six ESL lecturers working in a higher educational institution in Cyprus. Participants evaluated four academic essays at C1 level to determine which, if any, of the sample had been fully or partially AI-generated, and these results were then compared to results from four AI detectors. Findings reveal that participants tended to exploit a deficit model of assessment that focuses on error as an indicator of L2 writing output, with high levels of technical and grammatical accuracy and sophisticated language use as indicators of AI-generated text. Moreover, findings suggest that limited awareness of the characteristics and metrics used by ChatGPT, as well as lack of attention to the veracity of facts and references generated by ChatGPT, were features of participants\u2019 evaluations. This study identifies the growing challenges encountered by ESL lecturers and underlines the need for digital literacy training, targeted professional development, the use of advanced detection tools and a review of assessment policies and practices in relation to AI. Additionally, this study highlights the importance of reviewing and reinforcing institutional policies and practices that safeguard academic integrity and ensure quality higher education. \u00a9 2023, Teaching English with Technology. All Rights Reserved.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P703",
+  "title": "Multi-model Essay Evaluation with Optical Character Recognition and Plagiarism Detection",
+  "keywords": "deep learning; lstm; optical character recognition; intellectual property; neural-networks; plagiarism detection; learning systems; natural language processing; machine-learning; machine learning; natural languages; natural language processing systems; neural networks; long short-term memory; automated essay grading; language processing; students; grading; tokenization; ocr; education computing; quality control",
+  "abstract": "Essay writing is a common component of educational assessments used to evaluate student learning. Automated Text Scoring (ATS) is a collection of statistical and natural language processing techniques used to grade a text automatically on a scoring scale. Grading essays manually is time-consuming, expensive, and prone to inconsistencies. With the current student-to-teacher ratio disparity in the education system, there is an urgent need to develop a grading system. The goal of this project is to automate the essay evaluation process while providing feedback on the quality of work and detecting plagiarism. Students can use it to evaluate themselves. It can be used to evaluate or grade the essay-style responses to a specific question, for which sample answers are provided. The OCR detection and plagiarism checks can also be utilized independently. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.",
+  "document_type": "Book chapter",
+  "year": 2023
+ },
+ {
+  "paper_id": "P704",
+  "title": "Credit Text Similarity Calculation Method Combined with Contrast Learning",
+  "keywords": "deep learning; semantics; text similarity; semantic features; text-matching; missing information; text recall; domain specific; learning systems; similarity calculation; contrast learning; bert",
+  "abstract": "The text matching task aims at mining the inherent semantic features from two texts and predicting the correlation or contradiction between texts. The credit text phases have obvious domain-specific features, and there are more adversarial texts, and most of them are of different lengths leading to missing information and unclear main ideas, which will reduce the accuracy of similarity calculation. To this end, this paper proposes a credit text similarity calculation method combined with contrast learning. First, we will recall the candidate set by multi-level text recall method to reduce the influence of non-critical factors and reduce the computational effort of text matching model from shallow semantics, deep semantics and entities. And then fine-tunes the pre-trained model by combining with contrast learning method to calculate the semantic text similarity. The comparison experimental results with BERT and SimCSE show that the text similarity calculation method proposed in this paper works better. \u00a9 2023 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P705",
+  "title": "An intelligent medical image diagnosis and treatment architecture based on ChatGPT",
+  "keywords": "medical image; intelligent diagnose and treatment; image analysis; arterial stenosis; intelligent diagnosis and treatment; computer architecture; coronary heart disease; diseases; diagnostic report; chatgpt; intelligent diagnosis; arterial stenosis detection; medical image diagnosis; medical imaging; stenosis detection; arterial stenose detection; computer aided diagnosis",
+  "abstract": "In this study, a ChatGPt-based medical image diagnosis and processing architecture were proposed to compensate for the shortcomings of doctors' subjective misdiagnosis and computer-aided diagnosis in traditional medical image diagnosis. The architecture is divided into an image description generation system and ChatGPT. The former interprets medical images and generates corresponding diagnostic reports, while the latter is responsible for processing diagnostic reports and providing treatment recommendations. In image description generation, we use three text similarity algorithms to evaluate the similarity between the diagnostic report generated by the method and the diagnostic report provided by the doctor and prove that the diagnostic report generated by the algorithm has a high degree of similarity and effectiveness. In the ChatGPT-assisted diagnosis and treatment section, we asked the cardiovascular medical team to score the treatment suggestions generated by ChatGPT. The results showed that the overall acceptance of the suggestions given by ChatGPT was high. Despite the limitations of the data set in this study and the fact that XCA images were only used as an example, the method is expected to be extended to other types of medical images and is expected to become an essential part of intelligent diagnosis and treatment in the future.  \u00a9 2023 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P706",
+  "title": "Language as evidence: Doing forensic linguistics",
+  "keywords": "deep learning; semantic analysis; cybercrimes; lie detection; stylometry; corpus linguistics; speaker indentification; deception; plagiarism detection; text authenticity; authorship identification; language as evidence; error analysis; voice lineups; suicide notes; copyright infringement; terrorist threats",
+  "abstract": "This edited book provides a comprehensive survey of the modern state of the art in forensic linguistics. Part I of the book focuses on the role of the linguist as an expert witness in common law and civil law jurisdictions, the relation of expert witnesses and lawyers, ethics standards, and courtroom interaction. Part II deals with some of the major areas of expertise of forensic linguistics as the scientific study of language as evidence, namely authorship identification, speaker identification, text authentication, deception and lie detection, plagiarism detection, and cyber language crimes. This book is intended to be used as a reference for academics, students and practitioners of Linguistics, Forensic Linguistics, Law, Criminology, and Forensic Psychology, among other disciplines. \u00a9 The Editor(s) (if applicable) and Te Author(s), under exclusive licence to Springer Nature Switzerland AG 2022. All rights reserved.",
+  "document_type": "Book",
+  "year": 2022
+ },
+ {
+  "paper_id": "P707",
+  "title": "On the use of Machine Learning and Deep Learning for Text Similarity and Categorization and its Application to Troubleshooting Automation",
+  "keywords": "deep learning; text categorization; text similarity; automation; similarity-matching; fully automated; systematic literature review; labour-intensive; its applications; machine-learning",
+  "abstract": "Troubleshooting is a labor-intensive task that includes repetitive solutions to similar problems. This task can be partially or fully automated using text-similarity matching to find previous solutions, lowering the workload of technicians. We develop a systematic literature review to identify the best approaches to solve the problem of troubleshooting automation and classify incidents effectively. We identify promising approaches and point in the direction of a comprehensive set of solutions that could be employed in solving the troubleshooting automation problem. \u00a9 2022 IEEE Computer Society. All rights reserved.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P708",
+  "title": "An Improved DE Algorithm to Optimise the Learning Process of a BERT-based Plagiarism Detection Model",
+  "keywords": "lstm; intellectual property; optimization; mechanism-based; plagiarism detection; bidirectional encoder representation from transformer; clustering algorithms; attention mechanism; improved differential evolutions; embeddings; learning process; differential evolution algorithms; attention mechanisms; differential evolution; bert; learning algorithms; feedforward neural networks; detection models; long short-term memory",
+  "abstract": "Plagiarism detection is a challenging task, aiming to identify similar items in two documents. In this paper, we present a novel approach to automatic plagiarism detection that combines BERT (bidirectional encoder representations from transformers) word embedding, attention mechanism-based long short-term memory (LSTM) networks, and an improved differential evolution (DE) algorithm for weight initialisation. BERT is used to pretrain deep bidirectional representations in all layers, while the pre-trained BERT model can be fine-tuned with only one extra output layer without significant changes in architecture. Deep learning algorithms often use the random weighting method for initialisation, followed by gradient-based optimisation algorithms such as back-propagation for training, making them susceptible to getting trapped in local optima. To address this, population- based metaheuristic algorithms such as DE can be used. We propose an improved DE algorithm with a clustering-based mutation operator, where first a winning cluster of candidate solutions is identified and a new updating strategy is then applied to include new candidate solutions in the current population. The proposed DE algorithm is used in LSTM, attention mechanism, and feed- forward neural networks to yield the initial seeds for subsequent gradient-based optimisation. We compare our proposed model with conventional and population-based approaches on three datasets (SNLI, MSRP and SemEval2014) and demonstrate it to give superior plagiarism detection performance.  \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P709",
+  "title": "Development of Disease Diagnosis Model for CXR Images and Reports\u2014A Deep Learning Approach",
+  "keywords": "radiology report; convolution model; text similarity; chest radiography; chest diseases; natural language processing",
+  "abstract": "Medical images play an important role in the diagnosis of diseases effectively. Chest radiography, chest X-ray, or CXR is the most common diagnostic imaging test in medicine and provides information about chest-related diseases. Globally, CXR images are analyzed visually by clinical doctors or radiologists, which is time-consuming and leads to bias due to the complexity. So, it is challenging to classify and predict the various chest diseases shown in the CXR images. There is a huge collection of CXR imaging studies and radiological reports available in Picture Archiving and Communication Systems (PACS) of various modern hospitals. As there is a shortage of expert radiologists to cover more patients, there is a necessity to advance computer-aided diagnosis of chest diseases on CXR with the help of automated algorithms. The chapter aims to propose a model for diagnosing the disease information that is available in both images and radiology reports, which will help in decision-making. The result findings showed that that convolution neural network model DenseNet produces the highest accuracy compared to the MobileNet accuracy. In a nutshell, this chapter focuses on the automatic detection of chest diseases from CXR images based on image classification based on class labels using deep learning techniques and the disease keywords search in radiology reports based on text similarity in natural language description. \u00a9 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG.",
+  "document_type": "Book chapter",
+  "year": 2022
+ },
+ {
+  "paper_id": "P710",
+  "title": "A Novel Approach for Cross-Selling Insurance Products Using Positive Unlabelled Learning",
+  "keywords": "topic modeling; positive unlabelled learning; topic modelling; sales; insurance; text similarity; medical insurance; positive unlabeled learning; churn rates; customer churns; cross-sell; learning systems; insurance industry; cross-selling; bagging classification; text processing",
+  "abstract": "Successful cross-selling of products is a key goal of companies operating within the insurance industry. Choosing the right customer to approach for cross-purchase opportunities has a direct effect on both decreasing customer churn rate and increasing revenue. Unlike sales data of general products, insurance sales data typically contains only a few products (e.g., private medical insurance, life insurance, etc), it is highly imbalanced with a vast majority of customers with no cross-purchasing information, highly noisy due to varying purchase behaviour between different customers, and has no ground truth for knowing if the majority customers are truly non-cross-sell customers or they are missed opportunities. These data challenges render the building of machine learning models for accurately identifying potential cross-sell customers extremely difficult. This paper proposes a novel approach to solve this challenging problem of cross-sell customer identification using Positive Unlabelled (PU) learning in conjunction with advanced feature engineering on customer demographic data and unstructured customer question-response texts through topic modelling. We implement a bagging approach to iteratively learn the positive samples (the confirmed cross-sells) alongside random sub-samples of the unlabelled set. The proposed approach is extensively evaluated on real insurance data that has been newly collected from a leading insurance company for this study. Evaluation results demonstrate that our approach can successfully identify new potential opportunities for likely cross-sell customers. \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P712",
+  "title": "Multi-level Correlation Matching for\u00a0Legal Text Similarity Modeling with\u00a0Multiple Examples",
+  "keywords": "modeling languages; semantic matching; multi-level correlation; legal texts; semantics; natural languages; legal artificial intelligence; content and structure; matchings; authentication; natural language processing; artificial intelligence; natural language processing systems; legal documents; language processing",
+  "abstract": "Legal artificial intelligence (LegalAI) is an emerging field that leverages AI technology to enhance legal services. Similar Case Matching (SCM), which calculates the relevance between a candidate and a target case, is a critical technique in LegalAI to enable diverse legal intelligences. Existing approaches mainly rely the on single query texts or specific keywords for retrieval, yet neglected the domain complexity and multi-faceted nature of queries. Thus, a multi-example matching paradigm is motivated where three inherent challenges reveal. 1) Relevance assessment across multiple examples is complex. 2) The inherent lengthy and structured property of legal documents. 3) Lacking datasets containing golden labels for multi-example-based legal text matching. To address these challenges, this paper develops a novel multi-example dataset, and a Multi-level Correlation Semantic Matching (MCSM) is devised to extract similarity between cases given multi-example inputs. The proposed multi-level scheme can be interpreted as two aspects. Firstly, we consider both content and structure correlations to evaluate the relevance. Secondly, by dividing legal documents into distinctive segments, we can hierarchically learn the intra- and inter-segment dependencies to model the long-term dependencies across components of legal documents. An attention mechanism is employed to capture the complex interconnections among these examples and enable an attentive matching aggregation of content and structure. With multiple examples, the MCSM tackles the intricate and diverse nature of legal queries, providing a comprehensive and multi-dimensional description view. Extensive experimental evaluations show that the proposed MCSM outperforms baseline methods. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P713",
+  "title": "Reliable plagiarism detection system based on deep learning approaches",
+  "keywords": "deep learning; lstm; learning approach; intellectual property; plagiarism detection; detection system; learning systems; natural language processing; semantics; natural languages; text plagiarism; recurrent neural network; natural language processing systems; technological development; convolution neural network; network architecture; database systems; convolution; language processing; intelligent systems; long short-term memory",
+  "abstract": "The phenomenon of scientific burglary has seen a significant increase recently due to the technological development in software. Therefore, many types of research have been developed to address this phenomenon. However, detecting lexical, syntactic, and semantic text plagiarism remains to be a challenge. Thus, in this study, we have computed and recorded all the features that reflect different types of text similarities in a new database. The created database is proposed for intelligent learning to solve text plagiarism detection problems. Using the created database, a reliable plagiarism detection system is also proposed, which depends on intelligent deep learning. Different approaches to deep learning, such as convolution and recurrent neural network architectures, were considered during the construction of this system. A comparative study was implemented to evaluate the proposed intelligent system on the two benchmark datasets: PAN 2013 and PAN 2014 of the PAN Workshop series. The experimental results showed that the proposed system based on long short-term memory (LSTM) achieved the first rank compared to up-to-date ranking systems. \u00a9 2022, The Author(s).",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P714",
+  "title": "Landscape of Indian Legal Research; [Sytuacja indyjskich bada\u0144 nad prawem]",
+  "keywords": "technology; academic integrity; citation; legal research; plagiarism",
+  "abstract": "Francis Bacon says knowledge is power. The creation of knowledge and its dissemination largely depends on the creation of literary works. The great works of Shakespeare, da Vinci, Homer, Picasso, Milton, Tagore etc. have been a treasure trove of mankind. Human beings have enjoyed the work, been inspired by the work, taken joy and eternal bliss in such works. However, the creation of knowledge is dependent on pre-existing knowledge. Creators create a work which requires hard work, imagination, creativity and which is incentivised by recognition of their work. The legal order of a couth society affords protection to such a work by copyright law & fair use. Fair use allows a person to use a work by duly acknowledging and referencing the work. Issue of plagiarism and abuse of fair use was aggravated by human greed. The economic implication of copyright infringement aggravated the whole issue. Referencing turned into war. The Bluebook, the Maroonbook, the ALWD, the APA and OSCOLA citation styles engaged in some kind of a war. Reference management systems like Zotero, Endnote, Mendeley etc. just fanned the flame. Disruptive and generative artificial intelligence has created a serious challenge to academic research. In this paper, the author attempts to delve into the inter-linkage of academic writing, research, citation, copyright, referencing mechanism and plagiarism in contemporary society, and the aftermath of it. The author attempts to investigate the challenges of writing and the protection of works vis-a-vis referencing tools and techniques. \u00a9 2023 Author.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P716",
+  "title": "PLAGIARISM DETECTION SYSTEM IN SCIENTIFIC PUBLICATION USING LSTM NETWORKS",
+  "keywords": "deep learning; lstm algorithm; plagiarism detection; doc2vectors; pan-pc 2011",
+  "abstract": "Academic integrity is a sensitive topic in the academic world. Thus, it is necessary to oppose them tenaciously. However, Plagiarism is a problem throughout society, it impacts practically all industries, and it can happen by accident, it is most commonly the product of an intentional effort. The development of software detection systems has taken decades of research. Similarity detection in electronic-based documents is a procedure that is known as plagiarism detection. This procedure is essential because of the vast number of documents available on the internet and the capacity to copy and paste the text. PD was initially identified manually or by similarities to previously reviewed sources. However, it is becoming increasingly challenging due to the volume of available internet materials. As a result, developing automatic plagiarism detectors is necessary. At the same time, plagiarism is classified into two types: intelligent plagiarism and simple plagiarism (internal and external). It is indispensable to create a method for detecting each type of them. This scientific paper will address the issue of plagiarism check in practical publications based on deep learning using the LSTM algorithm to detect internal and external plagiarism types and evaluate the result by using PAN-PC 2011 data sets based on converting each document to vectors technique and TF-IDF weighting schemes. To perform natural language processing (NLP). The system results show that the accuracy measure is about 0.99%, F-measure is about 0.92%, precision is about 0.98%, and Recall is about 0.97%. \u00a9 2022, International Organization on 'Technical and Physical Problems of Engineering'. All rights reserved.",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P717",
+  "title": "Textual Plagiarism Detection Using Embedding Models and Siamese LSTM",
+  "keywords": "deep learning; siamese lstm network; long short-term memory; academic integrity; intellectual property rights; intellectual property; language processing; natural languages; plagiarism detection; embeddings; natural language processing; natural language processing systems; laws and legislation; word embeddings; word embedding; network architecture",
+  "abstract": "Plagiarism is a severe issue that puts academic integrity and intellectual property rights in trouble. Plagiarism occurs in a variety of ways in scientific institutes, the most common of which being direct plagiarism. Manually inspecting plagiarism activities in big volumes of texts is a difficult task. As a result, numerous detection algorithms have been proposed in order to avoid lengthy manual screening. In this paper, we describe a deep learning framework for detecting text plagiarism that uses a network of Siamese LSTM and embeddings based on word. The purpose of this study is to figure out which word-based embedding architecture yields the best accurate plagiarism detection results. To prepare input of the network, which must be multiple pre-trained sequences of text embedding, the proposed framework employs Word2Vec and Glove models. The ratio of plagiarism in the network's two outputs are then measured using a hybrid of Manhattan distance and cosine similarity measures. To the best of our knowledge, this is one of the few studies that attempts to detect plagiarism using several embedding models and hybrid similarity measures. The embeddings from the Word2Vec architecture produce the best accurate detection scores, according to experimental findings on the PAN-PC-11 and Webis-CPC-11 datasets. The method attained F1-measure of 0.816, recall of 0.91, and precision of 0.924for PAN-PC-11 corpus and F1-measure of 0.793, a recall of 0.852, and precision of 0.902for Webis-CPC-11 corpus using word2vec embeddings.  \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P718",
+  "title": "Source Code Plagiarism Detection: A Machine Intelligence Approach",
+  "keywords": "deep learning; recurrent neural networks; intellectual property; support vectors machine; support vector machine; source code plagiarisms; plagiarism detection; machine-learning; machine learning; recurrent neural network; plagiarism; source code; machine intelligence; transformer; transformers; support vector machines; learning methods; source codes; c (programming language); detecting plagiarism; network coding",
+  "abstract": "Taking someone else's work and claiming it as your own is termed as plagiarism. Plagiarism is a concerning issue in every field of education. There are various tools to detect plagiarism and help maintain the necessary integrity. This paper deals with plagiarism in the specific category of C programming assignments. Various machine learning and deep learning methods are investigated in detail along with the pros and cons. Concepts such as KNN, SVM, D-Trees, RNNs, and attention based transformer networks are tested for their effectiveness in detecting plagiarism in source code. A comprehensive dataset consisting of code pairs was prepared during the course of this research. Results obtained show that Machine Learning and Deep Learning methods provide better accuracy at detecting plagiarism than the current state of the art plagiarism detectors that use a text based approach. A tool is also presented to utilize the built software to detect plagiarism in source code.  \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P719",
+  "title": "Text Similarity of Autonomous Marking System Based on Deep Learning",
+  "keywords": "deep learning; test paper; feature extraction; rapid feedback; text similarity; image processing; classroom teaching; features extraction; quality content; marking system; scoring methods; learning systems; text structure",
+  "abstract": "With the practical application of the self-marking system, it can give an objective and fair score, but it can not meet the needs of classroom teaching. It also needs to give students rapid feedback on the vocabulary, sentence, text structure, content relevance, and other dimensions presented in the test paper. The scoring method based on artificial features is the earliest self-marking scoring method, which uses experts to design some scoring features from the language quality, content quality, and text structure of the test paper. It takes the scoring task as a regression or classification task to score or rate the test paper. In this paper, based on the deep learning theory, a method for text similarity detection using a twin network is proposed. Considering the interaction between text pairs, we integrate expressivity pooling based on bidirectional GRU and measure the similarity by distance calculation formula. The experimental data show that the two-way GRU network integrated with expression pooling can obtain the interaction between text pairs so that the extracted features of the text are more comprehensive. The model has a better effect in the study of the similarity of text pairs. This method can reduce the difference in scoring results caused by different subjective consciousness of raters, make the scoring results more objective and persuasive, and improve the accuracy and efficiency of scoring. \u00a9 2022 SPIE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P720",
+  "title": "Event-related microblog retrieval in Turkish",
+  "keywords": "deep learning; tweets; text similarity; text preprocessing; turkishs; social aspects; natural language processing; signal encoding; natural languages; embeddings; natural language processing systems; social networking (online); microblogs; micro-blog; information retrieval; tweet; language processing; encoding (symbols); word embedding",
+  "abstract": "Microblogs, such as tweets, are short messages in which users are able to share any opinion and information. Microblogs are mostly related to real-life events reported in news articles. Finding event-related microblogs is important to analyze online social networks and understand public opinion on events. However, finding such microblogs is a challenging task due to the dynamic nature of microblogs and their limited length. In this study, assuming that news articles are given as queries and microblogs as documents, we find event-related microblogs in Turkish. In order to represent news articles and microblogs, we examine encoding methods, namely traditional bag-of-words and word embeddings provided by BERT and FastText pretrained language models based on deep learning. We find the distance between the encoded news article and microblog to measure text similarity or relatedness between them. We then rank microblogs according to their relatedness to the input query. The experimental results show that (i) BERT-based model outperforms other encoding methods in Turkish, though bag-of-words with Dice similarity has a challenging performance in short text; (ii) news title is successful to represent event as query, and (iii) preprocessing Turkish microblogs has positive impact in bag-of-words and also FastText embeddings, while BERT embeddings are robust to noise in Turkish. \u00a9 T\u00dcB\u0130TAK",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P721",
+  "title": "Data Encoding for Social Media: Comparing Twitter, Reddit, and Telegram",
+  "keywords": "linguistic metrics; semantic web; text similarity; learning systems; rubert; semantics; linguistic metric; similarity assessment; social network analysis; social networking (online); text similarity assessment; telegram; neural encoding; semantic neural encoding; encoding (symbols); twitter; reddit; semantic neural encodings; computational linguistics; network coding",
+  "abstract": "Social networking platforms have become a major source of data for most textual machine learning models. Applications of encodings in earlier language models, as well as advancements in model reusage, have opened new possibilities for case studies with limited or unsupervised data. In this paper, the authors test whether semantic similarity of large-scale data from three platforms allow for applying the same transfer-learning language models on data from various social media. For this, the authors perform a comparative case study to outline linguistic differences and measure similarity for deep neural encodings for the case data. In particular, semantic similarity is evaluated using traditional text similarity metrics, structure metrics of the corpora, and RUBERT encodings that provide general semantic characteristics of the text data in three datasets. We show that the platforms are similar in semantic terms well enough for the transfer learning models to be applied, by both linguistic metrics and semantic encodings. We also demonstrate, however, that, despite the difference in the average text length, Twitter is more similar to Reddit than to Telegram by linguistic metrics, which hints to the idea of \u2018platformization\u2019 of social media speech. We conclude by stating the speech factors that may lead to platform dissimilarity. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Switzerland AG.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P722",
+  "title": "Automatic Scoring Model of Subjective Questions Based Text Similarity Fusion Model",
+  "keywords": "deep learning; complex networks; subjective question automatic scoring; text similarity; engineering education; character recognition; learning systems; natural language processing; machine-learning; machine learning; siamese network; semantics; natural languages; natural language processing systems; wages; model-based opc; automatic scoring; named entity recognition; learning algorithms; language processing",
+  "abstract": "AI In this era, scene based translation and intelligent word segmentation are not new technologies. However, there is still no good solution for long and complex Chinese semantic analysis. The subjective question scoring still relies on the teacher's manual marking. However, there are a large number of examinations, and the manual marking work is huge. At present, the labor cost is getting higher and higher, the traditional manual marking method can't meet the demand The demand for automatic marking is increasingly strong in modern society. At present, the automatic marking technology of objective questions has been very mature and widely used. However, by reasons of the complexity and the difficulty of natural language processing technology in Chinese text, there are still many shortcomings in subjective questions marking, such as not considering the impact of semantics, word order and other issues on scoring accuracy. The automatic scoring technology of subjective questions is a complex technology, involving pattern recognition, machine learning, natural language processing and other technologies. Good results have been seen in the calculation method-based deep learning and machine learning. The rapid development of NLP technology has brought a new breakthrough for subjective question scoring. We integrate two deep learning models based on the Siamese Network through bagging to ensure the accuracy of the results, the text similarity matching model based on the birth networks and the score point recognition model based on the named entity recognition method respectively. Combining with the framework of deep learning, we use the simulated manual scoring method to extract and match the score point sequence of students\u2019 answers with standard answers. The score recognition model effectively improves the efficiency of model calculation and long text keyword matching. The loss value of the final training score recognition model is about 0.9, and the accuracy is 80.54%. The accuracy of the training text similarity matching model is 86.99%, and the fusion model is single. The scoring time is less than 0.8s, and the accuracy is 83.43%. \u00a9 2022, The Author(s).",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P723",
+  "title": "Automated Plagiarism Detection in Moodle",
+  "keywords": "optical character recognition; educational institutes; intellectual property; audio and video; digitisation; online examinations; plagiarism detection; detection system; digital revolution; artificial intelligence; handwritten texts; mode of operations; government entities",
+  "abstract": "The digital revolution has made access to information very easy. The onset of the COVID-19 pandemic also called for further digitization. Every organization; be it an office, an educational institute or a government entity, was forced to shift to an all virtual mode of operation. This led to the conduct of online examinations with very little time for formulating an anti-cheating examination pattern. Audio and video proctoring tools are considered helpful but are very expensive and do not provide a method to detect plagiarism in the handwritten text. This is a serious problem for academic enterprises and institutes where there is a need for plagiarism detection in the submitted assignments, answer-scripts against the information available on the Internet as well as against other submissions. This paper presents a plagiarism detection system for handwritten text in English. The proposed system uses authentication tools/services, cloud storage, and optical character recognition (OCR) services to automate the process of checking plagiarism between two handwritten documents, as well as plagiarism with respect to all information available online.  \u00a9 2023 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P724",
+  "title": "Authorship Verification for Hired Plagiarism Detection",
+  "keywords": "educational technology; class size; excel; natural languages; intellectual property; language processing; writing analyse; students; plagiarism detection; student writing; user interfaces; plagiarism; artificial intelligence; natural language processing; natural language processing systems; authorship verification; writing analysis",
+  "abstract": "Plagiarism detection is an important tool in modern academia. With growing class sizes and the modernization of the internet, there have been more ways that allow plagiarism to excel in modern culture. Methods such as patchwriting-where an individual may copy, paste and possibly modify the content-And commissioned writing-where an individual hires another person to do the work for them-Are not considered by modern plagiarism detectors. This work aims to give instructors a way to identify and detect plagiarism in student writing that addresses these difficult-To-detect issues using artificial intelligence. We introduce a tool to aid instructors in detecting plagiarism that adapts to each students' individual writing style as they submit writing assignments. This work incorporates artificial intelligence and natural language processing that identifies the ways in which a student writes based on a collection of their essays. The proposed Authorship Verification for Hired Plagiarism Detection (AVHPD) tool includes document storage, a clean user interface, and intuitive break-downs of how a given writing sample differs from prior samples.  \u00a9 2022 ACM.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P725",
+  "title": "A hybrid approach of Weighted Fine-Tuned BERT extraction with deep\u00a0Siamese Bi \u2013 LSTM model for semantic text similarity\u00a0identification",
+  "keywords": "semantic web; network layers; text similarity; siamese network; semantics; siamese networks; similarity scores; bi-lstm; natural language processing systems; nlp; semantic text-similarity; bert; embedded vector; text feature; extraction; cnn; embedded vectors; long short-term memory; hybrid approach",
+  "abstract": "The conventional semantic text-similarity methods requires high amount of trained labeled data and also human interventions. Generally, it neglects the contextual-information and word-orders information resulted in data sparseness problem and latitudinal-explosion issue. Recently, deep-learning methods are used for determining text-similarity. Hence, this study investigates NLP application tasks usage in detecting text-similarity of question pairs or documents and explores the similarity score predictions. A new hybridized approach using Weighted Fine-Tuned BERT Feature extraction with Siamese Bi-LSTM model is implemented. The technique is employed for determining question pair sets using Semantic-text-similarity from Quora dataset. The text features are extracted using BERT process, followed by words embedding with weights. The features along with weight values, are represented as embedded vectors, are subjected to various layers of Siamese Networks. The embedded vectors of input text features were trained by using Deep Siamese Bi-LSTM model, in various layers. Finally, similarity scores are determined for each sentence, and the semantic text-similarity is learned. The performance evaluation of proposed-framework is established with respect to accuracy rate, precision value, F1 score data and Recall values parameters compared with other existing text-similarity detection methods. The proposed-framework exhibited higher efficiency rate with 91% in accuracy level in determining semantic-text-similarity compared with other existing algorithms. \u00a9 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.",
+  "document_type": "Article",
+  "year": 2022
+ },
+ {
+  "paper_id": "P726",
+  "title": "SRU-based Multi-angle Enhanced Network for Semantic Text Similarity Calculation of Big Data Language Model",
+  "keywords": "deep learning; convolutional neural networks; semantics; natural languages; recommender systems; simple++; simple recurrent unit; search engines; multi angle; semantic interactions; text similarity; big data; semantic interaction; embeddings; natural language processing; natural language processing systems; chinese semantic text similarity; language processing",
+  "abstract": "As a fundamental problem of natural language processing (NLP), the calculation of semantic text similarity plays a crucial role in a variety of big data application situations. In the process of text similarity modeling, however, owing to the complexity and ambiguity of Chinese semantics, effectively capturing the semantic interaction characteristics of Chinese text only from a single angle is impossible. This study proposes a deep learning-based computational model for semantic text similarity called SRU-based multi-angle enhanced network (SMAEN). Specifically, the authors firstly combine character-grained embeddings and word-granularity embeddings obtained from the pre-trained model to represent text. The text is encoded using a bidirectional simple recurrent unit (Bi-SRU) network, and the local text similarity is represented using a soft-aligned attention technique. In addition, the authors integrate Bi-SRU with an improved convolutional neural network (CNN) for global similarity modeling to capture semantic, time, and spatial characteristics of short text interaction. Finally, they employ a pooling layer to aggregate the calculation results into a fixed-length vector and a multilayer perceptual (MLP) classifier to make a determination. Experimental results on Chinese public datasets LCQMC and PAWS-X show that the proposed method fully captures semantic interaction features from multiple angles and achieves advanced performance. This method can produce better matching results and enhance the accuracy of large data analysis. It is applicable to numerous scenarios involving large data, such as information retrieval and recommendation systems. \u00a9 2023 Authors. All rights reserved.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P727",
+  "title": "Exploiting Textual Similarity Techniques in\u00a0Harmonization of\u00a0Laws",
+  "keywords": "natural languages; european laws; text similarity; harmonisation; harmonization of law; textual similarities; harmonization of laws; natural language processing; natural language processing systems; laws and legislation; legal informatics; eu directives; language processing",
+  "abstract": "This paper describes an application of textual similarity techniques in the Legal Informatics domain. In European law, a relevant interest relates to the transposition of EU directives by the Member States, which can be complete, partial, or eventually absent. As part of an European project, legal experts annotated transpositions of six directives on a per-article basis. Following an established NLP pipeline, we explore a similarity-based technique to identify correspondences between transpositions of national implementations. Early results are promising and show the role that Artificial Intelligence may play within the process of harmonization and standardization of domestic legal systems as a result of the adoption of EU legislation. \u00a9 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P728",
+  "title": "A Hybrid Approach to Paraphrase Detection Based on Text Similarities and Machine Learning Classifiers",
+  "keywords": "machine learning; semantics; learning classifiers; machine-learning; natural languages; text similarity; natural language processing systems; language processing; similarity learning; natural language processing; paraphrase detection; learning algorithms; natural language processing applications; hybrid approach",
+  "abstract": "In the realm of natural language processing (NLP), paraphrase detection is a highly common and significant activity. Because it is involved in a lot of complicated and complex NLP applications like information retrieval, text mining, and plagiarism detection. The proposed model finds the best combination of the three types of similarity techniques that are string similarity, semantic similarity and embedding similarity. Then, inputs these similarity scores that range from 0 to 1, to the machine learning classifiers. This proposed model will be benchmarked on 'the Microsoft research paraphrase corpus' dataset (MSRP) and from this approach for paraphrase detection problem, the accuracy acquired is 75.78% and F1-Score of 83.01 %. \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P729",
+  "title": "An Empirical Study on Authorship Verification for Low Resource Language Using Hyper-Tuned CNN Approach",
+  "keywords": "deep learning; task analysis; support vectors machine; convolutional neural network; syntactics; writing; natural language processing; authorship verification; feature extraction; natural languages; low resource languages; copyrights; computational modelling; natural language processing systems; neural networks; forestry; low resource language; convolution; support vector machines; features extraction; language processing; modeling languages; laws and legislation",
+  "abstract": "Authorship verification is a crucial process employed to determine the authorship of a given text by analyzing distinct aspects of the writer's style, such as vocabulary, syntax, and punctuation. This process has gained significant research attention in various domains, including intellectual property rights, plagiarism detection, cybercrime investigations, copyright infringement, and forensics. While extensive studies have been conducted on multiple languages worldwide, encompassing Western European languages like Italian and Spanish, as well as Asian languages such as Bengali and Chinese, the investigation of authorship verification in Urdu has been comparatively limited, despite its status as a prominent South Asian language. This limitation can be attributed to the intricate and distinctive morphology of Urdu, which necessitates specific methodologies that cannot be directly applied in the same manner as other languages. To bridge this gap, we propose an innovative approach for authorship verification in Urdu, leveraging Convolutional Neural Networks (CNNs) with three distinct hyper-tuned parameters: ADAM, SGD, and RMSProp. To facilitate the development of this approach, we have curated a new corpus called UAVC-22, specifically tailored for Urdu authorship verification. This corpus offers enhanced robustness in terms of authors' classes and unique words. We have developed 9 authorship verification models, utilizing three different text embedding techniques, namely Word2Vec, GloVe, and FastText, we have performed a comparative analysis with traditional machine learning models such as Support Vector Machines (SVM) and Random Forest to assess the superiority and efficacy of the CNN-based approach. The optimized CNN-ADAM model with FastText achieved the highest accuracy of 98% for the Urdu dataset UAVC-22.  \u00a9 2013 IEEE.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P730",
+  "title": "A Deep Learning Approach to Detect Plagiarism in Bengali Textual Content using Similarity Algorithms",
+  "keywords": "deep learning; fasttext; intellectual property; word2vec; extrinsic evaluation; embeddings; plagiarism; jaccard similarity; high-accuracy; bengalis; cosine similarity; bangla; sentiment analysis",
+  "abstract": "Plagiarism occurs when someone uses another person's words or ideas without properly citing the original writers. It can be considered with or without the original author's consent. This includes all manuscripts, print works, electronic works, and published and unpublished works. Detecting Bengali plagiarism has been the topic of several previous research. Numerous scholars have attempted to detect and prevent plagiarism using various methodologies and models, each with limits and drawbacks. Plagiarism detection in Bangla documents is uncommon and unavailable. As a result, this article developed a more efficient way that uses deep learning techniques to encode Bengali words and phrases as vectors using the word2vec and fasttext method. The proposed method was implemented to a Bengali Wikipedia dataset as well as original datasets collected by authors totaling 112,183 entries. In this study, the proposed model works effectively and can find both plagiarized and actual documents with a high accuracy of 100% based on data similarity and the extrinsic evaluation of the embeddings on a downstream NLP task, which is sentiment analysis, with a high accuracy of 91.4% using word embeddings generated by fasttext. Cosine similarity outperforms Jaccard similarity techniques in this suggested model.  \u00a9 2023 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P731",
+  "title": "Beyond Black Box AI-Generated Plagiarism Detection: From Sentence to Document Level",
+  "keywords": "false positive; text classifiers; academic writings; natural languages; loss functions; intellectual property; plagiarism detection; multi-faceted approach; computational linguistics; language model; black boxes; classification (of information); language processing techniques; natural language processing systems",
+  "abstract": "The increasing reliance on large language models (LLMs) in academic writing has led to a rise in plagiarism. Existing AI-generated text classifiers have limited accuracy and often produce false positives. We propose a novel approach using natural language processing (NLP) techniques, offering quantifiable metrics at both sentence and document levels for easier interpretation by human evaluators. Our method employs a multi-faceted approach, generating multiple paraphrased versions of a given question and inputting them into the LLM to generate answers. By using a contrastive loss function based on cosine similarity, we match generated sentences with those from the student\u2019s response. Our approach achieves up to 94% accuracy in classifying human and AI text, providing a robust and adaptable solution for plagiarism detection in academic settings. This method improves with LLM advancements, reducing the need for new model training or reconfiguration, and offers a more transparent way of evaluating and detecting AI-generated text. \u00a9 2023 Association for Computational Linguistics.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P732",
+  "title": "Navigating the Paradox of Academic Integrity in the AI Era",
+  "keywords": "ethical considerations; digital literacy; academic integrity; artificial intelligence (ai); plagiarism detection; essay generation; tautomated cheating",
+  "abstract": "The integration of artificial intelligence (AI) into academic settings presents a contradictory scenario. While AI can support efforts to uphold academic integrity, it also introduces new avenues for its subversion. This paper scrutinises the dual nature of AI in the context of academic integrity, exploring its potential as both a safeguard and a threat. On the one hand, AI-powered tools offer effective methods for detecting plagiarism, identifying cheating behaviours, and enhancing assessment integrity. The same AI technologies can be repurposed to generate plagiarised content, facilitate unauthorised collaboration, and automate cheating strategies with incomparable levels of complexity. This study emphasises collaborative efforts required from academic institutions and AI researchers and developers to ensure fairness, transparency, and accountability in AI implementations. It also outlines future directions for empirical research to validate and expand upon our findings, including field experiments, longitudinal studies, and behavioural analyses. By fostering a culture of ethical AI use and continuously educating stakeholders, we can harness the potential of AI to enhance learning and research while upholding the principles of academic integrity.",
+  "document_type": "Proceedings Paper",
+  "year": 2025
+ },
+ {
+  "paper_id": "P733",
+  "title": "Semantic Text Matching Using Intelligent Methods: A Survey",
+  "keywords": "deep learning; machine learning; semantic text matching; text distance; text matching; nlp; text similarity detection; artificial intelligence; bert model",
+  "abstract": "Nowadays, Artificial intelligence (AI) is emerged strongly. AI applications are the future of computing, with numerous services and solutions. Machine learning (ML) and deep learning (DL) are the most important components of AIemerged tools. Natural language processing (NLP) is that field related to incorporating AI tools for improving machine recognition of human natural languages. Text mining and information retrieval applications have become important in frequent intelligent business services. Semantic text matching (STM) is an important application of NLP and text mining. It produces an understanding of two or more text segments in terms of similarity and distance evaluation. In this survey, AI-based STM approaches that are introduced in the literature are reviewed. We present the importance of the STM field using intelligent methods, in addition to explaining the main STMbased concepts. We discuss various categories of STM that appear in surveyed papers, they are the type of language, the deep learning utilized models, question-answering interesting studies, and other smart techniques that were implemented for STM. Finally, we summarize this review by introducing an explanation of some recent papers, in addition to illustrating a comparison between them. The utilized dataset, implemented model, and resulted accuracy were the main points of that comparison.",
+  "document_type": "Proceedings Paper",
+  "year": 2024
+ },
+ {
+  "paper_id": "P734",
+  "title": "OpenAI ChatGPT generated content and similarity index: A study of selected terms from the library & information science",
+  "keywords": "academic integrity; similarity index; library & information science; chatgpt; artificial intelligence; openai; plagiarism",
+  "abstract": "With the increasing popularity of OpenAI ChatGPT, there are concerns about its use and abuse. In this paper, ChatGPTgenerated contents are analysed with randomly selected terminologies related to library and information science discipline. The generated contents were checked through iThenticate, Turnitin and Urkund software to see the percentage of similarity. Only 7 percent similarity in iThenticate and Urkund and 13 percent in Turnitin was found.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P735",
+  "title": "ARTIFICIAL INTELLIGENCE-GENERATED TEXT IN HIGHER EDUCATION - USAGE AND DETECTION IN THE LITERATURE",
+  "keywords": "higher education; academic integrity; ai-generated text detector; plagiarism; artificial intelligence",
+  "abstract": "Since ChatGPT launch in November 2022, artificial intelligence has become more and more widespread in all areas of life. Generative applications of artificial intelligence are proliferating in a wide range of fields. The technology has great potential for applications such as machine translation, voice recognition, education, or content creation, but it also raises concerns about misuse, ethical use, and plagiarism. As texts generated by artificial intelligence tools continue to improve, detection tools on the market will have to involve additional efforts to keep pace. This article uses data from the Scopus and Web of Science databases to map the current usability of detectors, of texts generated by artificial intelligence, in higher education and academia. One of the aims of the article is to provide an insight into the experiences with currently available detectors of texts generated by artificial intelligence in higher education.",
+  "document_type": "Article",
+  "year": 2024
+ },
+ {
+  "paper_id": "P736",
+  "title": "Collusion, plagiarism, or contract cheating? How generative AI fts into existing academic integrity policies",
+  "keywords": "higher-education; definition",
+  "abstract": "",
+  "document_type": "Article; Book Chapter",
+  "year": 2025
+ },
+ {
+  "paper_id": "P737",
+  "title": "Generative AI in college coursework: a longitudinal investigation of instructor communication and student plagiarism",
+  "keywords": "message framing; course policy; planned behavior; academic integrity; self-control; technology policies; predictors; intention; generative artificial intelligence; plagiarism; theory of planned behavior",
+  "abstract": "This longitudinal study investigates students' beliefs and behaviors regarding generative artificial intelligence (GenAI) utilization for college coursework and the role of instructors' course policies and messaging in students' decision-making. Guided by the theory of planned behavior (TPB), we note areas of change and stability in students' GenAI perceptions and practices within and across semesters using short-term longitudinal data collection over the course of three semesters. Initial findings supported TPB as a viable framework for predicting students' frequency of submitting AI-generated work as their own, yet more recent results only partially support the model. Results highlight shifts in course policy and instructor message framing and sidedness regarding GenAI and changes in how messaging predicts student perceptions. In particular, the prevalence and impact of two-sided messages changed significantly over time. Theoretical and practical implications for instructional communication are discussed.",
+  "document_type": "Article; Early Access",
+  "year": 2025
+ },
+ {
+  "paper_id": "P738",
+  "title": "Plagiarism and Artificial Intelligence: Balancing Innovation with Academic Integrity",
+  "keywords": "",
+  "abstract": "",
+  "document_type": "Editorial Material",
+  "year": 2025
+ },
+ {
+  "paper_id": "P740",
+  "title": "Can artificial intelligence and academic integrity coexist?",
+  "keywords": "academic writing; academic integrity; text generation; plagiarism; artificial intelligence",
+  "abstract": "Since the wake of the arrival of conversational agents using artificial intelligence (AI) in teaching and research, it is important to question the impact these tools will have on plagiarism. Many academic writers, whether students or researchers, will be tempted by the power, accessibility, and ease of AI to generate a sentence, a part of a text or an entire text. However, using the generated text and passing it off as one's own is plagiarism. It is therefore essential for academic writers to learn how to use AI to write with integrity.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P741",
+  "title": "Responsible and Ethical Use of AI in Education: Are We Forcing a Square Peg into a Round Hole?",
+  "keywords": "learning technology; academic quality; academic integrity; environment; generative ai; chatgpt; plagiarism; student assessment; strategies",
+  "abstract": "The emergence of generative AI has caused a major dilemma-as higher education institutions prepare students for the workforce, the development of digital skills must become a normative aim, while simultaneously preserving academic integrity and credibility. The challenge they face is not simply a matter of using AI responsibly but typically of reconciling two opposing duties: (A) preparing students for the future of work, and (B) maintaining the traditional role of developing personal academic skills, such as critical thinking, the ability to acquire knowledge, and the capacity to produce original work. Higher education institutions must typically balance these objectives while addressing financial considerations, creating value for students and employers, and meeting accreditation requirements. Against this need, this multiple-case study of fifty universities across eight countries examined institutional response to generative AI. The content analysis revealed apparent confusion and a lack of established best practices, as proposed actions varied widely, from complete bans on generated content to the development of custom AI assistants for students and faculty. Oftentimes, the onus fell on individual faculty to exercise discretion in the use of AI, suggesting an inconsistent application of academic policy. We conclude by recognizing that time and innovation will be required for the apparent confusion of higher education institutions in responding to this challenge to be resolved and suggest some possible approaches to that. Our results, however, suggest that their top concern now is the potential for irresponsible use of AI by students to cheat on assessments. We, therefore, recommend that, in the short term, and likely in the long term, the credibility of awards is urgently safeguarded and argue that this could be achieved by ensuring at least some human-proctored assessments are integrated into courses, e.g., in the form of real-location examinations and viva voces.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P742",
+  "title": "Detection Rates of Artificial Intelligence-Generated Content in Scholarly Publishing before and after ChatGPT",
+  "keywords": "academic integrity; academic ai use; ai detection; publication ethics; ai ethics",
+  "abstract": "The use of artificial intelligence in scholarly publishing is quickly becoming a focal point as researchers, journal editors, and publishers determine how to balance the benefits of AI with the potential ethical drawbacks. We used four different AI text detectors to analyze one hundred articles published in economics journals in 2019, before the release of ChatGPT, and one hundred articles from the same journals published in 2023-24, after the release of ChatGPT. Using the AI likelihood scores generated from each detector as the dependent variable and controlling for the number of authors, word count, and journal fixed effects, we find that only ZeroGPT had AI likelihood scores that were 3.89 percentage points higher in the post-AI papers compared to the pre-AI papers; however, this result was only statistically significant at the 90 per cent level. The other AI detectors, Originality, Crossplag, and Winston, showed that pre- and post-AI papers had AI scores that were not statistically different when controlling for other factors. We also find that there is little to no correlation between the scores produced by the four detectors when scanning the same papers. This research highlights the fallibility of accurate AI detection and the need for further research as a foundation for developing future AI policies in scholarly publishing.",
+  "document_type": "Article; Early Access",
+  "year": 2026
+ },
+ {
+  "paper_id": "P743",
+  "title": "MLSDET: Multi-LLM Statistical Deep Ensemble for Chinese AI -Generated Text Detection",
+  "keywords": "ai-generated text detection; statistical; features.; mixture of experts",
+  "abstract": "With the rapid advancements in pre-trained large language models like ChatGPT, the surge of AI-generated text, particularly in Chinese, has presented significant challenges to existing detection systems due to its increasing realism and complexity. To address this, we introduce MLSDET: a groundbreaking Multi-LLM Statistical Deep Ensemble framework designed for high-precision detection of AIgenerated Chinese text. MLSDET uniquely integrates a Mixture of Experts (MoE) architecture with a novel cross-entropy metric, setting a new benchmark for robustness and generalization. By employing a diverse ensemble of large language models (LLMs), including Qwen, Wenzhong-GPT2, and LLaMA, our approach extracts intricate features such as log-rank, entropy, log-likelihood, and the newly introduced LLMs-crossEntropy, accurately capturing both model consensus and the statistical distribution differences between AI-generated and humanauthored text. Experimental results on the 1-W3-Chinese dataset show that MLSDET surpasses traditional zero-shot methods like CLTR by 15.94% in Fl score and competes effectively with existing methods, offering a scalable solution for real-world applications.",
+  "document_type": "Proceedings Paper",
+  "year": 2025
+ },
+ {
+  "paper_id": "P744",
+  "title": "Stylometric Analysis in the Task of Plagiarism Detection in Texts in the Tatar Language",
+  "keywords": "natural language processing; stylometric analysis; tatar language; plagiarism detection",
+  "abstract": "The article discusses the use of stylometric1 analysis in plagiarism detection in texts in the Tatar language. Relevant tools have been developed, utilizing machine learning algorithms, including clustering (k-means clustering), classification (random forest method, support vector machine method, na & iuml;ve Bayes classifier), and a hybrid approach (FastText model + logistic regression). Special attention is paid to the adaptation of linguistic metrics to the Tatar language. The possibility is demonstrated of using stylometric analysis methods to address tasks of authorship attribution and determination of style and emotional tone in texts in the Tatar language.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P745",
+  "title": "COPYRIGHT, ARTIFICIAL INTELLIGENCE, AND ETHICAL CHALLENGES",
+  "keywords": "science ethics; social sciences; ethics; plagiarism; artificial intelligence; copyright; scientific journals",
+  "abstract": "Scientific journals in the social sciences are facing significant challenges due to the increasing and persistent use of Artificial Intelligence (Ai). These developments have generated novel ethical dilemmas, prompting this study to identify these challenges and assess their impact on academic integrity, with the aim of proposing potential ethical guidelines and policies. A qualitative-descriptive methodology is proposed, which will facilitate a historical-normative review coupled with a critical content analysis. The analysis centrally addresses copyright, contrasting it with automated authorship and natural language processing derived from the massive use of and access to data. This confrontation between copyright and scientific ethics calls into question fundamental concepts such as 'author,' 'creation,' and 'originality,' as well as the role of human agency and academic integrity. Furthermore, it raises serious doubts about the possibility of determining the origin of the data provided by AI.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P746",
+  "title": "PROVIDING ACADEMIC HONESTY AND DATA RELIABILITY TO WOS INDEXED SOURCES",
+  "keywords": "academic integrity; anti-plagiarism; plagiarism; data reliability; artificial intelligence; web of science; falsification and fabrication of data",
+  "abstract": "The article explores the peculiarities of ensuring academic integrity and data reliability in preparation for publication in sources indexed in Web of Science. The main stakeholders in the process of ensuring data integrity and reliability are identified. The main technical and ethical issues that arise in the organization of this process are highlighted. The publications in the Academic Review for the period of indexing this source in WoS are analyzed in terms of ensuring data reliability and the relevant policy is reviewed. The main aspects of ensuring academic integrity and data reliability in the format of \"science-society\" interaction are analyzed and the call of the Alfred Nobel University for the creation of a research quality assurance association in Ukraine, which would combine the efforts of the scientific community and society aimed at ensuring integrity and reliability, is formulated. The article describes in detail the initiative of the Alfred Nobel University to ensure academic integrity and reliability of data in publications indexed in scientific databases and outlines the conditions for participation in it. The ethical and technical problems of using artificial intelligence tools in the preparation of scientific publications are considered. The possibilities of counteracting academic plagiarism using artificial intelligence tools are analyzed. Recommendations are given on the use of artificial intelligence tools to improve the quality of research, especially when analyzing achievements in the chosen field and choosing a methodology. Recommendations for ensuring academic integrity in the use of artificial intelligence tools in the preparation of publications and the development of appropriate journal policies on this issue are formulated. A quantitative comparison of the time parameters of the preparatory cycle of the main publishers of scientific literature is carried out. The author presents the sign \"Perspicuitas et Fides\" ( transparency and reliability - Latin), which will be used by the editorial board to mark publications in which the authors are responsible for ensuring the reliability of the original research data and open access to them. The current structure of scientific publications on the websites of leading scientific publishers is analyzed. The motivation of scientists to ensure open access to data was analyzed. An appeal was made to other colleagues who administer publications indexed in scientometric databases to join the i",
+  "document_type": "Article",
+  "year": 2024
+ },
+ {
+  "paper_id": "P747",
+  "title": "A Systematic Review of Multilingual Plagiarism Detection: Approaches and Research Challenges",
+  "keywords": "machine learning; deep learning; multilingual text representation; translation approaches; systematic literature review; multilingual plagiarism; natural language processing",
+  "abstract": "The existence of voluminous multilingual sources on the web in different fields creates numerous issues, including violations of intellectual property rights. For that, the multilingual plagiarism or cross-language plagiarism detection (CLPD) has become a great challenge, which refers to copying content from a source text in one language into a target text in another without proper attribution. This study presents a systematic literature review (SLR) of methodologies used in CLPD covering works published between 2014 and 2025. This literature review summarizes and diagrams the different approaches used for CLPD. We propose a classification of the different representations of multilingual texts into four types: traditional approaches, multilingual semantic networks, fingerprinting methods, and deep learning models. In addition, we have carried out an in-depth analysis of ten language pairs, have focused on the approaches employed, including translation strategies, feature extraction approaches, classification techniques, similarity methods, dataset types, data granularity, and evaluation metrics. Among the fulfilled results, English appears in 98% of language pairs, and the English-Arabic pair stands out as the most studied. Over 60% of studies involve a translation phase with Google Translate as the most frequently used tool. The mBART model achieves over 95% accuracy for English-Spanish, English-French, and English-German, while BERT reached 96% for English-Russian. As for the assisted translation study based on the Expert translation tool, strong results are obtained for English-Persian, with an accuracy of 98.82%. On the whole, transformers offer better results in several language pairs without the need for translation.",
+  "document_type": "Review",
+  "year": 2025
+ },
+ {
+  "paper_id": "P748",
+  "title": "Digital Learning and Digital Dilemmas",
+  "keywords": "educational technology; creative writing; education; plagiarism; artificial intelligence; copyright",
+  "abstract": "Technology is blurring the line between fact and fiction, making it increasingly difficult to decipher the origins of content. The proliferation of easy online access to information, new technologies like artificial intelligence (AI), natural language processing (NLP), and machine learning (ML) along with wider use of ghostwriters accompanied by pressures for enhanced performance and a borderless global economy are changing teaching and learning, creative writing and challenging the traditional role of information guardians. This chapter provides an overview of new information technologies, examines their impact on teaching and learning and creativity and discusses resulting digital dilemmas. Some say that academic integrity is under threat with new uses of technology threatening academic rigour leading to a digital dilemma as digital natives adopt technological tools for increased productivity and efficiency without adopting scholarly habits of critical thinking and content evaluation. Another digital dilemma involves issues of intellectual property and copyright in relation to content creation using new technological tools. Academic excellence has become a business, raising ethical dilemmas for everyone involved. The chapter explores the complexity of generational dynamics, the advances and impact of technologies and the role of educators and information specialists. How do information users and information specialists gain the digital literacy required to deal with the digital dilemmas encountered?",
+  "document_type": "Article; Book Chapter",
+  "year": 2025
+ },
+ {
+  "paper_id": "P749",
+  "title": "Beyond Words: An Advanced Ensemble Framework for Unmasking AI-Generated Content Through Linguistic Fingerprinting",
+  "keywords": "machine learning; ensemble methods; content verification; ai detection; text classification",
+  "abstract": "AI generated content detection is vital because it helps to uphold digital integrity in most fields of application, such as in academic publishing and content verification. The process of identifying text authenticity and traceability of the source is dependent on proper detection means. The approach introduced in this paper is a novel ensemble method that combines machine learning and linguistic analysis for AI content detection. The ensemble approach uses a set of classification algorithms to identify the most important differences between human-authored and AI-generated text. To validate the proposed method, this study utilized an extensive collection of text samples (20,000) obtained from SQuAD 2.0, CNN/Daily Mail, GPT-3.5, and ChatGPT datasets.The proposed ensemble model achieved precision, accuracy, recall, and F1-score of 97.2%, 97.5%, 96.4%, and 97.3%, respectively, demonstrating superior performance compared to individual classifiers. The experimental results demonstrate that the ensemble approach offers efficient detection performance, which can be applied to various text types and lengths, and thus can be implemented in practical systems for content verification and academic integrity assessment.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P750",
+  "title": "Analysis of IoT Privacy Policies in Smart Transportation Systems",
+  "keywords": "deep learning; challenges; iot privacy policy; text similarity analysis; natural language processing; city; security",
+  "abstract": "Smart transportation systems utilize a variety of Internet of Things (IoT) sensors, real-time data communication technologies, and advanced computing techniques to manage its services, resources, and infrastructure more efficiently. There is an increasing interest in transforming transportation systems into intelligent systems, but persistent concerns over privacy are slowing down the adoption of smart applications. This paper presents a knowledge elicitation methodology based on natural language processing and deep learning techniques to analyze privacy policies of several smart transportation IoT applications. Text similarity analysis is performed to identify the privacy functions that are less frequently addressed by IoT privacy policies. Initial results support decision-makers in understanding the contextual privacy characteristics of the smart transportation domain.",
+  "document_type": "Proceedings Paper",
+  "year": 2024
+ },
+ {
+  "paper_id": "P751",
+  "title": "Syntactic comparison of human and AI-written scientific texts",
+  "keywords": "ai-generated text detection; process discovery; sentence structure modeling; syntactic analysis",
+  "abstract": "The spread of large language models (LLMs) has transformed scientific writing, enabling the generation of fluent and convincing text with minimal human input. This development poses significant challenges for authorship verification, especially when AI-generated or AI-assisted content is embedded in academic manuscripts. While most existing detection approaches rely on surface-level lexical features or stylometric clues, our study proposes a novel syntactic-level method to distinguish between human-authored, translated, and AI-generated scientific texts. We constructed a controlled corpus of 24 scientific articles in the field of computer science, divided into four categories: native-authored, human-translated, ChatGPT 4.0-generated, and ChatGPT 4o-generated with deep research. Each corpus was processed using part-of-speech (POS) and dependency parsing, followed by statistical profiling and sentence-structure discovery via process mining. Our results reveal that AI-generated texts differ significantly in their use of modal verbs, participles, coordination, and syntactic complexity. We demonstrate that process-mined graphs of syntactic transitions provide an interpretable and robust fingerprint of authorship, enabling us to detect AI-generated patterns and differentiate them from translated or native writing. The proposed framework contributes a novel methodological perspective to the growing field of AI authorship detection.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P752",
+  "title": "Document Similarity Detection for Project Development Using Fused Interactive Attention Mechanisms",
+  "keywords": "semantic extraction; text similarity; word2vec; fusion attention mechanism; project evaluation; multi-feature fusion model; mp-cnn; cw2vec",
+  "abstract": "This study introduces a novel multi-feature fusion model aimed at improving text similarity calculation in scientific and technological projects. The primary objective is to enhance the accuracy and efficiency of assessing text similarities, particularly in evaluating originality and identifying duplications in project submissions. To overcome the limitations of traditional text similarity methods (e.g., Vector Space Models, Latent Dirichlet Allocation, and TF-IDF) in capturing complex semantic and structural features, a hybrid model is proposed. The model combines word embeddings (word2vec and cw2vec), a Bi-LSTM network, and a multi-perspective convolutional neural network (MP-CNN) for effective feature extraction. Additionally, a fusion attention mechanism and interactive attention are incorporated to improve the extraction of semantic, contextual, and structural information. Experimental evaluation on two benchmark datasets demonstrates that the proposed model achieves an average precision of 0.75, a recall of 0.71, and an F1-score of 0.73, outperforming traditional methods (LDA, TF-IDF, Word2vec+Cosine) and deep learning baselines (Siamese-LSTM, MP-CNN) by more than 10% on average. These results confirm that the proposed architecture effectively balances semantic relevance and structural integrity, yielding superior similarity detection performance. The integration of advanced deep learning components-Bi-LSTM, MP-CNN, and attention mechanisms- substantially improves both the accuracy and efficiency of similarity evaluation, providing a more reliable and objective approach for scientific project assessment.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P753",
+  "title": "Structured Development of Learning and Assessment Tasks to Prevent Generative AI Misuse and Enhance AI Literacy in the Faculty in Physiotherapy Education",
+  "keywords": "faculty development; framework; plagiarism; clinical reasoning; ai literacy; detection and prevention",
+  "abstract": "Objective The rapid emergence of generative artificial intelligence (GAI) in higher education necessitates redesign of learning activities and assessments to uphold academic integrity and foster AI literacy. This article presents a structured approach to developing educational strategies that mitigate GAI misuse while enhancing students' understanding of GAI, with a focus on collaborative faculty engagement and curricular adaptation in physiotherapy education.Methods Using the Quality Implementation Framework (QIF), we conducted a comprehensive review of all courses within a Swedish physiotherapy program employing a problem-based learning (PBL) model. Faculty-wide, time-bound development initiatives were implemented, including targeted AI literacy training. A student survey was conducted to assess GAI usage patterns and perceptions.Results Assessment formats were adapted to emphasize clinical reasoning and critical thinking, reducing opportunities for GAI misuse. Standardized guidelines on acceptable GAI use were integrated across all courses. The survey results 2 months after implementation indicated diverse usage patterns: 13% of students reported daily use of GAI, while 24% had never used it. Additionally, 42% felt adequately informed about GAI. Faculty AI literacy and confidence improved through structured group work and feedback, supporting the integration of AI-related tasks into the curriculum.Conclusions The systematic approach using QIF and PBL, expert support, faculty champions, problem-solving strategies, and feedback, enabled meaningful curricular changes within 4 months. The variability in student GAI use underscores the need for equitable AI literacy education. This approach not only reduced the risk of GAI misuse but also enhanced faculty preparedness, offering a scalable model for other health sciences programs.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P754",
+  "title": "ChatGPT-Generated Code Assignment Detection Using Perplexity of Large Language Models (Student Abstract)",
+  "keywords": "",
+  "abstract": "In the era of large language models like ChatGPT, maintaining academic integrity in programming education has become challenging due to potential misuse. There's a pressing need for reliable detectors to identify ChatGPT-generated code. While previous studies have tackled model-generated text detection, identifying such code remains uncharted territory. In this paper, we introduce a novel method to discern ChatGPT-generated code. We employ targeted masking perturbation, emphasizing code sections with high perplexity. Fine-tuned CodeBERT is utilized to replace these masked sections, generating subtly perturbed samples. Our scoring system amalgamates overall perplexity, variations in code line perplexity, and burstiness. In this scoring scheme, a higher rank for the original code suggests it's more likely to be ChatGPT-generated. The underlying principle is that code generated by models typically exhibits consistent, low perplexity and reduced burstiness, with its ranking remaining relatively stable even after subtle modifications. In contrast, human-written code, when perturbed, is more likely to produce samples that the model prefers. Our approach significantly outperforms current detectors, especially against OpenAI's text-davinci-003 model, with the average AUC rising from 0.56 (GPTZero baseline) to 0.87.",
+  "document_type": "Proceedings Paper",
+  "year": 2024
+ },
+ {
+  "paper_id": "P755",
+  "title": "RASR: A Multi-perspective Semantic Text Similarity Computation Method Integrating RAG",
+  "keywords": "retrieval-augmented generation; semantic textual similarity; large language model",
+  "abstract": "Semantic Text Similarity (STS) is a fundamental task in Natural Language Processing (NLP), aimed at measuring the similarity between sentence pairs, with wide applications in information retrieval and language understanding. Traditional STS models rely on manually designed features and shallow representations, struggling to capture complex semantic relationships and lacking scalability and flexibility. In recent years, large language models (LLMs), with their superior contextual understanding, have provided new approaches to address this issue. However, these models still face challenges in STS tasks, such as inconsistent prompt example quality, single-perspective scoring, and difficulties in fully capturing complex semantic relationships. To address these challenges, this paper proposes RASR (Refined Augmented Scoring with Reflection), a method, by integrating the Retrieval-Augmented Generation (RAG) approach, RASR enhances few-shot prompting by incorporating high-quality relevant examples, improving prompt consistency and scoring accuracy. RASR enables LLMs to score sentence pairs from multiple perspectives, enhancing scoring diversity. This approach more effectively captures complex semantic relationships, significantly improving the accuracy and robustness of semantic text similarity computation. We applied the RASR method to both open-source and closed-source models and evaluated it on four datasets using six LLMs. Compared to traditional methods and chain-of-thought approaches, RASR achieved significant improvements across nearly all metrics.",
+  "document_type": "Proceedings Paper",
+  "year": 2026
+ },
+ {
+  "paper_id": "P756",
+  "title": "Who Wrote it and Why? Prompting Large-Language Models for Authorship Verification",
+  "keywords": "",
+  "abstract": "Authorship verification (AV) is a fundamental task in natural language processing (NLP) and computational linguistics, with applications in forensic analysis, plagiarism detection, and identification of deceptive content. Existing AV techniques, including traditional stylometric and deep learning approaches, face limitations in terms of data requirements and lack of explainability. To address these limitations, this paper proposes PromptAV, a novel technique that leverages Large-Language Models (LLMs) for AV by providing step-by-step stylometric explanation prompts. PromptAV outperforms state-of-the-art baselines, operates effectively with limited training data, and enhances interpretability through intuitive explanations, showcasing its potential as an effective and interpretable solution for the AV task.",
+  "document_type": "Proceedings Paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P758",
+  "title": "Transforming Case Write-Up Evaluation with Artificial Intelligence: Insights from a Pilot Study at a Private Medical College",
+  "keywords": "family medicine; plagiarism; artificial intelligence; medical education",
+  "abstract": "In this study, authors have explored use ofAI tools in enhancing evaluation of undergraduate case writeups to determine uniqueness of the student-generated research questions. Case write-ups are used as continuous assessment method in department of Family Medicine at Shifa College of Medicine, Islamabad. The task for students involves documenting patients' medical information and developing research questions based on their respective cases. Work of 50 students from two consecutive batches rotating in Family Medicine was assessed. The originality of the submitted questions was assessed using GPT Zero, to identify AI generated material. To ensure academic integrity, plagiarism checks were also carried out using Google Scholar and Semantic Scholar to find any overlaps with already published material. From a sample of 150 research questions, nearly half of all the research questions (42.7 %) were plagiarized, 34% of questions were AI generated, and 23.33% were original questions.",
+  "document_type": "Editorial Material",
+  "year": 2025
+ },
+ {
+  "paper_id": "P760",
+  "title": "Matrix similarity analysis of texts written in Romanian and Spanish",
+  "keywords": "anti-plagiarism; matrix analysis of texts; text-mining; spanish language; text similarity analysis; romance language group; romanian language; levenshtein's edit distance",
+  "abstract": "This publication presents the results of a study of similarity between texts written in Romanian and Spanish, using a matrix analysis method based on Levenshtein's edit distance. The method used in the study does not contain implemented language-dependent vocabulary rules and exhibits the feature of linguistic universality in terms of similarity analysis. The study was carried out on the basis of the commercial computer program Antyplagius, created by the New Data Mining Systems company, which performs similarity analysis exclusively using the aforementioned method. The texts being compared were taken from excerpts from Wikipedia translated by online translators of popular companies which are based on artificial intelligence solutions.",
+  "document_type": "Proceedings Paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P761",
+  "title": "Cross-Model Deepfake Text Detection with XLM-RoBERTa: A Strongly Generalizable Multi-LLM Training Strategy",
+  "keywords": "deepfake text detection; xlm-roberta; artificial intelligence; natural language processing; large language models",
+  "abstract": "The rapid advancement of Large Language Models (LLMs) has significantly complicated the distinction between AI-generated and human-written texts. This challenge becomes particularly pronounced in formal and structurally constrained texts, such as academic writing. In this study, a deep learning approach based on the XLM-RoBERTa architecture is proposed for detecting deepfake (DF) texts, with a focus on achieving strong generalization capability within the academic domain. A large-scale dataset comprising 63,000 human-written and AI-generated texts (from Llama-3.1, Gemma-2, Qwen-2.5, Phi-3, Falcon, and Mistral) was constructed. The proposed multi-model data strategy is designed to encourage the model to learn structural and stylistic distinctions between human and AI-generated texts, rather than memorizing model-specific stylistic patterns, thereby reducing false positive rates, particularly for formal human-written content. To analyze the model's learning behavior, no preprocessing was applied to the training data. The model was evaluated on two independent test sets (preprocessed and non-preprocessed), neither of which was seen during training. Experimental results show that the model achieves an F1-score of 99.76% on the validation set, while maintaining 93.42% accuracy and 94.67% recall on the preprocessed (Zero-Artifact) test set. These findings indicate that the model relies on inherent linguistic and structural patterns of AI-generated text in formal context, rather than dataset-specific superficial artifacts, suggesting improved robustness and generalization in academic integrity applications.",
+  "document_type": "Article",
+  "year": 2026
+ },
+ {
+  "paper_id": "P762",
+  "title": "Detecting GenAI assistance in programming assessments with over-uniqueness and sample matching",
+  "keywords": "code similarity; genai detector; engineering education; over-uniqueness; sample matching; tool; code plagiarism detection",
+  "abstract": "In engineering education, Generative Artificial Intelligence (GenAI) might be misused to complete assessments with limited understanding. On courses that allow the use of GenAI, students might also forget to acknowledge its assistance. There is a need to identify such assistance. We present an automated detector with over-uniqueness and sample matching. GenAI-assisted submissions are identified based on their uniqueness and their similarity to a GenAI sample. Unique to our GenAI detector, it requires no training data and/or dedicated rules for each programming/scripting language. Further, the method can be integrated into any existing similarity detectors to identify plagiarism. The detector covers five similarity measurements, two similarity modes, and eight programming/scripting languages. Our evaluation of four data sets with thousands of submissions shows that our detector is effective (71% MAP). However, many factors can affect its effectiveness, including submission length and student attempts to align the code. Combining both mechanisms does not result in higher effectiveness, yet it takes longer to process.",
+  "document_type": "Article",
+  "year": 2026
+ },
+ {
+  "paper_id": "P763",
+  "title": "Cross-Language Plagiarism Detection: A Case Study of European Languages Academic Works",
+  "keywords": "cross-lingual information retrieval; knowledge distillation; cross-lingual text reuse detection; multilingual word embeddings; contextualized word embeddings; machine translation",
+  "abstract": "The chapter investigates the problem of cross-lingual plagiarism in academic works of European universities. Although the possibly massive problem of incorrect text reuse, most text reuse detection systems generally focus only on the monolingual plagiarism text reuse: when both the analysed document and source of text reuse are written in one language. In this chapter, we analyse a more difficult setting: when the languages of the analysed document and reused language are different. For this problem solution, we present a system of cross-lingual text reuse detection. The system composes the methods of statistical machine translation and deep learning methods based on the contextualized word embeddings, such as BERT and its multilingual version, LaBSE. To analyse the efficiency of the proposed method, we conduct experiments both on the synthetic dataset generated using machine translation systems and on the real dataset of academic graduation theses. We experimented on the collection of 10202 documents and found 103 documents with a significant amount of cross-lingual text reuse. Although these results are preliminary and should be verified further, they confirm the massiveness of this problem in academic science.",
+  "document_type": "Proceedings Paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P764",
+  "title": "Cheating and plagiarism in higher education: a systematic literature review from a global perspective, 2016-2024",
+  "keywords": "higher education; technology; students; programs; behavior; cheating; plagiarism; artificial intelligence",
+  "abstract": "Purpose - This study examined the causes of cheating and plagiarism in higher education from a global perspective and developed strategies for reducing these behaviours. Design/methodology/approach - The study followed the Preferred Reporting Items for Systematic Reviews and Meta-Analysis reporting guidelines to select 26 research articles published between 2016 and 2024. Findings - Cheating and plagiarism are caused by laziness, time constraints, lack of confidence, difficult exams, excessive assignments, fear of poor grades, and motivation to achieve higher grades. However, students are often unaware of the effects these behaviours can have on their academic and professional careers. Therefore, in addition to regularly updating academic honour codes following national laws and regulations, higher education institutions need to introduce training programmes and workshops to raise students' awareness of the negative consequences of cheating and plagiarism, enhance their writing skills, and promote positive attitudes. Practical implications - The study findings may assist policymakers and stakeholders in higher education institutions in deciding whether to implement academic integrity education programmes and modify honour codes following government laws and regulations. Additionally, this study contributes to the existing literature on cheating and plagiarism and will help higher education institutions address the root causes of these behaviours. Originality/value - This study contributes valuable insights to the literature on cheating and plagiarism.",
+  "document_type": "Review",
+  "year": 2025
+ },
+ {
+  "paper_id": "P765",
+  "title": "The detectability paradox: bilingual medical report generation with open-weight models and the limits of human oversight",
+  "keywords": "automated report generation; medical documentation; multilingual medical reports; large language models (llms); electronic health records (ehrs)",
+  "abstract": "Objectives The automation of medical report generation using large language models (LLMs) could significantly reduce physicians' documentation burden while enhancing healthcare efficiency. However, the misuse of generative artificial intelligence in medical reporting can lead to important safety risks for patients. We addressed 2 questions: (1) What is the quality of medical reports generated by LLMs in English and French? and (2) Can we distinguish between human-written and LLM-generated medical reports?Materials and methods We evaluated the quality of reports generated by several multilingual, open-weight LLMs using text similarity metrics on 4212 medical reports in English and French across multiple specialties. A bilingual expert panel of certified physicians (n = 4) and medical residents (n = 5) scored accuracy, fluency, and completeness of generated reports using a 1-5 Likert scale. Experts also completed a Turing-like test, blindly identifying reports as human or machine-generated.Results Phi-4 achieved the best overall performance (ROUGE-1: 0.70, BERTScore: 0.83). Expert evaluation confirmed high-quality reports in both languages (overall 4.6/5.0). Medical experts performed better than chance but struggled to differentiate human versus machine reports (accuracy: 0.60). Automatic classifiers showed strong performance (accuracy: 0.98).Discussion The high quality of LLM-generated reports supports their potential to enhance healthcare efficiency in multilingual settings. However, the discrepancy between human detection difficulty and automated detection success reveals inherent limitations in relying solely on human oversight for quality assurance and misuse prevention.Conclusions Deployment of LLMs for medical reporting requires combining automated detection tools with human expertise to ensure patient safety. Dataset and code: https://github.com/ds4dh/medical_report_generation.",
+  "document_type": "Article; Early Access",
+  "year": 2026
+ },
+ {
+  "paper_id": "P766",
+  "title": "Detecting AI-Generated Code Assignments Using Perplexity of Large Language Models",
+  "keywords": "",
+  "abstract": "Large language models like ChatGPT can generate human-like code, posing challenges for programming education as students may be tempted to misuse them on assignments. However, there are currently no robust detectors designed specifically to identify AI-generated code. This is an issue that needs to be addressed to maintain academic integrity while allowing proper utilization of language models. Previous work has explored different approaches to detect AI-generated text, including watermarks, feature analysis, and fine-tuning language models. In this paper, we address the challenge of determining whether a student's code assignment was generated by a language model. First, our proposed method identifies AI-generated code by leveraging targeted masking perturbation paired with comprehensive scoring. Rather than applying a random mask, areas of the code with higher perplexity are more intensely masked. Second, we utilize a fine-tuned CodeBERT to fill in the masked portions, producing subtle modified samples. Then, we integrate the overall perplexity, variation of code line perplexity, and burstiness into a unified score. In this scoring scheme, a higher rank for the original code suggests it's more likely to be AI-generated. This approach stems from the observation that AI-generated codes typically have lower perplexity. Therefore, perturbations often exert minimal influence on them. Conversely, sections of human-composed codes that the model struggles to understand can see their perplexity reduced by such perturbations. Our method outperforms current open-source and commercial text detectors. Specifically, it improves detection of code submissions generated by OpenAI's text-davinci-003, raising average AUC from 0.56 (GPTZero baseline) to 0.87 for our detector.",
+  "document_type": "Proceedings Paper",
+  "year": 2024
+ },
+ {
+  "paper_id": "P767",
+  "title": "The digital erosion of intellectual integrity: why misuse of generative AI is worse than plagiarism",
+  "keywords": "ai; education; ethics; plagiarism; integrity",
+  "abstract": "",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P768",
+  "title": "Ethical use of ChatGPT in education\u2014Best practices to combat AI-induced plagiarism",
+  "keywords": "ethical ai use; assessments; generative ai; creative assignments; adaptive testing; chatgpt; plagiarism; personalized tasks",
+  "abstract": "",
+  "document_type": "Note",
+  "year": 2024
+ },
+ {
+  "paper_id": "P769",
+  "title": "AI-Powered Plagiarism Detection: A Web-Based System for Text Integrity",
+  "keywords": "ai-powered solution; semantics; web-based system; text originality; semantic web; intellectual property; ai-powered solutions; paragraph-level analysis; language processing; natural languages; professional fields; plagiarism detection; natural language processing systems; natural language processing; websites; paragraph-level analyze; semantic similarity",
+  "abstract": "Plagiarism detection is essential in academia and professional fields, especially with digital content growing. Traditional tools often lack real-time, paragraph-specific analysis. This paper introduces a web-based system using Python and AI/ML models to detect plagiarism at the aragraph level. It dynamically queries web sources and applies semantic similarity analysis, providing plagiarism percentages for detailed insights. Designed for scalability and accuracy, it addresses existing limitations in plagiarism detection.  \u00a9 2025 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2025
+ },
+ {
+  "paper_id": "P770",
+  "title": "Plagiarism in AI Empowered World",
+  "keywords": "artificial intelligence tools; intellectual property; education; students; student knowledge; plagiarism; chatgpt; artificial intelligence; education and researches",
+  "abstract": "The use of Artificial Intelligence (AI) has revolutionized many aspects of education and research, but it has also introduced new challenges, including the problem of students using AI to create assignments that cannot be detected by plagiarism checkers. The proliferation of AI tools that can generate original-sounding text has made it easier for students to pass off the work of others as their own, making it more difficult for educators to identify and prevent plagiarism. This paper identifies the problem of plagiarism in the AI empowered world by comparing ChatGPT written assignments for biology and computer science. We have tested the plagiarism of those assignments in freely available tools online as well as in trusted and widely used Turnitin. We show that although the original ChatGPT written assignments sometimes result in relatively high plagiarism level, adding just one additional step of paraphrasing the work with free AI tools online significantly reduces the detected plagiarism with similarity levels laying within the acceptable range. This suggests that educational facilities should rethink of how they are assessing students\u2019 knowledge. \u00a9 2023, The Author(s), under exclusive license to Springer Nature Switzerland AG.",
+  "document_type": "Conference paper",
+  "year": 2023
+ },
+ {
+  "paper_id": "P771",
+  "title": "Art Innovation or Plagiarism? Chinese Students' Attitudes Toward AI Painting Technology and Influencing Factors",
+  "keywords": "ai art; mixed-methods research; regression analysis; mixed methods research; artificial intelligence; student attitudes; painting; environmental technology; art; collaboration; artificial intelligence art; art and designs; ai painting; education and ai; chinese students; education and artificial intelligence; artificial intelligence painting; students; interview",
+  "abstract": "The increasing integration of artificial intelligence (AI) in art, particularly AI painting technology, has captivated significant attention and sparked debate. However, little is understood about the attitudes of Chinese students toward this technology and the factors influencing their perspectives. This study employed a mixed-methods approach to comprehensively appraise Chinese students' attitudes toward AI painting technology and the reasons behind these viewpoints. Data was collected from five universities and three high schools in China through questionnaire surveys and semi-structured interviews. Quantitative analysis demonstrated clear trends in students' attitudes toward AI painting technology, with gender, educational level, and background in art and design identified as significant influencing factors. Specifically, students with higher levels of education demonstrated more favorable attitudes toward AI painting technology. This was evidenced by a strong positive correlation coefficient of 0.644 (p<0.01) between educational attainment and positive perceptions of this technology; whereas, a negative correlation with gender (coefficient of -0.263, p<0.01) indicated a difference in attitudes between male and female students, with males displaying more positive views. Specifically, background in art and design did not appear to significantly affect students' attitudes, as presented by an insignificant correlation coefficient of -0.048 (p>0.05). In addition, regression analysis, with an R2 value of 0.419, suggests that these variables can account for 41.9% of the variance in student attitudes toward AI painting, emphasizing the significant effect of gender and education level on their perspectives. Qualitative findings further indicated that concerns about copyright ethics, job displacement anxieties, personal values and aesthetic viewpoints, and broader social and environmental implications all affected students' attitudes toward AI painting technology. These findings offer valuable insights into the attitudes toward AI-generated technologies.  \u00a9 2013 IEEE.",
+  "document_type": "Article",
+  "year": 2024
+ },
+ {
+  "paper_id": "P772",
+  "title": "AI-enabled ChatGPT or LLM: a new algorithm is required for plagiarism-free scientific writing",
+  "keywords": "human; artificial intelligence; humans",
+  "abstract": "",
+  "document_type": "Article",
+  "year": 2024
+ },
+ {
+  "paper_id": "P773",
+  "title": "Which Source is More Morally Negative? The Effect of Plagiarism From AI Versus Human on Consumer Immoral Judgments",
+  "keywords": "perceived ownership; mind perception; generative ai; moral judgments; plagiarism",
+  "abstract": "With the rapid development of generative AI, plagiarism involving AI-generated content has become increasingly prevalent, yet how consumers morally evaluate such acts remains unclear. Drawing on theories of mind perception and perceived ownership, five studies (three pre-registered) provide convergent evidence that plagiarism from AI (vs. human) elicits consumers' less immoral judgments. This study further finds that consumers perceive the plagiarist plagiarizing AI (vs. human) as having more ownership of the content and hence make less immoral judgments. However, when AI is perceived as sentient, the effect of plagiarism source is attenuated. The effect is robust across various contexts including influencer marketing and advertising, and extends to downstream consequences such as social media engagement and brand attitudes. These findings contribute to literature on generative AI, plagiarism in marketing, and mind perception, as well as providing important practical implications for marketers, consumers, AI platforms, and policymakers navigating the ethical challenges of AI-driven content creation. \u00a9 2025 Wiley Periodicals LLC.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P775",
+  "title": "A Geospatial Perspective on Data Ownership, the Right to be Forgotten, Copyrights, and Plagiarism in Generative AI",
+  "keywords": "public places; the right to be forgotten; generative ai; geo-spatial; place-based; copyright law; generative adversarial networks; data ownership; unlearning; copyright; data set",
+  "abstract": "Ethical use of data in generative AI is a growing concern. Large generative AI models are trained on pervasive data sets from a variety of sources, where the data records are fused into the models and become inseparable from them. This raises questions regarding data ownership and the use of personal data, artwork, and copyrighted content in generative AI models. Should people and businesses be allowed to request the removal of their data from a model, even if the data were collected in public places? Should the use of data in generative AI vary across different places based on local copyright laws? How should local laws and regulations regarding data misuse and harmful content be enforced? Can people and organizations verify that their data records have been removed from models or are being used properly? In this paper we discuss the geospatial aspects of data ownership in large generative AI models. We present a vision of generative AI applications that are aware of data ownership and location provenance, based on spatio-temporal features of the data and the usage. These aspects of location-aware AI governance could mitigate some of the risks associated with generative AI and support ethical use of it, in both local and global applications. \u00a9 2024 Copyright held by the owner/author(s).",
+  "document_type": "Conference paper",
+  "year": 2024
+ },
+ {
+  "paper_id": "P776",
+  "title": "AI-generated research paper fabrication and plagiarism in the scientific community",
+  "keywords": "medicine; fabrication; playgroundai; chatbox; chatgpt; artificial intelligence; plagiarism",
+  "abstract": "Fabricating research within the scientific community has consequences for one's credibility and undermines honest authors. We demonstrate the feasibility of fabricating research using an AI-based language model chatbot. Human detection versus AI detection will be compared to determine accuracy in identifying fabricated works. The risks of utilizing AI-generated research works will be underscored and reasons for falsifying research will be highlighted. \u00a9 2023 The Author(s)",
+  "document_type": "Note",
+  "year": 2023
+ },
+ {
+  "paper_id": "P777",
+  "title": "A New Era of Plagiarism the Danger of Cheating Using AI",
+  "keywords": "detection algorithm; ai algorithms; intellectual property; academic fields; plagiarism detection",
+  "abstract": "Recent development in AI algorithms has benefited many industries, but they also brought some problems to fairness in academic evaluation. Plagiarism is one of them, and little research has been put into it. This paper examines AI tools that can be used to plagiarize and preliminary findings using existing plagiarism detection algorithms. We found that tools commonly used to detect plagiarism in the academic field are vulnerable to attacks by these AI-based tools. \u00a9 2022 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2022
+ },
+ {
+  "paper_id": "P778",
+  "title": "Enhancing anti-plagiarism literacy practices among undergraduates with AI",
+  "keywords": "literacy practices; anti-plagiarism; artificial intelligence (ai); ethical issues; human-ai collaboration",
+  "abstract": "The integration of artificial intelligence (AI) in higher education has significantly contributed to the advancement of teaching and learning. However, it has also exacerbated ethical issues, particularly concerning plagiarism. This study introduces an Anti-Plagiarism Literacy Practices (APLP) programme, which includes a customised AI tool called the Academic Writing System (AWS), to support students\u2019 anti-plagiarism literacy practices in academic writing scenarios. Utilising a design-based research methodology, the APLP programme and AWS tool were iteratively refined through two stages of intervention involving 60 undergraduate students. A subsequent stage employed a quasi-experimental design to assess the programme\u2019s impact on the plagiarism-related perceptions, attitudes, and behaviours of 107 students. Findings revealed that the experimental group significantly outperformed the control group in modifying their perceptions and attitudes towards anti-plagiarism, evolving from seeing it as \u201cimportant but vague\u201d to feeling \u201cunderstanding and confident.\u201d Moreover, the level of plagiarism in their writing decreased from moderate to minor, and their writing quality rose from an average score of 58 to 79 out of 100. The data underscore the programme\u2019s effectiveness in enhancing anti-plagiarism literacy practices among university students. This study provides valuable insights for educators seeking to integrate AI-driven solutions into their teaching of ethical academic practices. \u00a9 2025 Informa UK Limited, trading as Taylor & Francis Group.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P780",
+  "title": "ChatGPT and other AI tools put students at risk of plagiarism allegations, MDU warns",
+  "keywords": "students; student; plagiarism; artificial intelligence; humans; human",
+  "abstract": "",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P782",
+  "title": "AI chatbots in programming education: guiding success or encouraging plagiarism",
+  "keywords": "programming education; research questions; large language model; large language models; chatbots; student-ai interaction; students; ai in education; language model; plagiarism; ai programming assistant; gpt",
+  "abstract": "This study examines the impact of an AI programming assistant on students' exam scores and their tendency to accept incorrect AI-generated information. The customized AI programming assistant was developed by the authors using GPT based Large Language Model (LLM). A one group pretest\u2013posttest quasi-experimental design was utilized to answer research questions. Students were asked to take identical programming exams twice: once without AI assistance and once with the option to use the AI assistant. Results showed that the students\u2019 average exam scores significantly increased from 48.33 to 74.47 with a large effect size (d = 1.56) when they used the AI assistance. On the other hand, when student\u2014AI interaction logs were analyzed for a specific question, it was found that AI generated incorrect answers to 36 students. Thirty-three of these students (92%) answered the question incorrectly. Even more interestingly, despite the AI-generated response containing an obvious error, 22 of them (61%) copied and pasted the AI's response directly into the answer field. Only 3 students (8%) ignored the incorrect response generated by the AI and answered the question correctly. A significant portion of students accepting incorrect information provided by AI underscores the need for careful integration of AI tools into learning environments. Moreover, our findings emphasize the importance of specially developed AI tools rather than free tools like ChatGPT in exploring the new type of interaction between students and AI. \u00a9 The Author(s) 2024.",
+  "document_type": "Article",
+  "year": 2024
+ },
+ {
+  "paper_id": "P783",
+  "title": "Similarities of Human and AI Assistance in Programming Plagiarism: Student Perspective",
+  "keywords": "introductory programming; intelligence services; engineering education; artificial intelligence misuse; learning experiences; contrastive learning; ai misuses; plagiarism; programming; survey; student perspectives",
+  "abstract": "Generative artificial intelligence (AI) heavily disrupts engineering education. While it can promote better learning experiences, it can be misused for plagiarism. There are a number of studies promoting the benefits of generative AI but not many of them are focused on how to mitigate the potential misuses, especially in programming. To employ better policies in plagiarism and AI usage for programming, the study compares student perspectives about eleven conventional plagiarism scenarios to AI-assisted plagiarism scenarios. The study invites 87 programming students (CS1, introductory programming and CS2, data structure) as respondents while 66 of them accept the invitation. Respondents see AI assistance comparable to that of a colleague in the context of programming plagiarism. General policies of programming plagiarism can be easily expanded to cover AI-assisted plagiarism. CS1 students think that asking AI to fix troublesome code is more unacceptable than asking a colleague. CS2 students think subscribing to AI service to write the code is less unacceptable than paying a colleague to do so. CS2 students have better awareness of plagiarism in discussing how to approach a task and discussing code. \u00a9 The Author(s), under exclusive license to Springer Nature Switzerland AG 2025.",
+  "document_type": "Conference paper",
+  "year": 2025
+ },
+ {
+  "paper_id": "P784",
+  "title": "The Problem with False Positives: AI Detection Unfairly Accuses Scholars of AI Plagiarism",
+  "keywords": "practice guideline; diagnosis; algorithmic bias; vulnerability; plagiarism; human; device comparison; scholarly writing; false positive result; academic integrity; false positives; ai detection; ai plagiarism; decision making; note; algorithm bias; distrust; anxiety; fraud",
+  "abstract": "By examining the experiences of scholars from various institutions around the globe, this paper looks into how AI detection tools, which are meant to keep academic integrity intact, may backfire by unfairly accusing scholars of AI plagiarism. This paper shows that false positives disproportionately affect non-native English speakers and scholars with distinctive writing styles. This results in unwarranted accusations that may cause significant harm to their academic careers. Identified also in this paper are several critical issues with current AI detection tools, including algorithmic biases, vulnerabilities to manipulation, and a lack of understanding of context. These shortcomings not only make AI detection tools less effective but also create a climate of anxiety and distrust within academic communities. While scholars are dedicated to maintaining integrity in their writing, AI detection tools may tarnish their reputations by labeling them as cheaters or frauds based on some flawed AI detection results. Therefore, institutions should set clear guidelines and limitations on how AI and AI detection may be used in scholarly work. Also, they should ensure that scholars remain transparent about any AI involvement by including declarations on how it contributed to their writing process. While AI detection tools have value, a healthy skepticism is needed due to the risk of false positives and other limitations. Indeed, AI detection should complement human decision-making, not replace it. This approach could help create a fairer academic environment that balances innovation with the integrity scholars strive for in their work. \u00a9 2024, Published with license by Taylor & Francis Group, LLC. \u00a9 2024 Louie Giray.",
+  "document_type": "Note",
+  "year": 2024
+ },
+ {
+  "paper_id": "P785",
+  "title": "Plagiarism Check in the Era of AI",
+  "keywords": "",
+  "abstract": "",
+  "document_type": "Editorial",
+  "year": 2024
+ },
+ {
+  "paper_id": "P786",
+  "title": "New Ways of Plagiarism? At the Meeting Point of the Specific Form of Co-Authorship and the Transparency Criteria of the EU AI Regulation",
+  "keywords": "unlawful appropriation; ai assisted creation; (co-)authorship; transparency; copyright presumptions",
+  "abstract": "For decades, copyright law has been suffering from having to answer questions that are formulated in a coordinate system that is far removed from the context in which it was created, to which artificial intelligence (AI) has added a massive dimension. The present paper aims to draw attention to the fact that while the recent period has brought a strong scientific discourse on the distinction between AI-generated and AI-assisted content, dilemmas of methods of AI training, and on ethical issues, attention should be paid to related issues of practical, but also of dogmatic importance. On the one hand, it is necessary to examine what impact the current landscape and the EU\u2019s (essentially non-copyright) ambitions will have, or are having, on fundamental copyright concepts such as what is considered a work of authorship, how the proof of copyright is evolving, whether presumptions can be used in this regard, whether the categories that have been considered as such can really be objectively assessed, and whether a turnaround is expected in this respect. On the other hand, looking prospectively, it is worth examining how the evolving transparency rules can be used to restructure and adapt copyright, and what effects can be anticipated, despite the fact that the field is under strong competitive pressure. \u00a9 The Author(s) 2025.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P787",
+  "title": "Between the Muse and the Code: Exploring the boundaries of plagiarism and inspiration in the age of AI; [Entre la Musa y el C\u00f3digo: Explorando los l\u00edmites del plagio y la inspiraci\u00f3n en la era de la IA]",
+  "keywords": "technology; generative artificial intelligence; plagiarism; artificial intelligence",
+  "abstract": "In this chapter, I address some of the issues that arise with the implementation of generative artificial intelligence (GAI), particularly when the replacement of human professionals by this technology may be deemed inappropriate. I argue that this situation arises when the work of human professionals is alienated to become mere data used to train GAI models that, in turn, replace those same professionals. The foundation of my argument lies not so much in the output of these models, but rather in the relationship of these outputs with both the users and the human professionals who have contributed directly or indirectly to their generation. \u00a9 2024 Universidad de Malaga. All rights reserved.",
+  "document_type": "Review",
+  "year": 2024
+ },
+ {
+  "paper_id": "P788",
+  "title": "AI Open research Plagiarism Dupli Checker, Scribbr Plagiarism Checker, Quetext, Small SEO Tools Plagiarism Checker Web Technology: comparative study",
+  "keywords": "dupli checker; ai open research plagiarism; seo tools; scribbr; artificial intelligence",
+  "abstract": "Purpose: This paper mainly aims to explore the AI Open research Plagiarism Dupli Checker, Scribbr Plagiarism Checker, Quetext and Small SEO Tools Plagiarism Checker and provides a comparative study about the features and benefits. Design/methodology/approach: This study provides a check list for AI Open research Plagiarism Dupli Checker, Scribbr Plagiarism Checker, Quetext and Small SEO Tools Plagiarism Checker according to the features and limitations. Findings: After the analysis, it is found that DupliChecker scans up to 1,000 words per check; Scribbr, authorized partner of Turnitin, scans up to paid bases; Quetext offers free 500-word plagiarism and Small SEO Tools scans up to 1,000 words per check. The limitations noted are as follows: Dupli Checker provides limited checks per month, Quetext offers limited free scan and Small SEO Tools have limited features compared to other options. Research limitations/implications: This study shows the comparative study of AI Plagiarism online tools and is very useful for researchers and learners. The value of this study is to improve the user\u2019s experience and performance of AI plagiarism. Originality/value: This study shows the comparative study of AI Plagiarism online tools and is very useful for researchers and learners. This study finds out the user experience and awareness accessibility about the performance of open AI plagiarism feature and function. \u00a9 2024, Emerald Publishing Limited.",
+  "document_type": "Article",
+  "year": 2024
+ },
+ {
+  "paper_id": "P789",
+  "title": "Plagiarism in the Age of Generative AI: An Exploratory Experiment",
+  "keywords": "chatbots; generative ai; education; contrastive learning; students; authorship attribution; student learning; adverse effect; cheating; student response; generative adversarial networks; text analysis; authorship style; adversarial machine learning; courseworks; classification scheme",
+  "abstract": "Generative AI agents such as ChatGPT have created renewed concerns about the adverse effects of technology on students\u2019 learning through receiving unpermitted aid in their coursework. We conducted an exploratory experiment involving a typical college course assignment to detect and compare genuine student responses with responses generated by ChatGPT. Using a text classification scheme that we devised, we showed that student responses are fairly accurately distinguishable from AI\u2019s, not only when AI uses its general knowledge to answer questions, but also when it is prompted to use the same material used by students. In addition, we identified elements of authorship style, primarily related to formality, that can help humans set students\u2019 and AI\u2019s work apart. We also explored the strategies that students use and the depth at which they alter AI-generated content to make it \u201ctheir own\u201d. We found the alterations to be mostly moderate, and the modified text remained mostly detectable by our classification scheme. Overall, our results offer a transparent machine learning model for detecting AI-generated text, stylistic cues that can help humans detect such text, as well as insights into students\u2019 strategies when borrowing content from AI agents. \u00a9 2025 by the Association for Information Systems.",
+  "document_type": "Article",
+  "year": 2025
+ },
+ {
+  "paper_id": "P791",
+  "title": "Plagiarism Detection: Identifying AI-Generated and Paraphrased Content",
+  "keywords": "language complexity; semantics; burstiness; natural languages; processing model; plagiarism detection; ai detection; state of the art; comprehensive analysis; natural language processing systems; detection modules; language processing",
+  "abstract": "This report presents a comprehensive analysis of a demo application designed for AI detection and paraphrase detection using state-of-the-art natural language processing (NLP) models. The demo leverages the GPT-2 model for AI detection, evaluating the input text based on perplexity and burstiness scores to determine the likelihood of being generated by an AI. Additionally, the demo integrates a paraphrase detector utilizing BERT (Bidirectional Encoder Representations from Transformers) to identify similarities between input sentences. The GPT-2-based AI detection module assesses the input text's perplexity and burstiness scores, which serve as indicators of language complexity and repetition, respectively. Texts with high perplexity and low burstiness scores are flagged as potentially AI-generated. The paraphrase detection module, powered by BERT, employs semantic similarity techniques to compare input sentences and identify paraphrases or closely related sentences. Through a user-friendly interface, the demo allows users to input text for analysis and receive real-time feedback on AI likelihood and paraphrase similarity. The report provides insights into the implementation details, including the integration of the GPT-2 and BERT models, text preprocessing techniques, and result interpretation.  \u00a9 2024 IEEE.",
+  "document_type": "Conference paper",
+  "year": 2024
+ },
+ {
+  "paper_id": "P792",
+  "title": "AI-based plagiarism detectors: Plagiarism fighters or makers?",
+  "keywords": "",
+  "abstract": "Plagiarism damages the biomedical academic publication domain. Artificial intelligence (AI) is a rising hope in academic plagiarism hunting. However, new AI-based tools are available online to assist with plagiarising! This article presents plagiarism throughout history, especially in medicine, and the promises of AI to detect a new type of plagiarism, namely Aigiarism. The danger of the above-mentioned AI-based services to help in paraphrasing copied texts is also highlighted, including some proposed solutions. \u00a9 2023, European Medical Writers Association. All rights reserved.",
+  "document_type": "Article",
+  "year": 2023
+ },
+ {
+  "paper_id": "P794",
+  "title": "Educators, students, and plagiarism in age of AI",
+  "keywords": "students; student; plagiarism; artificial intelligence; humans; human",
+  "abstract": "",
+  "document_type": "Letter",
+  "year": 2023
+ },
+ {
+  "paper_id": "P796",
+  "title": "Aigiarism: Reframing our understanding of plagiarism in the age of ai",
+  "keywords": "",
+  "abstract": "",
+  "document_type": "Note",
+  "year": 2025
+ },
+ {
+  "paper_id": "P797",
+  "title": "THE AI PLAGIARISM MINEFIELD",
+  "keywords": "intellectual property; simple++",
+  "abstract": "It used to be easy to deduce if something is a copy - all you needed was a simple comparison. For most traditional plagiarism software, as long as enough of the text matched an original, it was easy to determine if it had been copied and passed off as original. Naturally, people who sought to profit from plagiarism found ways to avoid detection.",
+  "document_type": "Article",
+  "year": 2023
+ }
+]

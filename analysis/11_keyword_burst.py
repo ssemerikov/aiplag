@@ -12,6 +12,12 @@ from collections import Counter
 from utils.data_loader import load_and_clean
 from utils.viz_config import savefig, FIG_WIDE, FIG_SINGLE, FIGURE_DIR, ANALYSIS_DIR
 
+# The corpus search ran on 3 June 2026, so 2026 counts cover January-May only.
+# Plotting a truncated year beside complete ones implies a full-year value and
+# understates the true 2026 total; every temporal figure marks it explicitly.
+PARTIAL_YEAR = 2026
+PARTIAL_YEAR_NOTE = '2026 partial (Jan-May; search 3 Jun 2026)'
+
 def main():
     print("=" * 60)
     print("11 — Keyword Burst & Emergence Detection")
@@ -107,6 +113,15 @@ def main():
     ax.set_title('Keyword frequency timeline (top 15 keywords)')
     ax.invert_yaxis()
     ax.grid(axis='x', alpha=0.3)
+
+    # 2026 is a partial year: the search ran on 3 June 2026, so its counts cover
+    # January-May only and are not comparable with the complete years beside
+    # them (reviewer R1#6). Shade the column and say so on the axis.
+    if PARTIAL_YEAR in years:
+        ax.axvspan(PARTIAL_YEAR - 0.45, PARTIAL_YEAR + 0.45,
+                   color='#bab0ac', alpha=0.22, zorder=0)
+        ax.text(PARTIAL_YEAR, ax.get_ylim()[1], PARTIAL_YEAR_NOTE,
+                ha='center', va='bottom', fontsize=7, color='#666666')
     savefig(fig, 'fig_keyword_bursts.pdf')
 
     # 2. Emerging keywords chart

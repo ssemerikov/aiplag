@@ -3,7 +3,8 @@
     "mean": 11.57,
     "median": 1.0,
     "max": 1805,
-    "zero_count": 330
+    "zero_count": 330,
+    "zero_share": 0.4141
   },
   "by_year": {
     "mean": {
@@ -35,47 +36,363 @@
       "2026": 118
     }
   },
-  "regression": {
-    "formula": "Q(\"Cited by\") ~ years_since_pub + author_count + is_OA + is_article + keyword_count",
+  "exposure": {
+    "search_date": "2026-06-03",
+    "search_date_decimal": 2026.4192,
+    "note": "Exports carry only a publication year; exposure assumes uniform publication within each observed window.",
+    "by_year": {
+      "2022": 3.919,
+      "2023": 2.919,
+      "2024": 1.919,
+      "2025": 0.919,
+      "2026": 0.21
+    }
+  },
+  "oa_provenance": {
+    "Scopus": {
+      "False": 458,
+      "True": 304
+    },
+    "WoS": {
+      "False": 21,
+      "True": 14
+    }
+  },
+  "zero_diagnostic": {
+    "observed_zeros": 330,
     "n": 797,
-    "aic": 3919.74,
-    "bic": 3952.51,
+    "m1_nb_covariate_predicted_zeros": 356.2,
+    "m2_nb_offset_predicted_zeros": 342.6
+  },
+  "unmodelled_confounders": [
+    "paper quality (no proxy for novelty, rigour, or clarity)",
+    "author reputation and prior citation record",
+    "venue prestige (partially addressed via venue-clustered SEs)",
+    "self-citations (not removable: \"Cited by\" is an aggregate count with no citing-paper data in the export)",
+    "field-specific citation practices"
+  ],
+  "models": {
+    "m1_nb_covariate": {
+      "label": "NB (years since publication as covariate)",
+      "formula": "Q(\"Cited by\") ~ years_since_pub + author_count + is_OA + is_article + keyword_count",
+      "n": 797,
+      "aic": 3919.74,
+      "bic": 3952.51,
+      "llf": -1952.87,
+      "coefficients": {
+        "Intercept": {
+          "coef": -1.1633,
+          "std_err": 0.2642,
+          "z": -4.4032,
+          "p_value": 0.0,
+          "ci_low": -1.6812,
+          "ci_high": -0.6455
+        },
+        "years_since_pub": {
+          "coef": 1.2549,
+          "std_err": 0.0811,
+          "z": 15.473,
+          "p_value": 0.0,
+          "ci_low": 1.0959,
+          "ci_high": 1.4138
+        },
+        "author_count": {
+          "coef": 0.1143,
+          "std_err": 0.029,
+          "z": 3.9433,
+          "p_value": 0.0001,
+          "ci_low": 0.0575,
+          "ci_high": 0.1711
+        },
+        "is_OA": {
+          "coef": 0.9607,
+          "std_err": 0.1387,
+          "z": 6.9263,
+          "p_value": 0.0,
+          "ci_low": 0.6888,
+          "ci_high": 1.2325
+        },
+        "is_article": {
+          "coef": 1.0857,
+          "std_err": 0.154,
+          "z": 7.0493,
+          "p_value": 0.0,
+          "ci_low": 0.7838,
+          "ci_high": 1.3875
+        },
+        "keyword_count": {
+          "coef": -0.0345,
+          "std_err": 0.0098,
+          "z": -3.528,
+          "p_value": 0.0004,
+          "ci_low": -0.0536,
+          "ci_high": -0.0153
+        },
+        "alpha": {
+          "coef": 3.0457,
+          "std_err": 0.1824,
+          "z": 16.7019,
+          "p_value": 0.0,
+          "ci_low": 2.6883,
+          "ci_high": 3.4031
+        }
+      },
+      "predicted_zeros": 356.2
+    },
+    "m1_nb_venue_clustered": {
+      "label": "NB, standard errors clustered by venue",
+      "n_venues": 524,
+      "coefficients": {
+        "Intercept": {
+          "coef": -1.1633,
+          "std_err": 0.3101,
+          "z": -3.7516,
+          "p_value": 0.0002,
+          "ci_low": -1.7711,
+          "ci_high": -0.5556
+        },
+        "years_since_pub": {
+          "coef": 1.2549,
+          "std_err": 0.1071,
+          "z": 11.72,
+          "p_value": 0.0,
+          "ci_low": 1.045,
+          "ci_high": 1.4647
+        },
+        "author_count": {
+          "coef": 0.1143,
+          "std_err": 0.04,
+          "z": 2.8544,
+          "p_value": 0.0043,
+          "ci_low": 0.0358,
+          "ci_high": 0.1928
+        },
+        "is_OA": {
+          "coef": 0.9607,
+          "std_err": 0.2452,
+          "z": 3.9173,
+          "p_value": 0.0001,
+          "ci_low": 0.48,
+          "ci_high": 1.4413
+        },
+        "is_article": {
+          "coef": 1.0857,
+          "std_err": 0.2349,
+          "z": 4.6213,
+          "p_value": 0.0,
+          "ci_low": 0.6252,
+          "ci_high": 1.5461
+        },
+        "keyword_count": {
+          "coef": -0.0345,
+          "std_err": 0.0154,
+          "z": -2.2427,
+          "p_value": 0.0249,
+          "ci_low": -0.0646,
+          "ci_high": -0.0043
+        },
+        "alpha": {
+          "coef": 3.0457,
+          "std_err": 0.2565,
+          "z": 11.8762,
+          "p_value": 0.0,
+          "ci_low": 2.5431,
+          "ci_high": 3.5484
+        }
+      }
+    },
+    "m2_nb_offset": {
+      "label": "NB with log-exposure offset",
+      "formula": "Q(\"Cited by\") ~ author_count + is_OA + is_article + keyword_count + offset(log_exposure)",
+      "n": 797,
+      "aic": 3938.57,
+      "bic": 3966.66,
+      "llf": -1963.29,
+      "coefficients": {
+        "Intercept": {
+          "coef": 0.8903,
+          "std_err": 0.2086,
+          "z": 4.2687,
+          "p_value": 0.0,
+          "ci_low": 0.4815,
+          "ci_high": 1.299
+        },
+        "author_count": {
+          "coef": 0.0761,
+          "std_err": 0.0289,
+          "z": 2.6351,
+          "p_value": 0.0084,
+          "ci_low": 0.0195,
+          "ci_high": 0.1326
+        },
+        "is_OA": {
+          "coef": 0.976,
+          "std_err": 0.1408,
+          "z": 6.9336,
+          "p_value": 0.0,
+          "ci_low": 0.7001,
+          "ci_high": 1.2519
+        },
+        "is_article": {
+          "coef": 0.8615,
+          "std_err": 0.1557,
+          "z": 5.5326,
+          "p_value": 0.0,
+          "ci_low": 0.5563,
+          "ci_high": 1.1666
+        },
+        "keyword_count": {
+          "coef": -0.037,
+          "std_err": 0.01,
+          "z": -3.701,
+          "p_value": 0.0002,
+          "ci_low": -0.0566,
+          "ci_high": -0.0174
+        },
+        "alpha": {
+          "coef": 3.1183,
+          "std_err": 0.1874,
+          "z": 16.6415,
+          "p_value": 0.0,
+          "ci_low": 2.7511,
+          "ci_high": 3.4856
+        }
+      },
+      "predicted_zeros": 342.6
+    },
+    "m3_zinb": {
+      "label": "Zero-inflated NB (robustness check)",
+      "formula": "Q(\"Cited by\") ~ years_since_pub + author_count + is_OA + is_article + keyword_count",
+      "n": 797,
+      "aic": 3921.74,
+      "bic": 3959.19,
+      "llf": -1952.87,
+      "coefficients": {
+        "inflate_const": {
+          "coef": -16.7421,
+          "std_err": 367.5199,
+          "z": -0.0456,
+          "p_value": 0.9637,
+          "ci_low": -737.0678,
+          "ci_high": 703.5836
+        },
+        "Intercept": {
+          "coef": -1.1634,
+          "std_err": 0.2642,
+          "z": -4.4035,
+          "p_value": 0.0,
+          "ci_low": -1.6812,
+          "ci_high": -0.6456
+        },
+        "years_since_pub": {
+          "coef": 1.2549,
+          "std_err": 0.0811,
+          "z": 15.4732,
+          "p_value": 0.0,
+          "ci_low": 1.0959,
+          "ci_high": 1.4138
+        },
+        "author_count": {
+          "coef": 0.1143,
+          "std_err": 0.029,
+          "z": 3.9434,
+          "p_value": 0.0001,
+          "ci_low": 0.0575,
+          "ci_high": 0.1711
+        },
+        "is_OA": {
+          "coef": 0.9607,
+          "std_err": 0.1387,
+          "z": 6.9263,
+          "p_value": 0.0,
+          "ci_low": 0.6888,
+          "ci_high": 1.2325
+        },
+        "is_article": {
+          "coef": 1.0857,
+          "std_err": 0.154,
+          "z": 7.0496,
+          "p_value": 0.0,
+          "ci_low": 0.7838,
+          "ci_high": 1.3875
+        },
+        "keyword_count": {
+          "coef": -0.0345,
+          "std_err": 0.0098,
+          "z": -3.5279,
+          "p_value": 0.0004,
+          "ci_low": -0.0536,
+          "ci_high": -0.0153
+        },
+        "alpha": {
+          "coef": 3.0457,
+          "std_err": 0.1824,
+          "z": 16.7021,
+          "p_value": 0.0,
+          "ci_low": 2.6883,
+          "ci_high": 3.4031
+        }
+      },
+      "converged": true
+    }
+  },
+  "regression": {
+    "label": "NB with log-exposure offset",
+    "formula": "Q(\"Cited by\") ~ author_count + is_OA + is_article + keyword_count + offset(log_exposure)",
+    "n": 797,
+    "aic": 3938.57,
+    "bic": 3966.66,
+    "llf": -1963.29,
     "coefficients": {
       "Intercept": {
-        "coef": -0.0099,
-        "std_err": 0.2252,
-        "p_value": 0.9649
-      },
-      "years_since_pub": {
-        "coef": 1.2549,
-        "std_err": 0.0811,
-        "p_value": 0.0
+        "coef": 0.8903,
+        "std_err": 0.2086,
+        "z": 4.2687,
+        "p_value": 0.0,
+        "ci_low": 0.4815,
+        "ci_high": 1.299
       },
       "author_count": {
-        "coef": 0.1143,
-        "std_err": 0.029,
-        "p_value": 0.0001
+        "coef": 0.0761,
+        "std_err": 0.0289,
+        "z": 2.6351,
+        "p_value": 0.0084,
+        "ci_low": 0.0195,
+        "ci_high": 0.1326
       },
       "is_OA": {
-        "coef": 0.9607,
-        "std_err": 0.1387,
-        "p_value": 0.0
+        "coef": 0.976,
+        "std_err": 0.1408,
+        "z": 6.9336,
+        "p_value": 0.0,
+        "ci_low": 0.7001,
+        "ci_high": 1.2519
       },
       "is_article": {
-        "coef": 1.0857,
-        "std_err": 0.154,
-        "p_value": 0.0
+        "coef": 0.8615,
+        "std_err": 0.1557,
+        "z": 5.5326,
+        "p_value": 0.0,
+        "ci_low": 0.5563,
+        "ci_high": 1.1666
       },
       "keyword_count": {
-        "coef": -0.0345,
-        "std_err": 0.0098,
-        "p_value": 0.0004
+        "coef": -0.037,
+        "std_err": 0.01,
+        "z": -3.701,
+        "p_value": 0.0002,
+        "ci_low": -0.0566,
+        "ci_high": -0.0174
       },
       "alpha": {
-        "coef": 3.0457,
-        "std_err": 0.1824,
-        "p_value": 0.0
+        "coef": 3.1183,
+        "std_err": 0.1874,
+        "z": 16.6415,
+        "p_value": 0.0,
+        "ci_low": 2.7511,
+        "ci_high": 3.4856
       }
-    }
+    },
+    "predicted_zeros": 342.6
   }
 }

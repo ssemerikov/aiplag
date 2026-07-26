@@ -1,0 +1,702 @@
+[
+  {
+    "paper_id": "P683",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P333",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P264",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P401",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P641",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P042",
+    "orientation": "pedagogical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P310",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P260",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P626",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "low",
+    "note": "Reflective study; technical orientation and conceptual methodology also defensible"
+  },
+  {
+    "paper_id": "P048",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P795",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P276",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P774",
+    "orientation": "governance",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P287",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "low",
+    "note": "Critical interface analysis; conceptual essay reading plausible"
+  },
+  {
+    "paper_id": "P055",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P543",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P527",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P587",
+    "orientation": "governance",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P513",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P482",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P700",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P300",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P240",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P588",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P261",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P263",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P405",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P622",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P177",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P331",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P125",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P396",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P781",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "low",
+    "note": "Erratum notice; coded from corrected article title"
+  },
+  {
+    "paper_id": "P516",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P494",
+    "orientation": "governance",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P305",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P675",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P111",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P634",
+    "orientation": "pedagogical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P413",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P457",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P198",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P711",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P046",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P064",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P285",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P631",
+    "orientation": "governance",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P360",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P119",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P779",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P038",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P572",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P439",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P151",
+    "orientation": "pedagogical",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P489",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P550",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P279",
+    "orientation": "pedagogical",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P295",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P562",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P266",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P715",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P005",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P505",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P374",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "low",
+    "note": "System proposed; no evaluation evident in abstract"
+  },
+  {
+    "paper_id": "P187",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P693",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P268",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P218",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P307",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P106",
+    "orientation": "pedagogical",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P016",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P262",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P739",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P558",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P077",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P759",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P242",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P257",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P757",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P472",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P060",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P367",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P109",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P294",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P464",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P444",
+    "orientation": "pedagogical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P601",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P411",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P677",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P304",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P180",
+    "orientation": "technical",
+    "methodology": "conceptual",
+    "confidence": "medium",
+    "note": ""
+  },
+  {
+    "paper_id": "P415",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P577",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P134",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P371",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P790",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P394",
+    "orientation": "pedagogical",
+    "methodology": "empirical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P377",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P624",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "paper_id": "P793",
+    "orientation": "technical",
+    "methodology": "computational",
+    "confidence": "medium",
+    "note": ""
+  }
+]

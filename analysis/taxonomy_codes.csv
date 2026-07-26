@@ -1,0 +1,798 @@
+paper_id,orientation,methodology,confidence,double_coded,cluster,has_abstract,title
+P001,technical,computational,high,False,4.0,True,Boundary-Focused Large Language Model Adaptation for Style Change Detection in Multi-Authored Text
+P002,technical,computational,high,False,6.0,True,Educational integrity in the age of generative AI: an interpretable random forest-based detection framework
+P003,technical,computational,high,False,-1.0,True,Unveiling large language models generated texts: A multi-level fine-grained detection framework
+P004,technical,computational,high,False,6.0,True,AI Generated Text vs Human Written Text: An Efficient Detection Tool Using Machine Learning
+P005,pedagogical,empirical,medium,True,5.0,True,AI See What You Did There – The Prevalence of LLM-Generated Answers in MOOC Responses
+P006,technical,computational,medium,False,4.0,True,"Overview of PAN 2025: Voight-Kampff Generative AI Detection, Multilingual Text Detoxification, Multi-author Writing Style Analysis, and Generative Plagiarism Detection"
+P007,technical,computational,high,False,8.0,True,Using Machine Learning BERT Models for Plagiarism Detection: A Comprehensive Performance Analysis
+P008,governance,conceptual,high,False,2.0,True,"Heads we win, tails you lose: AI detectors in education"
+P009,pedagogical,conceptual,high,False,2.0,True,When AI writes the doctoral thesis: reclaiming the oral defence as a learning development intervention
+P010,governance,empirical,high,False,2.0,True,Toward more Sustainable Plagiarism Policies in an AI Higher Education Environment: a Student-Informed Case Study
+P011,pedagogical,conceptual,medium,False,2.0,True,A Systematic Review of Academic Integrity and Misconduct with Artificial Intelligence in Higher Education
+P012,technical,computational,high,False,3.0,True,AI-Driven Peer Company Identification: A Semantic Text-Similarity Approach Beyond Traditional Industry Classification Systems
+P013,pedagogical,empirical,high,False,2.0,True,How do college students weigh the reliability of AI in academic writing?
+P014,technical,computational,high,False,6.0,True,Collaborative Multi-Agent Method for Zero-Shot LLM-Generated Text Detection
+P015,technical,computational,high,False,6.0,True,Detecting AI-Generated Content: A Multi-Layered Approach for Web and Document Analysis
+P016,technical,computational,high,True,6.0,True,A Multirepresentation Stacked Ensemble for AI-Generated Text Detection
+P017,pedagogical,conceptual,high,False,2.0,True,Educational integrity in GenAI-augmented assessment: making judgement visible
+P018,technical,computational,high,False,3.0,True,Explainable address matching in online geocoding: filter-based feature selection and ensemble classification
+P019,pedagogical,empirical,high,False,2.0,True,"Results from two decades of five-yearly plagiarism surveys: new insights into prevalence, understanding, attitudes, knowing vs naïve plagiarism, and generative artificial intelligence (genAI)"
+P020,technical,computational,high,False,6.0,True,CNN-MAMBAv2: detecting AI-generated text in low-resource languages using multilingual language models
+P021,technical,computational,high,False,4.0,True,Stylometry Analyzis of Human and Machine Text for Academic Integrity
+P022,technical,computational,low,False,9.0,True,"End-to-End Academic Project Authenticity Verification and Enhancement Recommendation Solution via Blockchain Achoring, FAISS-Based Similarity Search, and Multi-Stage AI Analysis"
+P023,technical,computational,high,False,6.0,True,Contrastive siamese network for detecting AI-generated text across domains and models
+P024,pedagogical,empirical,high,False,2.0,True,Academic Integrity and Students’ Ethical Use of ChatGPT in Higher Education
+P025,technical,computational,high,False,-1.0,True,Detecting LLM-Assisted Academic Dishonesty using Keystroke Dynamics
+P026,technical,computational,high,False,6.0,True,ColorFP: Improving AI-Generated Text Detection via Fixed Vocabulary Partitioning and Half-Bit Fingerprinting
+P027,technical,computational,low,False,-1.0,True,A Reverse Image Search Engine to Detect Similarities and Plagiarism Cases (I-Check)
+P028,governance,conceptual,high,False,4.0,True,Ethics in publishing: From plagiarism to artificial intelligence
+P029,technical,computational,high,False,0.0,True,Semantic Similarity-based Academic Descriptive Answer Evaluator Leveraging Machine Learning and Business Intelligence
+P030,technical,computational,high,False,6.0,True,Not all tokens are created equal: Perplexity Attention Weighted Networks for AI-generated text detection
+P031,governance,empirical,high,False,2.0,True,The Procedures of Investigating Academic Misconduct: Perspectives from Academic Staff at a UK Russell Group University
+P032,technical,conceptual,high,False,7.0,True,Deep Learning Techniques for Image Plagiarism Detection: A Systematic Review
+P033,governance,empirical,high,False,4.0,True,Dramatic increases in redundant publications in the Generative AI era
+P034,technical,conceptual,high,False,6.0,True,AI-Generated Text Detection: A Comprehensive Review of Active and Passive Approaches
+P035,governance,conceptual,medium,False,2.0,True,Safeguarding Ethics and Academic Integrity in the Age of Generative Artificial Intelligence: A Case Study on Plagiarism Prevention
+P036,pedagogical,empirical,high,False,2.0,True,Clashing AIs: Artificial Intelligence Literacy and Academic Integrity in an EFL Context
+P037,technical,computational,high,False,3.0,True,A similarity-based oversampling method for multi-label imbalanced text data
+P038,technical,conceptual,high,True,4.0,True,AI-Generated Text Detection Methods: A Review
+P039,technical,conceptual,medium,False,-1.0,True,Using AI to control AI-assisted plagiarism in L2 writing: a critical review of the literature
+P040,technical,conceptual,medium,False,-1.0,True,"A Systematic Survey of AI-Generated Text Detection, Humanization, and Grammar Correction Techniques"
+P041,technical,computational,high,False,6.0,True,Multi-scale feature fusion-based dynamic framework using continual learning to identify text generated by multiple large language models
+P042,pedagogical,conceptual,high,True,2.0,True,AI-Aware Process Writing Pedagogy: Rethinking the Process-Based Approach
+P043,governance,conceptual,high,False,,False,"Artificial intelligence (AI) in academic publishing: Legitimate use, plagiarism detection, and ethical challenges"
+P044,technical,conceptual,medium,False,10.0,True,Artificial Intelligence Implementation for Plagiarism Detection in Arab Scientific Publications
+P045,technical,computational,high,False,7.0,True,"A Unified Multi-Modal System for Image Forgery, Text Plagiarism, and AI-Generated Content Detection"
+P046,technical,computational,high,True,0.0,True,Mapping Moodle Resources to Course Topics Using Text Similarity Methods and Expert Evaluation
+P047,pedagogical,empirical,high,False,2.0,True,What Does YouTube Advise Students About Bypassing AI-Text Detection Tools? A Pragmatic Analysis
+P048,technical,computational,high,True,6.0,True,Detecting AI-generated essays using fine-tuned XLNet-CNN hybrid techniques: a study of the academic integrity challenge
+P049,technical,computational,high,False,-1.0,True,Synergizing linguistic features and transformer networks for detecting AI-generated text
+P050,technical,computational,high,False,6.0,True,Zero-shot detection of LLM-generated text via dual-network preference divergence
+P051,technical,computational,high,False,6.0,True,Developing a Machine Learning Model to Detect AI-Generated Text in Arabic and English Languages
+P052,pedagogical,empirical,high,False,2.0,True,Using ChatGPT to Reduce Academic Misconduct in a Systems Analysis Course: a Case Study
+P053,technical,computational,high,False,-1.0,True,Detecting LLM-generated peer reviews: A syntactic-semantic collaborative framework with rhetorical structure analysis
+P054,technical,computational,high,False,1.0,True,AI-Generated Code Detection: An Examination of Current Tools in Education
+P055,technical,computational,high,True,6.0,True,Detecting AI-Generated Vietnamese News Articles with Multilingual-E5 and BERT
+P056,technical,computational,high,False,7.0,True,Plagiarism Detection of Student Assignments: The Application of Retrieval-Augmented Generation and Vector Database
+P057,governance,conceptual,medium,False,2.0,True,Academic integrity in the age of AI: challenges and strategies for African higher education
+P058,technical,computational,high,False,6.0,True,HQML-NLP: A hybrid quantum machine learning framework for scholarly AI-text detection
+P059,technical,computational,high,False,6.0,True,Robust AI generated text detection through multi-grained latent feature denoising and contrastive representation learning
+P060,pedagogical,empirical,high,True,2.0,True,When ChatGPT becomes a shortcut: psychological predictors of student plagiarism threshold
+P061,technical,computational,high,False,2.0,True,Trusting AI to detect AI? A systematic evaluation of the reliability and robustness of current AIGC detection tools for student academic work
+P062,technical,computational,high,False,6.0,True,Zero-shot detection of LLM-generated text via multilevel information compression and multidimensional feature fusion
+P063,technical,computational,high,False,0.0,True,Leveraging Transformers and LLMs for Automated Grading and Feedback Generation Using a Novel Dataset
+P064,technical,computational,high,True,6.0,True,Cross-Domain detection of AI-Generated text: Integrating linguistic richness and lexical pair dispersion via deep learning
+P065,technical,computational,high,False,8.0,True,The power of text similarity in identifying AI-LLM paraphrased documents: The case of BBC news articles and ChatGPT
+P066,technical,computational,high,False,6.0,True,A novel hybrid approach based on self-supervised transformers and explainable AI for multilingual fake text detection
+P067,pedagogical,conceptual,high,False,2.0,True,Offloading Learning to a Stochastic Parrot: Generative AI’s Impacts on Academic Integrity and the Current State of Best Practices
+P068,technical,computational,high,False,4.0,True,Testing the Limits: Evaluating AI Detectors’ Accuracy and the Impact of Obfuscation Techniques on AI-Generated Text
+P069,technical,computational,medium,False,10.0,True,"The Impact of Language Translation on Plagiarism Rates: Evidence from Turnitin, iThenticate, and Grammarly"
+P070,pedagogical,empirical,high,False,2.0,True,"Antecedents and Effects of ChatGPT Usage: Insights into Awareness, Ethics, and Plagiarism Risks"
+P071,technical,computational,high,False,6.0,True,AI-generated text detection via multilevel Zipf’s law
+P072,technical,computational,high,False,6.0,True,A Comprehensive Evaluation of Fine-Tuned LLMs as AI-Generated Text Detectors under Adversarial and Multi-Domain Conditions
+P073,technical,computational,high,False,6.0,True,AI-Generated Text Detection: A Hybrid CNN-BiLSTM and BERT-Based Large Language Model Approach
+P074,technical,computational,low,False,4.0,True,"Overview of PAN 2026: Voight-Kampff Generative AI Detection, Text Watermarking, Multi-author Writing Style Analysis, Generative Plagiarism Detection, and Reasoning Trajectory Detection"
+P075,technical,computational,high,False,6.0,True,Span-level detection of AI-generated scientific text via contrastive learning and structural calibration
+P076,pedagogical,empirical,high,False,2.0,True,Beyond Detection: How Students Use—and Hide—AI in Online Assessments and What Authentic Tasks Can Do About It
+P077,pedagogical,empirical,high,True,2.0,True,Investigating university students’ perceptions of plagiarism in the use of ChatGPT: an explanatory mixed-method study
+P078,governance,empirical,medium,False,4.0,True,Human versus artificial intelligence: investigating ability of young academics from research and non-research institutions to identify ChatGPT-generated dental research abstracts
+P079,governance,empirical,medium,False,2.0,True,Promoting the Culture of Academic and Research Integrity in a Higher Education Environment in Pakistan: A Qualitative Study
+P080,technical,computational,medium,False,5.0,True,AI-Generated Essays: Characteristics and Implications on Automated Scoring and Academic Integrity
+P081,technical,conceptual,medium,False,-1.0,True,"Generative AI and Large Language Models: A Review of Applications, Detection, and Future Directions"
+P082,pedagogical,empirical,high,False,2.0,True,"Understanding Academic Integrity Beliefs, Motivations and Behaviors Amongst Postgraduate Students: a Comparative Analysis of Public and Private Sector Universities in Punjab, Pakistan"
+P083,technical,computational,high,False,3.0,True,A text date-driven multi-criteria decision making method with linguistic intuitionistic multiplicative information and its application in product recommendation
+P084,technical,conceptual,high,False,9.0,True,Can we trust the source? A systematic review of watermarking and attribution for AI-generated code
+P085,technical,computational,high,False,6.0,True,Detecting AI-generated text in high-resource languages: developing a RoBERTa-CNN hybrid model for academic integrity challenge
+P086,technical,computational,high,False,6.0,True,Style-First Authorship Verification for Academic Integrity in the Generative AEra (Student Abstract)
+P087,pedagogical,empirical,high,False,2.0,True,Exposing ChatGPT-Assisted Plagiarism in Student Assessment in Higher Education: Linguistic and Non-linguistic Clues
+P088,technical,computational,high,False,-1.0,True,DeTinyLLM: Efficient detection of machine-generated text via compact paraphrase transformation
+P089,technical,computational,high,False,6.0,True,A Comparison of DeepSeek and other LLMs
+P090,technical,computational,high,False,3.0,True,Structure Observation Driven Image-Text Contrastive Learning for Computed Tomography Report Generation
+P091,technical,computational,high,False,6.0,True,Classifying human vs. AI text with machine learning and explainable transformer models
+P092,pedagogical,empirical,high,False,2.0,True,The plagiarism prevention strategies in Sri Lankan Universities: perceptions of teachers
+P093,pedagogical,empirical,medium,False,2.0,True,A Comparative Analysis of the Prevalence of Artificial Intelligence and Plagiarism in Doctoral Dissertations Using Turnitin
+P094,technical,computational,high,False,3.0,True,Text similarity based on two independent channels: Siamese Convolutional Neural Networks and Siamese Recurrent Neural Networks
+P095,technical,computational,high,False,7.0,True,Video Content Plagiarism Detection Using Region-Based Feature Learning
+P096,technical,computational,high,False,6.0,True,SILTD: Structural Information for LLM-Generated Text Detection
+P097,technical,conceptual,high,False,-1.0,True,"AI-generated text detection: A comprehensive review of methods, datasets, and applications"
+P098,pedagogical,empirical,high,False,2.0,True,Detecting the Digital Ghostwriter in the Classroom: Accuracy of Pedagogy Students in Identifying AI-Generated Essays
+P099,technical,computational,high,False,-1.0,True,Comparison of algorithms for the recognition of ChatGPT paraphrased texts
+P100,pedagogical,empirical,high,False,2.0,True,Exploring Vietnamese students’ plagiarism awareness and actual practices through using of ChatGPT as a learning tool
+P101,technical,computational,high,False,3.0,True,Automatic Determination of Semantic Similarity of Student Answers with the Reference Answer Using Modern Models
+P102,pedagogical,conceptual,medium,False,2.0,True,Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies
+P103,technical,computational,high,False,-1.0,True,Out-of-the-Box Large Language Models for Detecting and Classifying Critical Findings in Radiology Reports Using Various Prompt Strategies
+P104,pedagogical,empirical,medium,False,1.0,True,Online Platform to Inform GenAI Misuse in Programming Through Code Differences
+P105,technical,computational,high,False,8.0,True,Intelligent text similarity assessment using Roberta with integrated chaotic perturbation optimization techniques
+P106,pedagogical,conceptual,low,True,2.0,True,"Global Trends in Education: Artificial Intelligence, Postplagiarism, and Future-focused Learning for 2025 and Beyond – 2024–2025 Werklund Distinguished Research Lecture"
+P107,pedagogical,empirical,high,False,2.0,True,"Is copy and paste part of academic misconduct? The roles of attitude, experience and self-efficacy in judgment"
+P108,technical,conceptual,high,False,0.0,True,A Survey of Models for Automatic Assessment of Similarity of Student’s Answer to the Reference Answer
+P109,technical,computational,high,True,-1.0,True,TriPlaNet: Enhancing machine-paraphrasing plagiarism detection through triplet network and contrastive learning
+P110,pedagogical,conceptual,high,False,2.0,True,Redefining assessment tasks to promote students’ creativity and integrity in the age of generative artificial intelligence
+P111,technical,computational,high,True,3.0,True,New patent text similarity methods with a comprehensive understanding of SAO semantics
+P112,technical,computational,high,False,4.0,True,Can we trust academic AI detective? Accuracy and limitations of AI-output detectors
+P113,technical,computational,high,False,-1.0,True,Verified Language Processing with Hybrid Explainability †
+P114,technical,computational,high,False,6.0,True,Linguistic Differences Between AI and Human Comments in Weibo: Detect AI-Generated Text Through Stylometric Features
+P115,technical,computational,high,False,6.0,True,ESPERANTO: Evaluating Synthesized Phrases to Enhance Robustness in AI Detection for Text Origination
+P116,technical,computational,high,False,4.0,True,Can We Trust AI Content Detection Tools for Critical Decision-Making?
+P117,technical,computational,high,False,6.0,True,Combining style and semantics for robust authorship verification
+P118,pedagogical,conceptual,medium,False,2.0,True,Encouraging Student Success Through Engagement and Efficient Use of AI
+P119,technical,computational,high,True,6.0,True,Assessing Bi-LSTM Model’s Performance in Identifying AI-Generated Text in Digital Media
+P120,technical,computational,high,False,6.0,True,Robust Classification of Human Written vs LLM Generated Essay Using Adversarial Training
+P121,technical,computational,high,False,3.0,True,Document Similarity Detection for Project Development Using Fused Interactive Attention Mechanisms
+P122,technical,computational,high,False,5.0,True,AI-generated or AI touch-up? Identifying AI contribution in text data
+P123,technical,conceptual,high,False,2.0,True,Survey on AI-Generated Plagiarism Detection: The Impact of Large Language Models on Academic Integrity
+P124,governance,empirical,medium,False,4.0,True,Evaluation of the impact of large language learning models on publications in the Journal of Shoulder and Elbow Surgery
+P125,technical,computational,high,True,6.0,True,Leveraging Explainable AI for LLM Text Attribution: Differentiating Human-Written and Multiple LLM-Generated Text
+P126,technical,computational,high,False,6.0,True,Transformer-Enhanced Contextual Discriminator for Robust Detection of AI-Generated Texts
+P127,pedagogical,empirical,high,False,2.0,True,"AI detectors, student anxiety, and authorial alienation: a qualitative study of affective control"
+P128,technical,computational,high,False,3.0,True,Enhancing Text Similarity Measurement with Hybrid Siamese Neural Networks and Lexical Features
+P129,technical,computational,high,False,6.0,True,A Hybrid Syntactic–Statistical–Semantic Framework for Detecting AI-Generated Text Across Domains
+P130,technical,computational,high,False,7.0,True,Unlocking the Potential of Transformers with mT5 and Attention Mechanisms in Multilingual Plagiarism Detection
+P131,pedagogical,empirical,high,False,2.0,True,Artificial intelligence and academic integrity: exploring plagiarism in Ecuadorian universities
+P132,technical,computational,high,False,6.0,True,Bridging the Gap: Ensemble Learning-Based NLP Framework for AI-Generated Text Identification in Academia
+P133,technical,computational,high,False,5.0,True,Beyond Words: An Advanced Ensemble Framework for Unmasking AI-Generated Content Through Linguistic Fingerprinting
+P134,technical,computational,high,True,7.0,True,M-GenCheck2: Fast Detection and Source Attribution of AI-Generated Images Using Deep Learning
+P135,technical,computational,high,False,6.0,True,Interpretable Multi-Label Classification of Human-and Large Language Model-Generated Texts Using Transformer Embeddings and Explainable Artificial Intelligence
+P136,technical,computational,high,False,-1.0,True,Detection of artificial intelligence-generated essays for academic assessment integrity using large language models
+P137,technical,computational,high,False,3.0,True,IPO ForeSight: Intelligent Draft Prospectus Analysis System
+P138,technical,computational,medium,False,4.0,True,"Assessing the Performance of 8 AI Chatbots in Bibliographic Reference Retrieval: Grok and DeepSeek Outperform ChatGPT, but None are Entirely Accurate"
+P139,technical,computational,high,False,3.0,True,Harnessing generative AI for personalized E-commerce product descriptions: A framework and practical insights
+P140,technical,computational,high,False,1.0,True,Zero-Shot Detection of LLM-Generated Code via Approximated Task Conditioning
+P141,technical,computational,high,False,0.0,True,The Utilisation of TF-IDF and Cosine Similarity for Automating Course Waivers in Academic Institutions
+P142,governance,empirical,high,False,-1.0,True,Voices of Researchers: Ethics and Artificial Intelligence in Qualitative Inquiry
+P143,technical,computational,high,False,6.0,True,ChatGPT Generated Text Detection Based on Deep Learning (Sequential and Transform) Techniques
+P144,technical,computational,high,False,-1.0,True,Urdu Sentential Paraphrased Plagiarism Detection Using Large Language Models
+P145,technical,computational,high,False,-1.0,True,Score-Guided Identification of Optimal Explanations for Conditional Text Similarity
+P146,technical,computational,high,False,3.0,True,Comparison of Text Similarity Techniques for Power of Attorney Clauses for Polish Banks
+P147,pedagogical,conceptual,high,False,2.0,True,Are Teachers Assessing Work Written by Students or by AI? A Rapid Literature Review of Research on Detecting Content Generated by Generative AI
+P148,technical,computational,medium,False,-1.0,True,Academic Profile Management: Benchmarking DeepSeek-R1 for Publication and Citation Data
+P149,technical,computational,high,False,3.0,True,Vector Semantics at Scale: An AI Pipeline for Financial Text Similarity
+P150,pedagogical,conceptual,low,False,2.0,True,Problem of Machine-Generated Texts in the Academic Environment of Students
+P151,pedagogical,conceptual,medium,True,2.0,True,"Integrating Generative Artificial Intelligence in Midwifery Education: Balancing Innovation, Ethics, and Academic Integrity"
+P152,technical,computational,high,False,3.0,True,Review Helpfulness to Support Business: Identifying Fake Reviews from User-Generated Content Using Random Forest
+P153,pedagogical,empirical,high,False,2.0,True,Pre-service Teachers’ Use of ChatGPT and Acquired Moral Dissonance
+P154,technical,computational,high,False,-1.0,True,Lock the look: Recommending trendy looks for fashion products using natural language processing
+P155,pedagogical,empirical,high,False,2.0,True,Understanding PSE students’ reactions to the postplagiarism concept: a quantitative analysis
+P156,governance,conceptual,high,False,4.0,True,Exploring the ethical landscape of AI in academic writing
+P157,technical,computational,high,False,-1.0,True,Urdu paraphrased text reuse and plagiarism detection using pre-trained large language models and deep hybrid neural networks
+P158,pedagogical,empirical,high,False,2.0,True,Perspectives on Potential Plagiarism Triggered by AI Among Chinese University Students
+P159,pedagogical,empirical,medium,False,2.0,True,Replication: A Pedagogical Tool for Teaching Ethical Practices to Future Software Engineers
+P160,technical,conceptual,high,False,-1.0,True,A Systematic Review of Multilingual Plagiarism Detection: Approaches and Research Challenges
+P161,technical,computational,high,False,6.0,True,Modeling the Attack: Detecting AI-Generated Text by Quantifying Adversarial Perturbations
+P162,governance,conceptual,high,False,4.0,True,Copyright Law and the Use of Artificial Intelligence in Academic Works in the Thai Higher Educational Institutions
+P163,technical,computational,high,False,6.0,True,GenDetect-GAN: generative adversarial network model for machine-generated text detection
+P164,pedagogical,empirical,high,False,2.0,True,"Examining the dynamics of plagiarism: a comparative analysis before, during, and after the COVID-19 pandemic"
+P165,technical,computational,high,False,-1.0,True,DEVELOPMENT OF AN INFORMATION TECHNOLOGY FOR DETECTING THE SOURCES AND NETWORKS OF DISINFORMATION DISSEMINATION IN CYBERSPACE BASED ON MACHINE LEARNING METHODS
+P166,technical,computational,high,False,6.0,True,Responsible Detection and Mitigation of AI-Generated Text Using Hybrid Neural Networks and Feature Fusion: Toward Trustworthy Content Management in the Era of Large Language Models
+P167,pedagogical,empirical,high,False,2.0,True,AI and Academic Integrity: Exploring Student Perceptions and Implications for Higher Education
+P168,technical,computational,high,False,9.0,True,Design and Implementation of Online Judge System Based on K-means Algorithm for Anti-Plagiarism
+P169,governance,conceptual,medium,False,2.0,True,Evaluating the Effectiveness and Ethical Implications of AI Detection Tools in Higher Education
+P170,technical,empirical,medium,False,5.0,True,BEYOND DETECTION: UNDERSTANDING HUMAN– SYNTHETIC DISCURSIVITY IN THE AGE OF AI TEXT GENERATION
+P171,pedagogical,empirical,medium,False,2.0,True,"ChatGPT-Driven Intelligent Educational Assessment: Algorithm, Challenges, and Ethical Considerations"
+P172,pedagogical,empirical,high,False,2.0,True,ChatGPT in Academia: University Students’ Attitudes Towards the use of ChatGPT and Plagiarism
+P173,technical,computational,high,False,7.0,True,Overview of the Plagiarism Detection Task at PAN 2025
+P174,pedagogical,empirical,high,False,2.0,True,An Exploration of Faculty and Student Perceptions of Generative AI
+P175,pedagogical,empirical,medium,False,-1.0,True,The Dilemma of Academic Writing in the AI Era: Technological Empowerment and the Tension of Regulation-A Topic Modeling Study Based on Xiaohongshu User Discussions
+P176,technical,computational,high,False,5.0,True,The Reliability of AI Text Detectors on Filipino Student Essays
+P177,technical,computational,high,True,1.0,True,What are the differences between student and ChatGPT-generated pseudocode? Detecting AI-generated pseudocode in high school programming using explainable machine learning
+P178,technical,computational,high,False,6.0,True,A Sentence-level AI-Generated Text Detection Approach with Fine-Tuned BERT
+P179,technical,computational,high,False,3.0,True,Detecting Misinformation on Social Media using Community Insights and Contrastive Learning
+P180,technical,conceptual,medium,True,4.0,True,LLMs and Generative AI for the Detection and Generation of Scientific Content
+P181,technical,computational,high,False,6.0,True,DivEye at PAN 2025: Diversity Boosts AI-Generated Text Detection
+P182,technical,computational,high,False,9.0,True,A Comparative Study of Source Code Plagiarism Detection Tools for Programming Education
+P183,technical,computational,high,False,3.0,True,Contrastive Learning Model Based on Text-Visual and Information Entropy Minimization; [基 于 文 本 -视 觉 和 信 息 熵 最 小 化 的 对 比 学 习 模 型]
+P184,governance,empirical,medium,False,2.0,True,Generative AI and Academic Research: A Review of the Policies from Selected HEIs
+P185,technical,computational,high,False,8.0,True,A Survey on Paraphrase Detection in Medical Field Using Deep Learning
+P186,technical,computational,high,False,7.0,True,Using Semantic Similarity and Overlap Ratio Optimized for Generated Plagiarism Detection
+P187,technical,conceptual,high,True,3.0,True,Comparative Analysis of Text Similarity Algorithms and Their Practical Applications in Computer Science
+P188,technical,computational,high,False,1.0,True,GRAD-AI: An automated grading tool for code assessment and feedback in programming course
+P189,technical,computational,high,False,6.0,True,Zero-shot detection of LLM-generated text via text reorder
+P190,technical,computational,high,False,6.0,True,Literal Re-translation as a Method for AI Text Disguise and Detection Evasion
+P191,technical,conceptual,medium,False,5.0,True,Distinguishing AI-Generated and Human-Written Text Through Psycholinguistic Analysis
+P192,pedagogical,empirical,high,False,2.0,True,"Generative AI in Higher Education: Uncertain Students, Ambiguous Use Cases, and Mercenary Perspectives"
+P193,governance,conceptual,high,False,4.0,True,Plagiarism in the system of academic integrity in medical research (part 2)
+P194,pedagogical,conceptual,medium,False,2.0,True,The Plagiarism Pandemic—Confronting Cheating in the Tech Era: Rejoinder to “The Next Generation of Pedagogy: Reflections from EdTech Leaders”
+P195,technical,computational,high,False,7.0,True,Integrating conceptual and visual representations with domain expertise for scalable visual plagiarism detection
+P196,technical,computational,high,False,5.0,True,"CROSS-LINGUISTIC EVALUATION OF AI-GENERATED TEXT DETECTION: A COMPARATIVE STUDY ON ENGLISH AND INDONESIAN USING PRECISION, RECALL AND F1 SCORE"
+P197,technical,computational,high,False,6.0,True,AI-Generated Text Detection and Source Identification
+P198,technical,computational,high,True,7.0,True,Melodic Integrity: Enhanced Approach for Music Generation and Plagiarism Detection Model
+P199,pedagogical,empirical,high,False,2.0,True,Interplay of rationality and morality in using ChatGPT for academic misconduct
+P200,technical,computational,high,False,6.0,True,Can We Distinguish? A Deep Learning Approach to AI-Generated Content Detection
+P201,technical,computational,high,False,6.0,True,Human vs AI-Generated Text Detection Using IndoBERT Algorithm for Different Types of Text
+P202,technical,computational,high,False,5.0,True,"SOFTWARE DETECTION OF UKRAINIAN-LANGUAGE TEXTS GENERATED BY AI: METHODS, ESTIMATIONS, CHALLENGES; [Програмне виявлення україномовних текстів, згенерованих ШІ: методи, оцінки, виклики]"
+P203,technical,computational,medium,False,5.0,True,Exploring Human-AI Collaboration in Educational Contexts: Insights from Writing Analytics and Authorship Attribution
+P204,technical,conceptual,medium,False,4.0,True,"Overview of PAN 2025: Generative AI Detection, Multilingual Text Detoxification, Multi-author Writing Style Analysis, and Generative Plagiarism Detection: Extended Abstract"
+P205,technical,computational,high,False,6.0,True,Detecting Human vs AI-Generated Text in Urdu: A Comparative Study of Deep Learning and Transformer Models
+P206,technical,computational,high,False,10.0,True,Enhancing plagiarism detection using data pre-processing and machine learning approach
+P207,technical,conceptual,medium,False,7.0,True,Multi-Modal Plagiarism Detection in the Era of AI: A Comprehensive Review and Novel Framework Proposal
+P208,governance,conceptual,medium,False,2.0,True,Ensuring Research Excellence: The Indispensable Role of Academic Integrity
+P209,technical,computational,high,False,2.0,True,Precision check: A critical look at the reliability of AI detection tools
+P210,technical,computational,medium,False,2.0,True,AI on Academic Integrity and Plagiarism Detection
+P211,technical,computational,high,False,9.0,True,Comparing Machine Learning and Deep Learning Models With Attention Mechanisms for Multiple Source Code Authorship Attribution
+P212,technical,computational,low,False,2.0,True,AI and Plagiarism: Detection & Ethical Usage
+P213,technical,computational,high,False,0.0,True,Hybrid ANN-Based and Text Similarity Method for Automatic Short-Answer Grading in Polish
+P214,technical,computational,high,False,6.0,True,Multi-Class Detection of Humanized AI Text Using Machine Learning and Transformer Models
+P215,technical,computational,high,False,8.0,True,BERT-PLAG: Fine-Tuning Large Language Models for Enhanced Paraphrase and Semantic Similarity Detection in Academic Content
+P216,technical,computational,high,False,6.0,True,Team SINAI-INTA at PAN 2025: Uncovering Machine Generated Text with Linguistic Features
+P217,technical,computational,high,False,6.0,True,A Feature-based Linguistic and Statistical Framework for AI-Generated Text Detection
+P218,technical,conceptual,high,True,10.0,True,The Role of Artificial Intelligence in Combating Plagiarism: A Comprehensive Overview
+P219,technical,computational,high,False,-1.0,True,NLP-Driven Plagiarism Detection: A Smarter Approach
+P220,technical,computational,high,False,-1.0,True,Who Writes What: Unveiling the Impact of Author Roles on AI-generated Text Detection
+P221,governance,empirical,medium,False,2.0,True,"Generative large language models and academic integrity: ethical risks, detection challenges, and Governance in the age of AI"
+P222,technical,computational,high,False,-1.0,True,AI Content Self-Detection for Transformer-Based Large Language Models
+P223,pedagogical,empirical,medium,False,2.0,True,Analyzing the Impact of ChatGPT on Student Over-Reliance and Plagiarism using Artificial Neural Network (ANN)
+P224,technical,conceptual,medium,False,2.0,True,AI Tools for Plagiarism Detection and Academic Integrity
+P225,technical,computational,high,False,6.0,True,"Contrast First, Classify Later: Fine-Grained Self-Supervised Contrastive Pretraining for AI-Generated Text Detection"
+P226,technical,computational,high,False,-1.0,True,"Stylometry-driven framework for Urdu intrinsic plagiarism detection: a comprehensive analysis using machine learning, deep learning, and large language models"
+P227,technical,computational,medium,False,4.0,True,Semantic Similarity Detection of AI-Generated Academic Content: A Temporal Analysis Using Machine Learning Techniques
+P228,technical,computational,high,False,-1.0,True,Explainable Identification of Similarities Between Entities for Discovery in Large Text
+P229,technical,computational,medium,False,-1.0,True,Machine Learning based Plagiarism Detection for Textual and Visual Content
+P230,technical,computational,high,False,6.0,True,MLSDET: Multi-LLM Statistical Deep Ensemble for Chinese AI-Generated Text Detection
+P231,pedagogical,empirical,high,False,2.0,True,Reducing AI plagiarism through assessment of higher-order cognitive skills
+P232,technical,conceptual,medium,False,6.0,True,Enhancing the Robustness of AI-Generated Text Detectors: A Survey
+P233,technical,computational,high,False,6.0,True,Efficient AI-Generated Text Detection Based on Contrastively Enhanced Hybrid Features and Support Vector Machine
+P234,governance,empirical,medium,False,3.0,True,"Research on the Effectiveness of China's Green Finance Policy Synergy under the ""dual Carbon""?"
+P235,technical,computational,high,False,5.0,True,EssayDetect at GenAI Detection Task 2: Guardians of Academic Integrity: Multilingual Detection of AI-Generated Essays
+P236,technical,computational,high,False,-1.0,True,A Deep Learning Approach for Paragraph-Level Paraphrase Generation for Plagiarism Detection
+P237,technical,computational,high,False,6.0,True,Robustness of Classifiers for AI-Generated Text Detectors for Copyright and Privacy Protected Society
+P238,pedagogical,computational,medium,False,3.0,True,Design of Intelligent Screening for Legal Classroom Teaching Cases Based on Generative AI (ChatGPT) Technology
+P239,technical,computational,high,False,6.0,True,Fraunhofer SIT at GenAI Detection Task 1: Adapter Fusion for AI-generated Text Detection
+P240,technical,computational,high,True,6.0,True,Detecting AI-Generated Text Using Machine Learning and Deep Learning Approaches
+P241,technical,computational,high,False,9.0,True,Learning AI Coding Style for Software Plagiarism Detection
+P242,technical,computational,high,True,-1.0,True,RoBERT-IA: Human-AI Collaborative Text Classification
+P243,technical,computational,high,False,1.0,True,Midterm Exam Outliers Efficiently Highlight Potential Cheaters on Programming Assignments
+P244,technical,computational,high,False,-1.0,True,Veritext: AI-generated text detection based on perplexity and giant language model test room (GLTR)
+P245,technical,computational,high,False,6.0,True,Deep-Learning-Empowered Detection of Large-Language-Model-Based Generative Content in Educational Tasks
+P246,pedagogical,empirical,high,False,1.0,True,Code or Copy? Investigating Generative AI Use in Web Development Assignments
+P247,pedagogical,empirical,medium,False,2.0,True,Preventing Academic Dishonesty Originating from Large Language Models
+P248,pedagogical,conceptual,high,False,2.0,True,Large Language Models in Computer Science Classrooms: Ethical Challenges and Strategic Solutions
+P249,technical,computational,high,False,9.0,True,CLAVE: A deep learning model for source code authorship verification with contrastive learning and transformer encoders
+P250,pedagogical,conceptual,medium,False,2.0,True,Evolution of plagiarism processes in online graduate nursing programs
+P251,technical,computational,high,False,4.0,True,Evaluation of AI content generation tools for verification of academic integrity in higher education
+P252,technical,computational,high,False,3.0,True,Cross-Lingual Text Classification Based on Sentence Vectors Weighting; [基于句向量加权的跨语言文本分类方法]
+P253,technical,computational,high,False,6.0,True,AI Generated Text Detection using LORA based fine-tuning of LLM Models
+P254,governance,conceptual,high,False,2.0,True,"Collusion, plagiarism, or contract cheating? How generative AI fits into existing academic integrity policies"
+P255,technical,computational,high,False,6.0,True,mdok of KInIT: Robustly Fine-tuned LLM for Binary and Multiclass AI-Generated Text Detection
+P256,technical,computational,high,False,6.0,True,Comparative Analysis of Machine Learning and Deep Learning Algorithms in Distinguishing AI-Generated and Human-Written Essays
+P257,technical,computational,medium,True,8.0,True,Paraphrase Identification With Deep Learning: A Review of Datasets and Methods
+P258,governance,conceptual,high,False,7.0,True,"Figure plagiarism and manipulation, an under-recognised problem in academia"
+P259,pedagogical,conceptual,high,False,2.0,True,The pedagogical ethics: Navigating learning in a generative AI-augmented environment in a post-plagiarism era
+P260,technical,computational,high,True,6.0,True,Simignore: Exploring and enhancing multimodal large model complex reasoning via similarity computation
+P261,technical,computational,high,True,8.0,True,PlagBench: Exploring the Duality of Large Language Models in Plagiarism Generation and Detection
+P262,technical,computational,high,True,6.0,True,Detecting AI-Generated Text Using Fine-Tuned Transformers: A Study on Academic Integrity
+P263,technical,computational,high,True,1.0,True,Detecting AI-Generated Pseudocode in High School Online Programming Courses Using an Explainable Approach
+P264,pedagogical,empirical,high,True,2.0,True,Academic Integrity Within the Medical Curriculum in the Age of Generative Artificial Intelligence
+P265,technical,conceptual,high,False,6.0,True,"A Survey on AI-Generated Text Detection: Methods, Challenges, and Future Directions"
+P266,technical,computational,high,True,8.0,True,E-BERT: A Deep Learning and Local Alignment-Based Approach for Paraphrased Plagiarism Detection
+P267,technical,computational,high,False,6.0,True,AI vs. Human Writing: Developing a Novel Method for Text Authenticity Detection in Education
+P268,technical,computational,medium,True,9.0,True,AI-driven Student Task Management Platform With Plagiarism Checker For Submissions
+P269,pedagogical,conceptual,high,False,2.0,True,Detecting the Undetectable: The Need for a New Paradigm for Academic Writing Evaluation in the AI Era – Addressing Inconsistencies in AI and Plagiarism Detection Tools –
+P270,technical,computational,medium,False,-1.0,True,Automatic Detection of AI-Generated Text from LLMs Using Feature-Driven Transformer Networks
+P271,technical,computational,high,False,6.0,True,Text Classification for AI Generated Content with Machine Learning and Deep Learning Models
+P272,governance,conceptual,high,False,2.0,True,Plagiarism in Publications: All about Being Fair!
+P273,technical,computational,high,False,6.0,True,MDCGD: A Multi-Domain ChatGPT Academic Generation Detection
+P274,technical,conceptual,high,False,3.0,True,Review on Methods and Applications of Short Text Similarity Measurement in Social Media Platforms; [基于社交媒体平台的短文本相似性度量方法及应用综述]
+P275,technical,computational,high,False,6.0,True,Detecting AI-Generated Text: A Bi-GRU with Linguistic Features Approach
+P276,technical,computational,high,True,6.0,True,Enhancing AI Text Detection with Frozen Pretrained Encoders and Ensemble Learning
+P277,pedagogical,conceptual,high,False,2.0,True,AI or Human? Finding and Responding to Artificial Intelligence in Student Work
+P278,pedagogical,empirical,high,False,2.0,True,Guarding Integrity: A Case Study on Tackling AI-Generated Content and Plagiarism in Academic Writing
+P279,pedagogical,conceptual,medium,True,2.0,True,Generative AI detection in higher education assessments
+P280,technical,computational,high,False,6.0,True,AI-Generated Text Detection Using DeBERTa with Auxiliary Stylometric Features
+P281,governance,conceptual,high,False,2.0,True,AI Detection in Academia: How Indian Universities Can Safeguard Academic Integrity †
+P282,technical,computational,high,False,6.0,True,CurveMark: Detecting AI-Generated Text via Probabilistic Curvature and Dynamic Semantic Watermarking
+P283,pedagogical,conceptual,high,False,2.0,True,"Ensuring academic integrity in the age of ChatGPT: Rethinking exam design, assessment strategies, and ethical AI policies in higher education"
+P284,technical,computational,high,False,6.0,True,Classifying AI vs. Human Content: Integrating BERT and Linguistic Features for Enhanced Classification
+P285,technical,computational,high,True,6.0,True,Mamba-Hybrid Language Models: Advancing Detection of AI-Generated Text in Academic Contexts
+P286,technical,computational,low,False,-1.0,True,A Large Language Model-Based Plagiarism Detection System Architecture for Academic Journals in Higher Education
+P287,pedagogical,conceptual,medium,True,2.0,True,"Drafting defensively, documenting authorship: An analysis of Draftback and Grammarly Authorship"
+P288,technical,computational,high,False,-1.0,True,Development of an Automated Essay Scoring (AES) System for Writing Detection and Evaluation using Natural Language Processing (NLP)
+P289,technical,computational,high,False,6.0,True,Deep learning detection method for large language models-generated scientific content
+P290,technical,computational,high,False,-1.0,True,ReviewGuard: Enhancing Deficient Peer Review Detection via LLM-Driven Data Augmentation
+P291,pedagogical,conceptual,medium,False,2.0,True,Artificial intelligence: threat or asset to academic integrity? A bibliometric analysis
+P292,technical,conceptual,high,False,10.0,True,Comparative analysis of text-based plagiarism detection techniques
+P293,technical,computational,high,False,6.0,True,Detecting AI-Generated Text Using Machine Learning: A Comparative Study of MLP and RoBERTa-Based Models
+P294,technical,conceptual,high,True,10.0,True,Efficacy of Topological Data Analysis for Contextual Plagiarism Detection: A Literature Analysis
+P295,pedagogical,empirical,high,True,2.0,True,Plagiarism or Productivity? Students Moral Disengagement and Behavioral Intentions to Use ChatGPT in Academic Writing
+P296,pedagogical,empirical,high,False,2.0,True,Exploring AI Generated Texts vs. Human Written Texts in EFL Academic Writing: A Case Study of Qassim University in Saudi Arabia
+P297,pedagogical,empirical,high,False,1.0,True,A Model Towards Enabling Tutors to Fulfil a Role in Attenuating Source Code Plagiarism
+P298,technical,computational,high,False,9.0,True,Evaluation of Code Clone Detection Using Large Language Models
+P299,technical,computational,high,False,6.0,True,A Deep Learning Approach for Identifying LLM-Generated Text
+P300,technical,computational,high,True,6.0,True,Leidos at GenAI Detection Task 3: A Weight-Balanced Transformer Approach for AI Generated Text Detection Across Domains
+P301,technical,computational,high,False,6.0,True,Phishing Email Detection Using Large Language Models: A Comparative Analysis of Standalone and Retrieval Augmented Generation Models
+P302,governance,empirical,medium,False,2.0,True,Faculty as street-level bureaucrats: discretionary decision-making in the era of generative AI
+P303,pedagogical,conceptual,high,False,2.0,True,Future Proofing the Integrity of Assessments Within Business Management Studies for the Age of Artificial Intelligence
+P304,pedagogical,empirical,high,True,2.0,True,Investigation of GPT-Based Tools in Preventing Plagiarism and Enhancing Research Skills for University Students with Technical English Language Challenges: An Experimental Approach to Promoting Ethica
+P305,technical,computational,high,True,6.0,True,Evaluating Fine-Tuned LLMs for AI Text Detection
+P306,technical,computational,high,False,4.0,True,The Robustness of AI-Classifiers in the Face of AI-Assisted Plagiarism: The Case of Turnitin AI Content Detector
+P307,technical,computational,high,True,6.0,True,An Efficient Approach for Detecting AI Generated Multimedia
+P308,pedagogical,conceptual,medium,False,2.0,True,The future of higher education in the age of GenAI — are we all doomed?
+P309,technical,computational,high,False,-1.0,True,Identification of Online Health Information Using Large Pretrained Language Models: Mixed Methods Study
+P310,technical,computational,high,True,7.0,True,Automating the detection of plagiarism in educational content using Natural language processing
+P311,technical,computational,high,False,6.0,True,"Benchmarking AI Text Detection: Assessing Detectors Against New Datasets, Evasion Tactics, and Enhanced LLMs"
+P312,technical,computational,medium,False,0.0,True,Exploring Text Similarity Patterns in Open-Ended Concept Maps Using FastText Model
+P313,technical,computational,high,False,9.0,True,Leveraging Cross-Project Similarity for Data Augmentation and Security Bug Report Prediction
+P314,technical,conceptual,high,False,-1.0,True,Code Similarity Detection Techniques for Plagiarism Identification in Student Programming Assignments: A Survey of Deep Learning Approaches
+P315,technical,computational,high,False,9.0,True,Security Bug Report Classification via Cross-Project Similarity-Based Data Augmentation and Deep Learning Models
+P316,technical,computational,high,False,8.0,True,Hierarchical Generative Plagiarism Detection Method
+P317,technical,computational,high,False,6.0,True,Adept: AI-Generated Text Detection Based on Phrasal Category N-Grams
+P318,technical,empirical,low,False,3.0,True,"THE ROLE OF ARTIFICIAL INTELLIGENCE IN TRANSFORMING TOURISM SERVICES: THE CASE OF DURRËS, ALBANIA"
+P319,technical,computational,high,False,0.0,True,Hybrid Semantic Evaluation of Student Answers Using Rule Matching and BERT Embeddings
+P320,technical,computational,high,False,6.0,True,Team Nexus Interrogators at PAN: Voight-Kampff Generative AI Detection
+P321,technical,computational,high,False,6.0,True,Kill two birds with one stone: generalized and robust AI-generated text detection via dynamic perturbations
+P322,technical,computational,high,False,5.0,True,GPT-4 Attempting to Attack AI-Text Detectors
+P323,technical,computational,medium,False,6.0,True,Multilingual and Informal Web Datasets for Robust Language Modeling
+P324,technical,computational,high,False,1.0,True,An Embedding-Based Approach for Identifying LLM-Generated Code in Student Assignments
+P325,technical,computational,high,False,9.0,True,Enhancing debugging efficiency in bug resolution -The role of AI based Triage Accelerator
+P326,technical,computational,high,False,-1.0,True,CNLP-NITS-PP at GenAI Detection Task 1: AI-Generated Text Using Transformer-Based Approaches
+P327,technical,computational,high,False,6.0,True,A Novel Naive Bayes Classifier for Detecting AI-Generated Text in Digital Twin Systems Using Word Pair Probabilities
+P328,technical,computational,medium,False,-1.0,True,Towards a Knowledge Management Framework for LLM-Generated Personas in Collaborative Systems
+P329,pedagogical,empirical,high,False,2.0,True,Relationship between the use of ChatGPT for academic purposes and plagiarism: the influence of student-related variables on cheating behavior.
+P330,technical,computational,high,False,9.0,True,Integrated Technique of Natural Language Texts and Source Codes Authorship Verification in the Academic Environment
+P331,technical,computational,high,True,6.0,True,Bi-Directional Cross-Entropy Loss and Stylometric Feature Combined Classifier
+P332,technical,computational,high,False,9.0,True,Bin2Vec: Interpretable and Auditable Multi-View Binary Analysis for Code Plagiarism Detection
+P333,technical,computational,high,True,-1.0,True,AI vs Human Text Detector: Identifying AI-Generated Content Using NLP
+P334,pedagogical,conceptual,high,False,2.0,True,"Beyond Policing: AI Writing Detection Tools, Trust, Academic Integrity, and Their Implications for College Writing"
+P335,technical,computational,high,False,3.0,True,A method for semantic textual similarity on long texts
+P336,pedagogical,empirical,medium,False,2.0,True,From AI to authorship: Exploring the use of LLM detection tools for calling on “originality” of students in academic environments
+P337,technical,computational,high,False,6.0,True,ReText.Ai Team at PAN 2025: Applying a Multiple Classification Heads to a Transformer Model for Human-AI Collaborative Text Classification
+P338,technical,computational,high,False,6.0,True,AI-Generated Text Detector for English Written Essay using Ensemble RoBERTa
+P339,technical,computational,high,False,3.0,True,Text Similarity Technique Using BGE-M3
+P340,governance,conceptual,medium,False,2.0,True,Academic Integrity and Ethics in Higher Education: A Case Study on the Use of Artificial Intelligence in Academic Writing and Tackling Plagiarism
+P341,technical,computational,high,False,6.0,True,Investigation Into the Identification of AI-Generated Short Dialectal Arabic Texts
+P342,technical,computational,high,False,-1.0,True,Identifying AI-Generated Text Designed to Evade Plagiarism Detection
+P343,technical,computational,high,False,6.0,True,Simple Beats Complex: Self-Monitoring Data Mining Pipelines for Robust AI Text Detection
+P344,technical,computational,high,False,-1.0,True,Advanced Hybrid Graph Neural Networks for Robust Code Plagiarism Detection: A Comparative Analysis of Data-Driven Techniques
+P345,technical,computational,high,False,-1.0,True,AraXLM: Evaluating Arabic Diacritization Tools for Cross-Language Plagiarism Detection
+P346,technical,computational,high,False,6.0,True,CNLP-NITS-PP at GenAI Detection Task 2: Leveraging DistilBERT and XLM-RoBERTa for Multilingual AI-Generated Text Detection
+P347,technical,computational,high,False,3.0,True,Similarity Measurement Model for Standard Clauses Based on RAG
+P348,technical,computational,high,False,6.0,True,Detection of AI-Generated Texts: A Bi-LSTM and Attention-Based Approach
+P349,technical,conceptual,high,False,6.0,True,Distinguishing Human From Machine: A Review of Advances and Challenges in AI-Generated Text Detection
+P350,technical,computational,high,False,6.0,True,DetectLLM: A Multimodal Fusion Approach for Detecting LLM-Generated Text
+P351,technical,computational,high,False,7.0,True,Dare to Plagiarize? Plagiarized Painting Recognition and Retrieval
+P352,pedagogical,empirical,high,False,2.0,True,"AI in Dissertation Examination: Opportunities for Undergraduates and Postgraduates in Zambia, Rwanda, and Kenya; [La IA en la evaluación de disertaciones: Oportunidades para pregrado y posgrado en Zam"
+P353,technical,computational,medium,False,3.0,True,Revealing Hidden Selves: Unmasking Masked Personality with AI Analysis
+P354,technical,computational,high,False,8.0,True,LLM Text Detection Using BERT-Base Models
+P355,pedagogical,empirical,high,False,2.0,True,AI Detection in Academic Writing: A Quantitative Study on Anxiety Predictors among Pre-Service Teachers in Higher Education
+P356,pedagogical,conceptual,medium,False,,False,The impact of ChatGPT on academic integrity in medical education: a developing nation perspective
+P357,technical,computational,medium,False,-1.0,True,InferSync TextLens: Cognitive PDF Comparison Information Technology
+P358,pedagogical,empirical,high,False,2.0,True,Practices and attitudes in the use of digital tools in the writing process among Peruvian university students of business administration; [Prácticas y actitudes en el uso de herramientas digitales en 
+P359,technical,computational,medium,False,2.0,True,Authorship Identification of AI-Generated Academic Texts: A Pilot Study in the Russian University Context
+P360,technical,computational,high,True,6.0,True,Detecting AI-Generated Filipino Text: A Synthetic Data Approach with Pre-Trained LLMs
+P361,technical,computational,high,False,9.0,True,Identifying AI Generated Code with Parallel KNN Weight Outlier Detection
+P362,technical,computational,high,False,-1.0,True,MixRevDetect: Towards Detecting AI-Generated Content in Hybrid Peer Reviews
+P363,technical,computational,high,False,6.0,True,Upholding Academic Integrity amidst Advanced Language Models: Evaluating BiLSTM Networks with GloVe Embeddings for Detecting AI-Generated Scientific Abstracts
+P364,governance,conceptual,low,False,,False,Addressing student use of generative AI in schools and universities through academic integrity reporting
+P365,technical,computational,high,False,-1.0,True,Large Language Model Based Framework for Detecting Similarity Between Documents
+P366,pedagogical,empirical,high,False,2.0,True,"Digital Plagiarism in EFL Education during the AI Era: A Comparative Study of Perceptions among Learners and Instructors in Korea, Mongolia, and China"
+P367,pedagogical,empirical,high,True,2.0,True,Work in Progress: High School Student Perspective on AI-based Plagiarism
+P368,technical,computational,high,False,9.0,True,Detecting Programmer Identity from Source Code with Machine Learning Methods
+P369,technical,computational,high,False,3.0,True,Matrix Similarity Analysis of Texts Written in Belarusian and Ukrainian
+P370,technical,computational,high,False,7.0,True,Enhancing Plagiarism Detection in Marathi with a Weighted Ensemble of TF-IDF and BERT Embeddings for Low-Resource Language Processing
+P371,technical,computational,high,True,3.0,True,A Distribution Agnostic Rank-Based Measure for Proximity Search
+P372,technical,conceptual,high,False,-1.0,True,Plagiarism types and detection methods: a systematic survey of algorithms in text analysis
+P373,technical,computational,high,False,8.0,True,Team jr at Generative Plagiarism Detection 2025: A Two-Stage Approach: From TF-IDF/Jaccard Filtering to Transformer Classification
+P374,technical,conceptual,low,True,-1.0,True,Reviewing plagiarism checking on handwritten assignments: Ensuring academic integrity in the digital era
+P375,technical,computational,high,False,6.0,True,MCANet: Multimodal Caption Aware Training-Free Video Anomaly Detection via Large Language Model
+P376,technical,computational,high,False,5.0,True,AI-Generated Essay Identification: A Machine Learning Approach and Fairness Analysis
+P377,technical,computational,high,True,4.0,True,"AI vs AI: How effective are Turnitin, ZeroGPT, GPTZero, and Writer AI in detecting text generated by ChatGPT, Perplexity, and Gemini?"
+P378,technical,computational,high,False,6.0,True,"Evaluating the Performance of AI Text Detectors, Few-Shot and Chain-of-Thought Prompting Using DeepSeek-Generated Text"
+P379,technical,computational,high,False,6.0,True,Language Models Understand Themselves Better: A Zero-Shot AI-Generated Text Detection Method via Reading and Writing
+P380,pedagogical,empirical,medium,False,2.0,True,Rapidly Deployable Remote Analogue Electronics Lab with Antiplagiarism and AI Immunity Features
+P381,technical,conceptual,high,False,4.0,True,Integrity in the Age of AI: Detecting Synthetic Text Across Platforms and Purposes
+P382,technical,computational,high,False,6.0,True,ü AIDER: a Robust and Topic-Independent Framework for Detecting AI-Generated Text
+P383,technical,computational,high,False,6.0,True,Transfer Learning to Identify Multilingual Machine Genenrated Text
+P384,technical,computational,high,False,6.0,True,Teacher-Student Framework for Short-Context Classification with Domain Adaptation and Data Augmentation
+P385,governance,empirical,high,False,2.0,True,Examining academic integrity policy and practice in the era of AI: a case study of faculty perspectives
+P386,technical,computational,high,False,-1.0,True,Leveraging AI and PostgreSQL for an Inclusive Neurodivergent Career Platform
+P387,technical,computational,high,False,6.0,True,KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis
+P388,technical,computational,medium,False,1.0,True,Using pseudo-AI submissions for detecting AI-generated code
+P389,technical,computational,high,False,-1.0,True,Vulnerability of Text-Matching in ML/AI Conference Reviewer Assignments to Collusions
+P390,pedagogical,empirical,high,False,2.0,True,What should we be assessing exactly? Higher education staff narratives on gen AI integration of assessment in a postplagiarism era
+P391,technical,computational,high,False,6.0,True,CNLP-NITS-PP at GenAI Detection Task 3: Cross-Domain Machine-Generated Text Detection Using DistilBERT Techniques
+P392,technical,computational,high,False,9.0,True,Automation of Plagiarism and AI Detection in IT Students Papers with a Software Tool Using API
+P393,technical,computational,high,False,9.0,True,DeepCRCEval: Revisiting the Evaluation of Code Review Comment Generation
+P394,pedagogical,empirical,high,True,2.0,True,Exploring the purposes and uses of generative artificial intelligence tools in academic writing for multicultural students
+P395,technical,computational,high,False,3.0,True,CMedMi: Text Similarity Detection of Chinese Medical Question Based on Mutual Information
+P396,technical,computational,high,True,6.0,True,Unmasking AI-Written Content: A Novel Hybrid Kernel and Transformer-Based Detection Framework
+P397,technical,computational,high,False,-1.0,True,AI-Generated Text Detection Using RoBERTa: A Generalizability and Explainability Analysis
+P398,technical,computational,high,False,6.0,True,Fake It’Til You Make It Human
+P399,technical,computational,high,False,-1.0,True,Beyond Text Matching: Multi-Agent System for Comprehensive Research Paper Evaluation
+P400,technical,computational,high,False,-1.0,True,HumanFR: Toward Text Authenticity Assessment Engine for Academic Integrity
+P401,technical,computational,high,True,3.0,True,Development of a Strategy for Duplication Search Based on Multiple Hierarchically Organized Approaches
+P402,technical,computational,high,False,3.0,True,Chinese long text similarity calculation of semantic progressive fusion based on Bert
+P403,technical,computational,high,False,1.0,True,ChatGPT and Cheat Detection in CS1 Using a Program Autograding System
+P404,technical,computational,high,False,9.0,True,Design of a college student electronic homework plagiarism detection system based on SimHash algorithm and document feature similarity analysis
+P405,technical,computational,high,True,9.0,True,Reducing the Impact of Time Evolution on Source Code Authorship Attribution via Domain Adaptation
+P406,technical,computational,high,False,1.0,True,An Empirical Study to Evaluate AIGC Detectors on Code Content
+P407,pedagogical,conceptual,medium,False,2.0,True,Pressure to Plagiarize and the Choice to Cheat: Toward a Pragmatic Reframing of the Ethics of Academic Integrity
+P408,technical,computational,high,False,-1.0,True,Detection and Classification of AI-Generated Text
+P409,technical,computational,medium,False,0.0,True,A Generative AI-Based Assistant to Evaluate Short and Long Answer Questions
+P410,technical,computational,high,False,7.0,True,Enhanced Plagiarism Detection in Online Assignments by Natural Language Processing and Machine Learning Techniques
+P411,technical,computational,medium,True,4.0,True,Detectability Analysis of AI-generated Research Articles
+P412,technical,computational,high,False,6.0,True,N-Gram Perplexity-Based AI-Generated Text Detection
+P413,technical,computational,high,True,3.0,True,Text Retrieval in Restricted Domains by Pairwise Term Co-occurrence
+P414,technical,computational,high,False,1.0,True,Detecting ChatGPT-Generated Code Submissions in a CS1 Course Using Machine Learning Models
+P415,technical,computational,high,True,7.0,True,Advancement in Image Plagiarism Detection using Feature Extraction and Deep Learning Approaches
+P416,pedagogical,empirical,high,False,2.0,True,Generative AI in Student Essays: English Teachers' Perspectives on Effective Assessment Methods
+P417,technical,computational,high,False,6.0,True,IndoGovBERT: A Domain-Specific Language Model for Processing Indonesian Government SDG Documents
+P418,technical,conceptual,low,False,-1.0,True,Identifying AI-Written Text in Academia: A Machine Learning-Based Framework
+P419,technical,computational,high,False,-1.0,True,AI Content Detection
+P420,pedagogical,conceptual,medium,False,2.0,True,Academic Integrity in the Face of Generative Language Models
+P421,pedagogical,empirical,high,False,2.0,True,The rapid rise of generative AI and its implications for academic integrity: Students’ perceptions and use of chatbots for assistance with assessments
+P422,pedagogical,conceptual,medium,False,2.0,True,Academic Integrity and Artificial Intelligence: An Overview
+P423,pedagogical,empirical,medium,False,2.0,True,Can Artificial Intelligence Complete My Assessment? A Student Led Initiative to Stress Test the Academic Integrity of University Assessment Using Generative AI
+P424,technical,computational,high,False,7.0,True,Beyond Copy Paste: Plagiarism Detection using Machine Learning
+P425,technical,computational,high,False,6.0,True,MAT: Medical AI-generated Text Detection Dataset from Multi-models and Multi-Methods
+P426,technical,computational,high,False,0.0,True,Automatic Enemy Identification—Are We There Yet?
+P427,governance,computational,medium,False,4.0,True,Rethinking Literary Plagiarism in LLMs through the Lens of Copyright Laws
+P428,pedagogical,conceptual,high,False,2.0,True,Surveillance Work in (and) Teaching Technical Writing with AI
+P429,pedagogical,conceptual,medium,False,2.0,True,"Domain knowledge, ethical acumen, and query capabilities (DEQ): a framework for generative AI use in education and knowledge work"
+P430,technical,computational,high,False,4.0,True,The great detectives: humans versus AI detectors in catching large language model-generated medical writing
+P431,technical,conceptual,high,False,7.0,True,A Comprehensive Review Analysis of Image Similarity Detection Techniques in Deep Learning to Detect the Image Plagiarism
+P432,technical,conceptual,high,False,3.0,True,MEASUREMENT OF SEMANTIC TEXT SIMILARITY
+P433,technical,computational,high,False,5.0,True,Leveraging Past Assignments to Determine If Students Are Using ChatGPT for Their Essays
+P434,technical,empirical,medium,False,2.0,True,DETECTING AI-ASSISTED CHEATING IN ONLINE EXAMS THROUGH BEHAVIOR ANALYTICS
+P435,technical,computational,high,False,-1.0,True,A widely used Generative-AI detector yields zero false positives; [Un detector de IA generativa ampliamente utilizado no produce falsos positivos]
+P436,pedagogical,empirical,high,False,2.0,True,It Helps with Crap Lecturers and Their Low Effort: Investigating Computer Science Students’ Perceptions of Using ChatGPT for Learning
+P437,technical,computational,high,False,6.0,True,A Dual-Approach for AI-Generated Text Detection
+P438,governance,conceptual,high,False,4.0,True,Detecting manuscripts written by generative AI and AI-assisted technologies in the field of pharmacy practice
+P439,technical,computational,medium,True,2.0,True,Simple techniques to bypass GenAI text detectors: implications for inclusive education
+P440,pedagogical,conceptual,high,False,2.0,True,ChatGPT in higher education - a synthesis of the literature and a future research agenda
+P441,technical,computational,medium,False,2.0,True,ChatGPT Plagiarism in the Academic Field: Exploration and Analysis of Plagiarism Effects
+P442,technical,computational,medium,False,2.0,True,AI-Generated Text Detection and Prevention of Unethical AI Use in Student Exams
+P443,technical,computational,high,False,1.0,True,Automated Detection of AI-Obfuscated Plagiarism in Modeling Assignments
+P444,pedagogical,computational,medium,True,2.0,True,LLMs in Open and Closed Book Examinations in a Final Year Applied Machine Learning Course (Early Findings).
+P445,technical,computational,high,False,6.0,True,Toward Robust Arabic AI-Generated Text Detection: Tackling Diacritics Challenges
+P446,technical,computational,low,False,9.0,True,An efficient approach to detect conceptual level plagiarism using text mining
+P447,technical,computational,high,False,-1.0,True,ChatGPT paraphrased product reviews can confuse consumers and undermine their trust in genuine reviews. Can you tell the difference?
+P448,technical,computational,high,False,1.0,True,Detecting LLM-Generated Text in Computing Education: Comparative Study for ChatGPT Cases
+P449,technical,computational,high,False,1.0,True,Detecting AI-Generated Code Assignments Using Perplexity of Large Language Models
+P450,technical,computational,high,False,3.0,True,Cluster-Mined Negative Samples for Enhanced Unsupervised Sentence Representation Learning
+P451,technical,computational,high,False,6.0,True,Beyond Lexical Boundaries: LLM-Generated Text Detection for Romanian Digital Libraries
+P452,governance,empirical,high,False,2.0,True,Do college anti-plagiarism/cheating policies have teeth in the age of AI? Exploratory evidence from the Internet
+P453,governance,conceptual,medium,False,,False,Advancing integrity in science: the imperative for AI-driven plagiarism detection in scientific writing
+P454,governance,empirical,medium,False,2.0,True,Exploring Academic Integrity in the Age of Generative AI
+P455,pedagogical,conceptual,low,False,2.0,True,Navigating the Landscape of AI-Generated Text Detection: Issues and Solutions for Upholding Academic Integrity
+P456,technical,computational,high,False,6.0,True,Detecting AI-Generated Texts in Cross-Domains
+P457,technical,computational,high,True,-1.0,True,DeepMatch: A BERT-Powered Talent Matchmaking Approach
+P458,pedagogical,conceptual,low,False,2.0,True,An Approach to Investigating Plagiarism in Artificial Intelligence Content
+P459,pedagogical,conceptual,medium,False,2.0,True,Unsilencing the Student Voice: Detecting and Addressing ChatGPT-Generated Texts Presented as Student-Authored Texts at a University Writing Centre
+P460,technical,computational,high,False,3.0,True,Assessing Scientific Text Similarity: A Novel Approach Utilizing Non-Negative Matrix Factorization and Bidirectional Encoder Representations from Transformer
+P461,technical,computational,high,False,6.0,True,"The Art of Deepfake Text Obfuscation: Lessons Learned From a Manual, First-Person Perspective"
+P462,technical,computational,high,False,-1.0,True,"Deconstructing AI Detection Tools: Accuracy Limits, Bias, and Human Consequences"
+P463,technical,computational,high,False,-1.0,True,Plagiarism Detection Using Keystroke Logs
+P464,technical,conceptual,high,True,6.0,True,Decoding the AI Pen: Techniques and Challenges in Detecting AI-Generated Text
+P465,pedagogical,empirical,high,False,1.0,True,Influence of Personality Traits on Plagiarism Through Collusion in Programming Assignments
+P466,pedagogical,empirical,high,False,-1.0,True,Plagiarism in the Age of Generative AI: Cheating Method Change and Learning Loss in an Intro to CS Course
+P467,technical,computational,high,False,5.0,True,Detecting Generative Artificial Intelligence Essays using Large Language Models: Machine and Deep Learning Approaches
+P468,technical,conceptual,high,False,3.0,True,Review of Text Similarity Calculation Methods
+P469,technical,conceptual,high,False,4.0,True,Reviewing the performance of AI detection tools in differentiating between AI-generated and human-written texts: A literature and integrative hybrid review
+P470,technical,computational,medium,False,9.0,True,Plagiarism Detection and Similarity Checking Program using Machine Learning and String Matching Algorithm
+P471,technical,conceptual,medium,False,-1.0,True,AI Generated Code Plagiarism Detection in Computer Science Courses: A Literature Mapping
+P472,technical,computational,high,True,10.0,True,Developing and Applying a Neural Network System for Text Plagiarism Detection in Higher Education
+P473,technical,computational,medium,False,0.0,True,Hybrid Assessment System: OCR - based Text Scoring and Image-based Diagram Evaluation
+P474,technical,conceptual,high,False,10.0,True,Digital tools and their role in optimizing the detection of academic plagiarism
+P475,technical,computational,medium,False,2.0,True,Are AI detection and plagiarism similarity scores worthwhile in the age of ChatGPT and other Generative AI?
+P476,technical,computational,high,False,6.0,True,Detecting ChatGPT Generated Texts Based on Deep Pyramid Convolutional Neural Network; [基于深度金字塔卷积神经网络的 ChatGPT 生成文本检测方法]
+P477,technical,computational,high,False,3.0,True,Enhancing Duplicate Question Detection with RoBERTa Cross-Encoders and Explicit Features: A Hybrid Approach
+P478,governance,empirical,high,False,4.0,True,Scientific integrity in health science journals: Analysis of the guidelines for article submission; [Integridade científica nos periódicos científicos da área de saúde: Análise das diretrizes para sub
+P479,technical,computational,medium,False,2.0,True,Epistemological dilemma: Evaluating conflicting sources in AI plagiarism detection of students' work
+P480,technical,computational,high,False,9.0,True,An Automatic Document Validation System in the Platform Merdeka Mengajar by Using Word Embeddings and Supervised Classification Models
+P481,technical,computational,high,False,6.0,True,ConvNLP: Image-based AI Text Detection
+P482,technical,conceptual,high,True,10.0,True,Plagiarism Detection in the Digital Era: A Systematic Review of Tools and Techniques
+P483,governance,conceptual,medium,False,4.0,True,The Role of Artificial Intelligence Technologies in Evaluating the Veracity of Scientific Research
+P484,technical,computational,high,False,-1.0,True,Urdu paraphrase detection: A novel DNN-based implementation using a semi-automatically generated corpus
+P485,technical,computational,high,False,6.0,True,Counter Turing Test (CT2): Investigating AI-Generated Text Detection for Hindi - Ranking LLMs based on Hindi AI Detectability Index (ADIhi)
+P486,technical,computational,high,False,3.0,True,Patent Plagiarism Identification Model Based on Multi-Dimensional Similarity Fusion Using Multi-Sim SBERT
+P487,technical,computational,high,False,1.0,True,Detecting AI assisted submissions in introductory programming via code anomaly
+P488,technical,computational,high,False,6.0,True,Enhancing Text Authenticity: A Novel Hybrid Approach for AI-Generated Text Detection
+P489,technical,computational,high,True,9.0,True,Detecting Source Code Plagiarism in Student Assignment Submissions Using Clustering Techniques
+P490,technical,computational,high,False,9.0,True,Code Comments: A Way of Identifying Similarities in the Source Code
+P491,pedagogical,empirical,high,False,2.0,True,Assessing Educators Ability to Identify AI-Generated Student Submissions: An Experimental Vignette Study
+P492,governance,conceptual,medium,False,4.0,True,Beyond Plagiarism: ChatGPT as the Vanguard of Technological Revolution in Research and Citation
+P493,governance,conceptual,high,False,4.0,True,Ethical Dilemmas in Using AI for Academic Writing and an Example Framework for Peer Review in Nephrology Academia: A Narrative Review
+P494,governance,conceptual,medium,True,2.0,True,Chatting and cheating: Ensuring academic integrity in the era of ChatGPT
+P495,pedagogical,conceptual,low,False,2.0,True,Plagiaruedo*: teaching of academic integrity through a ‘whodunnit’ game (*any likeness to other games is intentional!)
+P496,governance,conceptual,medium,False,4.0,True,Perfect detection of computer-generated text faces fundamental challenges
+P497,technical,computational,medium,False,3.0,True,Knowledge elicitation methodology for evaluation of Internet of Things privacy characteristics in smart cities
+P498,pedagogical,empirical,high,False,2.0,True,ChatGPT versus human essayists: an exploration of the impact of artificial intelligence for authorship and academic integrity in the humanities
+P499,technical,conceptual,low,False,-1.0,True,AI Hybrid Based Plagiarism Detection System Creation
+P500,governance,conceptual,medium,False,,False,"Authors, beware of plagiarism in medical writing"
+P501,governance,conceptual,medium,False,-1.0,True,"Plagiarism: History, Culture, and Prevention"
+P502,technical,conceptual,medium,False,-1.0,True,Using Large Language Models for Students' Essays Plagiarism Detection
+P503,pedagogical,empirical,medium,False,2.0,True,Detection of GPT-4 Generated Text in Higher Education: Combining Academic Judgement and Software to Identify Generative AI Tool Misuse
+P504,technical,computational,high,False,10.0,True,Chain-of-Thought Enhanced Content Detection in Large Language Models
+P505,technical,computational,high,True,7.0,True,Deep Inception V5 Convolution Neural Network to detect and prevent the propagation of deepfake information in Social Media Applications and Research Databases
+P506,governance,empirical,low,False,3.0,True,The effect of analyst report similarity on stock comovement; [分析师报告相似度对股价联动的影响研究]
+P507,technical,computational,medium,False,-1.0,True,AI-ML Integrated Learning & Collaborative Chatbot for Learners and Jobseekers
+P508,technical,computational,high,False,6.0,True,The imitation game: Detecting human and AI-generated texts in the era of ChatGPT and BARD
+P509,technical,computational,high,False,-1.0,True,A Multimodal Assignment Plagiarism Detection System: A Case Study in Android Development Course
+P510,technical,computational,high,False,3.0,True,Research on Similar Case Retrieval Based on Long Legal Text Similarity
+P511,technical,computational,high,False,1.0,True,EX-CODE: A Robust and Explainable Model to Detect AI-Generated Code
+P512,technical,computational,high,False,1.0,True,ChatGPT-Generated Code Assignment Detection Using Perplexity of Large Language Models
+P513,technical,computational,high,True,3.0,True,Short Text Similarity Model Using Semantic and Word Order Features
+P514,technical,conceptual,low,False,2.0,True,Artificial Intelligence Chatbot – ChatGPT and High-Tech Plagiarism Concerns in a Digital Age: Is Detection Possible?
+P515,pedagogical,empirical,high,False,2.0,True,Using Artificial Intelligence to Generate Content: Language Lecturers’ Concerns About Plagiarism and Creativity
+P516,technical,computational,high,True,3.0,True,Secure Computation Protocol of Text Similarity against Malicious Attacks for Text Classification in Deep-Learning Technology
+P517,technical,computational,high,False,3.0,True,Enhancing User Experience on Q&A Platforms: Measuring Text Similarity Based on Hybrid CNN-LSTM Model for Efficient Duplicate Question Detection
+P518,technical,computational,high,False,10.0,True,Are paid tools worth the cost? A prospective cross-over study to find the right tool for plagiarism detection
+P519,technical,computational,high,False,8.0,True,Utilization of NLP Techniques in Plagiarism Detection System through Semantic Analysis using Word2Vec and BERT
+P520,technical,computational,high,False,9.0,True,BDGOA: A bot detection approach for GitHub OAuth Apps
+P521,technical,computational,high,False,8.0,True,Comparison study of unsupervised paraphrase detection: Deep learning—The key for semantic similarity detection
+P522,technical,conceptual,medium,False,2.0,True,A Comprehensive Review Analysis of Distinct Tools Image Plagiarism Detection
+P523,technical,computational,high,False,9.0,True,Stylometry for real-world expert coders: a zero-shot approach
+P524,technical,computational,high,False,-1.0,True,Detecting LLM-Enabled Plagiarism in Student Essays Using Ensemble Learning and NLP
+P525,governance,conceptual,high,False,-1.0,True,Plagiarism: A Bird’s Eye View
+P526,technical,computational,high,False,10.0,True,Ensemble machine learning technique-based plagiarism detection over opinions in social media
+P527,pedagogical,empirical,high,True,2.0,True,The Role of Faculty Expertise and Intuition in Distinguishing between AIGenerated Text and Student Writing
+P528,technical,computational,high,False,6.0,True,AIRABIC: Arabic Dataset for Performance Evaluation of AI Detectors
+P529,technical,computational,high,False,6.0,True,DeTeCtive: Detecting AI-generated Text via Multi-Level Contrastive Learning
+P530,technical,computational,low,False,3.0,True,Digital Transformation and Organizational Restructuring: Assessing the Impact of Artificial Intelligence on Organizational Innovation
+P531,governance,conceptual,high,False,-1.0,True,Preserving Academic Integrity: Combating the Proliferation of Paper Mills in Scholarly Publishing
+P532,technical,computational,high,False,1.0,True,Detecting ChatGPT-Generated Code in a CS1 Course
+P533,technical,computational,high,False,5.0,True,Towards Fair Detection of AI-Generated Essays in Large-Scale Writing Assessments
+P534,technical,computational,low,False,10.0,True,Analyzing and contrasting the outcomes of performance-based plagiarism detection methods
+P535,technical,computational,medium,False,1.0,True,"Automated Analysis of Algorithm Descriptions Quality, Through Large Language Models"
+P536,technical,computational,high,False,6.0,True,NU-RU at SemEval-2024 Task 6: Hallucination and Related Observable Overgeneration Mistake Detection Using Hypothesis-Target Similarity and SelfCheckGPT
+P537,technical,computational,high,False,-1.0,True,'Quis custodiet ipsos custodes?' Who will watch the watchmen? On Detecting AI-generated Peer Reviews
+P538,technical,computational,high,False,9.0,True,Source Code Plagiarism Detection with Pre-Trained Model Embeddings and Automated Machine Learning
+P539,governance,conceptual,medium,False,-1.0,True,Navigating the Ethical Terrain of AI-Generated Text Tools: A Review
+P540,technical,conceptual,high,False,-1.0,True,"Exploring the Landscape of Intrinsic Plagiarism Detection: Benchmarks, Techniques, Evolution, and Challenges"
+P541,technical,computational,high,False,6.0,True,A question answer chatbot using term frequency-inverse document frequency and Markov chain
+P542,technical,computational,high,False,3.0,True,Optimized Algorithm Design for Text similarity Detection Based on Artificial Intelligence and Natural Language Processing
+P543,technical,computational,high,True,1.0,True,MAGECODE: Machine-Generated Code Detection Method Using Large Language Models
+P544,technical,computational,high,False,3.0,True,Financial Semantic Textual Similarity: A New Dataset and Model
+P545,governance,conceptual,high,False,2.0,True,Postplagiarism: transdisciplinary ethics and integrity in the age of artificial intelligence and neurotechnology
+P546,technical,computational,high,False,-1.0,True,HybridGAD: Identification of AI-Generated Radiology Abstracts Based on a Novel Hybrid Model with Attention Mechanism
+P547,pedagogical,empirical,high,False,1.0,True,Cracking the Code: Understanding Source Code Plagiarism to Enable Learning
+P548,technical,computational,high,False,-1.0,True,Enhancing Urdu Intrinsic Plagiarism Detection Through Stylometry Features and Machine Learning
+P549,technical,computational,high,False,3.0,True,Automated Generation of ICD-11 Cluster Codes for Precision Medical Record Classification
+P550,technical,computational,high,True,5.0,True,Distinguishing Human-Written and ChatGPT-Generated Text Using Machine Learning
+P551,technical,computational,medium,False,-1.0,True,Using AI-based detectors to control AI-assisted plagiarism in ESL writing: “The Terminator Versus the Machines”
+P552,technical,computational,high,False,6.0,True,IDEATE: Detecting AI-Generated Text using Internal and External Factual Structures
+P553,governance,conceptual,low,False,,False,Generative AI: Same same but different?
+P554,technical,computational,high,False,3.0,True,Sentence-level Representation Learning for English-Assisted Teaching System
+P555,governance,conceptual,medium,False,2.0,True,Artificial Intelligence in Academic Writing and Research Skills in Kenyan Universities: Opportunities and Challenges
+P556,pedagogical,empirical,high,False,2.0,True,Can instructors detect AI-generated papers? Postsecondary writing instructor knowledge and perceptions of AI
+P557,technical,computational,high,False,8.0,True,Sentimental Awareness Influence on Paraphrase Detection in Transformer Models
+P558,pedagogical,empirical,high,True,2.0,True,Perspectives of Czech High School Students on Cheating in Remote Education
+P559,technical,computational,high,False,9.0,True,Validating Plagiarism Detection Systems with Metamorphic Testing
+P560,technical,computational,high,False,6.0,True,Leveraging Deep Learning Models for Machine-Generated Text Detection Using Transformer-Based Models
+P561,technical,conceptual,high,False,6.0,True,A Survey on the Possibilities & Impossibilities of AI-generated Text Detection
+P562,technical,computational,high,True,9.0,True,Can Large Language Model Detect Plagiarism in Source Code?
+P563,technical,computational,high,False,3.0,True,Using Semantic Text Similarity calculation for question matching in a rheumatoid arthritis question-answering system
+P564,pedagogical,conceptual,medium,False,2.0,True,Cheating and plagiarism in higher education institutions (HEIs): A literature review
+P565,technical,computational,high,False,6.0,True,Development of a Neural Network Model for Recognizing Russian-Language Generated Texts
+P566,technical,computational,high,False,8.0,True,Large Language Models can be Guided to Evade AI-Generated Text Detection
+P567,technical,computational,high,False,3.0,True,Intelligent Quality Inspection of Customer Service Voice Based on Convolutional Neural Network and Transformer
+P568,technical,computational,medium,False,3.0,True,Research on Rule Updating Scheme for Operations Knowledge Base Based on Short Text Similarity Model
+P569,technical,computational,high,False,8.0,True,CLULab-UofA at SemEval-2024 Task 8: Detecting Machine-Generated Text Using Triplet-Loss-Trained Text Similarity and Text Classification
+P570,technical,computational,medium,False,9.0,True,Taxonomy of Mathematical Plagiarism
+P571,technical,computational,high,False,7.0,True,A Quantum Genetic Algorithm for Building a Semantic Textual Similarity Estimation Framework for Plagiarism Detection Applications
+P572,technical,computational,high,True,-1.0,True,A test vector selection method based on machine learning for efficient presilicon verification
+P573,technical,computational,medium,False,2.0,True,Evaluating the authenticity of ChatGPT responses: a study on text-matching capabilities
+P574,technical,computational,medium,False,4.0,True,An Initial Investigation on Originality of Text Generated by Generative AIs Like ChatGPT
+P575,technical,computational,high,False,8.0,True,PIM-ST: a New Paraphrase Identification Model Incorporating Sequence and Topic Information
+P576,technical,computational,high,False,3.0,True,A SHORT TEXT SIMILARITY CALCULATION METHOD BASED ON DEEP LEARNING
+P577,technical,computational,high,True,0.0,True,Evaluating Embeddings from Pre-Trained Language Models and Knowledge Graphs for Educational Content Recommendation
+P578,technical,computational,high,False,7.0,True,NFT Image Plagiarism Check Using EfficientNet-Based Deep Neural Network with Triplet Semi-Hard Loss
+P579,technical,computational,high,False,9.0,True,Detection of Source Code Plagiarism Utilizing an Approach Based on Machine Learning
+P580,pedagogical,computational,medium,False,1.0,True,Accuracy and detection of student use of ChatGPT in business analytics courses
+P581,technical,conceptual,medium,False,-1.0,True,AraXLM: New XLM-RoBERTa Based Method for Plagiarism Detection in Arabic Text
+P582,pedagogical,empirical,high,False,2.0,True,Understanding How Faculty Members Act When Faced with Plagiarism: A Cross-Cultural Study
+P583,technical,computational,high,False,3.0,True,Semi-supervised Text Similarity Recognition based on Adjusted-Jaccard and LDA
+P584,governance,conceptual,medium,False,2.0,True,Linking artificial intelligence facilitated academic misconduct to existing prevention frameworks
+P585,technical,computational,high,False,3.0,True,RETSIM: RESILIENT AND EFFICIENT TEXT SIMILARITY
+P586,technical,computational,high,False,6.0,True,Position: On the Possibilities of AI-Generated Text Detection
+P587,governance,conceptual,medium,True,2.0,True,Academic Integrity considerations of AI Large Language Models in the post-pandemic era: ChatGPT and beyond
+P588,technical,computational,high,True,5.0,True,One-Class Learning for AI-Generated Essay Detection
+P589,technical,computational,medium,False,1.0,True,Plagiarism in Entry-Level Computer Science Courses Using ChatGPT
+P590,technical,conceptual,medium,False,7.0,True,Semantic Plagiarism Detection of Figures in Scholarly Documents: A Conceptual Framework
+P591,governance,empirical,low,False,3.0,True,Analysis of Transparency Report Similarities of Audit Firms Through Plagiarism Detection Systems; [Denetim Firmasi Şeffaflik Raporu Benzerliklerinin Intihal Tespit Sistemleri ile Analiz Edilmesi]
+P592,technical,computational,high,False,3.0,True,A Deep Learning Approach to Financial Text Similarity Using FinBERT
+P593,pedagogical,conceptual,high,False,2.0,True,Academic Integrity for Computer Science Instructors
+P594,technical,conceptual,high,False,-1.0,True,A Review on diverse algorithms used in the context of Plagiarism Detection
+P595,pedagogical,empirical,high,False,2.0,True,Academic integrity in the framework of a student’s sustainable anti-corruption stance: insights from sociological analysis; [Академическая честность в структуре устойчивой антикоррупционной позиции ст
+P596,technical,computational,high,False,-1.0,True,Introducing Text Analysis Algorithms in Decision Support Systems for Automated Evaluation of the Doctor Prescriptions
+P597,technical,computational,high,False,-1.0,True,Detection Vs. Anti-detection: Is Text Generated by AI Detectable?
+P598,governance,conceptual,high,False,2.0,True,Academic Integrity in Nepal
+P599,technical,computational,high,False,4.0,True,Testing of detection tools for AI-generated text
+P600,pedagogical,conceptual,high,False,2.0,True,INCORPORATING CHATGPT IN THE ACADEMIC RESEARCH PROCESS: AVOIDING STUDENT STIGMATIZATION
+P601,technical,conceptual,high,True,-1.0,True,Detecting AI Generated Content: A Study of Methods and Applications
+P602,governance,conceptual,medium,False,4.0,True,Clarifying Ethical Dilemmas in Using Artificial Intelligence in Research Writing: A Rapid Review
+P603,technical,conceptual,high,False,-1.0,True,"Survey on the Biomedical Text Summarization Techniques with an Emphasis on Databases, Techniques, Semantic Approaches, Classification Techniques, and Similarity Measures"
+P604,technical,computational,high,False,7.0,True,TruMuzic: A Deep Learning and Data Provenance-Based Approach to Evaluating the Authenticity of Music
+P605,technical,computational,high,False,-1.0,True,Evaluation of the Quality of ChatGPT in Translating Texts on Indonesian War of Independence From Dutch to Indonesian
+P606,technical,conceptual,high,False,8.0,True,Investigation on State-of-the-Art Paraphrase Detection Approaches and Resources
+P607,pedagogical,empirical,medium,False,2.0,True,Use of ChatGPT in academia: Academic integrity hangs in the balance
+P608,technical,conceptual,low,False,2.0,True,Challenges to Plagiarism Detection and the Use of Voice Assistants in Everyday Life and Education
+P609,technical,computational,medium,False,2.0,True,Will ChatGPT Get You Caught? Rethinking of Plagiarism Detection
+P610,governance,conceptual,high,False,4.0,True,"Copyright, Referencing and Plagiarism Avoidance"
+P611,governance,conceptual,medium,False,2.0,True,Addressing Academic Misconduct in the Age of ChatGPT: Strategies and Solutions
+P612,technical,empirical,medium,False,2.0,True,Human-Created and AI-Generated Text: What’s Left to Uncover?
+P613,governance,conceptual,high,False,2.0,True,"Artificial Intelligence Chatbots, High-Tech Plagiarism, and Academic Publishing Integrity Conundrum: Are Local Journals in Africa Ready?"
+P614,governance,conceptual,high,False,4.0,True,The Evolving Landscape of Medical Editing in Healthcare
+P615,technical,computational,high,False,6.0,True,How to Detect AI-Generated Texts?
+P616,pedagogical,conceptual,medium,False,2.0,True,"Navigating the Impact of ChatGPT/GPT4 on Legal Academic Examinations: Challenges, Opportunities and Recommendations"
+P617,technical,computational,medium,False,9.0,True,Plagiarism detection using KNN
+P618,technical,computational,high,False,3.0,True,Image-text Similarity Guided Fusion Network for Multimodal Aspect Sentiment Analysis
+P619,technical,computational,high,False,-1.0,True,An Efficient Machine Learning Approach for Plagiarism Detection in Text Documents
+P620,pedagogical,empirical,high,False,2.0,True,Plagiarism among accounting and business postgraduate students: a fraud diamond framework moderated by understanding of artificial intelligence
+P621,technical,computational,high,False,-1.0,True,Optimized Feature Extraction and Cross-Lingual Text Reuse Detection using Ensemble Machine Learning Models
+P622,technical,computational,high,True,4.0,True,Evaluating the efficacy of AI content detection tools in differentiating between human and AI-generated text
+P623,governance,conceptual,medium,False,2.0,True,Using ChatGPT in academic writing is (not) a form of plagiarism: What does the literature say?
+P624,technical,computational,high,True,8.0,True,An Empirical Study for the GPT-Based LLM in Paper Similarity Measurement
+P625,technical,conceptual,medium,False,10.0,True,Curtailing Copying: Crafting an Advanced Textual Integrity Assessment System for Detecting Plagiarism
+P626,pedagogical,empirical,medium,True,2.0,True,Distinguishing between Student-Authored and ChatGPT-Generated Texts: A Preliminary Exploration of Human Evaluation Techniques
+P627,governance,conceptual,high,False,2.0,True,Academic Integrity
+P628,technical,computational,high,False,6.0,True,Ten Words Only Still Help: Improving Black-Box AI-Generated Text Detection via Proxy-Guided Efficient Re-Sampling
+P629,pedagogical,empirical,high,False,2.0,True,Writing with AI: University Students' Use of ChatGPT
+P630,technical,computational,high,False,7.0,True,Word Embedding for High Performance Cross-Language Plagiarism Detection Techniques
+P631,governance,empirical,high,True,2.0,True,Academic Integrity Policies in Hispanic South American Higher Education: Status and Recommendations
+P632,technical,computational,medium,False,2.0,True,Towards Explainable Authorship Verification: An Approach to Minimise Academic Misconduct in Higher Education
+P633,technical,computational,high,False,3.0,True,Extracting Gender Textual Nuances Using Text Similarity for Gender Classification Improvement
+P634,pedagogical,computational,medium,True,1.0,True,Student Mastery or AI Deception? Analyzing ChatGPT's Assessment Proficiency and Evaluating Detection Strategies
+P635,pedagogical,empirical,high,False,1.0,True,Inappropriate Benefits and Identification of ChatGPT Misuse in Programming Tests: A Controlled Experiment
+P636,technical,computational,high,False,6.0,True,MAGE: Machine-generated Text Detection in the Wild
+P637,technical,computational,high,False,6.0,True,BISCOPE: AI-generated Text Detection by Checking Memorization of Preceding Tokens
+P638,technical,computational,high,False,4.0,True,Team Gladiators at PAN: Improving Author Identification: A Comparative Analysis of Pre-Trained Transformers for Multi-Author Classification
+P639,pedagogical,empirical,medium,False,-1.0,True,The opportunities and challenges of ChatGPT in education
+P640,technical,conceptual,high,False,3.0,True,Modelling Text Similarity: A Survey
+P641,technical,computational,high,True,3.0,True,A Deep Semantic Based Text Mining Technique for Power Equipment Defects for Power Equipment Condition Evaluation Technique
+P642,technical,conceptual,low,False,1.0,True,AVERT (Authorship Verification and Evaluation Through Responsive Testing): an LLM-Based Procedure that Interactively Verifies Code Authorship and Evaluates Student Understanding
+P643,technical,computational,high,False,9.0,True,Detecting Plagiarism in Student Assignments using Source Code Analysis
+P644,technical,computational,high,False,4.0,True,Counter Turing Test (CT2): AI-Generated Text Detection is Not as Easy as You May Think - Introducing AI Detectability Index
+P645,pedagogical,empirical,medium,False,2.0,True,Analysis of Plagiarism via ChatGPT on Domain-Specific Exams
+P646,technical,computational,high,False,-1.0,True,MACHINE LEARNING-BASED AUTHORSHIP ATTRIBUTION TOWARDS CITIZEN JOURNALISM ARTICLES IN THE INDONESIAN LANGUAGE: A PRELIMINARY STUDY
+P647,technical,computational,high,False,6.0,True,Who Wrote it and Why? Prompting Large-Language Models for Authorship Verification
+P648,pedagogical,empirical,high,False,2.0,True,Unleashing the Power of Generative Artificial Intelligence: Exploring its Boundless Potential and Overcoming Challenges in Academic Environments
+P649,governance,conceptual,medium,False,4.0,True,An overview of the capabilities of ChatGPT for medical writing and its implications for academic integrity
+P650,technical,computational,high,False,-1.0,True,Detecting Academic Misconduct: A BERT-Based Approach to Identifying ChatGPT-Generated Content
+P651,technical,computational,high,False,3.0,True,Advancing Legal Decision Making: A Unique Method for Classifying Offense Incidents under the Indian Penal Code using Word Embedding and Labeled Searching
+P652,technical,computational,high,False,7.0,True,Siamese-Based Architecture for Cross-Lingual Plagiarism Detection in English-Hindi Language Pairs
+P653,technical,computational,high,False,-1.0,True,Use prompt to differentiate text generated by ChatGPT and humans
+P654,technical,computational,high,False,5.0,True,Detecting AI-generated essays: the ChatGPT challenge
+P655,technical,computational,high,False,3.0,True,STSPL-SSC: Semi-Supervised Few-Shot Short Text Clustering with Semantic text similarity Optimized Pseudo-Labels
+P656,technical,computational,medium,False,-1.0,True,End to End System for Handwritten Text Recognition and Plagiarism Detection using CNN & BLSTM
+P657,technical,computational,high,False,-1.0,True,Detecting Favorite Topics in Computing Scientific Literature via Dynamic Topic Modeling
+P658,pedagogical,conceptual,medium,False,2.0,True,"The Academic Integrity Technological Arms Race and its Impact on Learning, Teaching, and Assessment"
+P659,technical,conceptual,high,False,9.0,True,Current Trends in the Search for Similarities in Source Codes with an Application in the Field of Plagiarism and Clone Detection
+P660,technical,computational,high,False,8.0,True,How Large Language Models are Transforming Machine-Paraphrased Plagiarism
+P661,technical,computational,medium,False,10.0,True,Artificial Intelligence and Machine Learning Algorithms for Assessing the Authenticity of a Scientific Article in Scopus: Translator's Experience
+P662,technical,computational,high,False,9.0,True,Towards Improving Multiple Authorship Attribution of Source Code
+P663,technical,computational,high,False,3.0,True,Text similarity calculation method of Siamese network based on ALBERT
+P664,technical,computational,high,False,-1.0,True,A Model for Troubleshooting Automation Based on Text Similarity
+P665,technical,computational,high,False,6.0,True,SeqXGPT: Sentence-Level AI-Generated Text Detection
+P666,technical,computational,high,False,3.0,True,Match and Retrieval: Legal Similar Case Retrieval via Graph Matching Network
+P667,technical,computational,high,False,8.0,True,"Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense"
+P668,technical,computational,high,False,3.0,True,Building siamese attention-augmented recurrent convolutional neural networks for document similarity scoring
+P669,technical,computational,high,False,7.0,True,A Deep Learning Approach for Plagiarism Detection System Using BERT
+P670,technical,computational,high,False,8.0,True,Identifying Machine-Paraphrased Plagiarism
+P671,technical,computational,high,False,7.0,True,Multi-level text document similarity estimation and its application for plagiarism detection
+P672,technical,computational,medium,False,3.0,True,Matrix similarity analysis of texts written in Romanian and Spanish
+P673,governance,empirical,medium,False,4.0,True,Impact and perceived value of the revolutionary advent of artificial intelligence in research and publishing among researchers: a survey-based descriptive study
+P674,technical,computational,medium,False,3.0,True,Automated Text Selection for Raw Data Annotation
+P675,technical,computational,high,True,0.0,True,An Ensemble-Based Model to Improve the Accuracy of Automatic Short Answer Grading
+P676,technical,computational,medium,False,3.0,True,Electrical project cluster model based on text similarity algorithm in machine learning
+P677,pedagogical,empirical,high,True,2.0,True,Work in Progress: Safeguarding Authenticity: Strategies for Combating AI-Generated Plagiarism in Academia
+P678,technical,conceptual,medium,False,7.0,True,Review of Extrinsic Plagiarism Detection Techniques and Their Efficiency Comparison
+P679,technical,conceptual,high,False,10.0,True,Survey on Plagiarism Challenges
+P680,technical,computational,high,False,8.0,True,Comparative Analysis of Semantic Similarity Word Embedding Techniques for Paraphrase Detection
+P681,technical,computational,high,False,3.0,True,Calculation and Performance Evaluation of Text Similarity Based on Strong Classification Features
+P682,pedagogical,empirical,high,False,2.0,True,An AI Solution: Using ChatGPT to Counter Plagiarism and Boost Enrollments in Hispanic Literature Courses
+P683,technical,computational,medium,True,-1.0,True,A Hybrid Intelligent Approach Combining Machine Learning and a Knowledge Graph to Support Academic Journal Publishers Addressing the Reviewer Assignment Problem (RAP)
+P684,technical,computational,high,False,-1.0,True,Source Code Plagiarism Detection Using Siamese BLSTM Network and Embedding Models
+P685,technical,computational,high,False,-1.0,True,Contract Cheat Detection using Biometric Keystroke Dynamics
+P686,technical,computational,high,False,0.0,True,A Hybrid Qualitative and Quantitative Approach for Automatic Short Answer Grading Using Classification Algorithms
+P687,technical,computational,high,False,0.0,True,An Enhanced Automatic Arabic Essay Scoring System Based on Machine Learning Algorithms
+P688,technical,computational,high,False,9.0,True,Classification feature sets for source code plagiarism detection in Java
+P689,governance,conceptual,medium,False,,False,Intelligent Plagiarism as a Misconduct in Academic Integrity; [O Plágio Inteligente como Má Conduta na Integridade Académica]
+P690,technical,computational,high,False,0.0,True,Development of a practical system for computerized evaluation of descriptive answers of middle school level students
+P691,technical,computational,medium,False,9.0,True,Evaluation of Different Plagiarism Detection Methods: A Fuzzy MCDM Perspective
+P692,technical,computational,high,False,9.0,True,Research and Improvement of a Plagiarism Detection Methods Using Blockchain Technolog
+P693,technical,computational,medium,True,-1.0,True,Visual Collaboration-An Approach for Visual Analytical Collaborative Research
+P694,technical,computational,high,False,3.0,True,Sublinear Time Approximation of Text Similarity Matrices
+P695,technical,computational,high,False,8.0,True,Interpreting BERT-based Text Similarity via Activation and Saliency Maps
+P696,technical,computational,high,False,3.0,True,An unsupervised semantic text similarity measurement model in resource-limited scenes
+P697,technical,computational,high,False,3.0,True,A Study of Machine Learning Based Approach for Hotels’ Matching
+P698,technical,computational,high,False,6.0,True,ConDA: Contrastive Domain Adaptation for AI-generated Text Detection
+P699,technical,conceptual,high,False,10.0,True,Plagiarism Detection System: A Review
+P700,technical,computational,high,True,3.0,True,Fast Text Classification by Leveraging Class Feature Words
+P701,technical,computational,high,False,-1.0,True,Combining Citation Network Information and Text Similarity for Research Article Recommender Systems
+P702,pedagogical,empirical,high,False,2.0,True,WHO WROTE THIS ESSAY? DETECTING AI-GENERATED WRITING in SECOND LANGUAGE EDUCATION in HIGHER EDUCATION
+P703,technical,computational,high,False,-1.0,True,Multi-model Essay Evaluation with Optical Character Recognition and Plagiarism Detection
+P704,technical,computational,high,False,3.0,True,Credit Text Similarity Calculation Method Combined with Contrast Learning
+P705,technical,computational,high,False,3.0,True,An intelligent medical image diagnosis and treatment architecture based on ChatGPT
+P706,technical,conceptual,medium,False,-1.0,True,Language as evidence: Doing forensic linguistics
+P707,technical,conceptual,high,False,-1.0,True,On the use of Machine Learning and Deep Learning for Text Similarity and Categorization and its Application to Troubleshooting Automation
+P708,technical,computational,high,False,8.0,True,An Improved DE Algorithm to Optimise the Learning Process of a BERT-based Plagiarism Detection Model
+P709,technical,computational,high,False,3.0,True,Development of Disease Diagnosis Model for CXR Images and Reports—A Deep Learning Approach
+P710,technical,computational,high,False,3.0,True,A Novel Approach for Cross-Selling Insurance Products Using Positive Unlabelled Learning
+P711,technical,computational,high,True,9.0,True,Source Code Author Identification Method Combining Semantics and Statistical Features
+P712,technical,computational,high,False,3.0,True,Multi-level Correlation Matching for Legal Text Similarity Modeling with Multiple Examples
+P713,technical,computational,high,False,7.0,True,Reliable plagiarism detection system based on deep learning approaches
+P714,governance,conceptual,high,False,4.0,True,Landscape of Indian Legal Research; [Sytuacja indyjskich badań nad prawem]
+P715,technical,computational,high,True,3.0,True,Enhancing Textual Relatedness Assessment with Combined Transformers-Embedding Similarity Techniques and Machine Learning Regressors
+P716,technical,computational,high,False,-1.0,True,PLAGIARISM DETECTION SYSTEM IN SCIENTIFIC PUBLICATION USING LSTM NETWORKS
+P717,technical,computational,high,False,7.0,True,Textual Plagiarism Detection Using Embedding Models and Siamese LSTM
+P718,technical,computational,high,False,-1.0,True,Source Code Plagiarism Detection: A Machine Intelligence Approach
+P719,technical,computational,high,False,3.0,True,Text Similarity of Autonomous Marking System Based on Deep Learning
+P720,technical,computational,high,False,3.0,True,Event-related microblog retrieval in Turkish
+P721,technical,computational,high,False,3.0,True,"Data Encoding for Social Media: Comparing Twitter, Reddit, and Telegram"
+P722,technical,computational,high,False,0.0,True,Automatic Scoring Model of Subjective Questions Based Text Similarity Fusion Model
+P723,technical,computational,high,False,9.0,True,Automated Plagiarism Detection in Moodle
+P724,technical,computational,high,False,9.0,True,Authorship Verification for Hired Plagiarism Detection
+P725,technical,computational,high,False,3.0,True,A hybrid approach of Weighted Fine-Tuned BERT extraction with deep Siamese Bi – LSTM model for semantic text similarity identification
+P726,technical,computational,high,False,3.0,True,SRU-based Multi-angle Enhanced Network for Semantic Text Similarity Calculation of Big Data Language Model
+P727,technical,computational,high,False,3.0,True,Exploiting Textual Similarity Techniques in Harmonization of Laws
+P728,technical,computational,high,False,8.0,True,A Hybrid Approach to Paraphrase Detection Based on Text Similarities and Machine Learning Classifiers
+P729,technical,computational,high,False,-1.0,True,An Empirical Study on Authorship Verification for Low Resource Language Using Hyper-Tuned CNN Approach
+P730,technical,computational,high,False,7.0,True,A Deep Learning Approach to Detect Plagiarism in Bengali Textual Content using Similarity Algorithms
+P731,technical,computational,high,False,8.0,True,Beyond Black Box AI-Generated Plagiarism Detection: From Sentence to Document Level
+P732,governance,conceptual,medium,False,2.0,True,Navigating the Paradox of Academic Integrity in the AI Era
+P733,technical,conceptual,high,False,3.0,True,Semantic Text Matching Using Intelligent Methods: A Survey
+P734,technical,computational,high,False,-1.0,True,OpenAI ChatGPT generated content and similarity index: A study of selected terms from the library & information science
+P735,technical,conceptual,medium,False,2.0,True,ARTIFICIAL INTELLIGENCE-GENERATED TEXT IN HIGHER EDUCATION - USAGE AND DETECTION IN THE LITERATURE
+P736,governance,conceptual,medium,False,,False,"Collusion, plagiarism, or contract cheating? How generative AI fts into existing academic integrity policies"
+P737,pedagogical,empirical,high,False,2.0,True,Generative AI in college coursework: a longitudinal investigation of instructor communication and student plagiarism
+P738,governance,conceptual,low,False,,False,Plagiarism and Artificial Intelligence: Balancing Innovation with Academic Integrity
+P739,technical,computational,high,True,4.0,True,Counter Turing Test (CT2): AI-Generated Text Detection is Not as Easy as You May Think - Introducing AI Detectability Index
+P740,pedagogical,conceptual,medium,False,2.0,True,Can artificial intelligence and academic integrity coexist?
+P741,governance,empirical,high,False,2.0,True,Responsible and Ethical Use of AI in Education: Are We Forcing a Square Peg into a Round Hole?
+P742,technical,computational,medium,False,4.0,True,Detection Rates of Artificial Intelligence-Generated Content in Scholarly Publishing before and after ChatGPT
+P743,technical,computational,high,False,6.0,True,MLSDET: Multi-LLM Statistical Deep Ensemble for Chinese AI -Generated Text Detection
+P744,technical,computational,high,False,-1.0,True,Stylometric Analysis in the Task of Plagiarism Detection in Texts in the Tatar Language
+P745,governance,conceptual,medium,False,4.0,True,"COPYRIGHT, ARTIFICIAL INTELLIGENCE, AND ETHICAL CHALLENGES"
+P746,governance,conceptual,medium,False,4.0,True,PROVIDING ACADEMIC HONESTY AND DATA RELIABILITY TO WOS INDEXED SOURCES
+P747,technical,conceptual,high,False,-1.0,True,A Systematic Review of Multilingual Plagiarism Detection: Approaches and Research Challenges
+P748,pedagogical,conceptual,medium,False,2.0,True,Digital Learning and Digital Dilemmas
+P749,technical,computational,high,False,5.0,True,Beyond Words: An Advanced Ensemble Framework for Unmasking AI-Generated Content Through Linguistic Fingerprinting
+P750,technical,computational,high,False,3.0,True,Analysis of IoT Privacy Policies in Smart Transportation Systems
+P751,technical,computational,high,False,6.0,True,Syntactic comparison of human and AI-written scientific texts
+P752,technical,computational,high,False,3.0,True,Document Similarity Detection for Project Development Using Fused Interactive Attention Mechanisms
+P753,pedagogical,empirical,high,False,2.0,True,Structured Development of Learning and Assessment Tasks to Prevent Generative AI Misuse and Enhance AI Literacy in the Faculty in Physiotherapy Education
+P754,technical,computational,high,False,1.0,True,ChatGPT-Generated Code Assignment Detection Using Perplexity of Large Language Models (Student Abstract)
+P755,technical,computational,high,False,3.0,True,RASR: A Multi-perspective Semantic Text Similarity Computation Method Integrating RAG
+P756,technical,computational,high,False,6.0,True,Who Wrote it and Why? Prompting Large-Language Models for Authorship Verification
+P757,technical,computational,high,True,6.0,True,Learning the Style via Mixed SN-Grams: An Evaluation in Authorship Attribution
+P758,pedagogical,empirical,low,False,4.0,True,Transforming Case Write-Up Evaluation with Artificial Intelligence: Insights from a Pilot Study at a Private Medical College
+P759,technical,computational,high,True,6.0,True,A Simple yet Efficient Ensemble Approach for AI-generated Text Detection
+P760,technical,computational,high,False,3.0,True,Matrix similarity analysis of texts written in Romanian and Spanish
+P761,technical,computational,high,False,6.0,True,Cross-Model Deepfake Text Detection with XLM-RoBERTa: A Strongly Generalizable Multi-LLM Training Strategy
+P762,technical,computational,high,False,1.0,True,Detecting GenAI assistance in programming assessments with over-uniqueness and sample matching
+P763,technical,computational,high,False,7.0,True,Cross-Language Plagiarism Detection: A Case Study of European Languages Academic Works
+P764,pedagogical,conceptual,high,False,2.0,True,"Cheating and plagiarism in higher education: a systematic literature review from a global perspective, 2016-2024"
+P765,technical,computational,high,False,-1.0,True,The detectability paradox: bilingual medical report generation with open-weight models and the limits of human oversight
+P766,technical,computational,high,False,1.0,True,Detecting AI-Generated Code Assignments Using Perplexity of Large Language Models
+P767,governance,conceptual,medium,False,,False,The digital erosion of intellectual integrity: why misuse of generative AI is worse than plagiarism
+P768,pedagogical,conceptual,medium,False,,False,Ethical use of ChatGPT in education—Best practices to combat AI-induced plagiarism
+P769,technical,computational,high,False,10.0,True,AI-Powered Plagiarism Detection: A Web-Based System for Text Integrity
+P770,technical,computational,high,False,2.0,True,Plagiarism in AI Empowered World
+P771,pedagogical,empirical,high,False,2.0,True,Art Innovation or Plagiarism? Chinese Students' Attitudes Toward AI Painting Technology and Influencing Factors
+P772,governance,conceptual,low,False,,False,AI-enabled ChatGPT or LLM: a new algorithm is required for plagiarism-free scientific writing
+P773,governance,empirical,medium,False,2.0,True,Which Source is More Morally Negative? The Effect of Plagiarism From AI Versus Human on Consumer Immoral Judgments
+P774,governance,conceptual,high,True,4.0,True,"Plagiarism, Academic Ethics, and the Utilization of Generative AI in Academic Writing"
+P775,governance,conceptual,high,False,4.0,True,"A Geospatial Perspective on Data Ownership, the Right to be Forgotten, Copyrights, and Plagiarism in Generative AI"
+P776,governance,empirical,low,False,4.0,True,AI-generated research paper fabrication and plagiarism in the scientific community
+P777,technical,computational,high,False,-1.0,True,A New Era of Plagiarism the Danger of Cheating Using AI
+P778,pedagogical,empirical,high,False,2.0,True,Enhancing anti-plagiarism literacy practices among undergraduates with AI
+P779,technical,computational,high,True,9.0,True,AI Based Plagiarism Checking : Ease of use and appli7cable system for teachers to find similarities in students' assessments
+P780,governance,conceptual,low,False,,False,"ChatGPT and other AI tools put students at risk of plagiarism allegations, MDU warns"
+P781,technical,conceptual,low,True,4.0,True,"Correction: Using AI-based detectors to control AI-assisted plagiarism in ESL writing: “The Terminator Versus the Machines” (Language Testing in Asia, (2023), 13, 1, (46), 10.1186/s40468-023-00260-2)"
+P782,pedagogical,empirical,high,False,1.0,True,AI chatbots in programming education: guiding success or encouraging plagiarism
+P783,pedagogical,empirical,high,False,1.0,True,Similarities of Human and AI Assistance in Programming Plagiarism: Student Perspective
+P784,governance,conceptual,high,False,-1.0,True,The Problem with False Positives: AI Detection Unfairly Accuses Scholars of AI Plagiarism
+P785,governance,conceptual,low,False,,False,Plagiarism Check in the Era of AI
+P786,governance,conceptual,high,False,4.0,True,New Ways of Plagiarism? At the Meeting Point of the Specific Form of Co-Authorship and the Transparency Criteria of the EU AI Regulation
+P787,governance,conceptual,high,False,-1.0,True,Between the Muse and the Code: Exploring the boundaries of plagiarism and inspiration in the age of AI; [Entre la Musa y el Código: Explorando los límites del plagio y la inspiración en la era de la I
+P788,technical,empirical,medium,False,10.0,True,"AI Open research Plagiarism Dupli Checker, Scribbr Plagiarism Checker, Quetext, Small SEO Tools Plagiarism Checker Web Technology: comparative study"
+P789,technical,computational,high,False,5.0,True,Plagiarism in the Age of Generative AI: An Exploratory Experiment
+P790,pedagogical,empirical,high,True,1.0,True,Plagiarism and AI Assistance Misuse in Web Programming: Unfair Benefits and Characteristics
+P791,technical,computational,high,False,8.0,True,Plagiarism Detection: Identifying AI-Generated and Paraphrased Content
+P792,governance,conceptual,medium,False,4.0,True,AI-based plagiarism detectors: Plagiarism fighters or makers?
+P793,technical,computational,medium,True,-1.0,True,Detecting Plagiarism in the Age of Generative AI: An Exploratory Experiment
+P794,pedagogical,conceptual,low,False,,False,"Educators, students, and plagiarism in age of AI"
+P795,pedagogical,empirical,high,True,2.0,True,Ethics and AI-Plagiarism in an Academic Environment: Students’ Understanding of Compliance with Author’s Ethics and the Problem of Plagiarism in the Process of Interaction with Generative Artificial I
+P796,governance,conceptual,low,False,,False,Aigiarism: Reframing our understanding of plagiarism in the age of ai
+P797,technical,conceptual,low,False,9.0,True,THE AI PLAGIARISM MINEFIELD

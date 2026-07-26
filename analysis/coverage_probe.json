@@ -1,0 +1,222 @@
+{
+  "search_date": "2026-06-03",
+  "core_corpus_size": 797,
+  "core_corpus_dois": 725,
+  "extended_set_dois": 3161,
+  "corpus_tool_mentions": {
+    "core_papers": 797,
+    "papers_naming_a_tool": 64,
+    "papers_naming_tool_without_generic_ai_term": 0,
+    "share_tool_named_lacking_ai_term": 0.0,
+    "per_tool_counts_in_core": {
+      "Turnitin": 29,
+      "GPTZero": 30,
+      "ZeroGPT": 12,
+      "Originality.ai": 3,
+      "Copyleaks": 8,
+      "iThenticate": 4,
+      "QuillBot": 9,
+      "Crossref Similarity Check": 1,
+      "DetectGPT": 6,
+      "Grammarly": 7,
+      "Compilatio": 0,
+      "Urkund": 1,
+      "PlagScan": 1
+    },
+    "note": "Papers in the core corpus that name a tool but no generic AI term entered via the seed corpus or via a plagiarism term, which bounds the recall loss the reviewer describes."
+  },
+  "language_coverage": {
+    "records_in_raw_scopus_export": 3661,
+    "english": 3577,
+    "non_english": 84,
+    "non_english_share": 0.0229,
+    "top_languages": {
+      "English": 3577,
+      "Chinese": 42,
+      "Spanish": 13,
+      "Russian": 6,
+      "German": 5,
+      "Portuguese": 4,
+      "Turkish": 4,
+      "Ukrainian": 3,
+      "Croatian": 3,
+      "French": 2,
+      "Persian": 1,
+      "Korean": 1
+    },
+    "note": "Scopus indexes non-English work but under-represents venues published wholly in other languages (e.g. CNKI). This share is a lower bound on the language gap, not an estimate of it."
+  },
+  "tool_recall_openalex": {
+    "per_tool": {
+      "Turnitin": {
+        "openalex_total": 389,
+        "fetched": 389,
+        "in_core_corpus": 31,
+        "in_extended_set": 46,
+        "outside_extended_set": 343,
+        "share_outside_extended": 0.8817
+      },
+      "GPTZero": {
+        "openalex_total": 153,
+        "fetched": 153,
+        "in_core_corpus": 28,
+        "in_extended_set": 32,
+        "outside_extended_set": 121,
+        "share_outside_extended": 0.7908
+      },
+      "ZeroGPT": {
+        "openalex_total": 72,
+        "fetched": 72,
+        "in_core_corpus": 12,
+        "in_extended_set": 16,
+        "outside_extended_set": 56,
+        "share_outside_extended": 0.7778
+      },
+      "Originality.ai": {
+        "openalex_total": 26,
+        "fetched": 26,
+        "in_core_corpus": 2,
+        "in_extended_set": 3,
+        "outside_extended_set": 23,
+        "share_outside_extended": 0.8846
+      },
+      "Copyleaks": {
+        "openalex_total": 50,
+        "fetched": 50,
+        "in_core_corpus": 10,
+        "in_extended_set": 11,
+        "outside_extended_set": 39,
+        "share_outside_extended": 0.78
+      },
+      "iThenticate": {
+        "openalex_total": 120,
+        "fetched": 120,
+        "in_core_corpus": 2,
+        "in_extended_set": 3,
+        "outside_extended_set": 117,
+        "share_outside_extended": 0.975
+      },
+      "QuillBot": {
+        "openalex_total": 139,
+        "fetched": 139,
+        "in_core_corpus": 9,
+        "in_extended_set": 11,
+        "outside_extended_set": 128,
+        "share_outside_extended": 0.9209
+      },
+      "Crossref Similarity Check": {
+        "openalex_total": 2,
+        "fetched": 2,
+        "in_core_corpus": 0,
+        "in_extended_set": 0,
+        "outside_extended_set": 2,
+        "share_outside_extended": 1.0
+      },
+      "DetectGPT": {
+        "openalex_total": 63,
+        "fetched": 63,
+        "in_core_corpus": 5,
+        "in_extended_set": 5,
+        "outside_extended_set": 58,
+        "share_outside_extended": 0.9206
+      },
+      "Grammarly": {
+        "openalex_total": 1602,
+        "fetched": 400,
+        "in_core_corpus": 8,
+        "in_extended_set": 22,
+        "outside_extended_set": 378,
+        "share_outside_extended": 0.945
+      },
+      "Compilatio": {
+        "openalex_total": 6,
+        "fetched": 6,
+        "in_core_corpus": 0,
+        "in_extended_set": 0,
+        "outside_extended_set": 6,
+        "share_outside_extended": 1.0
+      },
+      "Urkund": {
+        "openalex_total": 9,
+        "fetched": 9,
+        "in_core_corpus": 0,
+        "in_extended_set": 0,
+        "outside_extended_set": 9,
+        "share_outside_extended": 1.0
+      },
+      "PlagScan": {
+        "openalex_total": 10,
+        "fetched": 10,
+        "in_core_corpus": 2,
+        "in_extended_set": 2,
+        "outside_extended_set": 8,
+        "share_outside_extended": 0.8
+      }
+    },
+    "totals": {
+      "openalex_total": 2641,
+      "fetched": 1439,
+      "in_extended_set": 151,
+      "outside_extended_set": 1288,
+      "note": "Sums double-count works naming more than one tool, so they are an upper bound."
+    },
+    "fetch_cap_per_tool": 400,
+    "tool_names_probed": [
+      "Turnitin",
+      "GPTZero",
+      "ZeroGPT",
+      "Originality.ai",
+      "Copyleaks",
+      "iThenticate",
+      "QuillBot",
+      "Crossref Similarity Check",
+      "DetectGPT",
+      "Grammarly",
+      "Compilatio",
+      "Urkund",
+      "PlagScan"
+    ],
+    "generic_ai_terms": [
+      "artificial intelligence",
+      "generative ai",
+      "large language model",
+      "machine learning",
+      "deep learning",
+      "chatgpt",
+      "llm",
+      "neural network",
+      "natural language processing"
+    ],
+    "errors": []
+  },
+  "preprint_coverage": {
+    "concept_query": "title_and_abstract.search:(\"AI-generated text\" OR \"plagiarism detection\" OR \"machine-generated text\" OR \"AI detection\") AND (detection OR detector OR plagiarism)",
+    "date_window": "2022-01-01 to 2026-06-03",
+    "all_types_total": 4050,
+    "preprint_total": 807,
+    "preprint_overlap": {
+      "fetched": 807,
+      "in_core_corpus": 47,
+      "in_extended_set": 65,
+      "outside_extended_set": 742,
+      "share_outside_extended": 0.9195
+    },
+    "arxiv_hosted_in_sample": 526,
+    "arxiv_overlap": {
+      "fetched": 526,
+      "in_core_corpus": 37,
+      "in_extended_set": 51,
+      "outside_extended_set": 475,
+      "share_outside_extended": 0.903
+    },
+    "preprints_by_year": {
+      "2022": 22,
+      "2023": 117,
+      "2024": 165,
+      "2025": 232,
+      "2026": 271
+    },
+    "preprint_share_of_matching_literature": 0.1993,
+    "note": "Preprints are counted via OpenAlex rather than the arXiv API, which rate-limited every request. The figure bounds how much relevant literature the Scopus+WoS corpus cannot see."
+  }
+}

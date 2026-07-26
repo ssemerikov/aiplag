@@ -27,11 +27,11 @@
       "total": 13
     },
     {
-      "keyword": "federated learning",
+      "keyword": "fine tuning",
       "total": 13
     },
     {
-      "keyword": "fine tuning",
+      "keyword": "federated learning",
       "total": 13
     },
     {
@@ -43,15 +43,15 @@
       "total": 12
     },
     {
-      "keyword": "text analysis",
-      "total": 11
-    },
-    {
       "keyword": "transformer models",
       "total": 11
     },
     {
-      "keyword": "economic and social effects",
+      "keyword": "text analysis",
+      "total": 11
+    },
+    {
+      "keyword": "text mining",
       "total": 10
     },
     {
@@ -59,11 +59,11 @@
       "total": 10
     },
     {
-      "keyword": "ai text detection",
+      "keyword": "economic and social effects",
       "total": 10
     },
     {
-      "keyword": "text mining",
+      "keyword": "ai text detection",
       "total": 10
     },
     {
@@ -141,13 +141,13 @@
       "growth_rate": 16.0
     },
     {
-      "keyword": "llm",
-      "total": 17,
+      "keyword": "text classification",
+      "total": 34,
       "growth_rate": 15.0
     },
     {
-      "keyword": "text classification",
-      "total": 34,
+      "keyword": "llm",
+      "total": 17,
       "growth_rate": 15.0
     },
     {
@@ -181,7 +181,7 @@
       "growth_rate": 12.923076923076923
     },
     {
-      "keyword": "authorship attribution",
+      "keyword": "error detection",
       "total": 14,
       "growth_rate": 12.0
     }
@@ -189,11 +189,11 @@
   "declining_count": 28,
   "declining_top": [
     {
-      "keyword": "documents similarity",
+      "keyword": "computer programming",
       "total": 3
     },
     {
-      "keyword": "text classifiers",
+      "keyword": "documents similarity",
       "total": 3
     },
     {
@@ -201,31 +201,31 @@
       "total": 3
     },
     {
+      "keyword": "text classifiers",
+      "total": 3
+    },
+    {
       "keyword": "cross-lingual plagiarism detection",
       "total": 3
     },
     {
-      "keyword": "computer programming",
-      "total": 3
-    },
-    {
-      "keyword": "learning methods",
+      "keyword": "student performance",
       "total": 2
     },
     {
-      "keyword": "turkishs",
+      "keyword": "document similarity",
       "total": 2
     },
     {
-      "keyword": "corpus-based",
+      "keyword": "siamese lstm network",
       "total": 2
     },
     {
-      "keyword": "semantic features",
+      "keyword": "automatic scoring",
       "total": 2
     },
     {
-      "keyword": "high-tech plagiarism",
+      "keyword": "medical writing",
       "total": 2
     }
   ]
