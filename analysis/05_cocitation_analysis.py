@@ -12,6 +12,37 @@ import networkx as nx
 from utils.data_loader import load_and_clean
 from utils.reference_parser import build_reference_lists, count_cited_works, build_cocitation_matrix
 from utils.viz_config import savefig, FIG_WIDE, FIG_SQUARE, FIGURE_DIR, ANALYSIS_DIR
+from utils.reference_parser import parse_references, normalize_ref_key
+import re
+from collections import Counter, defaultdict
+
+REF_BOUNDARY = re.compile(r'(?<=\(\d{4}\));\s*')
+
+
+def first_author_labels(df):
+    """Display labels ("First A. (year)") for Scopus-derived cited-work keys.
+
+    Scopus separates both references and the authors inside a reference with
+    semicolons, so the stored key and label of a non-DOI Scopus reference carry
+    its *last* listed author. Splitting the References string at reference
+    boundaries "(yyyy); " recovers each reference's first author. Keys and all
+    counts are unchanged; only the node labels are affected (R4 fix).
+    """
+    seen = defaultdict(Counter)
+    for refs in df.loc[df['source'] == 'Scopus', 'References']:
+        if not isinstance(refs, str):
+            continue
+        for chunk in REF_BOUNDARY.split(refs):
+            keys = [k for k in (normalize_ref_key(r) for r in parse_references(chunk)) if k]
+            if len(keys) != 1:
+                continue
+            fa = re.split(r'[;,]', chunk, 1)[0].strip()
+            fa = re.sub(r'^(\S+)\s+([A-Z])[a-z]+$', r'\1 \2.', fa)   # "Gehrmann Sebastian" -> "Gehrmann S."
+            yr = re.search(r'\((\d{4})\)\s*$', chunk)
+            if 0 < len(fa) <= 40 and yr:
+                seen[keys[0]][f"{fa} ({yr.group(1)})"] += 1
+    return {k: c.most_common(1)[0][0] for k, c in seen.items()}
+
 
 def main():
     print("=" * 60)
@@ -28,7 +59,11 @@ def main():
     except FileNotFoundError:
         label_map = {}
 
+    fa_labels = first_author_labels(df)
+
     def lab(key):
+        if key in fa_labels:
+            return fa_labels[key]
         if label_map.get(key, '').strip():
             return label_map[key]
         if key.startswith('doi:'):
